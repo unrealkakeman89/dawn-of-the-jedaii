@@ -1,0 +1,763 @@
+{
+  "name": "Dawn of the Je'daii — GM Guide",
+  "pages": [
+    {
+      "_id": "ZRGtP9HNIjUGbzAu",
+      "name": "00 — Introduction & How to Use",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 00 — Introduction & How to Use\n\n**Dawn of the Je'daii** is a GM campaign guide for a Star Wars tabletop campaign set in **36,453 BBY (0 TYA)**—the year the Tho Yor gather Force-sensitive pilgrims and deliver them to Tython. It is written for **Foundry VTT** using **SW5e**, in the spirit of the *Living Force Campaign Guide*: a setting bible plus a playable adventure path.\n\n## Elevator pitch\n\nThe player characters are not joining the Jedi Order. The Jedi do not exist yet.\n\nThey are among the first pilgrims called by a **Tho Yor**—an ancient pyramidal temple-ship. Session 1 begins **aboard that ship**, before anyone sets foot on Tython. Across the campaign they will explore the Tho Yor, survive Tython’s living Force storms, contact other pilgrim peoples, invent the philosophy of **Balance** between **Ashla** and **Bogan**, name the **Je'daii Order**, and seed the network of temples that will one day define the Order.\n\n> **GM:** The party starts at **level 9**. They are already powerful individuals. Treat them as founders and first Masters-in-waiting, not padawans.\n\n## What this book contains\n\n| Part | Chapters | Use |\n|------|----------|-----|\n| Setting | 1–7 | Lore, places, peoples, factions, Order foundations |\n| Rules | 8 | SW5e / Foundry campaign assumptions |\n| Adventure path | 9–15 | Runnable arcs (~20–30 sessions) |\n| Table tools | 16–20 | Great GM Scene Craft, boons, Kwa Gate, NPCs, map briefs |\n| Appendices | A–E | Quick NPC index, tables, player primer, canon notes, Foundry map |\n\n## Canon stance\n\n- **Baseline:** Legends *Dawn of the Jedi* (comics) and related Tython / Je'daii lore.\n- **Compression:** Canon spreads temple founding across centuries. This campaign **compresses** that into playable arcs plus explicit **time skips** so the table can found the Order and seed the nine temple sites without waiting millennia of table time.\n- **Table fiction:** Where lore is silent, this guide invents playable detail. Appendix D marks Legends fact vs table fiction.\n\n## Spoiler & handout policy\n\n- **GM-only:** Chapters 4 (secrets), 6–7 (faction/Order beats), 9–20 (arcs + tools), Appendices A–B, D.\n- **Safe for players:** Appendix C (Player Primer); Session 0 boon *visions* only (not GM effects). Optionally share high-level Ch 1–2 flavor after Session 1.\n- Do not show players the nine temple end-state list until the campaign earns those discoveries.\n\n## Recommended reading (optional)\n\n- *Star Wars: Dawn of the Jedi* comics (*Force Storm*, *Prisoner of Bogan*, *Force War*)\n- *Dawn of the Jedi: Into the Void* (novel; later Je'daii era—useful flavor, not required for Year 0)\n\n## Session 1 cold open\n\nOpen **in media res** aboard the Tho Yor (or in the final minutes of the Call, then cut to the ship). Do not begin with a lengthy galactic history lecture. Let the ship teach the era.\n\nSee **Chapter 10** for the full Arc I rundown, **Chapter 4** for ship zones, **Chapter 16** for read-aloud Scene Cards, and **Chapter 17** for Session 0 boons.\n\n## Companion Foundry journal\n\nThis master Markdown file is the source of truth. Import the companion journal JSON from `foundry/` into Foundry VTT v13 (see `foundry/README.md`). Each `#` chapter becomes one Journal Entry page (Markdown format).\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "Siep4JxIT8e9PuT6",
+      "name": "01 — The Galaxy at 36,453 BBY",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 01 — The Galaxy at 36,453 BBY\n\n## The date that matters\n\n| Notation | Meaning |\n|----------|---------|\n| **36,453 BBY** | Standard Legends dating (Before the Battle of Yavin) |\n| **0 TYA** | **Tho Yor Arrival**—year zero for Tython’s later calendar |\n\nEverything in this campaign happens around **0 TYA**: the Call, the gathering, the voyage, the landing, and the first years of Order-founding (compressed for play).\n\n## What does not exist yet\n\nUse this list to keep tone honest:\n\n- No **Galactic Republic**, Senate, or Jedi Council\n- No **Jedi Order** or **Sith Order** as later ages know them\n- No standard **lightsabers** as common knightly weapons (metal blades, spears, Force-imbued tools; forge miracles come later)\n- No familiar Outer Rim “cantina circuit” politics\n- No reliable commercial **hyperlane** network the PCs can casually use—the **Tho Yor** is the miracle that crosses the Deep Core\n\n## What does exist\n\n- Countless worlds with local cultures, wars, and Force traditions under many names\n- Ancient mysteries (Gree, Kwa, Rakata-adjacent ruins and rumors—use as flavor, not mandatory truth)\n- Force-sensitive individuals who hear something larger than themselves\n- Eight gathering **Tho Yor** ships plus a ninth, greatest Tho Yor waiting at Tython\n\n## The Call\n\nAcross the galaxy, Force-sensitives feel a summons—a song, a pressure behind the eyes, a dream of a black pyramid against a green world. Some find a Tho Yor buried in mountains or waiting in deserts. Others are guided by monks, shamans, or sheer obsession.\n\nThe **Order of Dai Bendu** on Ando Prime is the classic example: Talid monks who tended a buried Tho Yor for centuries until it woke. Other worlds have their own keepers and accidents. The PCs may come from any of these stories; unify them only once they share a deck.\n\n## Tone of the age\n\nThis is **mythic first contact**, not galactic intrigue:\n\n- Wilderness survival on a Force-reactive world\n- Philosophy under pressure (what is the Force *for*?)\n- Multi-species founding politics\n- Sacred technology that feels like divinity\n\nWhen in doubt, ask: *Would this scene feel like the first chapter of a legend?*\n\n## Deep Core isolation\n\nTython sits in the **Deep Core**. Ordinary ships of this age do not casually come and go. Once the pilgrims land, they are effectively a closed ecosystem until the campaign invents reasons otherwise. That isolation is a feature: the table must build society, not phone home.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "GPApOTJXpQi51WTI",
+      "name": "02 — The Tython System Catalog",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 02 — The Tython System Catalog\n\n## Tython at a glance\n\n**Tython** is a verdant, dangerous Deep Core world saturated in the Force. It is not merely a backdrop—it is an antagonist and teacher. When the pilgrims’ collective presence arrives, Tython answers with a **Force Storm** of legendary scale. Afterward, the planet continues to react to emotional and spiritual **imbalance**.\n\n> **GM:** When the camp tips toward cruelty, fanaticism, despair, or absolutism, escalate weather, predators, quakes, or “the land rejecting you.” When Balance holds, ease the pressure—but never make Tython *safe*.\n\n## Twin moons: Ashla and Bogan\n\n| Moon | Association | Table use |\n|------|-------------|-----------|\n| **Ashla** | Light, clarity, compassion, order | Omens of mercy, bright nights for rituals, soft glow in visions |\n| **Bogan** | Dark, passion, destruction, power | Omens of hunger, red nights, trials of rage and ambition |\n\nLater Je'daii philosophy names the sides of the Force after these moons and teaches **Balance** between them. In Year 0, the moons are simply *there*—visible teachers waiting for someone to invent the metaphor. Arc IV makes that invention a party achievement.\n\n## Continents & major regions (overview)\n\nDetailed play sites live in **Chapter 5**. For catalog purposes:\n\n- **Thyr** — Silent Desert, caverns that will host Qigong Kesh; stark forests and rocky plains\n- **Masara** — Coastal plains and Edge Forest; future Bodhi and Padawan Kesh\n- **Kato Zakar** — Violent continent; Ice Giant Range (future Stav Kesh)\n- Ocean reaches — Deep Ocean sites (future Mahara Kesh)\n- Mountain / rift / volcanic zones — Chasm (Anil Kesh), Tythos Ridge approaches (Kaleth / Vur Tepe), stone pinnacle under the greatest Tho Yor (Akar Kesh)\n\n## The Tho Yor on Tython\n\nEight gathering ships deliver pilgrims and then **scatter across Tython**, resting (floating, buried, or embedded) at sites that will become temple-cities. A **ninth, largest Tho Yor** gathers the fleet and remains associated with the great pinnacle—later **Akar Kesh**, Temple of Balance.\n\n## Other worlds of the Tython system (foreshadow only)\n\nCanon later has non-Force-sensitives migrate to other planets in the system because Tython is unsafe for them. In this campaign:\n\n- Mention sister worlds as distant lights or Tho Yor vision-glimpses\n- Plant the seed that **not everyone who arrives can stay**\n- Do not run interplanetary politics until/unless you extend past this guide’s scope\n\n## Climate & travel\n\nExpect extremes: jungles, deserts that swallow sound, ice ranges, storms born of emotion, seas that heal or drown according to the Force’s mood. Travel between temple seeds is an adventure, not a montage—unless you deliberately call a **time skip** (Chapter 9).\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "ASR4NNUXIyR7XelS",
+      "name": "03 — Peoples of the First Migration",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 03 — Peoples of the First Migration\n\nMore than a dozen Force-touched peoples board the Tho Yor. This chapter gives **culture cards** for the most useful table groups. Mix freely; PCs may be any SW5e species that fits your homebrew table’s tone.\n\n## Common friction themes\n\n- Language barriers (gesture, Force empathy, and pidgin become campaign tools)\n- “Whose Force is correct?”\n- Warriors vs contemplatives vs scientists\n- Those who want a fortress vs those who want a monastery\n- Non-sensitives (or weakly sensitive kin) who followed a loved one and now regret it\n\n## Culture cards\n\n### Dai Bendu (Ando Prime — Talid monks)\n\n- **Homeland:** Andobi Mountains; centuries tending a buried Tho Yor\n- **Force fragment:** Monastic listening, prophecy, sacred geometry\n- **Hooks:** Claim seniority (“we heard it first”); refuse violence; demand the Order keep a Dai Bendu name\n- **Sample NPC:** Elder **Senn-Vora**—patient, immovable, secretly terrified the Call was a mistake\n\n### Humans (many worlds)\n\n- **Homeland:** Varied; treat “Human” as diaspora, not one culture\n- **Force fragment:** Folk magic, war-cults, scholar-orders, or raw talent with no doctrine\n- **Hooks:** Ambition to lead multi-species camps; invent writing systems for a shared Code\n- **Sample NPC:** **Kael Rind**—ex-mercenary who felt the Call mid-battle and deserted\n\n### Wookiees\n\n- **Homeland:** Forest worlds (Kashyyyk traditions in deep past flavor)\n- **Force fragment:** Life-web awareness, ancestral anger/protection\n- **Hooks:** Defend groves; mistrust stone temples; life-debt politics\n- **Sample NPC:** **Horruhn**—tree-singer who reads Tython’s forests like scripture\n\n### Twi’leks\n\n- **Homeland:** Hot-world clans and dancer-scholar lineages\n- **Force fragment:** Emotion-reading, performance as prayer\n- **Hooks:** Cultural diplomacy; seduction of power; clan rivalry imported to Tython\n- **Sample NPC:** **Numa’Shar**—diplomat who brokers the first multi-camp truce\n\n### Selkath\n\n- **Homeland:** Oceanic worlds; water-law traditions\n- **Force fragment:** Healing currents, legalistic ethics\n- **Hooks:** Demand ocean access (Mahara Kesh seed); prosecute Force crimes early\n- **Sample NPC:** Couple **Iil** and **Vorr**—healers who become living arguments for Mercy-as-Balance\n\n### Cathar\n\n- **Homeland:** Savanna pride cultures\n- **Force fragment:** Predator focus, honor duels\n- **Hooks:** Stav Kesh natural allies; challenge leaders who will not fight\n- **Sample NPC:** **Sari Tor**—duelist who believes Balance is a blade held mid-swing\n\n### Other pilgrims (use as needed)\n\nSullustans, Noghri-adjacent stalkers, Devaronians, Ithorians, etc. Give each a one-line Force metaphor and one demand on the founding council.\n\n## Party composition guidance (SW5e)\n\n- Prefer Force-capable or Force-adjacent concepts; pure tech-savants still work as **scientists of the Chasm** or **forge-dreamers**\n- Avoid gear fantasies that require Republic-era megacorps\n- Encourage mixed species—the Order’s founding identity is pluralism under Balance\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "QAyVESLJrAtQwWpz",
+      "name": "04 — The Tho Yor",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 04 — The Tho Yor\n\n## What they are\n\nThe **Tho Yor** are enormous octahedron / pyramid temple-ships. **Eight** wake across the galaxy to gather Force-sensitives. They travel to Tython and gather about a **ninth, largest** Tho Yor. After arrival, the eight scatter across the planet; pilgrims later build temples at those resting places.\n\nThey feel less like starships and more like **living sanctuaries**: humming stone, light without torches, doors that open to those who *listen*.\n\n## Playable zones (Session 1+)\n\nUse these as map regions. Full **Great GM Scene Cards** (read-aloud ready) live in **Chapter 16**. Map 1 in **Chapter 20** covers the Threshold Crossroads. Boons hide in these zones (**Chapter 17**). The Kwa Gate sits off Machine-Spirit / Vaults (**Chapter 18**).\n\n### 1. Threshold Halls\n\nWhere pilgrims first awaken after boarding. Echoing corridors, soft gravity, murals of species that have not yet met.\n\n**Encounters:** Orientation; language barriers; a sealed door that opens only when three strangers meditate together; first boon niche.\n\n**At the table:** Chapter 16 — Threshold Halls Scene Card.\n\n### 2. Dormitories of the Called\n\nCommunal cells, personal relics left behind, dreams shared across walls.\n\n**Encounters:** Theft of a sacred object; nightmares that are *true*; forming the first party bond; *Milk of the Sword* bedroll niche (Ch 17).\n\n### 3. Observation Galleries\n\nViews of hyperspace-not-hyperspace: ribbons of Force light, starfields that look wrong, other Tho Yor as distant silhouettes.\n\n**Encounters:** First sight of Tython; panic; someone tries to “steer” and is gently rejected by the ship; Quiet Paw Charm on a rail (Ch 17).\n\n**At the table:** Chapter 16 — Observation Galleries Scene Card.\n\n### 4. Meditation Cores\n\nSpherical chambers where the ship’s song is loudest. Balance omens begin here.\n\n**Encounters:** Ashla vision vs Bogan vision; a PC must choose mercy or power in a shared dream; failure triggers ship-quake (foreshadow Tython); Bowl of First Rain alcove (Ch 17).\n\n**At the table:** Chapter 16 — Meditation Core Scene Card.\n\n### 5. Machine-Spirit Interfaces\n\nGlyph walls and crystal lattices. Science-minded PCs can *almost* understand.\n\n**Encounters:** Skill challenges to open a wing; risk of psychic backlash; rumor of builders (see Secrets); Ash-Glass Lens tray; path toward **Kwa Gate** (Ch 18).\n\n**At the table:** Chapter 16 — Machine-Spirit Interface Scene Card.\n\n### 6. Sealed Vaults\n\nDo not fully open in Arc I. Mark one vault with a nine-fold seal. Adjacent cold corridor leads to the Kwa Gate antechamber (glimpse only until activation rules are met).\n\n**Encounters:** Partial glimpse—artifact map of Tython temple seeds; warning in an unknown tongue; a guardian echo.\n\n### 7. Confluence Amphitheater\n\nNatural meeting place for multi-species council. Thread of the Uncut Hour may be wound on a handrail (Ch 17).\n\n**Encounters:** Must-play first council (Chapter 10); elect temporary speakers; avert a brawl that would imbalance the ship; meet Speakers (Chapter 19).\n\n### 8. Disembarkation Spines\n\nLater: ramps/bridges of light when Tython receives them.\n\n**Encounters:** Arc II only—storm, scatter, or ordered landing.\n\n## Set pieces\n\n1. **The last Call** — Finish boarding; doors seal; no going home.\n2. **Ship awakening** — Gravity shifts; song rises; strangers realize they are crew/cargo/pilgrims.\n3. **Meeting of peoples** — First council.\n4. **Balance omen** — Meditation Core trial.\n5. **Approach** — Tython grows from a point of light to a living world; storm gathers.\n\n## Secrets (GM)\n\n- **Builders:** Leave ambiguous. Offer conflicting hints—Gree arithmetic, Kwa Infinity Gate folklore, Rakatan hunger-tech as *warnings*, not answers. The **Kwa Gate** (Ch 18) is a concrete Kwa fingerprint without answering who built the Tho Yor.\n- **The Vault Map:** Shows nine resting sites. Revealing it early gives players a campaign treasure map; delaying it preserves mystery.\n- **The Ship Listens:** Extreme violence aboard may cause the Tho Yor to isolate offenders in a null-corridor until Balance returns.\n- **Sister ships:** Other pilgrim groups arrive on other Tho Yor—each with a **Speaker** (Chapter 19). The PCs’ ship is not the only story—contact comes on Tython.\n- **Boons:** Six ambiguous relics (Chapter 17) are meant to be found through exploration, not treasure chests labeled “+1 STR.”\n\n> **GM:** Do not explain everything. Wonder is the Tho Yor’s primary treasure.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "HWh9cNyYHC3VtRa4",
+      "name": "05 — Tython Gazetteer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 05 — Tython Gazetteer\n\n## Aftermath of the Force Storm\n\nArrival triggers a storm of Force energy that scars memory: lightning that thinks, winds that carry voices, ground that heaves when fear spikes. After the peak:\n\n- Pilgrims are wet, burned, euphoric, or catatonic\n- The local Tho Yor settles into its resting posture (float, embed, or bury)\n- Flora and fauna are agitated for days\n- The first camp must be claimed within sight of the ship or people will vanish into the wild seeking “the song”\n\n## Survival layers\n\n| Layer | Threats | Tools |\n|-------|---------|-------|\n| Body | Hunger, cold/heat, injury, disease | Foraging, shelters, Selkath healers |\n| Beast | Predators drawn to Force light | Watches, fire, Cathar hunters |\n| Land | Cliffs, floods, Silent Desert disorientation | Scouts, markings, Wookiee pathfinders |\n| Spirit | Force weather, night terrors, imbalance quakes | Meditation disciplines, Ashla/Bogan rites (once invented) |\n\n## Nine temple seeds (end-state goals)\n\nThese sites are **not temples yet**. They are Tho Yor resting places, clearings, or natural wonders waiting for cornerstone rites (Arc V).\n\n| Future temple | Focus | Seed description |\n|---------------|-------|------------------|\n| **Akar Kesh** | Balance | Stone pinnacle; largest Tho Yor above; most sacred |\n| **Anil Kesh** | Science | Spans/near the **Chasm**—a rift that whispers equations and madness |\n| **Bodhi** | Arts | Masara coast/plains; beauty that demands expression |\n| **Mahara Kesh** | Healing | Deep Ocean approaches; best medical destiny on Tython |\n| **Kaleth** | Knowledge | Library-to-be; natural meeting ground for councils |\n| **Padawan Kesh** | Academy | Masara inland; place that “wants children taught” |\n| **Stav Kesh** | Martial | Ice Giant Range, Kato Zakar; Tho Yor embedded in mountain |\n| **Qigong Kesh** | Force Skills | Silent Desert caverns beneath a floating Tho Yor |\n| **Vur Tepe** | Forge | Volcanic heart; weapons and tools of need |\n\n## Continent play notes\n\n### Thyr — Silent Desert & Qigong seed\n\nSound dies strangely. Caverns amplify Force techniques. Ideal for Force-skill trials; deadly to the uncentered.\n\n### Masara — Bodhi & Padawan seeds\n\nTemperate, deceptively gentle. Edge Forest hides predators and inspiration alike. Good first expansion after the landing camp.\n\n### Kato Zakar — Stav seed\n\nHostile weather and terrain. Martial pilgrims thrive; philosophers may refuse to go—use that split.\n\n### The Chasm — Anil seed\n\nScientific temptation. Offer breakthroughs that cost sanity or Balance. Excellent mid/late antagonist environment.\n\n### Deep Ocean — Mahara seed\n\nRequires boats, Force-walking, or allied aquatic pilgrims. Healing miracles and drowning omens.\n\n### Volcanic Forge — Vur Tepe seed\n\nCampaign reward hub for crafting. Heat, ash storms, and “the metal dreams.”\n\n## Getting lost\n\nWithout roads, travel times are story units: **a hard day**, **a week of ridges**, **a moon of desert**. Use App B tables. Allow the Force to guide—or mislead—based on Balance.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "m7NqTHmJPD9WIaWw",
+      "name": "06 — Power Groups & Factions",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 06 — Power Groups & Factions\n\nAt campaign start these are **tendencies**, not formal factions. By Arc IV they crystallize.\n\n## Camp coalitions\n\n### The Listening Circle\n\nDai Bendu-led contemplatives. Want monasteries, shared meditation, slow decisions.\n\n**PC use:** Allies for Code-writing; obstacles to rapid militarization.\n\n### The Spear Lodge\n\nCathar, human mercenaries, war-cult survivors. Want walls, drills, clear chains of command.\n\n**PC use:** Stav Kesh sponsors; risk becoming Bogan absolutists if unchecked.\n\n### The Open Hand Healers\n\nSelkath and empathic humans/Twi’leks. Want Mahara access and laws against Force cruelty.\n\n**PC use:** Moral compass; can veto harsh PCs in council.\n\n### The Chasm Inquiry\n\nScholars and tinkers obsessed with Tho Yor interfaces and the rift.\n\n**PC use:** Anil Kesh / Vur Tepe path; source of dangerous discoveries.\n\n### The Green Kin\n\nWookiees and life-web mystics. Defend living places from overbuilding.\n\n**PC use:** Environmental pressure; Bodhi allies; conflict with quarry-cutters.\n\n## Antagonists\n\n| Antagonist | Drive | Escalate when… |\n|------------|-------|----------------|\n| **Pure Ashla zealots** | Peace through purity; suppress “dark” emotion | Camp fears Bogan omens |\n| **Pure Bogan zealots** | Strength is truth; cull the weak | Scarcity or humiliation |\n| **Warlord pilgrims** | Personal kingdoms on Tython | Power vacuum after landing |\n| **Tython itself** | Reject imbalance | Party or camp tips absolute |\n| **Vault echoes** | Guard builder secrets | PCs force sealed doors |\n\n## Key rival leaders (use, rename, or kill)\n\n- **Master-Claimant Reth Var** — Human Spear Lodge demagogue; “I will make us safe.”\n- **Sister Luma** — Ashla purist; sweet voice, exile lists\n- **Kresh the Red** — Bogan duelist; challenges PCs publicly\n- **Architect Yen-Ti** — Chasm Inquiry; will open anything once\n\n## Allies\n\n- Dai Bendu elders (legitimacy)\n- Multi-species **Confluence** speakers from the Tho Yor amphitheater\n- Craftspeople who become the first temple builders\n- Children and non-combatants (stakes)\n\n## Non-sensitives and the coming departure\n\nSome who arrived cannot thrive on Tython. Plant NPCs who sicken when storms rise. Late campaign: debates about sending them to other system worlds—an epilogue of mercy, not failure.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 600000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "I2UWwEStX0cjki8p",
+      "name": "07 — The Je'daii Order (Founding)",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 07 — The Je'daii Order (Founding)\n\n## Name\n\n**Je'daii** is a Dai Bendu-rooted idea meaning roughly **mystic center**. The table should *earn* the name in Arc IV—ideally proposed by a Dai Bendu NPC or a PC who studied with them—then ratified by council.\n\nThis is **Je'daii**, not Jedi. Light and dark are both studied. Absolutism is the heresy.\n\n## Ashla, Bogan, and Balance\n\n| Concept | Meaning in play |\n|---------|-----------------|\n| **Ashla** | Compassion, clarity, restraint, healing, order |\n| **Bogan** | Passion, destruction, ambition, ferocity, power |\n| **Balance** | Walking the center; using either without becoming either |\n\nTython **punishes** imbalance. That is your primary theology-as-physics.\n\n## Steps until “the Order exists”\n\nTrack these as campaign milestones (check off when achieved):\n\n1. Shared **name**\n2. Shared **Code** (short; written by the table)\n3. Shared **rites** (greeting, mourning, trial, cornerstone)\n4. First **Council** (temple masters or camp speakers)\n5. First **temple cornerstone** laid\n6. Recognition that members serve Balance, not a warlord\n\nWhen 1–5 are done, the Je'daii Order exists for campaign purposes.\n\n## Ranks (compressed for level 9+ founders)\n\nCanon later uses Journeyer → Ranger → Master, etc. For this table:\n\n| Rank | Who | Table note |\n|------|-----|------------|\n| **Pilgrim** | Newly landed, unsworn | Early arcs |\n| **Je'daii** | Sworn to the Code | After Arc IV |\n| **Journeyer** | Traveling temple to temple | Arc V+ |\n| **Temple Steward / Master** | Left to grow a site | End of each temple seed |\n| **Council Voice** | Sits first Council | Capstone |\n\nPCs skip “child academy” fantasy—they **invent Padawan Kesh** for those who come after.\n\n## The nine temples as end-state\n\nTemples are schools *and* cities. Completing seeds in Arc V/VI fulfills the Living Force–style “academy chapter” fantasy: the Order has homes.\n\n## The Great Journey (invented late)\n\nCanon Journeyers visit all nine temples. In this campaign the PCs **create** that tradition by surviving the temple-seeding travels and declaring the path sacred at the Capstone Council.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 700000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "ThlxosAcxTaTk31H",
+      "name": "08 — SW5e Campaign Rules",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 08 — SW5e Campaign Rules\n\n## Core assumptions\n\n- **System:** SW5e on Foundry VTT\n- **Start:** Level **9** when the Tho Yor takes them\n- **Advancement:** Milestone — see Chapter 9 (default end band **levels 13–15**)\n- **Tone tags:** Mythic survival, founding politics, Force philosophy\n\n## Tech & gear bans / rarities\n\n**Generally unavailable / inappropriate**\n\n- Mass-market blaster economies as in Clone Wars / OT eras\n- Lightsabers as standard PC toys (special story rewards only, if at all)\n- Holonet, Republic credits as universal currency, capital ships on demand\n\n**Available**\n\n- Cultural weapons and armor from homeworlds\n- Primitive-to-advanced local tech brought aboard\n- Force techniques as primary “magic”\n- Tho Yor amenities (food, water, shelter) until landing—then scarcity\n\n**Campaign rewards**\n\n- Vur Tepe crafting breakthroughs\n- Temple-blessed arms\n- Rare Tho Yor crystals or tools (one or two per campaign)\n\n## Force traditions vs Jedi/Sith labels\n\nDo not use “Jedi” or “Sith” as mechanical faction names. Reflavor class features as:\n\n- Clan war-arts, Dai Bendu rites, life-web song, ocean law, predator focus, etc.\n\nDark Side / imbalance mechanics (whatever your SW5e build uses) should hook to **Bogan excess** and Tython weather, not cartoon villain points alone.\n\n## Optional: Imbalance Storm Clock\n\n1. When the camp or party commits a notably imbalanced act, advance a 6-segment clock.\n2. At 3: omens (App B).\n3. At 6: Force weather event; reset to 2 (Tython remembers).\n4. Acts of deliberate Balance (mercy + strength together, mediation, cornerstone rites) clear 1–2 segments.\n\n## Downtime: settlement & temple founding\n\nA **downtime cycle** (week or month) can buy one:\n\n- Shelter upgrade / wall / shrine\n- Food security improvement\n- Scout map of a region\n- Diplomatic contact with another camp\n- Temple cornerstone progress (requires being at the seed site)\n- Craft project (harder before Vur Tepe)\n\nRequire a skill challenge or short scene—do not pure spreadsheet.\n\n## Foundry journal permissions\n\n- Keep the GM Guide journal **Observer** or limited to GMs\n- Share Appendix C (or a copied player primer page) with Trusted Player permission\n- Pin Tho Yor map pages for Session 1 handouts as needed\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 800000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "A0loe1dWrMQnRKcl",
+      "name": "09 — Adventure Path — Arc Overview",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 09 — Adventure Path — Arc Overview\n\n## Arc map\n\n| Arc | Ch | Sessions (est.) | Milestone suggestion |\n|-----|----|-----------------|----------------------|\n| I Aboard the Tho Yor | 10 | 1–3 | Arrive ready; optional +1 level at landing |\n| II Arrival & First Landing | 11 | 4–6 | Level 10 after secure camp |\n| III Survive & Contact | 12 | 7–11 | Level 11 after first major inter-camp crisis |\n| IV Balance & the Name | 13 | 12–16 | Level 12 when Order is named |\n| V Temples of the Dawn | 14 | 17–24 | Level 13–14 across temple seeds |\n| VI Early Order Capstone | 15 | 25–30 | Level 15 at Council / epilogue |\n\nAdjust freely; milestones beat XP bookkeeping for founding epics.\n\n## Time skips\n\nBetween temple seeds, skip **months or a few years**:\n\n- Narrate population growth, shrine improvements, children born, rival camps cooling\n- Ask each PC one downtime legacy (“What did you build?”)\n- Resume on a crisis that needs founders, not administrators\n\nDo **not** skip the emotional beats of naming the Order or the first cornerstone.\n\n## Party spotlight goals\n\nGive each PC ownership of one:\n\n- A temple seed\n- A rite or Code clause\n- A faction relationship\n- A craft or scholarly breakthrough\n- A rival redeemed or condemned\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 900000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "l8Z57WpSKv1PXAEm",
+      "name": "10 — Arc I: Aboard the Tho Yor",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 10 — Arc I: Aboard the Tho Yor (Sessions 1–3)\n\n## Goals\n\n- Bond the party as pilgrims, not tourists\n- Teach Tho Yor wonder and rules of the age\n- Stage the first multi-species council\n- Leave **one sealed mystery** for Tython (Vault / Kwa Gate glimpse)\n- Seat or foreshadow **Speakers** (Chapter 19)\n- Let each PC **find their Session 0 boon** (Chapter 17)\n- End on approach to the green world\n\n**Prep:** Use Chapter 16 session sheet + Threshold / Gallery / Core Scene Cards. Map 1 (Chapter 20) for the Crossroads.\n\n## Session 0 (before Arc I)\n\nRun boon visions from **Chapter 17** (name + look + vision only). Assign one boon per PC from the pool of six.\n\n## Session 1 — The Call Completed\n\n**Cold open options**\n\n- A: Final climb into a waking pyramid; doors seal; cut to Threshold Halls\n- B: Wake already aboard with fragmented memories of the Call\n\n**Strong start read-aloud:** Chapter 16 — Threshold Halls Scene Card (end on the handle-less door).\n\n**Must-play beats**\n\n1. Sensory tour of Threshold Halls + Dormitories (Map 1)\n2. Meet 2–3 vivid NPC pilgrims (pull from Chapter 19 walk-on pool or Senn-Vora)\n3. Language / custom clash solved creatively\n4. Discovery that the ship will not open to the past\n5. At least one PC recovers their **boon** (or finds a leftover)\n\n**Combat:** Optional—frightened beasts brought aboard, or a panic brawl stopped by the ship’s null-corridor.\n\n**Treasure:** Personal relics + assigned boons only (no effect spoilers).\n\n## Session 2 — Song of the Ship\n\n**Must-play beats**\n\n1. Exploration of Observation Galleries + Meditation Cores (Ch 16 Scene Cards)\n2. **Balance omen** dream-trial (Ashla mercy vs Bogan power)—consequences are roleplay scars, not instant evil\n3. Machine-Spirit Interface skill challenge to open Confluence Amphitheater\n4. Glimpse the Sealed Vault **and** ozone corridor toward the **Kwa Gate** (do not fully activate—Chapter 18)\n5. Remaining PCs claim boons\n\n**Council teaser:** Rumors of a gathering tomorrow; Speakers’ names circulate.\n\n## Session 3 — Confluence & Approach\n\n**Must-play: First multi-species council**\n\nAgenda seeds:\n\n- Who speaks for whom?\n- Are we guests, crew, or chosen?\n- What do we do when we arrive?\n- Will warriors obey contemplatives?\n\n**Outcomes that matter later**\n\n- Temporary speaker roles (PCs should hold at least one); note sister-ship **Speakers** for Arc III (Ch 19)\n- A named grievance between two NPCs (pay off on Tython)\n- Agreement to stay near their Tho Yor after landing—or disagreement that causes a split\n\n**Finale:** Tython fills the galleries; storm light gathers; cut to Arc II.\n\n> **GM:** Sealed Vault remains closed. Kwa Gate is glimpsed, not a taxi yet. If PCs obsess, show a partial map glyph—nine points—or twin-moon refusal mural—then ship song overwhelms them.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1000000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "WetJhoVlnxwTld9y",
+      "name": "11 — Arc II: Arrival & First Landing",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 11 — Arc II: Arrival & First Landing (Sessions 4–6)\n\n## Goals\n\n- Spectacle of the Force Storm without soft-locking the party\n- Disembarkation (ordered or scattered)\n- Immediate survival crisis\n- Claim a landing site near their Tho Yor\n\n## Session 4 — Storm\n\nNarrate and lightly play:\n\n- Other Tho Yor visible as dark geometries in lightning\n- The ninth Tho Yor as gravity of myth\n- Psychic pressure—Wisdom/Charisma saves or SW5e Force saves to avoid temporary conditions (frightened, stunned, wild power surge)\n\n**Choice:** PCs help calm panicking pilgrims (Balance) or seize control with fear (clock advances).\n\n## Session 5 — Disembark\n\n**Mode A — Controlled:** Disembarkation Spines deploy; party leads an orderly exit; arrive together near a chosen seed (recommend first camp near a “neutral” site or toward Akar Kesh approaches if you want Balance foreshadowing).\n\n**Mode B — Scatter:** Storm breaks spines; party reunites after short survival scenes; missing NPC becomes a rescue hook.\n\n**Map:** Chapter 20 — Map 2 Storm-Scar Clearing. **Read-aloud:** use the Map 2 entry or Chapter 16 camp/storm cards.\n\n## Session 6 — Claim the Ground\n\n**Survival crisis menu (pick 2)**\n\n- Flash flood / mudslide\n- Predator wave\n- Contaminated water\n- Pilgrims refusing to leave the ship’s shadow\n- Rival charismatic claiming leadership\n\n**Victory condition:** Named camp, watch rotations, shelter for noncombatants, Tho Yor in sight.\n\n**Milestone:** Level 10.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "hZYkfCYEuXWeLpVe",
+      "name": "12 — Arc III: Survive & Contact",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 12 — Arc III: Survive & Contact (Sessions 7–11)\n\n## Goals\n\n- Map the near wild\n- Contact at least one other Tho Yor landing\n- Survive resource conflict\n- Face an Ashla/Bogan omen that nearly destroys the camp\n\n## Exploration loop\n\nEach session: **scout → discovery → consequence at camp**.\n\nDiscoveries:\n\n- Food valley / poison grove\n- Rival camp smoke\n- Temple seed landmark (describe wonder, do not name temple yet)\n- Ruined pre-pilgrim traces (optional ancient mystery)\n\n## Contact scenarios\n\n1. **Trade & mistrust** — Language montage; gift exchange; stolen tool; bring a **Speaker** from Chapter 19\n2. **Resource war** — Both camps need the same spring; Spear Lodge pushes raid\n3. **Joint rite** — Shared meditation calms a local storm (teach Balance empirically)\n4. **Moon road (optional)** — Activate **Kwa Gate** (Ch 18) for a short Ashla or Bogan trial if the table hungers for myth early\n\n**Maps:** Silent Desert approach = Chapter 20 Map 3. Gate chamber = Map 4.\n\n## Mid-arc crisis — Omen of the Moons\n\nOn a night when Ashla and Bogan are both visible, camp emotions spike:\n\n- Pure Ashla NPCs attempt to silence “dark” PCs or artists\n- Pure Bogan NPCs attempt a dominance kill\n- Tython answers with weather matching the winning extreme\n\n**Party job:** Stop the purge without becoming the purge. Advance or clear the Storm Clock accordingly.\n\n## End of arc\n\n- Map of near regions\n- At least one allied camp and one rival\n- Camp survives with scars\n- Milestone: Level 11\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "LXElBhjn50E6gVmJ",
+      "name": "13 — Arc IV: Balance & the Name",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 13 — Arc IV: Balance & the Name (Sessions 12–16)\n\n## Goals\n\n- Philosophically and politically define **Balance**\n- Name the **Je'daii**\n- Write a short **Code** the table owns\n- Hold the first trial for imbalance (exile, penance, or redemption)\n\n## Rising action\n\nRival leaders force a choice: fortress-kingdom vs pure monastery vs open inquiry. PCs must broker a third path.\n\nUse faction playbooks from Chapter 6. Let PCs’ spotlight goals tip the board.\n\n## Climax — The Naming Council\n\nLocation: Confluence rebuilt on Tython, or under the pinnacle approaches of future Akar Kesh.\n\n**Agenda**\n\n1. What do we serve?\n2. What do we forbid?\n3. What do we call ourselves?\n4. Who judges imbalance?\n\n**Code workshop (table tool)**\n\nDraft 3–5 lines max. Example skeleton (replace with player words):\n\n- There is no ignorance; there is seeking in Balance…\n- Ashla without Bogan is brittle; Bogan without Ashla is blind…\n- The land is our measure…\n\n## The first trial\n\nAn NPC (or fallen PC ally) committed an imbalanced atrocity (murder for purity, massacre for strength). Public trial:\n\n- Outcomes: exile to Bogan’s metaphorical dark, penance journey, execution (costly), or redemption under watch\n- Tython reacts visibly to the verdict\n\n## Victory condition\n\nOrder named; Code spoken; Council Voices recognized (include PCs); first rite performed.\n\n**Milestone:** Level 12.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "2063NeZv8MoHhXl8",
+      "name": "14 — Arc V: Temples of the Dawn",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 14 — Arc V: Temples of the Dawn (Sessions 17–24)\n\n## Goals\n\n- Seed **3–5 temples in play** (party favorites)\n- Montage the rest of the nine via time skips\n- Invent travel hardships that become the **Great Journey** myth\n\n## How to run a temple seed (template)\n\nFor each site played at the table:\n\n1. **Travel hazard** (1 session or half)\n2. **Local trial** tied to the temple’s future focus\n3. **Cornerstone rite** (Balance act + construction/claim scene)\n4. **Steward left behind** (NPC Master or rotating PC downtime)\n\n### Suggested playable set (pick 3–5)\n\n| Site | Trial theme |\n|------|-------------|\n| Akar Kesh | Mediate two extremes under the great Tho Yor |\n| Stav Kesh | Survive mountain war-games without slaughtering rivals |\n| Qigong Kesh | Silent Desert Force gauntlet |\n| Mahara Kesh | Heal a plague without dark shortcuts—or with costly ones confessed |\n| Bodhi | Create a work of art that calms a storm |\n| Anil Kesh | Retrieve knowledge from the Chasm without losing a mind |\n| Vur Tepe | Forge a tool the camp needs; pay heat/ash price |\n| Kaleth | Host a library founding; decide what knowledge is forbidden |\n| Padawan Kesh | Protect/teach the first youths; invent apprenticeship |\n\n## Time skips between seeds\n\nNarrate seasons. Advance settlement clocks. Let absent temples be founded by allied NPCs with PC blessing—or contested if ignored.\n\n## Milestone\n\nReach level 13 after third seed; level 14 after fifth or equivalent montage completion.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "OxEBoP0d6yMNzMQo",
+      "name": "15 — Arc VI: Early Order Capstone",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 15 — Arc VI: Early Order Capstone (Sessions 25–30)\n\n## Goals\n\n- Convene the **First Council** at **Kaleth** or **Akar Kesh**\n- Formalize the **Great Journey**\n- Resolve a final villain or Chasm breach\n- Epilogue the Order’s first generation\n\n## Capstone council\n\nTemple Stewards (including PC-backed NPCs) gather. Agenda:\n\n- Confirm nine seeds (even incomplete ones as “claimed destinies”)\n- Codify Journeyer pilgrimage\n- Seat Council Voices\n- Address non-sensitives’ future departure\n\n## Optional villains (choose one)\n\n### A — Bogan Zealot Ascendant\n\nKresh the Red (or heir) raises a pure-Bogan host to burn monasteries. Climactic battle + chance to redeem.\n\n### B — Ashla Purge\n\nSister Luma attempts to erase Bogan teachings and exile passionate PCs. Social-military hybrid climax.\n\n### C — Chasm Breach\n\nAnil Kesh dig too deep; an ancient echo or Force-predator spills out. Dungeon-myth finale.\n\n## Epilogue hooks\n\n- Non-sensitives board lesser craft / are guided to sister worlds—bittersweet mercy\n- A Tho Yor vault remains sealed for a sequel\n- Children recite the Code the PCs wrote\n- Camera pulls up: nine lights on Tython—temples of the dawn\n\n**Milestone:** Level 15. Campaign complete for this guide’s scope.\n\n---\n\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1500000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "jIBaTTXVsQHmiC6e",
+      "name": "16 — Great GM Scene Craft",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 16 — Great GM Scene Craft\n\nThis campaign asks you to *set the stage and react*—the *How to be a Great GM* approach (Guy Sclanders): cinematic openings, situations over scripts, NPCs with wants, descriptions that invite action instead of novels.\n\nYour stated struggle is **descriptions**. Prep descriptions as **Scene Cards**, not paragraphs you must memorize.\n\n## The Scene Card (copy this every time)\n\n```\nTITLE: ____________________   TONE: (wonder / dread / tense / sacred)\nREAD-ALOUD (4–6 sentences; END on the urgent hook):\n1.\n2.\n3.\n4.\nSENSES: See | Hear | Smell | Touch | Force\nEXITS / INTERACTABLES: (what can they do right now?)\nNPC WANT IN FRAME: (one line)\nSECRETS / CLUES: (portable—drop anywhere)\n```\n\n**Rules of the read-aloud**\n\n- Five short sentences beat one long speech.\n- Vague emotional words first (“ancient,” “hungry,” “too quiet”), details on demand.\n- End on the **most urgent** thing so players stop listening and start deciding.\n- Never script how they solve it.\n\n## Session prep sheet (one page)\n\nBefore each session, fill only:\n\n1. **Strong start** (first 5 minutes already in motion)\n2. **3 locations** (Scene Cards)\n3. **3 NPCs** (want / fear / lever) — see Chapter 19\n4. **8 secrets & clues** (unordered list; plant wherever play goes)\n5. **1 reward / boon beat** (Chapter 17)\n6. **Storm Clock** note (Chapter 8)\n\nIf you freeze at the table: ask what the nearest NPC wants next.\n\n## Description bank — campaign pillars\n\n### Scene Card — Threshold Halls (first boarding)\n\n- **Tone:** wonder + disorientation\n- **Read-aloud:** The corridor is wider than a canyon and quieter than a tomb. Soft light bleeds from the stone itself—no torches, no seams. Murals of faces you have never met watch you with patient eyes. Your footsteps land late, as if gravity is thinking. Ahead, three passages yawn open… and one door stands shut without a handle. Something behind it is listening for a reply.\n- **Senses:** matte black-gold stone; low harmonic hum; cold air tasting of rain on metal; Force like a held breath\n- **Exits:** left dormitory wing; right galleries; forward sealed door; back (sealed Call-door)\n- **NPC want:** a frightened pilgrim wants someone else to go first\n- **Secrets:** door opens if three strangers meditate together; a boon niche glows faintly (Ch 17)\n\n### Scene Card — Observation Galleries\n\n- **Tone:** cosmic awe\n- **Read-aloud:** The gallery is a wound of glass looking into something that is not hyperspace. Ribbons of Force-light braid around distant pyramid silhouettes—other Tho Yor, other pilgrims. Stars smear wrong. Far ahead, a green point thickens into a world. Someone gasps. The ship does not ask your permission to continue.\n- **Interactables:** viewing rails; glyph that rejects “steering”; silhouette count (eight + one)\n- **Secrets:** first glimpse of Tython; sister ships foreshadow Speakers (Ch 19)\n\n### Scene Card — Meditation Core\n\n- **Tone:** sacred trial\n- **Read-aloud:** The chamber is a hollow sphere. The ship’s song is loud enough to feel in your teeth. Two moons hang in the mind—one bright, one bruised. The Core offers a choice that is not a choice: mercy that costs strength, or power that costs kindness. Choose, or the floor will choose for you.\n- **Secrets:** Balance omen; foreshadow Ashla/Bogan; ship-quake on refusal/extremes\n\n### Scene Card — Machine-Spirit Interface\n\n- **Tone:** puzzle / danger\n- **Read-aloud:** Walls of crystal lattice tick like insect thoughts. Glyphs rearrange when you look away. A panel warms under a curious hand. For a heartbeat you almost understand the builders—then the understanding bites. Beyond the lattice, a colder corridor smells of ozone and old rain: the way toward vaults… and a gate that should not be here.\n- **Secrets:** path to Sealed Vaults + Kwa Gate (Ch 18); psychic backlash on failed checks\n\n### Scene Card — Tython camp at night\n\n- **Tone:** fragile civilization\n- **Read-aloud:** Cookfires stitch a trembling ring against the dark. Ashla hangs clean; Bogan hangs hungry. Somewhere beyond the watch line, the forest answers a dream with footsteps. A child asks if the pyramid will leave them. No one has an honest answer yet.\n- **Secrets:** Storm Clock tell; Speaker visit; crafter needing materials\n\n### Scene Card — Force Storm (arrival)\n\n- **Tone:** mythic catastrophe\n- **Read-aloud:** Lightning thinks. Wind carries names you have not spoken aloud. The ninth Tho Yor hangs above a stone pinnacle like a verdict. Your ship shivers. Pilgrims scream in a dozen languages that somehow mean the same prayer: *hold*.\n- **Hook:** calm them (Balance) or command them (clock advances)\n\n### Scene Card — Ashla surface (via Kwa Gate)\n\n- **Tone:** clarity / judgment\n- **Read-aloud:** Silver dust underfoot. Sound arrives late and leaves early. Every lie feels heavier than armor. A pale horizon offers no cover and no excuses. The moon does not hate you. It simply refuses to flinch.\n- **Trials:** confession, mercy under scrutiny, “see what you are”\n\n### Scene Card — Bogan surface (via Kwa Gate)\n\n- **Tone:** hunger / power\n- **Read-aloud:** Ash and crimson glass. Heat without kindness. The Force here pushes like a crowd at your back—run, strike, take. Shadows cling longer than bodies. Something in the waste smiles when you clench a fist.\n- **Trials:** refuse easy domination, spend rage usefully, survive temptation\n\n## Upgrade note\n\nZone summaries in Chapter 4 and cold opens in Chapter 10 now point here. Prefer these Scene Cards at the table; improvise details when players poke.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1600000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "4jB4YxqrYiQCTb5U",
+      "name": "17 — Session 0 Boons of the Tho Yor",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 17 — Session 0 Boons of the Tho Yor\n\n## Rules\n\n- Prepare **Session 0** Force visions for each PC using the pool below.\n- Each PC receives **one** boon (assigned by you or claimed when found aboard).\n- Pool size **6**. Leftovers remain as ship finds or get claimed by rival Speakers’ agents.\n- Players know the **name**, **look**, and **vision**—not the mechanical effect.\n- Effects reveal through play (use, risk, or a quiet GM nod after a clear clue lands).\n- Same boon does not stack on two PCs.\n\n## Boon card format\n\nName · Appearance · Vision · Find location · **GM effect** · Tell / cost\n\n---\n\n### 1. Milk of the Sword\n\n- **Appearance:** A stoppered ceramic bottle of luminous blue milk that never spoils; the glaze shows a faint blade silhouette when turned.\n- **Vision:** You kneel in a circle of broken spears. A child offers you a cup. When you drink, your arms become iron—and the child asks you to lift a gate no one else can move.\n- **Find:** Dormitory niche beside a warrior’s abandoned bedroll.\n- **GM effect:** While carrying the bottle (need not drink every fight), **+1 Strength**. First drink each dawn: temporary HP equal to proficiency bonus.\n- **Tell:** After violence, the milk tastes metallic until you show restraint once.\n\n### 2. Thread of the Uncut Hour\n\n- **Appearance:** A spool of colorless thread that only shows silver under moonlight (or Ashla-light). The spool never empties—yet always feels nearly empty.\n- **Vision:** You sew a wound in the sky. Each stitch buys a breath for someone dying. The last stitch is your own shadow, pulled tight.\n- **Find:** Confluence Amphitheater seating, wound around a cracked handrail.\n- **GM effect:** Once per long rest, as a reaction when an ally within 30 ft. drops to 0 HP, they drop to **1 HP** instead (thread flashes).\n- **Tell:** After use, you hear a delayed echo of that ally’s scream for 1 hour.\n\n### 3. Coin of the Second Mouth\n\n- **Appearance:** A heavy octagonal coin, blank on both faces until warmed in a palm—then one face shows a speaking mouth, the other a closed eye.\n- **Vision:** You argue with yourself in a marketplace of species. Every lie costs a tooth. Every truth opens a door that was not there.\n- **Find:** Threshold Halls mural base (falls into a PC’s hand when they touch a painted mouth).\n- **GM effect:** **+1 Charisma**. Once per long rest, advantage on one Deception *or* Persuasion check—you choose when activating.\n- **Tell:** If you choose Deception, a nearby stranger briefly sees your “second mouth.”\n\n### 4. Ash-Glass Lens\n\n- **Appearance:** A palm-sized shard of volcanic glass; looking through it drains color from the world except Force-bright edges.\n- **Vision:** You stand above a chasm of numbers. The lens shows which stones will lie and which will hold. A voice says *know first—bleed later.*\n- **Find:** Machine-Spirit Interface crystal tray.\n- **GM effect:** **+1 Intelligence**. Once per short rest, advantage on Investigation or a tech/Force-lore check to understand ancient devices (Tho Yor, Kwa Gate, Chasm).\n- **Tell:** Overuse (3+/day) causes a one-round stun migraine (Con save DC 14).\n\n### 5. Quiet Paw Charm\n\n- **Appearance:** A carved predator tooth on a cord; soft fur wraps the root. It purrs—almost—when danger is near.\n- **Vision:** You hunt barefoot through silent grass. Your heartbeat slows until the prey’s fear is louder than your steps. You choose not to kill—and the grass parts anyway.\n- **Find:** Observation Gallery rail, tied as if left for the next scout.\n- **GM effect:** **+1 Dexterity**. Advantage on Stealth while not wearing heavy armor.\n- **Tell:** When you choose loud violence, the charm goes cold until you succeed on a Stealth check again.\n\n### 6. Bowl of First Rain\n\n- **Appearance:** A shallow stone bowl that fills with clear water each dawn; steam smells like homeworld rain.\n- **Vision:** You wash blood from strangers’ hands. The water darkens, then clears. A dying world drinks, and green returns for one season.\n- **Find:** Meditation Core alcove, offered by a soft light when a PC shows mercy unprompted—or placed for the most compassionate PC after Session 0 vision.\n- **GM effect:** **+1 Wisdom**. Bowl water: once per dawn, cast a free 2nd-level *cure*-equivalent (or SW5e healing power of similar tier) without spending the resource—touch range, one creature.\n- **Tell:** If used to heal someone who then immediately commits cruelty, the bowl stays dry for 24 hours.\n\n## Arc I wiring\n\n- Session 0: each player receives vision + name/look only.\n- Sessions 1–2: guide exploration so each PC can **find** their assigned boon (or discover leftovers).\n- Do not identify effects in loot text—narrate clues (“the bottle’s glaze looks like a blade”).\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1700000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "mM6LlM8fwpCK3FK9",
+      "name": "18 — The Kwa Gate",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 18 — The Kwa Gate\n\n## What it is\n\nA sealed **Kwa** infinity-adjacent gate chamber aboard (or immediately under) the party’s Tho Yor, off the Machine-Spirit / Vault wing. It is not a galactic highway. It is a **moon road**.\n\n**Hard limit:** destinations are **Ashla** and **Bogan** only. Any other intended destination produces a refusal omen (glyphs freeze; Force pressure; vision of twin moons shaking their heads).\n\n## Discovery timing\n\n- **Glimpse:** late Session 2 / Session 3 (sealed door, ozone smell)—do not fully open Session 1.\n- **Activation:** after landing *or* after a multi-species Balance key aboard (three different peoples touch the gate while calm). Prevents skipping Tython.\n\n## Activation key (table fiction)\n\nThe gate wakes when:\n\n1. Pilgrims of **at least three species** touch the ring together, **and**\n2. No one present is mid-murder / mid-purge (Storm Clock at 5–6 blocks activation until calmed).\n\n## Travel\n\n- Transit is a white/red flash and a stomach-drop (1 round).\n- Return requires the same gate (moons have receiving circles etched in dust/glass).\n- Time on moons can differ slightly (minutes ↔ hour) as a mythic tell—use sparingly.\n\n## Ashla — clarity trials\n\nUse Scene Card in Chapter 16. Sample challenges:\n\n- Speak a truth that costs status\n- Spare an enemy while Ashla “watches”\n- Carry a burden of light (bright object that burns liars)\n\n**Reward ideas:** Storm Clock −1; vision clarifying a boon; Speaker respect\n\n## Bogan — hunger trials\n\nUse Scene Card in Chapter 16. Sample challenges:\n\n- Win a duel without finishing the kill\n- Refuse a power offer that would solve a camp problem cruelly\n- Survive a fear-predator born of a PC’s ambition\n\n**Reward ideas:** weapon material; Bogan omen warning; insight into a zealot NPC\n\n## Campaign uses\n\n- Exile / penance journeys (Arc IV trial)\n- Teach Balance **before** the Order is named (experience > lecture)\n- Mid-arc set pieces—not weekly teleport shopping\n- If used as a purity weapon (dump foes on Bogan forever), advance Storm Clock +2 and have Tython answer\n\n## Secrets\n\n- Gate architecture hints **Kwa**, not Tho Yor builders—another layer of ancient hands.\n- Ninth Tho Yor may “approve” moon travel with a distant harmonic when Balance holds.\n- Map brief: Chapter 20, Map 4.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1800000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "fIJR5Y2QE1briFUy",
+      "name": "19 — Faces of the First Migration",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 19 — Faces of the First Migration\n\nFull NPC chapter. Appendix A is the quick index only.\n\n**Great GM cast note:** play the want, not the accent. One breath: *who they are + what they want right now.*\n\n## A. Eight Tho Yor Speakers\n\nEach Speaker speaks for the pilgrims of one gathering ship. Contact them across Arc III+.\n\n### 1. Senn-Vora — *Tho Yor of the Quiet Peak* (party ship default)\n\n- **Species:** Talid (Dai Bendu)\n- **Look / voice:** Dust-pale robes; speaks like measured prayer\n- **Want / fear / lever:** Want Order-as-listening · Fear Call was vanity · Lever: legitimacy of names\n- **Offer:** Teach the word that becomes *Je'daii*\n- **Hook:** Asks PCs to stop a brawl without drawing blood\n- **Cast note:** Patient mountain; never rushes; devastated if ignored\n\n### 2. Horruhn — *Tho Yor of the Green Deep*\n\n- **Species:** Wookiee\n- **Look / voice:** Moss-braided fur; growls that translators render as poetry\n- **Want / fear / lever:** Want living world protected · Fear stone cities · Lever: life-debt / grove rights\n- **Offer:** Scout paths; warn of dying forests\n- **Hook:** A logging party from another camp wounds a sacred tree\n- **Cast note:** Soft thunder; violence only to defend life\n\n### 3. Numa’Shar — *Tho Yor of the Dancing Heat*\n\n- **Species:** Twi’lek\n- **Look / voice:** Travel silks; laughter that bargains\n- **Want / fear / lever:** Want lasting truce · Fear clan war imported · Lever: introductions & secrets\n- **Offer:** Broker first inter-camp meeting\n- **Hook:** Needs PCs as neutral witnesses to a marriage-alliance\n- **Cast note:** Charm as armor; always has a third option\n\n### 4. Iil (with Vorr) — *Tho Yor of the Tide Law*\n\n- **Species:** Selkath\n- **Look / voice:** Salt-stained cloaks; legal calm\n- **Want / fear / lever:** Want healing sanctuary · Fear Force cruelty · Lever: medical aid withheld/granted\n- **Offer:** Train camp healers; demand laws\n- **Hook:** Plague seed—will they share serum with rivals?\n- **Cast note:** Two voices, one ethic; mercy with spine\n\n### 5. Sari Tor — *Tho Yor of the Open Plain*\n\n- **Species:** Cathar\n- **Look / voice:** Scarred ears; clipped challenges\n- **Want / fear / lever:** Want worthy leaders · Fear cowards in charge · Lever: public duel / honor\n- **Offer:** Train watch rotations; escort to Stav seed\n- **Hook:** Challenges Reth Var’s claim—asks PCs to second her or stop her\n- **Cast note:** Blade honesty; respects earned scars\n\n### 6. Kael Rind — *Tho Yor of the Broken Banner*\n\n- **Species:** Human\n- **Look / voice:** Ex-mercenary coat; tired humor\n- **Want / fear / lever:** Want a home that isn’t a warcamp · Fear becoming his old captain · Lever: tactical advice\n- **Offer:** Fortify camp without tyranny\n- **Hook:** Old unit loyalties try to crown him warlord\n- **Cast note:** Soft cynic; heroic when cornered into hope\n\n### 7. Yen-Ti — *Tho Yor of the Counting Dark*\n\n- **Species:** Near-human / scholar caste (your call)\n- **Look / voice:** Ink-stained fingers; too-bright eyes\n- **Want / fear / lever:** Want understanding of builders · Fear ignorance · Lever: maps, gate theories\n- **Offer:** Help open Kwa Gate safely—for a price of access\n- **Hook:** Digs toward Chasm knowledge early; needs restraint\n- **Cast note:** Curiosity as addiction; redeemable\n\n### 8. Sister Luma — *Tho Yor of the White Vow* (rival Speaker path)\n\n- **Species:** Human\n- **Look / voice:** Pale sash; sweet certainty\n- **Want / fear / lever:** Want purity (Ashla-only) · Fear Bogan’s “contamination” · Lever: public shame, devotees\n- **Offer:** Peace—if the “dark-hearted” submit\n- **Hook:** Exile list that includes a PC ally or boon-bearer\n- **Cast note:** Kind knife; believes she is saving everyone\n\n> **GM:** If the party’s ship is not Quiet Peak, swap Senn-Vora to sister-ship status and promote a PC-bonded pilgrim as local Speaker.\n\n### Ninth Tho Yor — Guardian Echo\n\n- Not a politician. A **presence**: harmonic, dream-image, occasional solid silhouette of a hooded giant without a face.\n- **Want:** Balance near the pinnacle\n- **Use:** Nod of approval at Naming Council; warning when Gate is abused\n\n## B. Crafters (commission loop)\n\nPCs bring materials; crafters make gear. Times assume downtime days, not minutes.\n\n### Torv Maddan — Bladewright\n\n- **Species:** Human; burn-scarred forearms\n- **Want:** Honest metal and honest clients\n- **Takes:** volcanic glass, beast bone, Tho Yor crystal splinters (rare)\n- **Makes:** swords, spears, vibro-analogs-as-era-allows, masterwork blades\n- **Time / tier:** 3 days common · 7 days fine (+1 to attack **or** damage, not both) · special story piece longer\n- **Friction:** Refuses weapons meant for purge politics\n\n### Shekk-Arra — Hide & Plate\n\n- **Species:** Trandoshan-adjacent hunter (or similar)\n- **Want:** Armors that remember the animal’s dignity\n- **Takes:** hides, chitin, woven fiber, metal scraps\n- **Makes:** light/medium armor upgrades, shields, cloaks with pocket seals\n- **Time / tier:** 2–5 days; AC +1 retrofit once per suit if materials exceptional\n- **Friction:** Hates wasteful trophies; Green Kin ally\n\n### Miri Quill — Charm Carver\n\n- **Species:** Sullustan\n- **Want:** Focuses that steady Force use (not lightsabers)\n- **Takes:** Ashla-silver dust, Bogan ash-glass, bone, resin\n- **Makes:** focus charms (+1 to save DC **or** attack with Force powers, attunement, one per PC), meditation beads\n- **Time / tier:** 5 days typical\n- **Friction:** Will not carve “kill-purely” hexes; Gate moon materials excite her\n\n### Vesh & Loom — Cloth and Sigil\n\n- **Species:** Pair of Togruta / human weavers\n- **Want:** A shared banner before there is an Order\n- **Takes:** dyes, silk-analogs, pilgrim scraps from many species\n- **Makes:** cloaks, sashes, early Je'daii sigils after Naming\n- **Time / tier:** 1–3 days; social bonus gear (advantage once on Persuasion when displaying council sash)\n- **Friction:** Argue in harmony; need PC to decide a symbol\n\n## C. Rivals & recurring pressures\n\n| Name | Role | Want | Lever |\n|------|------|------|-------|\n| **Reth Var** | Warlord claimant | Safety through command | Loyal spears; speeches |\n| **Kresh the Red** | Bogan duelist | Prove strength is truth | Public challenges |\n| **Architect Yen-Ti** | (also Speaker 7) | Open everything | Knowledge blackmail |\n\n## D. Session-injection pool (walk-ons)\n\nDrop one new face most sessions. Promote favorites to recurring.\n\n1. **Pel the Map-Eater** — scribe who literally tastes ink; wants complete charts\n2. **Orrin Two-Songs** — bilingual child; wants parents’ camps united\n3. **Gatha Red-Clay** — potter; wants kiln stones from Vur Tepe approaches\n4. **Silent Bran** — mute scout; wants someone to trust his hand-signs\n5. **Priestess Nal** — homeworld rain-cult; wants Bowl of First Rain explained\n6. **Jex Hookhand** — thief with honor; wants a pardon via service\n7. **Mother Sura** — non-sensitive; wants evacuation plan off Tython\n8. **Drallik Fume** — spice-memory addict; wants Bogan ash “to feel again”\n9. **Captain Yola** — raft builder; wants Deep Ocean expedition funding\n10. **Hesh the Quarrel** — professional arguer; wants a place in council debates\n11. **Tiny Ro** — Wookiee adolescent; wants to be taken seriously on watch\n12. **Vault-Touched Ann** — nightmares of nine seals; wants the vault left closed—or opened\n13. **Miller Cand** — food stores boss; wants fair ration law\n14. **Duel-Scar Bex** — retired pit fighter; wants to teach without killing\n15. **Echo-Priest Dal** — hears Tho Yor wrong; wants medical help or truth\n\n## E. Quick combat roles\n\n- Frightened civilian · Camp guardian · Zealot cell · Temple steward (late)\n- Adjust to challenge level 9–15 parties; prefer roles over full sheets\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 1900000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "TPhLrzJhEZL0M2gp",
+      "name": "20 — Random Encounter Map Briefs",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# 20 — Random Encounter Map Briefs\n\nBuild these in Foundry from the specs. Scale assumes ~5-ft squares.\n\n---\n\n## Map 1 — Tho Yor: Threshold Crossroads\n\n- **Purpose:** Session 1 exploration / social / light combat\n- **Grid:** 35×35\n- **Terrain legend:**\n  - Floor A: smooth sanctuary stone (normal)\n  - Floor B: humming glyph strips (difficult if imbalanced Storm Clock ≥3)\n  - Pillars: 3/4 cover\n  - Central dais: elevated +5 ft\n  - Sealed door north (no handle)\n  - Three exits: W dormitory · E galleries · S Call-door (sealed)\n- **Landmarks:** mural wall of unknown species; soft-light ceiling vents; boon niche (glow); meditation circle etched under dais\n- **Approaches:** PCs enter from S (after Call) or wake on dais\n- **Read-aloud:** Use Threshold Halls Scene Card (Ch 16)\n- **Variants:**\n  1. **Social:** language clash + Speaker-to-be Senn-Vora\n  2. **Combat:** panicked beast in W corridor; ship nulls lethal intent after 3 rounds\n  3. **Exploration:** sealed door puzzle (3 meditators)\n- **Loot / clue:** first boon; rumor of ozone corridor deeper in\n\n---\n\n## Map 2 — Tython: Storm-Scar Clearing\n\n- **Purpose:** Arc II camp claim / predator attack / rival contact\n- **Grid:** 40×30\n- **Terrain legend:**\n  - Mud ring (difficult) around blast crater\n  - Standing blackened trees (cover)\n  - Creek N–S (1 square jump or difficult ford)\n  - Tho Yor shadow along E map edge (blocking terrain / sacred ground)\n  - Hillock SW (+10 ft, good archery)\n- **Landmarks:** split boulder with Force-glass veins; pilgrim supply sled; fresh graves or bedrolls\n- **Approaches:** from jungle W; from ship E; creek ambush N/S\n- **Read-aloud:** Rain still falls upward for a breath, then remembers gravity. The clearing is a wound: mud, ozone, and a ring of trees blown outward from a single impossible flash. Your Tho Yor’s shadow pools like spilled ink. Something large sniffs the blood-warm ground. Behind you, pilgrims wait for someone to say *here*.\n- **Variants:**\n  1. **Combat:** Force-mad predators (2–4) + rising wind\n  2. **Social:** Kael Rind’s scouts claim the hillock\n  3. **Survival:** purify creek / build shelter before night (skill challenge on map)\n- **Loot / clue:** crate of homeworld tools; map scrap toward another smoke column (sister Tho Yor)\n\n---\n\n## Map 3 — Silent Desert: Mouth of the Cavern\n\n- **Purpose:** Qigong seed approach; Force hazard; stealth or trial\n- **Grid:** 30×40 (long axis toward cave)\n- **Terrain legend:**\n  - Soft silver sand (difficult; Stealth advantage if moving slow)\n  - Sound-dead zone (center band): verbal communication fails; Force messages OK\n  - Rock fangs (cover) leading to cave mouth N\n  - Floating Tho Yor silhouette overhead (light source + awe hazard: Wis save or frightened 1 round first entry)\n  - Cave interior fog (heavily obscured beyond 10 ft until light/Force)\n- **Landmarks:** bone wind-chimes that make no sound; spiral petroglyph; cavern breath (cold exhalation every other round—push 5 ft toward cave or away on fail)\n- **Approaches:** desert S; ridge paths E/W\n- **Read-aloud:** The desert swallows your names. Sand shines like ground moonlight. Ahead, a cavern opens beneath a pyramid that refuses to land. Your footsteps arrive late. Something inside the dark inhales—and the Force leans with it.\n- **Variants:**\n  1. **Exploration:** navigate sound-dead band to petroglyph clue\n  2. **Combat:** silence-stalkers (advantage on stealth; pack tactics)\n  3. **Trial:** meditate at mouth to earn cavern entry without fight\n- **Loot / clue:** Force-skill scroll-equivalent; Qigong seed claim rights\n\n---\n\n## Map 4 — Kwa Gate Antechamber & Moon Threshold\n\n- **Purpose:** Gate discovery / activation / Ashla–Bogan departure\n- **Grid:** 30×30 antechamber + two 15×15 moon pads (same scene or separate pages)\n- **Terrain legend (antechamber):**\n  - Ring platform center (gate)\n  - Glyph floor (safe if calm; lightning damage if Storm Clock high when activated)\n  - Balcony walkway +10 ft with control crystals\n  - Side alcoves (cover) with Kwa-style geometry (curves, not Tho Yor angles)\n  - Ozone vents (light obscurement if smashed)\n- **Moon pads (reuse tiles):**\n  - **Ashla pad:** bright floor, minimal cover, “clarity lanes”\n  - **Bogan pad:** broken glass terrain (difficult), shadow columns (cover), heat vents\n- **Landmarks:** twin moon murals; refusal glyph (lights when illegal destination imagined); three-species handplates on ring\n- **Approaches:** corridor from Machine-Spirit S; vault door E (still sealed)\n- **Read-aloud:** The chamber is wrong for this ship—softer math, older pride. A ring of metal and light waits like a held question. Two murals face each other: a pale moon, a wounded moon. Crystals on the balcony tick. The air tastes like storms that never rain. The ring will not open for a single people… or for a single rage.\n- **Variants:**\n  1. **Exploration:** decode handplates; Yen-Ti bargains\n  2. **Social/ritual:** three species activate; Sister Luma tries to forbid Bogan mural\n  3. **Combat:** zealots attack during first activation; gate unstable (hazards)\n- **Loot / clue:** confirmation this is **Kwa**, not Tho Yor; first moon trip unlock; materials for Miri Quill\n\n---\n\n*End of Chapters 16–20.*\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2000000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "HXHTJgC41Irgu1f3",
+      "name": "Appendix A — NPC Index",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# Appendix A — NPC Index\n\nFull cast cards live in **Chapter 19 — Faces of the First Migration**. This appendix is a quick lookup for session prep.\n\n## Speakers (one per gathering Tho Yor)\n\n| Name | Ship epithet | Role |\n|------|--------------|------|\n| **Senn-Vora** | Quiet Peak | Dai Bendu Speaker (party ship default) |\n| **Horruhn** | Green Deep | Wookiee Speaker / pathfinder |\n| **Numa'Shar** | Dancing Heat | Twi'lek Speaker / diplomat |\n| **Iil & Vorr** | Tide Law | Selkath Speakers / healers |\n| **Sari Tor** | Open Plain | Cathar Speaker / duelist |\n| **Kael Rind** | Broken Banner | Human Speaker / ex-mercenary |\n| **Yen-Ti** | Counting Dark | Scholar Speaker / gate theorist |\n| **Sister Luma** | White Vow | Ashla-zealot Speaker (rival path) |\n| **Guardian Echo** | Ninth Tho Yor | Presence, not politician |\n\n## Crafters\n\n| Name | Craft | Notes |\n|------|-------|-------|\n| **Torv Maddan** | Bladewright | Weapons; refuses purge commissions |\n| **Shekk-Arra** | Hide & Plate | Armor; Green Kin ally |\n| **Miri Quill** | Charm carver | Force focuses; moon materials |\n| **Vesh & Loom** | Cloth / sigil | Banners, Order sashes |\n\n## Rivals & pressures\n\n| Name | Role | Guidance |\n|------|------|----------|\n| **Reth Var** | Warlord claimant | Martial leader + loyalists |\n| **Kresh the Red** | Bogan duelist | Elite skirmisher; arena politics |\n\n## Walk-ons\n\nFifteen named walk-ons are listed in Chapter 19 section D (Pel, Orrin, Gatha, Silent Bran, and others). Promote favorites.\n\n## Generic combat roles\n\nFrightened civilian · Camp guardian · Zealot cell · Temple steward (late). Adjust for levels 9–15.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "ADAI1FQ92EKs3HeK",
+      "name": "Appendix B — Encounter & Random Tables",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# Appendix B — Encounter & Random Tables\n\n## d8 Near-camp survival events\n\n1. Spoiled stores—hunt or starve clock\n2. Child missing at treeline\n3. Contested spring\n4. Predator takes a watcher\n5. Tool theft between species\n6. Contaminated wound → plague seed\n7. Inspiring omen (clear 1 Storm Clock)\n8. Dread omen (advance Storm Clock)\n\n## d6 Force weather\n\n1. Whisper winds (secrets overheard)\n2. Gravity ripples (Athletics/Acrobatics fails hurt)\n3. Ashla aurora (healing doubled once; violence costs)\n4. Bogan red night (crits threaten allies on confusion)\n5. Silent hour (no sound; Communication via Force only)\n6. Quake of judgment (imbalanced leaders targeted first)\n\n## d6 Wild encounters\n\n1. Force-mad beast\n2. Rival scouts\n3. Natural beauty that demands a rest scene\n4. Ancient glyph stone\n5. Pilgrim corpse with a map scrap\n6. Friendly lost healer\n\n## d4 Inter-camp politics\n\n1. Marriage/alliance proposal\n2. Demand for trial\n3. Trade fair\n4. Accusation of curse\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "f25xlkFLRBP07OTI",
+      "name": "Appendix C — Handouts & Player Primer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# Appendix C — Handouts & Player Primer\n\n*Copy this section for players.*\n\n## You are pilgrims of the Tho Yor\n\nThe year is **36,453 before the Battle of Yavin**—an age so old that the Republic and the Jedi Order do not exist. You felt a Call in the Force and boarded an ancient pyramidal ship: a **Tho Yor**. Session one begins aboard that ship. You have not yet walked the world called **Tython**.\n\n## What you know\n\n- You are Force-touched (or bound to someone who is)\n- Others from many species share the decks\n- The ship is taking you somewhere that *matters*\n- Home is behind sealed doors\n\n## What you do not know (yet)\n\n- Why you were chosen\n- Who built the Tho Yor\n- What Tython will demand of you\n\n## Tone\n\nThis is a founding legend: survival, wonder, and the birth of a philosophy. You will help create the **Je'daii**—students of Balance—not join a finished order of Jedi.\n\n## Character tips\n\n- Level 9 SW5e heroes: capable, dangerous, unfinished as a culture\n- Lean into cultural tradition over later-era Jedi jargon\n- Bring a reason you answered the Call\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "NGTpJTDU7WIKthF0",
+      "name": "Appendix D — Lore Sources & Canon Notes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# Appendix D — Lore Sources & Canon Notes\n\n## Legends fact (baseline)\n\n- 36,453 BBY / Tho Yor Arrival gathers Force-sensitives to Tython\n- Eight Tho Yor + ninth greatest at Tython; Force Storm on arrival\n- Pilgrims form the **Je'daii Order**; Balance of Ashla & Bogan named for Tython’s moons\n- Nine temples built at Tho Yor resting sites over a long early history\n- Much later: Despot War, Force Wars, and eventual Jedi Order—**out of scope** here\n\n## Table fiction / compression\n\n- Exact Session 1 ship layout and named zones\n- Compressed temple founding into one campaign with time skips\n- Named Speakers, crafters, walk-ons, and rivals (Chapter 19)\n- Storm Clock mechanic\n- Specific council agendas and Code workshop procedure\n- Session 0 boon pool and effects (Chapter 17)\n- Kwa Gate limited to Ashla/Bogan (Chapter 18)\n- Great GM Scene Cards and four Foundry map briefs (Chapters 16 and 20)\n\n## Deliberate ambiguities\n\n- Builders of the Tho Yor (Kwa Gate proves other ancient hands, not the full answer)\n- Precisely how many years the time skips cover\n- Whether Forcesaber-like tech appears (default: no)\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "SG5KML5X0vhK08Ly",
+      "name": "Appendix E — Foundry Journal Page Map",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# Appendix E — Foundry Journal Page Map\n\nJournal Entry name: **Dawn of the Je'daii — GM Guide**\n\n| Sort | Page name | Source H1 |\n|------|-----------|-----------|\n| 0 | 00 — Introduction & How to Use | `H1 00 Introduction` |\n| 1 | 01 — The Galaxy at 36,453 BBY | `H1 01 Galaxy` |\n| 2 | 02 — The Tython System Catalog | `H1 02 Tython System` |\n| 3 | 03 — Peoples of the First Migration | `H1 03 Peoples` |\n| 4 | 04 — The Tho Yor | `H1 04 Tho Yor` |\n| 5 | 05 — Tython Gazetteer | `H1 05 Gazetteer` |\n| 6 | 06 — Power Groups & Factions | `H1 06 Power Groups` |\n| 7 | 07 — The Je'daii Order (Founding) | `H1 07 Jedaii Order` |\n| 8 | 08 — SW5e Campaign Rules | `H1 08 SW5e Rules` |\n| 9 | 09 — Adventure Path — Arc Overview | `H1 09 Arc Overview` |\n| 10 | 10 — Arc I: Aboard the Tho Yor | `H1 10 Arc I` |\n| 11 | 11 — Arc II: Arrival & First Landing | `H1 11 Arc II` |\n| 12 | 12 — Arc III: Survive & Contact | `H1 12 Arc III` |\n| 13 | 13 — Arc IV: Balance & the Name | `H1 13 Arc IV` |\n| 14 | 14 — Arc V: Temples of the Dawn | `H1 14 Arc V` |\n| 15 | 15 — Arc VI: Early Order Capstone | `H1 15 Arc VI` |\n| 16 | 16 — Great GM Scene Craft | `H1 16 Scene Craft` |\n| 17 | 17 — Session 0 Boons of the Tho Yor | `H1 17 Boons` |\n| 18 | 18 — The Kwa Gate | `H1 18 Kwa Gate` |\n| 19 | 19 — Faces of the First Migration | `H1 19 NPCs` |\n| 20 | 20 — Random Encounter Map Briefs | `H1 20 Map Briefs` |\n| 21 | Appendix A — NPC Index | `H1 Appendix A` |\n| 22 | Appendix B — Encounter & Random Tables | `H1 Appendix B` |\n| 23 | Appendix C — Handouts & Player Primer | `H1 Appendix C` |\n| 24 | Appendix D — Lore Sources & Canon Notes | `H1 Appendix D` |\n| 25 | Appendix E — Foundry Journal Page Map | `H1 Appendix E` |\n\nSource headings are the matching `#` titles in the master Markdown (same names as the Page name column).\n\nRegenerate the JSON anytime with:\n\n`python tools/md_to_foundry_journal.py`\n\nSee `foundry/README.md` for import steps.\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2500000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
