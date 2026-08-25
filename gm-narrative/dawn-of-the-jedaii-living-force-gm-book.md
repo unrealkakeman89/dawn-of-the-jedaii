@@ -215,17 +215,17 @@ He moves like someone who spent centuries listening to stone that might never wa
 
 ### Sister-ship Speakers (silhouettes, then contact)
 
-From the galleries you see other pyramids; on Tython you meet their voices:
+From the galleries you see other pyramids; on Tython you meet their voices. **Arc III** is when they stop being silhouettes—envoys at your fire, rivals at your spring, co-signers at Omen night.
 
-- **Horruhn** — soft thunder for the living world  
-- **Numa’Shar** — charm as armor; always a third option  
-- **Iil & Vorr** — mercy with spine; tide-law healers  
-- **Sari Tor** — blade honesty; challenges cowards in charge  
-- **Kael Rind** — tired fortifier who fears becoming his old captain  
-- **Yen-Ti** — curiosity as addiction; Gate and Chasm hunger  
-- **Sister Luma** — kind knife; Ashla-only purity  
+- **Horruhn** — soft thunder for the living world; blocks quarries that wound groves  
+- **Numa’Shar** — charm as armor; marriage-alliances and third options  
+- **Iil & Vorr** — mercy with spine; serum and law withheld or granted  
+- **Sari Tor** — blade honesty; public duels and watch rotations  
+- **Kael Rind** — tired fortifier; old unit loyalties crown him if you let them  
+- **Yen-Ti** — curiosity as addiction; Gate theories and Chasm hunger  
+- **Sister Luma** — kind knife; Ashla-only purity and exile lists  
 
-**Reth Var** crowns “safety through command.” **Kresh the Red** makes strength a religion. Stop them from becoming the Order’s first heresies—or let the table fail interestingly.
+**Reth Var** crowns “safety through command.” **Kresh the Red** makes strength a religion. **Arc IV** is where you decide whether they become footnotes or the Order’s first heresies.
 
 ### Guardian Echo
 
@@ -272,31 +272,152 @@ Faction camps crystallize later as Listening Circle, Spear Lodge, Open Hand, Cha
 
 # 7 — The Path Ahead
 
+The path below is the campaign in story order. Arcs I–II and V–VI stay brief here—you already have the ship and the green world in earlier chapters. **Arcs III and IV** are the heart of founding politics: contact, naming, Creed, calendar, first law.
+
+> **Sidebar — Milestones**  
+> Session counts and level bands: Campaign Guide **Chapter 14**. Beat lists and checklists: **Chapters 15–18**.
+
 ### Arc I — Aboard (Sessions 1–3)
 
 Bond pilgrims. Tour Threshold, dormitories, galleries. Teach Ashla/Bogan as **concepts**. Glimpse Vault and Kwa murals. First council in Confluence. End on approach and storm light. Episode 1 checklist: Guide Ch 13.
 
 ### Arc II — Arrival (Sessions 4–6)
 
-Storm. Disembark (ordered or scatter) toward calling seed. Survive. Claim ground. Bridge to Omen night.
+Storm. Disembark (ordered or scatter) toward calling seed. Survive. Claim ground. Bridge to Omen night. Level 10.
 
-### Arc III — Survive & Contact (Sessions 7–11)
+---
 
-Sister Speakers. Trade and mistrust. Predators and politics. Optional early Gate trial. Name the moons when both hang clear.
+## Arc III — Survive & Contact (Sessions 7–11)
 
-### Arc IV — Balance & the Name (Sessions 12–16)
+Tython stops being a landing and becomes a **neighborhood of strangers who share a sky**.
 
-Name the Je'daii. Ratify the **Ninefold Code**—party rewrites only their calling’s fold. Calendar workshop or Twin Measure. First trial for imbalance. Level 12 milestone.
+Your camp is not the only one. Smoke rises from other Tho Yor scars. Sister Speakers walk between fires with different accents and different fears. The map you draw this arc is the map of who you will have to live with when you are no longer pilgrims adrift—you are neighbors with spears.
+
+### What this arc is for
+
+- Prove the wild can be **scouted** without dying of pride.
+- Prove another people can be **met** without becoming them or conquering them.
+- Prove Ashla and Bogan are not ship words—they are **law for speech**, and the moons will wear the same names.
+- Scar the camp once, hard enough that Balance feels like survival instead of philosophy.
+
+Run each session as **scout → discovery → consequence at camp**. Do not let exploration be a montage. Every valley, spring, and rival fire should come home to the cookfires.
+
+### The exploration loop
+
+Send them out hungry for answers: where is food, where is poison, where is wonder, where is another pyramid’s shadow. Discoveries you can drop without naming temples yet:
+
+- A food valley that looks like mercy until the grove makes people dream the same dream.
+- A poison patch that punishes greed—fine for foragers who take too much.
+- Rival camp smoke on a ridge—Spear Lodge flags, Green Kin markers, or Selkath tide-law strings.
+- A landmark that *wants* a future temple—Chasm breath, desert mouth, coast light—describe wonder; withhold the Kesh name until the table has earned it.
+
+When they return, **consequence** waits: ration arguments, a stolen tool, a predator that followed the scouts’ Force-light, Miller Cand’s ledger, Horruhn smelling wrong wood smoke.
+
+### Contact — four stories you can run
+
+**1. Trade and mistrust.** Language montage at the border of two camps. Gift exchange that is also intelligence. A stolen tool that is also a marriage proposal or an insult. Bring a **Speaker** (Guide Ch 22)—Numa’Shar for diplomacy, Sari Tor if honor is the only currency.
+
+**2. Resource war.** Both camps need the same spring. Reth Var’s spears want a raid; Iil and Vorr want law first. The PCs broker water, blood, or a third camp’s hatred.
+
+**3. Joint rite.** Shared meditation during local Force weather—empirical proof that Balance calms the land. Good after Omen night when words are locked but hearts are not.
+
+**4. Moon road (optional).** If the table hungers for myth early, open the **Kwa Gate** (Guide Ch 08, Map 4) for a short Ashla or Bogan surface trial. Pay off Arc I mural sketches. Illegal destinations refuse. Three species, calm.
+
+**Maps:** Silent Desert approach = Guide Map 3. Gate = Map 4.
+
+### Omen of the Moons — the night the sky gets grammar
+
+**When:** First night both companion moons hang clear—end of Arc II or opening of Arc III.
+
+This is not a combat encounter first. It is a **speech beat**, then a fight against yourselves.
+
+**Do this in order:**
+
+1. **Speakers declare:** From now on, for speech about the Force, the Tho Yor’s teaching is law—**Ashla** and **Bogan** for the concepts. Named NPCs use those words consistently after this night.
+2. **Naming:** A PC or Speaker points at the bright moon and the dim moon and proposes the **same names for the moons**. Camp ratifies—cheer, chant, bitter assent. Sister Luma and Kresh may twist philosophy later; they no longer refuse the vocabulary.
+3. **Then** emotions spike.
+
+Pure Ashla pilgrims try to silence “dark” artists or Force-users. Pure Bogan pilgrims reach for a dominance kill to “prove” strength. Tython answers the winning extreme with weather that hurts everyone. If someone recalls the twin-disk mural from the voyage, Yen-Ti or a PC can argue the moons were always the gate’s destinations—foreshadow without opening the taxi.
+
+**Party job:** Stop the purge without becoming the purge. Storm Clock advances or eases based on whether they calm or command. This is the first time Balance is not a Meditation Core trial—it is **camp politics under a named sky**.
+
+**Read-aloud (after naming, before violence):** *Cookfires stitch a trembling ring against the dark. **Ashla** hangs clean; **Bogan** hangs hungry—moons and Force-words now the same. Somewhere beyond the watch line, the forest answers a dream with footsteps. A child asks if the pyramid will leave them. No one has an honest answer yet.*
+
+### End of Arc III
+
+You should have: a sketch map of near regions; at least one allied camp and one rival; scars everyone remembers; Level **11**. Factions are no longer tendencies—they are **people with flags**.
+
+---
+
+## Arc IV — Balance & the Name (Sessions 12–16)
+
+If Arc III asked *can we live together*, Arc IV asks *what do we call ourselves when we do*.
+
+Rival leaders will offer you false binaries: Reth Var’s fortress-kingdom, Sister Luma’s pure monastery, Yen-Ti’s open inquiry without restraint. The table’s job is to broker a **third path**—an Order that studies both poles without being eaten by either. Use faction playbooks (Guide Ch 06). Let PC spotlight goals tip the board.
+
+### Rising action — politics as weather
+
+Horruhn blocks a quarry. Torv refuses a purge blade. Miller Cand and Hesh the Quarrel turn ration law into theater. Kael Rind’s old unit tries to crown him. The Listening Circle wants slow decisions; the Spear Lodge wants walls before winter.
+
+If harvest dates and treaty weeks collapse into argument, run **The Counting Quarrel** (Guide Ch 09)—Speakers arrive with incompatible calendars; someone pounds a stolen homeworld stone on the table; a scholar notes the ship’s long nights already matched Tython’s **31.5-hour** day. The table brokers **one measure** (player workshop or adopt Twin Measure). Founding is not only Creed—it is **when** the Creed is read aloud together.
+
+### Climax — The Naming Council
+
+**Where:** Confluence rebuilt on Tython—a stone amphitheater that rhymes with the ship’s, but open to wind—or under the approaches of **Akar Kesh**, where the ninth Tho Yor makes every argument smaller.
+
+Guardian Echo may thicken. Do not let it speechify. A nod is enough.
+
+**Agenda (ask these out loud):**
+
+1. What do we serve?
+2. What do we forbid?
+3. What do we call ourselves?
+4. Who judges imbalance?
+5. How do we count the days?
+
+Senn-Vora may offer the word **Je'daii**—mystic center—not as a gift but as a question. Let the table ratify it. Vesh & Loom need a sigil. Council Voices include PCs.
+
+This is the session where the campaign stops being survival and becomes **history**.
+
+### Ninefold Code workshop (same council or immediate follow-up)
+
+Present the Creed from Guide **Chapter 07**. Read **Akar** aloud if you want gravity first. Confirm the party’s fold from Session 0 calling. They **rewrite only that stanza**—tone and length like the printed defaults; other eight stay, including Akar (not theirs via calling). Sister Speakers are assumed to have brought the rest.
+
+If they stall, adopt the printed stanza for their Kesh as temporary law; invite rewrite at their Arc V cornerstone.
+
+Record the party stanza in notes or Foundry. When the full Ninefold is spoken, children will memorize it later—make the moment feel like it deserves that.
+
+> **Sidebar — Creed text**  
+> Full default poem: Campaign Guide **Chapter 07**. Do not hand players the full Ninefold until this council unless you want early temple spoilers.
+
+### The first trial
+
+After naming comes judgment—not of outsiders, but of your own.
+
+An NPC (or fallen ally) committed an imbalanced atrocity: murder for purity, massacre for strength, Gate abuse, a purge in Luma’s name. Public trial. Tython reacts visibly to the verdict—wind, quake, sudden calm.
+
+Outcomes: exile toward Bogan’s metaphorical dark, penance journey, costly execution, redemption under watch. The point is not punishment porn. The point is: **the Order binds itself to consequences**.
+
+### Victory — what must be true
+
+- Order named **Je'daii**
+- **Ninefold Code** ratified (party fold filled)
+- Council Voices seated (include PCs)
+- First rite performed
+- Shared **calendar** adopted
+- Level **12**
+
+When Arc IV ends, players should feel they invented a church, a clock, and a court in the same season.
+
+---
 
 ### Arc V — Temples of the Dawn (Sessions 17–24)
 
-Seed 3–5 temples in play; montage the rest. Travel hardships become the Great Journey myth. Cornerstone rites; stewards left behind.
+Seed 3–5 temples in play; montage the rest. Travel hardships become the Great Journey myth. Cornerstone rites; stewards left behind. See **Chapter 8**.
 
 ### Arc VI — Capstone (Sessions 25–30)
 
 First Council. Codify the Journey. Resolve zealot, purge, or Chasm breach. Epilogue: children recite the Creed; nine lights on Tython.
-
-Milestones and session estimates: Guide **Chapter 14**.
 
 ---
 
@@ -320,11 +441,34 @@ When you run a seed: travel hazard, local trial, cornerstone, steward. If the pa
 
 # 9 — The Ninefold Creed
 
-The Order’s shared Code is not a three-line Jedi echo. It is the **Ninefold Code**—one stanza per temple—printed as defaults in Campaign Guide **Chapter 07**.
+Arc IV is where law becomes poetry.
 
-At the Naming Council, present the Creed. Confirm which fold matches Session 0 calling. The table **rewrites only that stanza**. The other eight stay—including Akar, which they cannot own via calling. Sister Speakers are assumed to have brought the rest, or the council simply adopts the printed text.
+The Order’s shared Code is not a three-line Jedi echo or a poster of platitudes. It is the **Ninefold Code**—one stanza per temple, one fold per Kesh, a poem sturdy enough to survive millennia and soft enough for your table to own a verse.
 
-Millennia later, after Force Wars far outside this campaign’s scope, Jedi and Sith will each keep a twisted inheritance of this Creed. That schism is lore flavor only. Your table’s job is to write the original—one fold at a time.
+### Before the council
+
+Do not dump the full Creed at Session 0. Calling words only. After landing, pilgrims may hear fragments in rumor—Senn-Vora quoting Balance, a Selkath healer reciting mercy—but the **complete Ninefold** is a Naming Council gift to the future.
+
+Printed defaults live in Campaign Guide **Chapter 07**. Read them yourself first. Akar’s fold belongs to the ninth Tho Yor already on Tython; your party rewrites the fold matching **Session 0 calling → Kesh** (Guide Ch 10 crosswalk). Balance cannot be chosen at Session 0; Akar is not theirs to author by calling.
+
+### At the Naming Council — how to run the workshop
+
+1. Set the scene: wind, tiers of peoples, Guardian pressure if you use Akar approaches, Vesh & Loom waiting on a banner.
+2. Present the Ninefold—or read **I. Akar Kesh** aloud, then leave the party’s fold blank on the page.
+3. Confirm which fold is theirs (Science → Anil, Art → Bodhi, etc.).
+4. Table drafts a **replacement stanza** only for that fold. Match tone: declarative lines, concrete images, moral cost, no modern Jedi jargon.
+5. Council **ratifies** the full poem with the party fold filled. Sister Speakers “bring” the other eight; or the council adopts the printed text as spoken law.
+6. **Record** the party stanza in your notes or Foundry. Replace the default fold in play going forward.
+
+**Fallback:** Adopt the printed stanza for their Kesh as temporary law; invite rewrite at their Arc V cornerstone (Guide Ch 19).
+
+**Read-aloud (ratification beat):** *The amphitheater—or the pinnacle wind—carries one voice, then many, then a single rhythm. Nine folds. Nine temples yet to be built. One stanza yours. When the last line falls silent, someone repeats the first—and this time it sounds like an oath, not a draft.*
+
+### After ratification
+
+The Creed is player-safe. Share it. Children will memorize it in Arc VI. The party fold should feel like their fingerprints on founding myth.
+
+Millennia later, after Force Wars far outside this campaign, Jedi and Sith each inherit a twisted reading of this poem. That schism is lore flavor only—not playable content here. Your table writes the **original**.
 
 ---
 
@@ -346,4 +490,4 @@ You have two books now: one to *run*, one to *feel*. Open the pyramid. Let the g
 
 ---
 
-*End of Living Force GM Book v1. Facts and tables: Campaign Guide. Prose and mood: this volume.*
+*End of Living Force GM Book v1.1 — Arc III–IV deepened. Facts and tables: Campaign Guide. Prose and mood: this volume.*
