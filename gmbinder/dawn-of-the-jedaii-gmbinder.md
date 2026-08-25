@@ -1,3 +1,15 @@
+# Dawn of the Je'daii
+
+The player characters are not joining the Jedi Order. The Jedi do not exist yet.
+
+They are among the first pilgrims called by a **Tho Yor**—an ancient pyramidal temple-ship. Across the campaign they explore the ship, survive Tython’s living Force storms, invent the philosophy of **Balance** between **Ashla** and **Bogan**, name the **Je'daii Order**, and seed the temples that will one day define it.
+
+> **GM Campaign Guide** · **36,453 BBY / 0 TYA** · **Foundry VTT + SW5e** · Party starts at **level 9**
+
+Paste this entire document into [GM Binder](https://www.gmbinder.com). The plain Markdown source of truth remains `dawn-of-the-jedaii-campaign-guide.md` (Foundry journal export).
+
+\page
+
 # 00 — Introduction & How to Use
 
 **Dawn of the Je'daii** is a GM campaign guide for a Star Wars tabletop campaign set in **36,453 BBY (0 TYA)**—the year the Tho Yor gather Force-sensitive pilgrims and deliver them to Tython. It is written for **Foundry VTT** using **SW5e**, in the spirit of the *Living Force Campaign Guide*: a setting bible plus a playable adventure path.
@@ -45,13 +57,13 @@ Open **in media res** aboard the Tho Yor (or in the final minutes of the Call, t
 
 See **Chapter 10** for the full Arc I rundown, **Chapter 4** for ship zones, **Chapter 16** for read-aloud Scene Cards, and **Chapter 17** for Session 0 boons.
 
-## Companion Foundry journal
+## Companion files
 
-This master Markdown file is the source of truth. Import the companion journal JSON from `foundry/` into Foundry VTT v13 (see `foundry/README.md`). Each `#` chapter becomes one Journal Entry page (Markdown format).
-
-For a print/PDF layout matching GM Binder (same `.phb` CSS as the Koorivar species share), copy-paste [`gmbinder/dawn-of-the-jedaii-gmbinder.md`](gmbinder/dawn-of-the-jedaii-gmbinder.md) into [GM Binder](https://www.gmbinder.com). Regenerate that file with `python tools/md_to_gmbinder.py` after editing this master guide.
+Plain Markdown source of truth: `dawn-of-the-jedaii-campaign-guide.md`. Foundry VTT v13 journal: `foundry/dawn-of-the-jedaii.journal.json`. This file is the GM Binder print/PDF source—paste the whole document into GM Binder.
 
 ---
+
+\page
 
 # 01 — The Galaxy at 36,453 BBY
 
@@ -104,6 +116,8 @@ Tython sits in the **Deep Core**. Ordinary ships of this age do not casually com
 
 ---
 
+\page
+
 # 02 — The Tython System Catalog
 
 ## Tython at a glance
@@ -148,6 +162,8 @@ Canon later has non-Force-sensitives migrate to other planets in the system beca
 Expect extremes: jungles, deserts that swallow sound, ice ranges, storms born of emotion, seas that heal or drown according to the Force’s mood. Travel between temple seeds is an adventure, not a montage—unless you deliberately call a **time skip** (Chapter 9).
 
 ---
+
+\page
 
 # 03 — Peoples of the First Migration
 
@@ -217,6 +233,8 @@ Sullustans, Noghri-adjacent stalkers, Devaronians, Ithorians, **Koorivar** (full
 - Encourage mixed species—the Order’s founding identity is pluralism under Balance
 - Pure tech-savants without Force use do **not** board; pair Engineer/Scout tech fantasy with a Force path (A–D in Ch 08)
 ---
+
+\page
 
 # 04 — The Tho Yor
 
@@ -306,6 +324,8 @@ Later: ramps/bridges of light when Tython receives them.
 
 ---
 
+\page
+
 # 05 — Tython Gazetteer
 
 ## Aftermath of the Force Storm
@@ -374,6 +394,8 @@ Without roads, travel times are story units: **a hard day**, **a week of ridges*
 
 ---
 
+\page
+
 # 06 — Power Groups & Factions
 
 At campaign start these are **tendencies**, not formal factions. By Arc IV they crystallize.
@@ -440,6 +462,8 @@ Some who arrived cannot thrive on Tython. Plant NPCs who sicken when storms rise
 
 ---
 
+\page
+
 # 07 — The Je'daii Order (Founding)
 
 ## Name
@@ -494,6 +518,8 @@ Temples are schools *and* cities. Completing seeds in Arc V/VI fulfills the Livi
 Canon Journeyers visit all nine temples. In this campaign the PCs **create** that tradition by surviving the temple-seeding travels and declaring the path sacred at the Capstone Council.
 
 ---
+
+\page
 
 # 08 — SW5e Campaign Rules
 
@@ -667,6 +693,8 @@ Require a skill challenge or short scene—do not pure spreadsheet.
 
 ---
 
+\page
+
 # 09 — Adventure Path — Arc Overview
 
 ## Arc map
@@ -703,6 +731,8 @@ Give each PC ownership of one:
 - A rival redeemed or condemned
 
 ---
+
+\page
 
 # 10 — Arc I: Aboard the Tho Yor (Sessions 1–3)
 
@@ -778,6 +808,8 @@ Agenda seeds:
 
 ---
 
+\page
+
 # 11 — Arc II: Arrival & First Landing (Sessions 4–6)
 
 ## Goals
@@ -820,6 +852,8 @@ Narrate and lightly play:
 **Milestone:** Level 10.
 
 ---
+
+\page
 
 # 12 — Arc III: Survive & Contact (Sessions 7–11)
 
@@ -868,6 +902,8 @@ On a night when Ashla and Bogan are both visible, camp emotions spike:
 - Milestone: Level 11
 
 ---
+
+\page
 
 # 13 — Arc IV: Balance & the Name (Sessions 12–16)
 
@@ -918,6 +954,8 @@ Order named; Code spoken; Council Voices recognized (include PCs); first rite pe
 
 ---
 
+\page
+
 # 14 — Arc V: Temples of the Dawn (Sessions 17–24)
 
 ## Goals
@@ -958,6 +996,8 @@ Narrate seasons. Advance settlement clocks. Let absent temples be founded by all
 Reach level 13 after third seed; level 14 after fifth or equivalent montage completion.
 
 ---
+
+\page
 
 # 15 — Arc VI: Early Order Capstone (Sessions 25–30)
 
@@ -1004,6 +1044,8 @@ Anil Kesh dig too deep; an ancient echo or Force-predator spills out. Dungeon-my
 
 
 ---
+
+\page
 
 # 16 — Great GM Scene Craft
 
@@ -1106,6 +1148,8 @@ Zone summaries in Chapter 4 and cold opens in Chapter 10 now point here. Prefer 
 
 ---
 
+\page
+
 # 17 — Session 0 Boons of the Tho Yor
 
 ## Rules
@@ -1179,6 +1223,8 @@ Name · Appearance · Vision · Find location · **GM effect** · Tell / cost
 
 ---
 
+\page
+
 # 18 — The Kwa Gate
 
 ## What it is
@@ -1239,6 +1285,8 @@ Use Scene Card in Chapter 16. Sample challenges:
 - Map brief: Chapter 20, Map 4.
 
 ---
+
+\page
 
 # 19 — Faces of the First Migration
 
@@ -1405,6 +1453,8 @@ Drop one new face most sessions. Promote favorites to recurring.
 
 ---
 
+\page
+
 # 20 — Random Encounter Map Briefs
 
 Build these in Foundry from the specs. Scale assumes ~5-ft squares.
@@ -1504,6 +1554,8 @@ Build these in Foundry from the specs. Scale assumes ~5-ft squares.
 ---
 
 ---
+
+\page
 
 # 21 — Timelines (GM & Players)
 
@@ -1668,9 +1720,11 @@ The resting pyramids open. Force-touched pilgrims from many worlds—**Cathar, D
 
 ---
 
+\page
+
 # 22 — Species Spotlight: Koorivar
 
-Playable SW5e species for this campaign (and reusable elsewhere). Worksheet budget **23 points**. Plain traits below are for Foundry/journal use. For the GM Binder–styled print page (Sanyassan layout + `.phb` CSS), see `SW5e Docs/species/Koorivar.md`.
+Playable SW5e species for this campaign (and reusable elsewhere). Worksheet budget **23 points**.
 
 ## Era note (36,453 BBY)
 
@@ -1678,17 +1732,49 @@ At Tho Yor Pickup, the **lost Koorivar homeworld** still exists as their native 
 
 **Force:** Koorivar are **not** innately Force-Sensitive. You still must satisfy Chapter 08 paths A–D (Forcecasting class, Force archetype, Force-Sensitive feat, etc.) to board the Tho Yor.
 
-## Appearance
+___
+> ## Koorivar
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Black, blue, green, magenta, mauve, red, tan|
+> |***Hair Color***|  |None|
+> |***Eye Color***|  |Green, yellow|
+> |***Distinctions***|  |Spiraling cranial horn, banded brow and nose ridges, scaly skin|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'8"|+2d6"|
+> |***Weight***|  |140 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Lost Koorivar homeworld (native); Kooriva (adopted, later eras)|
+> |***Language***|  |Koorivar|
 
-Tall near-humanoids (~1.9 m without the horn) with scaly skin in reds, greens, blues, magentas, or mauves. Banded ridges mark brow and nose. The cranium bears small twisting horns around a **central spiral horn**—a living status symbol that grows through adolescence into adulthood.
+<div style='margin-top:35px'></div>
 
-Horn size and care signal wealth and dominance among Koorivar. Severe damage or loss of the primary horn is a social catastrophe (roleplay stigma; no default combat penalty).
+### Biology and Appearance
+Koorivar are tall near-humanoids, typically around 1.9 meters without counting the horn, with reptilian traits. Their scaly skin appears in many shades—black, blue, green, magenta, mauve, red, or tan. Banded ridges mark the brow and nose. The cranium bears small twisting horns around a central spiral horn that develops in adolescence and reaches full stature in adulthood. That spiral is a living badge of status: larger, well-kept horns signal wealth and dominance. Loss or severe damage to the primary horn is a social catastrophe among their kind. Their speech is soft and gesture-rich—whispering hisses paired with precise body language—making them acute readers of mood and unspoken intent.
 
-## Society & language
+### Society and Culture
+Business craft is culture. Children are raised to bargain, keep ledgers, and read a room; marriages and alliances often look like mergers. Corporate pragmatism dominates: ambition and calculated self-interest are virtues, though Force-touched pilgrims and other exceptions break that mold. In deep antiquity the species still dwells on its **lost homeworld**; only in later eras do they lease and then purchase the Inner Rim world they name **Kooriva**, spreading as merchants and nobles across the galaxy. Schools teach negotiation as an art. Despite their reputation for hard dealing, Koorivar are social beings who thrive in markets, councils, and crowded trade floors.
 
-Business craft is culture. Children are raised to bargain, keep ledgers, and read a room. Marriages and alliances often look like mergers. The soft **Koorivar** language leans on whisper and body language; that training makes them dangerous in Basic negotiations as well.
+### Names
+Koorivar names often sound like ledger entries spoken aloud—crisp given names paired with family or house surnames that travel with credit and reputation.
 
-## SW5e Traits
+**Male Names.** Passel Argente, Oro Dassyne, Shand Essil, Terrem Jesond, Menas Neyrr, Bioto
+
+**Female Names.** Denaria Kee, Leosa Vantare, Denlace Sachoore
+<img src='https://static.wikia.nocookie.net/starwars/images/6/67/Argente.jpg/revision/latest?cb=20070209114345' style='width:220px;' />
+
+
+
+### Koorivar Traits
+As a Koorivar, you have the following special traits.
 
 ***Ability Score Increase.*** Your Charisma score increases by 2, and your Intelligence score increases by 1.
 
@@ -1696,21 +1782,25 @@ Business craft is culture. Children are raised to bargain, keep ledgers, and rea
 
 ***Alignment.*** Corporate pragmatism dominates Koorivar culture. Individuals lean toward ambition and calculated self-interest, but Force-touched pilgrims can break that mold.
 
-***Size.*** Your size is Medium.
+***Size.*** Koorivar are tall humanoids, typically around 1.9 meters without counting the horn. Your size is Medium.
 
 ***Speed.*** Your base walking speed is 30 feet.
 
 ***Coercive.*** You have proficiency in your choice of Persuasion or Deception.
 
-***Gestural Fluency.*** You have advantage on Wisdom (Insight) checks made to read a creature’s body language, mood, or unspoken intent. This trait has no effect on constructs or droids that lack readable body language.
+***Gestural Fluency.*** Koorivar speech leans on whisper and body language. You have advantage on Wisdom (Insight) checks made to read a creature’s body language, mood, or unspoken intent. This trait has no effect on constructs or droids that lack readable body language.
 
-***Iron Will.*** When you make a Wisdom saving throw, you can use your reaction to gain advantage on the roll. Once you use this trait, you can’t use it again until you finish a short or long rest.
+***Iron Will.*** Centuries of haggling and hard bargaining have hardened your focus. When you make a Wisdom saving throw, you can use your reaction to gain advantage on the roll. Once you use this trait, you can’t use it again until you finish a short or long rest.
 
 ***Dealmaker.*** Whenever you make a Charisma (Persuasion) check related to buying, selling, contracts, or haggling, you are considered proficient in Persuasion and add double your proficiency bonus to the check, instead of your normal proficiency bonus (if any).
 
 ***Climate Adaptation.*** You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat.
 
 ***Languages.*** You can speak, read, and write Galactic Basic, Koorivar, and one additional language of your choice.
+
+
+
+<div class='footnote'>ART CREDIT | [SW] · Worksheet ~23 pts · Legends</div>
 
 ## Campaign hooks
 
@@ -1736,7 +1826,7 @@ Business craft is culture. Children are raised to bargain, keep ledgers, and rea
 | Extra Language | 1 |
 | **Total** | **23** |
 
----
+\page
 
 # Appendix A — NPC Index
 
@@ -1782,6 +1872,8 @@ Frightened civilian · Camp guardian · Zealot cell · Temple steward (late). Ad
 
 ---
 
+\page
+
 # Appendix B — Encounter & Random Tables
 
 ## d8 Near-camp survival events
@@ -1821,6 +1913,8 @@ Frightened civilian · Camp guardian · Zealot cell · Temple steward (late). Ad
 4. Accusation of curse
 
 ---
+
+\page
 
 # Appendix C — Handouts & Player Primer
 
@@ -1862,6 +1956,8 @@ See **Chapter 21 — Player Timeline Handout** for the shareable Pre-Republic / 
 
 ---
 
+\page
+
 # Appendix D — Lore Sources & Canon Notes
 
 ## Legends fact (baseline)
@@ -1893,6 +1989,8 @@ See **Chapter 21 — Player Timeline Handout** for the shareable Pre-Republic / 
 - Whether Forcesaber-like tech appears (default: no)
 
 ---
+
+\page
 
 # Appendix E — Foundry Journal Page Map
 
@@ -1936,3 +2034,361 @@ Regenerate the JSON anytime with:
 `python tools/md_to_foundry_journal.py`
 
 See `foundry/README.md` for import steps.
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Russo+One|Open+Sans|Bungee+Inline');
+    
+    .phb .footnote {
+        width: 800px;
+    }
+        body {counter-reset: phb-page-numbers 5;}
+    
+	.phb {
+        background: #fff;
+        color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        line-height: 1em;
+    }
+    
+    .phb {
+        
+        width: 8.75in;
+        height: 11.3in;
+        padding: .518in .794in .715in .794in;
+        box-shadow: none;
+    }
+    
+    .phb p {
+        font-size: 0.9em;
+        line-height: 1.2em;
+    }
+    
+    .phb ul {
+        font-size: 0.85em;
+    }
+    
+    .phb h1,.phb h2,.phb h3,.phb h4 {
+	    color: #000;
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+	}
+    
+    .phb h1+p::first-letter {
+	    color: #000000;
+        font-family: 'Bungee Inline', cursive;
+
+        font-size: 6em;
+        line-height: 1em;
+        margin-right: 4px;
+	}
+	
+    .phb h1 {
+        font-size: 0.7cm;
+    }
+    
+    .phb h2 {
+        font-size: 0.5cm
+    }
+
+    .phb h3 {
+        font-size: .4cm;
+        border-bottom: 2px solid #000
+    }
+
+    .phb h4 {
+        font-size: .35cm
+    }
+
+    .phb h5 {
+        font-size: .4cm;
+    }
+    
+    .phb h4+p+hr+ul, .phb h4+hr+ul, .phb h4+hr+ul+hr+ul {
+        font-size: 0.85em;
+    }
+    
+    .phb .toc a {
+    	color: #e6e6e6;
+	}
+    
+    .phb:after {
+    	background-image: none;
+        border-bottom: 2px solid #000;
+		bottom: 28px
+	}
+    
+    .phb blockquote {
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 1em;
+        padding: 5px 10px;
+        background-color: #fff;
+        border: 1px solid #000;
+        border-image: none;
+        color: #000000;
+        font-size: 1em;
+    }
+    
+    .phb blockquote h4 {
+        color: #000000;
+    }
+    
+    .phb blockquote p, .phb blockquote ul {
+        font-size: 0.85em;
+        line-height: 1.12em
+    }
+    
+    .phb hr+section blockquote {
+        position: relative;
+        padding-top: 15px;
+        background-color: #fff;
+        border-top: 0.2em solid #000;
+        border-bottom: 0.2em solid #000;
+        border-left: 0;
+        border-right: 0;
+        background-image: none;
+        border-image: none;
+        color: #000000;
+    }
+    
+    
+    .phb hr+section blockquote h2 {
+        margin-top: -8px;
+        margin-bottom: 0;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote h2+p {
+        padding-bottom: 0;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote h3 {
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        border-bottom: 1px solid #000000;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote h4 {
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote hr+ul {
+        color: #000000;
+        font-size: 0.9em;
+    }
+    
+    .phb hr+section blockquote ul {
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 1em;
+        font-size: .352cm;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote section section ul li {
+        text-indent: -1em;
+        list-style-type: none;
+        margin-bottom: 7px;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote ul em {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote ul strong {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote hr+table {
+        margin: 0;
+        column-span: 1;
+        background-color: transparent;
+        border-style: none;
+        border-image: none;
+        -webkit-column-span: 1;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote hr+table tbody tr:nth-child(odd),.phb hr+section blockquote hr+table tbody tr:nth-child(even) {
+        background-color: transparent
+    }
+    
+    .phb hr+section blockquote table {
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote p+p {
+        margin-top: 0;
+        text-indent: 0;
+        margin-bottom: 7px
+    }
+    
+    .phb hr+section blockquote hr {
+        visibility: visible;
+        height: 5px;
+        margin: 4px 0;
+        background-color: #000;
+        background-image: none;
+        background-size: 100% 100%;
+        border: none
+    }
+    
+    .phb hr+hr+section blockquote {
+        column-count: 2;
+        column-fill: auto;
+        column-gap: 1cm;
+        column-width: 7.68cm;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        -webkit-column-width: 7.68cm;
+        -moz-column-width: 7.68cm;
+        -webkit-column-gap: 1cm;
+        -moz-column-gap: 1cm
+    }
+    
+    .phb .pageNumber {
+        color: #000;
+        bottom: 38px;
+        width:70px;
+    }
+    
+    .phb .footnote {
+        color: #000;
+        bottom: 38px;
+    }
+    
+    .phb:nth-child(even):after {
+        background-image: none;
+    }
+    
+    
+    .phb .descriptive {
+        color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.95em;
+        background-color: #fff;
+        border-image: none;
+        border-left: 0.2em solid #000;
+        border-right: 0.2em solid #000;
+        border-top: 0;
+        border-bottom: 0;
+        padding: 0.25em 1em;
+    }
+    
+    .phb .descriptive p {
+        font-family: 'Open Sans', sans-serif;
+        display: block;
+        padding-bottom: 0;
+        line-height: 1.25em;
+        padding: 0 1em 0 2em;
+        text-indent: -1em;
+    }
+    
+    .phb .descriptive p+p {
+        padding-top: .4em
+    }
+    
+    .phb .descriptive em {
+        font-style: italic
+    }
+    
+    .phb .descriptive strong {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.02em
+    }
+    
+    .phb pre+.descriptive {
+        margin-top: .7em;
+    }
+    
+    .phb p+p {
+        text-indent: 1em;
+    }
+    
+    .phb table {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        width: 100%;
+        margin-bottom: 1em;
+        line-height: 1em;
+    }
+    
+    .phb table em {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+    }
+    
+    .phb table strong {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+    }
+    
+    .phb table thead {
+        font-weight: 800;
+    }
+    
+    .phb table thead th {
+        font-size: 0.875em;
+    }
+    
+    .phb table tbody tr td {
+        padding: .3em .1em;
+        font-size: 0.8em;
+        min-width: 2.5em;
+    }
+    
+    .phb table tbody tr:nth-child(odd) {
+        background-color: #eee;
+    }
+    
+    .phb table tbody tr:nth-child(even) {
+        background-color: #fff;
+    }
+    
+    .phb .classTable {
+        background-color: #fff;
+        border-top: 0.2em solid #000;
+        border-bottom: 0.2em solid #000;
+        border-left: 0;
+        border-right: 0;
+        border-image: none;
+        padding: 1em;
+        font-size: 1em;
+    }
+    
+    .phb .classTable h5 {
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    code {
+        padding: 2px 4px;
+        font-size: 90%;
+        color: #000;
+        background-color: #fff;
+        border-radius: 2px;
+        max-width: 95%;
+        word-break: break-all;
+    }
+    
+    a:-webkit-any-link {
+    	color: #000;
+	}
+	
+	.phb:after { content: ""; }
+</style>

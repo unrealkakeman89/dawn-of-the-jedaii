@@ -91,8 +91,8 @@ def main() -> None:
         raise SystemExit(f"Missing source: {SRC}")
     text = SRC.read_text(encoding="utf-8")
     chapters = split_chapters(text)
-    if len(chapters) < 26:
-        raise SystemExit(f"Expected at least 26 chapters/appendices, found {len(chapters)}")
+    if len(chapters) < 28:
+        raise SystemExit(f"Expected at least 28 chapters/appendices, found {len(chapters)}")
     journal = build_journal(chapters)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(journal, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

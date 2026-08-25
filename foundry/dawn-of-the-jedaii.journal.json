@@ -2,7 +2,7 @@
   "name": "Dawn of the Je'daii — GM Guide",
   "pages": [
     {
-      "_id": "ZRGtP9HNIjUGbzAu",
+      "_id": "ITTu5DUmIG2JLcjl",
       "name": "00 — Introduction & How to Use",
       "type": "text",
       "title": {
@@ -12,7 +12,7 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# 00 — Introduction & How to Use\n\n**Dawn of the Je'daii** is a GM campaign guide for a Star Wars tabletop campaign set in **36,453 BBY (0 TYA)**—the year the Tho Yor gather Force-sensitive pilgrims and deliver them to Tython. It is written for **Foundry VTT** using **SW5e**, in the spirit of the *Living Force Campaign Guide*: a setting bible plus a playable adventure path.\n\n## Elevator pitch\n\nThe player characters are not joining the Jedi Order. The Jedi do not exist yet.\n\nThey are among the first pilgrims called by a **Tho Yor**—an ancient pyramidal temple-ship. Session 1 begins **aboard that ship**, before anyone sets foot on Tython. Across the campaign they will explore the Tho Yor, survive Tython’s living Force storms, contact other pilgrim peoples, invent the philosophy of **Balance** between **Ashla** and **Bogan**, name the **Je'daii Order**, and seed the network of temples that will one day define the Order.\n\n> **GM:** The party starts at **level 9**. They are already powerful individuals. Treat them as founders and first Masters-in-waiting, not padawans.\n\n## What this book contains\n\n| Part | Chapters | Use |\n|------|----------|-----|\n| Setting | 1–7 | Lore, places, peoples, factions, Order foundations |\n| Rules | 8 | SW5e / Foundry campaign assumptions |\n| Adventure path | 9–15 | Runnable arcs (~20–30 sessions) |\n| Table tools | 16–20 | Great GM Scene Craft, boons, Kwa Gate, NPCs, map briefs |\n| Appendices | A–E | Quick NPC index, tables, player primer, canon notes, Foundry map |\n\n## Canon stance\n\n- **Baseline:** Legends *Dawn of the Jedi* (comics) and related Tython / Je'daii lore.\n- **Compression:** Canon spreads temple founding across centuries. This campaign **compresses** that into playable arcs plus explicit **time skips** so the table can found the Order and seed the nine temple sites without waiting millennia of table time.\n- **Table fiction:** Where lore is silent, this guide invents playable detail. Appendix D marks Legends fact vs table fiction.\n\n## Spoiler & handout policy\n\n- **GM-only:** Chapters 4 (secrets), 6–7 (faction/Order beats), 9–20 (arcs + tools), Appendices A–B, D.\n- **Safe for players:** Appendix C (Player Primer); Session 0 boon *visions* only (not GM effects). Optionally share high-level Ch 1–2 flavor after Session 1.\n- Do not show players the nine temple end-state list until the campaign earns those discoveries.\n\n## Recommended reading (optional)\n\n- *Star Wars: Dawn of the Jedi* comics (*Force Storm*, *Prisoner of Bogan*, *Force War*)\n- *Dawn of the Jedi: Into the Void* (novel; later Je'daii era—useful flavor, not required for Year 0)\n\n## Session 1 cold open\n\nOpen **in media res** aboard the Tho Yor (or in the final minutes of the Call, then cut to the ship). Do not begin with a lengthy galactic history lecture. Let the ship teach the era.\n\nSee **Chapter 10** for the full Arc I rundown, **Chapter 4** for ship zones, **Chapter 16** for read-aloud Scene Cards, and **Chapter 17** for Session 0 boons.\n\n## Companion Foundry journal\n\nThis master Markdown file is the source of truth. Import the companion journal JSON from `foundry/` into Foundry VTT v13 (see `foundry/README.md`). Each `#` chapter becomes one Journal Entry page (Markdown format).\n\n---\n"
+        "markdown": "# 00 — Introduction & How to Use\n\n**Dawn of the Je'daii** is a GM campaign guide for a Star Wars tabletop campaign set in **36,453 BBY (0 TYA)**—the year the Tho Yor gather Force-sensitive pilgrims and deliver them to Tython. It is written for **Foundry VTT** using **SW5e**, in the spirit of the *Living Force Campaign Guide*: a setting bible plus a playable adventure path.\n\n## Elevator pitch\n\nThe player characters are not joining the Jedi Order. The Jedi do not exist yet.\n\nThey are among the first pilgrims called by a **Tho Yor**—an ancient pyramidal temple-ship. Session 1 begins **aboard that ship**, before anyone sets foot on Tython. Across the campaign they will explore the Tho Yor, survive Tython’s living Force storms, contact other pilgrim peoples, invent the philosophy of **Balance** between **Ashla** and **Bogan**, name the **Je'daii Order**, and seed the network of temples that will one day define the Order.\n\n> **GM:** The party starts at **level 9**. They are already powerful individuals. Treat them as founders and first Masters-in-waiting, not padawans.\n\n## What this book contains\n\n| Part | Chapters | Use |\n|------|----------|-----|\n| Setting | 1–7 | Lore, places, peoples, factions, Order foundations |\n| Rules | 8 | SW5e / Foundry assumptions + character creation (planets, Force) |\n| Adventure path | 9–15 | Runnable arcs (~20–30 sessions) |\n| Table tools | 16–20 | Great GM Scene Craft, boons, Kwa Gate, NPCs, map briefs |\n| Continuity | 21 | GM & player timelines through Tho Yor Pickup |\n| Species | 22 | Koorivar species spotlight (SW5e traits) |\n| Appendices | A–E | Quick NPC index, tables, player primer, canon notes, Foundry map |\n\n## Canon stance\n\n- **Baseline:** Legends *Dawn of the Jedi* (comics) and related Tython / Je'daii lore.\n- **Compression:** Canon spreads temple founding across centuries. This campaign **compresses** that into playable arcs plus explicit **time skips** so the table can found the Order and seed the nine temple sites without waiting millennia of table time.\n- **Table fiction:** Where lore is silent, this guide invents playable detail. Appendix D marks Legends fact vs table fiction.\n\n## Spoiler & handout policy\n\n- **GM-only:** Chapters 4 (secrets), 6–7 (faction/Order beats), 9–20 (arcs + tools), Chapter 21 GM Master Timeline, Appendices A–B, D.\n- **Safe for players:** Appendix C (Player Primer + Player Timeline); Chapter 08 Character Creation Requirements (planet list + Force paths); Chapter 21 Player Timeline Handout; Session 0 boon *visions* only (not GM effects). Optionally share high-level Ch 1–2 flavor after Session 1.\n- Do not show players the nine temple end-state list until the campaign earns those discoveries.\n\n## Recommended reading (optional)\n\n- *Star Wars: Dawn of the Jedi* comics (*Force Storm*, *Prisoner of Bogan*, *Force War*)\n- *Dawn of the Jedi: Into the Void* (novel; later Je'daii era—useful flavor, not required for Year 0)\n\n## Session 1 cold open\n\nOpen **in media res** aboard the Tho Yor (or in the final minutes of the Call, then cut to the ship). Do not begin with a lengthy galactic history lecture. Let the ship teach the era.\n\nSee **Chapter 10** for the full Arc I rundown, **Chapter 4** for ship zones, **Chapter 16** for read-aloud Scene Cards, and **Chapter 17** for Session 0 boons.\n\n## Companion Foundry journal\n\nThis master Markdown file is the source of truth. Import the companion journal JSON from `foundry/` into Foundry VTT v13 (see `foundry/README.md`). Each `#` chapter becomes one Journal Entry page (Markdown format).\n\nFor a print/PDF layout matching GM Binder (same `.phb` CSS as the Koorivar species share), copy-paste [`gmbinder/dawn-of-the-jedaii-gmbinder.md`](gmbinder/dawn-of-the-jedaii-gmbinder.md) into [GM Binder](https://www.gmbinder.com). Regenerate that file with `python tools/md_to_gmbinder.py` after editing this master guide.\n\n---\n"
       },
       "video": {
         "controls": true,
@@ -31,7 +31,7 @@
       }
     },
     {
-      "_id": "Siep4JxIT8e9PuT6",
+      "_id": "URpu7WnYVuPNbtW8",
       "name": "01 — The Galaxy at 36,453 BBY",
       "type": "text",
       "title": {
@@ -60,7 +60,7 @@
       }
     },
     {
-      "_id": "GPApOTJXpQi51WTI",
+      "_id": "bg0WzseUGGFljSOO",
       "name": "02 — The Tython System Catalog",
       "type": "text",
       "title": {
@@ -89,7 +89,7 @@
       }
     },
     {
-      "_id": "ASR4NNUXIyR7XelS",
+      "_id": "zamd4LmnsGfmNa60",
       "name": "03 — Peoples of the First Migration",
       "type": "text",
       "title": {
@@ -99,7 +99,7 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# 03 — Peoples of the First Migration\n\nMore than a dozen Force-touched peoples board the Tho Yor. This chapter gives **culture cards** for the most useful table groups. Mix freely; PCs may be any SW5e species that fits your homebrew table’s tone.\n\n## Common friction themes\n\n- Language barriers (gesture, Force empathy, and pidgin become campaign tools)\n- “Whose Force is correct?”\n- Warriors vs contemplatives vs scientists\n- Those who want a fortress vs those who want a monastery\n- Non-sensitives (or weakly sensitive kin) who followed a loved one and now regret it\n\n## Culture cards\n\n### Dai Bendu (Ando Prime — Talid monks)\n\n- **Homeland:** Andobi Mountains; centuries tending a buried Tho Yor\n- **Force fragment:** Monastic listening, prophecy, sacred geometry\n- **Hooks:** Claim seniority (“we heard it first”); refuse violence; demand the Order keep a Dai Bendu name\n- **Sample NPC:** Elder **Senn-Vora**—patient, immovable, secretly terrified the Call was a mistake\n\n### Humans (many worlds)\n\n- **Homeland:** Varied; treat “Human” as diaspora, not one culture\n- **Force fragment:** Folk magic, war-cults, scholar-orders, or raw talent with no doctrine\n- **Hooks:** Ambition to lead multi-species camps; invent writing systems for a shared Code\n- **Sample NPC:** **Kael Rind**—ex-mercenary who felt the Call mid-battle and deserted\n\n### Wookiees\n\n- **Homeland:** Forest worlds (Kashyyyk traditions in deep past flavor)\n- **Force fragment:** Life-web awareness, ancestral anger/protection\n- **Hooks:** Defend groves; mistrust stone temples; life-debt politics\n- **Sample NPC:** **Horruhn**—tree-singer who reads Tython’s forests like scripture\n\n### Twi’leks\n\n- **Homeland:** Hot-world clans and dancer-scholar lineages\n- **Force fragment:** Emotion-reading, performance as prayer\n- **Hooks:** Cultural diplomacy; seduction of power; clan rivalry imported to Tython\n- **Sample NPC:** **Numa’Shar**—diplomat who brokers the first multi-camp truce\n\n### Selkath\n\n- **Homeland:** Oceanic worlds; water-law traditions\n- **Force fragment:** Healing currents, legalistic ethics\n- **Hooks:** Demand ocean access (Mahara Kesh seed); prosecute Force crimes early\n- **Sample NPC:** Couple **Iil** and **Vorr**—healers who become living arguments for Mercy-as-Balance\n\n### Cathar\n\n- **Homeland:** Savanna pride cultures\n- **Force fragment:** Predator focus, honor duels\n- **Hooks:** Stav Kesh natural allies; challenge leaders who will not fight\n- **Sample NPC:** **Sari Tor**—duelist who believes Balance is a blade held mid-swing\n\n### Other pilgrims (use as needed)\n\nSullustans, Noghri-adjacent stalkers, Devaronians, Ithorians, etc. Give each a one-line Force metaphor and one demand on the founding council.\n\n## Party composition guidance (SW5e)\n\n- Prefer Force-capable or Force-adjacent concepts; pure tech-savants still work as **scientists of the Chasm** or **forge-dreamers**\n- Avoid gear fantasies that require Republic-era megacorps\n- Encourage mixed species—the Order’s founding identity is pluralism under Balance\n\n---\n"
+        "markdown": "# 03 — Peoples of the First Migration\n\nMore than a dozen Force-touched peoples board the Tho Yor. This chapter gives **culture cards** for the most useful table groups. Mix freely; PCs may be any SW5e species that fits your homebrew table’s tone.\n\n## Common friction themes\n\n- Language barriers (gesture, Force empathy, and pidgin become campaign tools)\n- “Whose Force is correct?”\n- Warriors vs contemplatives vs scientists\n- Those who want a fortress vs those who want a monastery\n- Non-sensitives (or weakly sensitive kin) who followed a loved one and now regret it\n\n## Culture cards\n\n### Dai Bendu (Ando Prime — Talid monks)\n\n- **Homeland:** Andobi Mountains; centuries tending a buried Tho Yor\n- **Force fragment:** Monastic listening, prophecy, sacred geometry\n- **Hooks:** Claim seniority (“we heard it first”); refuse violence; demand the Order keep a Dai Bendu name\n- **Sample NPC:** Elder **Senn-Vora**—patient, immovable, secretly terrified the Call was a mistake\n\n### Humans (many worlds)\n\n- **Homeland:** Varied; treat “Human” as diaspora, not one culture\n- **Force fragment:** Folk magic, war-cults, scholar-orders, or raw talent with no doctrine\n- **Hooks:** Ambition to lead multi-species camps; invent writing systems for a shared Code\n- **Sample NPC:** **Kael Rind**—ex-mercenary who felt the Call mid-battle and deserted\n\n### Wookiees\n\n- **Homeland:** Forest worlds (Kashyyyk traditions in deep past flavor)\n- **Force fragment:** Life-web awareness, ancestral anger/protection\n- **Hooks:** Defend groves; mistrust stone temples; life-debt politics\n- **Sample NPC:** **Horruhn**—tree-singer who reads Tython’s forests like scripture\n\n### Twi’leks\n\n- **Homeland:** Hot-world clans and dancer-scholar lineages\n- **Force fragment:** Emotion-reading, performance as prayer\n- **Hooks:** Cultural diplomacy; seduction of power; clan rivalry imported to Tython\n- **Sample NPC:** **Numa’Shar**—diplomat who brokers the first multi-camp truce\n\n### Selkath\n\n- **Homeland:** Oceanic worlds; water-law traditions\n- **Force fragment:** Healing currents, legalistic ethics\n- **Hooks:** Demand ocean access (Mahara Kesh seed); prosecute Force crimes early\n- **Sample NPC:** Couple **Iil** and **Vorr**—healers who become living arguments for Mercy-as-Balance\n\n### Cathar\n\n- **Homeland:** Savanna pride cultures\n- **Force fragment:** Predator focus, honor duels\n- **Hooks:** Stav Kesh natural allies; challenge leaders who will not fight\n- **Sample NPC:** **Sari Tor**—duelist who believes Balance is a blade held mid-swing\n\n### Other pilgrims (use as needed)\n\nSullustans, Noghri-adjacent stalkers, Devaronians, Ithorians, **Koorivar** (full writeup: **Chapter 22**), etc. Give each a one-line Force metaphor and one demand on the founding council.\n\n## Party composition guidance (SW5e)\n\n- **Required:** homeland planet + Force manipulation — see **Chapter 08 Character Creation Requirements**\n- Species may mix freely with planet (not pigeonholed)\n- Avoid gear fantasies that require Republic-era megacorps\n- Encourage mixed species—the Order’s founding identity is pluralism under Balance\n- Pure tech-savants without Force use do **not** board; pair Engineer/Scout tech fantasy with a Force path (A–D in Ch 08)\n---\n"
       },
       "video": {
         "controls": true,
@@ -118,7 +118,7 @@
       }
     },
     {
-      "_id": "QAyVESLJrAtQwWpz",
+      "_id": "dPItciFSi5dSVQXh",
       "name": "04 — The Tho Yor",
       "type": "text",
       "title": {
@@ -147,7 +147,7 @@
       }
     },
     {
-      "_id": "HWh9cNyYHC3VtRa4",
+      "_id": "01DCg8Sshzfcaoqa",
       "name": "05 — Tython Gazetteer",
       "type": "text",
       "title": {
@@ -176,7 +176,7 @@
       }
     },
     {
-      "_id": "m7NqTHmJPD9WIaWw",
+      "_id": "miW758uujHKrKM39",
       "name": "06 — Power Groups & Factions",
       "type": "text",
       "title": {
@@ -205,7 +205,7 @@
       }
     },
     {
-      "_id": "I2UWwEStX0cjki8p",
+      "_id": "T2lvPTBjZwux4Aee",
       "name": "07 — The Je'daii Order (Founding)",
       "type": "text",
       "title": {
@@ -234,7 +234,7 @@
       }
     },
     {
-      "_id": "ThlxosAcxTaTk31H",
+      "_id": "uErZ075jyDHMEgav",
       "name": "08 — SW5e Campaign Rules",
       "type": "text",
       "title": {
@@ -244,7 +244,7 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# 08 — SW5e Campaign Rules\n\n## Core assumptions\n\n- **System:** SW5e on Foundry VTT\n- **Start:** Level **9** when the Tho Yor takes them\n- **Advancement:** Milestone — see Chapter 9 (default end band **levels 13–15**)\n- **Tone tags:** Mythic survival, founding politics, Force philosophy\n\n## Tech & gear bans / rarities\n\n**Generally unavailable / inappropriate**\n\n- Mass-market blaster economies as in Clone Wars / OT eras\n- Lightsabers as standard PC toys (special story rewards only, if at all)\n- Holonet, Republic credits as universal currency, capital ships on demand\n\n**Available**\n\n- Cultural weapons and armor from homeworlds\n- Primitive-to-advanced local tech brought aboard\n- Force techniques as primary “magic”\n- Tho Yor amenities (food, water, shelter) until landing—then scarcity\n\n**Campaign rewards**\n\n- Vur Tepe crafting breakthroughs\n- Temple-blessed arms\n- Rare Tho Yor crystals or tools (one or two per campaign)\n\n## Force traditions vs Jedi/Sith labels\n\nDo not use “Jedi” or “Sith” as mechanical faction names. Reflavor class features as:\n\n- Clan war-arts, Dai Bendu rites, life-web song, ocean law, predator focus, etc.\n\nDark Side / imbalance mechanics (whatever your SW5e build uses) should hook to **Bogan excess** and Tython weather, not cartoon villain points alone.\n\n## Optional: Imbalance Storm Clock\n\n1. When the camp or party commits a notably imbalanced act, advance a 6-segment clock.\n2. At 3: omens (App B).\n3. At 6: Force weather event; reset to 2 (Tython remembers).\n4. Acts of deliberate Balance (mercy + strength together, mediation, cornerstone rites) clear 1–2 segments.\n\n## Downtime: settlement & temple founding\n\nA **downtime cycle** (week or month) can buy one:\n\n- Shelter upgrade / wall / shrine\n- Food security improvement\n- Scout map of a region\n- Diplomatic contact with another camp\n- Temple cornerstone progress (requires being at the seed site)\n- Craft project (harder before Vur Tepe)\n\nRequire a skill challenge or short scene—do not pure spreadsheet.\n\n## Foundry journal permissions\n\n- Keep the GM Guide journal **Observer** or limited to GMs\n- Share Appendix C (or a copied player primer page) with Trusted Player permission\n- Pin Tho Yor map pages for Session 1 handouts as needed\n\n---\n"
+        "markdown": "# 08 — SW5e Campaign Rules\n\n## Core assumptions\n\n- **System:** SW5e on Foundry VTT\n- **Start:** Level **9** when the Tho Yor takes them\n- **Advancement:** Milestone — see Chapter 9 (default end band **levels 13–15**)\n- **Tone tags:** Mythic survival, founding politics, Force philosophy\n\n## Character Creation Requirements\n\nUse this section for Session 0 / pregens. Lists track **core SW5e PHB** naming (Consular / Guardian / Sentinel lineage). If your Foundry journal still says **Warrior** instead of **Guardian**, treat them as the same class. Confirm any Expanded Content archetype against your module before locking a build.\n\n### Creation checklist\n\n1. Build at **level 9**.\n2. Choose one **homeland planet** from the approved list (required).\n3. Choose **species** freely from allowed SW5e species — **not** locked to the planet’s iconic native.\n4. Satisfy **Force manipulation** via at least one path in A–D below.\n5. Obey era gear/tech bans later in this chapter.\n6. Reflavor Jedi/Sith order jargon as a local Force tradition (see below).\n\n### Approved homeland planets (required)\n\nPick **one**. Sector/grid flavor is in Chapter 21.\n\n| Planet | Sector | Grid | Iconic natives (flavor only—not required) |\n|--------|--------|------|-------------------------------------------|\n| **Cathar** | Quelii | N-6 | Cathar |\n| **Dathomir** | Quelii | O-6 | Dathomiri seers; Kwa ruins |\n| **Ando Prime** | Lambda | Q-15 | Talid / Dai Bendu |\n| **Kashyyyk** | Mytaranor | P-9 | Wookiees |\n| **Ryloth** | Gaulus | R-17 | Twi’leks |\n| **Korriban** | Esstran | R-5 | Sith (species) |\n| **Alpheridies** | Farstey | O-8 | Miraluka paths |\n| **Iktotch** | Narvath | O-14 | Iktotchi |\n| **Devaron** | Duluur | M-13 | Devaronians |\n| **Honoghr** | Kessel | T-10 | Noghri |\n| **Iridonia** | Glythe | J-7 | Zabrak |\n| **Mirial** | Illisurevimurasi | Q-4 | Mirialans |\n| **Sullust** | Brema | M-17 | Sullustans |\n| **Krevas** | Antemeridian | R-7 | Krevaaki |\n| **Manaan** | (unspecified) | O-11 | Selkath |\n| **Lost Koorivar homeworld** | Unknown | — | Proto-Koorivar |\n\n**Species is not pigeonholed.** A Human raised on Kashyyyk, a Zabrak scholar from Ryloth, or a Cathar exile on Ando Prime is valid—write one sentence of origin (exile, pilgrim family, slave-road survivor, visiting mystic who heard the Call, etc.).\n\n**Koorivar** is a fully supported playable species for this table—see **Chapter 22 — Species Spotlight: Koorivar** (especially if your homeland is the Lost Koorivar homeworld). Koorivar do **not** gain innate Force-Sensitive; still use paths A–D above.\n\n### Force manipulation (mandatory)\n\nThe Call only takes those who can **manipulate the Force** in some way. At level 9, the finished PC must qualify through **at least one** of A–D.\n\n**Fail closed:** Pure Techcaster or pure martial with **no** Forcecasting feature, **no** Force-granting feat, and **no** Force-innate species powers = invalid (they do not board).\n\nTechcasting may exist **alongside** Force use; it does **not** replace this requirement.\n\n#### A. Forcecasting classes (class chassis)\n\nThese classes gain Forcecasting from the class itself (any archetype):\n\n| Class | Notes |\n|-------|--------|\n| **Consular** | Full Forcecaster |\n| **Guardian** | Half / martial Forcecaster (older texts: **Warrior**) |\n| **Sentinel** | Hybrid / two-thirds Forcecaster |\n\n#### B. Non-Forcecasting classes with a Forcecasting (or Force-power) archetype\n\nTake the archetype that grants Force powers / Force Points by 3rd level (you are level 9, so this is online). Verified core / Expanded Content examples:\n\n| Class | Qualifying archetype(s) | Notes |\n|-------|-------------------------|--------|\n| **Fighter** | **Adept Specialist** | Full archetype Forcecasting table |\n| **Operative** | **Beguiler Practice** | Full archetype Forcecasting table |\n| **Monk** | **Aing-Tii Order** | Full archetype Forcecasting table |\n| **Scholar** | **Archaeologist Pursuit** | Full archetype Forcecasting table |\n| **Berserker** | **Marauder Approach** | PHB Force tag—confirm text in your journal |\n| **Scout** | **Inquisitor Technique** | Learns Force powers (as tech powers) + Sense Force |\n| **Engineer** | **Artificer Engineering** | Latent Force powers (as tech powers) from mid levels—qualifies at 9 if you have those powers |\n\n**How to verify any other archetype:** If the feature block is titled **Forcecasting**, grants **Force Points**, or teaches **force powers** you can cast/use, it qualifies. Pure Techcasting-only archetypes do **not**.\n\nThird-party classes/archetypes (Witch, homebrew, etc.): ask the GM; approve only if they clearly grant Force manipulation.\n\n#### C. Species with innate Force sensitivity / Force powers\n\nSpecies traits that grant Force powers, Forcecasting ability, Force Sight, or an explicit **Force-Sensitive** species feature count toward the requirement.\n\n| Species | Typical SW5e hook | Enough alone at 9? |\n|---------|-------------------|--------------------|\n| **Miraluka** | Innate **Force-Sensitive** powers + **Force Sight** | **Yes** for this campaign (they manipulate the Force by nature) |\n\n**Other species:** Only if **your** species entry grants Force powers or Force-Sensitive. Do not assume “all aliens from a Force world” qualify. Many humanoids are Force-blind until class/archetype/feat.\n\nIf a species has **Force Insensitive**, you must remove/overcome it (see **Force-Sensitive** feat) **and** still have a casting path (A, B, or D).\n\n#### D. Feats that grant Force use\n\n| Feat | Role |\n|------|------|\n| **Force-Sensitive** | Core qualifier: learn Force powers / gain Force use per PHB feat text; also removes **Force Insensitive** on eligible humanoids |\n| Related Force feats in your PHB/EC (e.g. options that expand Force powers or Force Points) | Valid **only if** they require or grant Force use—confirm names in your Foundry journal |\n\nAt level 9 (ASI/feats + SW5e background bonus feat, if used), a martial PC can qualify via **Force-Sensitive** even without a Force class—so long as the feat is actually taken.\n\n#### Multiclass\n\nAllowed. The **finished** level-9 sheet must still show Force manipulation from A–D.\n\n### Quick “am I legal?” test\n\nAsk: *Can this character spend Force Points, cast a force power, or use an innate Force power today?*  \nIf yes → legal. If only blasters/tech → rebuild.\n\n## Tech & gear bans / rarities\n\n**Generally unavailable / inappropriate**\n\n- Mass-market blaster economies as in Clone Wars / OT eras\n- Lightsabers as standard PC toys (special story rewards only, if at all)\n- Holonet, Republic credits as universal currency, capital ships on demand\n\n**Available**\n\n- Cultural weapons and armor from homeworlds\n- Primitive-to-advanced local tech brought aboard\n- Force techniques as primary “magic”\n- Tho Yor amenities (food, water, shelter) until landing—then scarcity\n\n**Campaign rewards**\n\n- Vur Tepe crafting breakthroughs\n- Temple-blessed arms\n- Rare Tho Yor crystals or tools (one or two per campaign)\n\n## Force traditions vs Jedi/Sith labels\n\nDo not use “Jedi” or “Sith” as mechanical faction names. Reflavor class features as:\n\n- Clan war-arts, Dai Bendu rites, life-web song, ocean law, predator focus, etc.\n\nDark Side / imbalance mechanics (whatever your SW5e build uses) should hook to **Bogan excess** and Tython weather, not cartoon villain points alone.\n\n## Optional: Imbalance Storm Clock\n\n1. When the camp or party commits a notably imbalanced act, advance a 6-segment clock.\n2. At 3: omens (App B).\n3. At 6: Force weather event; reset to 2 (Tython remembers).\n4. Acts of deliberate Balance (mercy + strength together, mediation, cornerstone rites) clear 1–2 segments.\n\n## Downtime: settlement & temple founding\n\nA **downtime cycle** (week or month) can buy one:\n\n- Shelter upgrade / wall / shrine\n- Food security improvement\n- Scout map of a region\n- Diplomatic contact with another camp\n- Temple cornerstone progress (requires being at the seed site)\n- Craft project (harder before Vur Tepe)\n\nRequire a skill challenge or short scene—do not pure spreadsheet.\n\n## Foundry journal permissions\n\n- Keep the GM Guide journal **Observer** or limited to GMs\n- Share Appendix C (or a copied player primer page) with Trusted Player permission\n- Pin Tho Yor map pages for Session 1 handouts as needed\n\n---\n"
       },
       "video": {
         "controls": true,
@@ -263,7 +263,7 @@
       }
     },
     {
-      "_id": "A0loe1dWrMQnRKcl",
+      "_id": "sr1sbsxoSZQoqiSu",
       "name": "09 — Adventure Path — Arc Overview",
       "type": "text",
       "title": {
@@ -292,7 +292,7 @@
       }
     },
     {
-      "_id": "l8Z57WpSKv1PXAEm",
+      "_id": "Z4l5wQh2waVKgYMx",
       "name": "10 — Arc I: Aboard the Tho Yor",
       "type": "text",
       "title": {
@@ -321,7 +321,7 @@
       }
     },
     {
-      "_id": "WetJhoVlnxwTld9y",
+      "_id": "6OC4UOUl1YZyuW3U",
       "name": "11 — Arc II: Arrival & First Landing",
       "type": "text",
       "title": {
@@ -350,7 +350,7 @@
       }
     },
     {
-      "_id": "hZYkfCYEuXWeLpVe",
+      "_id": "28fB42CqZ58XcMsi",
       "name": "12 — Arc III: Survive & Contact",
       "type": "text",
       "title": {
@@ -379,7 +379,7 @@
       }
     },
     {
-      "_id": "LXElBhjn50E6gVmJ",
+      "_id": "ENFmFFLxur1H3Ji6",
       "name": "13 — Arc IV: Balance & the Name",
       "type": "text",
       "title": {
@@ -408,7 +408,7 @@
       }
     },
     {
-      "_id": "2063NeZv8MoHhXl8",
+      "_id": "6zk8rndyvX5SrdFC",
       "name": "14 — Arc V: Temples of the Dawn",
       "type": "text",
       "title": {
@@ -437,7 +437,7 @@
       }
     },
     {
-      "_id": "OxEBoP0d6yMNzMQo",
+      "_id": "jNCKJwakUzYi5Tzn",
       "name": "15 — Arc VI: Early Order Capstone",
       "type": "text",
       "title": {
@@ -466,7 +466,7 @@
       }
     },
     {
-      "_id": "jIBaTTXVsQHmiC6e",
+      "_id": "41Q0cBkkrwzxlpdM",
       "name": "16 — Great GM Scene Craft",
       "type": "text",
       "title": {
@@ -495,7 +495,7 @@
       }
     },
     {
-      "_id": "4jB4YxqrYiQCTb5U",
+      "_id": "DnwV7t8bI17unidN",
       "name": "17 — Session 0 Boons of the Tho Yor",
       "type": "text",
       "title": {
@@ -524,7 +524,7 @@
       }
     },
     {
-      "_id": "mM6LlM8fwpCK3FK9",
+      "_id": "l9Td39JKIWkmKtYk",
       "name": "18 — The Kwa Gate",
       "type": "text",
       "title": {
@@ -553,7 +553,7 @@
       }
     },
     {
-      "_id": "fIJR5Y2QE1briFUy",
+      "_id": "gWCuO46pSk6F7fJu",
       "name": "19 — Faces of the First Migration",
       "type": "text",
       "title": {
@@ -582,7 +582,7 @@
       }
     },
     {
-      "_id": "TPhLrzJhEZL0M2gp",
+      "_id": "2DTttE3EOuTOmghF",
       "name": "20 — Random Encounter Map Briefs",
       "type": "text",
       "title": {
@@ -592,7 +592,7 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# 20 — Random Encounter Map Briefs\n\nBuild these in Foundry from the specs. Scale assumes ~5-ft squares.\n\n---\n\n## Map 1 — Tho Yor: Threshold Crossroads\n\n- **Purpose:** Session 1 exploration / social / light combat\n- **Grid:** 35×35\n- **Terrain legend:**\n  - Floor A: smooth sanctuary stone (normal)\n  - Floor B: humming glyph strips (difficult if imbalanced Storm Clock ≥3)\n  - Pillars: 3/4 cover\n  - Central dais: elevated +5 ft\n  - Sealed door north (no handle)\n  - Three exits: W dormitory · E galleries · S Call-door (sealed)\n- **Landmarks:** mural wall of unknown species; soft-light ceiling vents; boon niche (glow); meditation circle etched under dais\n- **Approaches:** PCs enter from S (after Call) or wake on dais\n- **Read-aloud:** Use Threshold Halls Scene Card (Ch 16)\n- **Variants:**\n  1. **Social:** language clash + Speaker-to-be Senn-Vora\n  2. **Combat:** panicked beast in W corridor; ship nulls lethal intent after 3 rounds\n  3. **Exploration:** sealed door puzzle (3 meditators)\n- **Loot / clue:** first boon; rumor of ozone corridor deeper in\n\n---\n\n## Map 2 — Tython: Storm-Scar Clearing\n\n- **Purpose:** Arc II camp claim / predator attack / rival contact\n- **Grid:** 40×30\n- **Terrain legend:**\n  - Mud ring (difficult) around blast crater\n  - Standing blackened trees (cover)\n  - Creek N–S (1 square jump or difficult ford)\n  - Tho Yor shadow along E map edge (blocking terrain / sacred ground)\n  - Hillock SW (+10 ft, good archery)\n- **Landmarks:** split boulder with Force-glass veins; pilgrim supply sled; fresh graves or bedrolls\n- **Approaches:** from jungle W; from ship E; creek ambush N/S\n- **Read-aloud:** Rain still falls upward for a breath, then remembers gravity. The clearing is a wound: mud, ozone, and a ring of trees blown outward from a single impossible flash. Your Tho Yor’s shadow pools like spilled ink. Something large sniffs the blood-warm ground. Behind you, pilgrims wait for someone to say *here*.\n- **Variants:**\n  1. **Combat:** Force-mad predators (2–4) + rising wind\n  2. **Social:** Kael Rind’s scouts claim the hillock\n  3. **Survival:** purify creek / build shelter before night (skill challenge on map)\n- **Loot / clue:** crate of homeworld tools; map scrap toward another smoke column (sister Tho Yor)\n\n---\n\n## Map 3 — Silent Desert: Mouth of the Cavern\n\n- **Purpose:** Qigong seed approach; Force hazard; stealth or trial\n- **Grid:** 30×40 (long axis toward cave)\n- **Terrain legend:**\n  - Soft silver sand (difficult; Stealth advantage if moving slow)\n  - Sound-dead zone (center band): verbal communication fails; Force messages OK\n  - Rock fangs (cover) leading to cave mouth N\n  - Floating Tho Yor silhouette overhead (light source + awe hazard: Wis save or frightened 1 round first entry)\n  - Cave interior fog (heavily obscured beyond 10 ft until light/Force)\n- **Landmarks:** bone wind-chimes that make no sound; spiral petroglyph; cavern breath (cold exhalation every other round—push 5 ft toward cave or away on fail)\n- **Approaches:** desert S; ridge paths E/W\n- **Read-aloud:** The desert swallows your names. Sand shines like ground moonlight. Ahead, a cavern opens beneath a pyramid that refuses to land. Your footsteps arrive late. Something inside the dark inhales—and the Force leans with it.\n- **Variants:**\n  1. **Exploration:** navigate sound-dead band to petroglyph clue\n  2. **Combat:** silence-stalkers (advantage on stealth; pack tactics)\n  3. **Trial:** meditate at mouth to earn cavern entry without fight\n- **Loot / clue:** Force-skill scroll-equivalent; Qigong seed claim rights\n\n---\n\n## Map 4 — Kwa Gate Antechamber & Moon Threshold\n\n- **Purpose:** Gate discovery / activation / Ashla–Bogan departure\n- **Grid:** 30×30 antechamber + two 15×15 moon pads (same scene or separate pages)\n- **Terrain legend (antechamber):**\n  - Ring platform center (gate)\n  - Glyph floor (safe if calm; lightning damage if Storm Clock high when activated)\n  - Balcony walkway +10 ft with control crystals\n  - Side alcoves (cover) with Kwa-style geometry (curves, not Tho Yor angles)\n  - Ozone vents (light obscurement if smashed)\n- **Moon pads (reuse tiles):**\n  - **Ashla pad:** bright floor, minimal cover, “clarity lanes”\n  - **Bogan pad:** broken glass terrain (difficult), shadow columns (cover), heat vents\n- **Landmarks:** twin moon murals; refusal glyph (lights when illegal destination imagined); three-species handplates on ring\n- **Approaches:** corridor from Machine-Spirit S; vault door E (still sealed)\n- **Read-aloud:** The chamber is wrong for this ship—softer math, older pride. A ring of metal and light waits like a held question. Two murals face each other: a pale moon, a wounded moon. Crystals on the balcony tick. The air tastes like storms that never rain. The ring will not open for a single people… or for a single rage.\n- **Variants:**\n  1. **Exploration:** decode handplates; Yen-Ti bargains\n  2. **Social/ritual:** three species activate; Sister Luma tries to forbid Bogan mural\n  3. **Combat:** zealots attack during first activation; gate unstable (hazards)\n- **Loot / clue:** confirmation this is **Kwa**, not Tho Yor; first moon trip unlock; materials for Miri Quill\n\n---\n\n*End of Chapters 16–20.*\n\n---\n"
+        "markdown": "# 20 — Random Encounter Map Briefs\n\nBuild these in Foundry from the specs. Scale assumes ~5-ft squares.\n\n---\n\n## Map 1 — Tho Yor: Threshold Crossroads\n\n- **Purpose:** Session 1 exploration / social / light combat\n- **Grid:** 35×35\n- **Terrain legend:**\n  - Floor A: smooth sanctuary stone (normal)\n  - Floor B: humming glyph strips (difficult if imbalanced Storm Clock ≥3)\n  - Pillars: 3/4 cover\n  - Central dais: elevated +5 ft\n  - Sealed door north (no handle)\n  - Three exits: W dormitory · E galleries · S Call-door (sealed)\n- **Landmarks:** mural wall of unknown species; soft-light ceiling vents; boon niche (glow); meditation circle etched under dais\n- **Approaches:** PCs enter from S (after Call) or wake on dais\n- **Read-aloud:** Use Threshold Halls Scene Card (Ch 16)\n- **Variants:**\n  1. **Social:** language clash + Speaker-to-be Senn-Vora\n  2. **Combat:** panicked beast in W corridor; ship nulls lethal intent after 3 rounds\n  3. **Exploration:** sealed door puzzle (3 meditators)\n- **Loot / clue:** first boon; rumor of ozone corridor deeper in\n\n---\n\n## Map 2 — Tython: Storm-Scar Clearing\n\n- **Purpose:** Arc II camp claim / predator attack / rival contact\n- **Grid:** 40×30\n- **Terrain legend:**\n  - Mud ring (difficult) around blast crater\n  - Standing blackened trees (cover)\n  - Creek N–S (1 square jump or difficult ford)\n  - Tho Yor shadow along E map edge (blocking terrain / sacred ground)\n  - Hillock SW (+10 ft, good archery)\n- **Landmarks:** split boulder with Force-glass veins; pilgrim supply sled; fresh graves or bedrolls\n- **Approaches:** from jungle W; from ship E; creek ambush N/S\n- **Read-aloud:** Rain still falls upward for a breath, then remembers gravity. The clearing is a wound: mud, ozone, and a ring of trees blown outward from a single impossible flash. Your Tho Yor’s shadow pools like spilled ink. Something large sniffs the blood-warm ground. Behind you, pilgrims wait for someone to say *here*.\n- **Variants:**\n  1. **Combat:** Force-mad predators (2–4) + rising wind\n  2. **Social:** Kael Rind’s scouts claim the hillock\n  3. **Survival:** purify creek / build shelter before night (skill challenge on map)\n- **Loot / clue:** crate of homeworld tools; map scrap toward another smoke column (sister Tho Yor)\n\n---\n\n## Map 3 — Silent Desert: Mouth of the Cavern\n\n- **Purpose:** Qigong seed approach; Force hazard; stealth or trial\n- **Grid:** 30×40 (long axis toward cave)\n- **Terrain legend:**\n  - Soft silver sand (difficult; Stealth advantage if moving slow)\n  - Sound-dead zone (center band): verbal communication fails; Force messages OK\n  - Rock fangs (cover) leading to cave mouth N\n  - Floating Tho Yor silhouette overhead (light source + awe hazard: Wis save or frightened 1 round first entry)\n  - Cave interior fog (heavily obscured beyond 10 ft until light/Force)\n- **Landmarks:** bone wind-chimes that make no sound; spiral petroglyph; cavern breath (cold exhalation every other round—push 5 ft toward cave or away on fail)\n- **Approaches:** desert S; ridge paths E/W\n- **Read-aloud:** The desert swallows your names. Sand shines like ground moonlight. Ahead, a cavern opens beneath a pyramid that refuses to land. Your footsteps arrive late. Something inside the dark inhales—and the Force leans with it.\n- **Variants:**\n  1. **Exploration:** navigate sound-dead band to petroglyph clue\n  2. **Combat:** silence-stalkers (advantage on stealth; pack tactics)\n  3. **Trial:** meditate at mouth to earn cavern entry without fight\n- **Loot / clue:** Force-skill scroll-equivalent; Qigong seed claim rights\n\n---\n\n## Map 4 — Kwa Gate Antechamber & Moon Threshold\n\n- **Purpose:** Gate discovery / activation / Ashla–Bogan departure\n- **Grid:** 30×30 antechamber + two 15×15 moon pads (same scene or separate pages)\n- **Terrain legend (antechamber):**\n  - Ring platform center (gate)\n  - Glyph floor (safe if calm; lightning damage if Storm Clock high when activated)\n  - Balcony walkway +10 ft with control crystals\n  - Side alcoves (cover) with Kwa-style geometry (curves, not Tho Yor angles)\n  - Ozone vents (light obscurement if smashed)\n- **Moon pads (reuse tiles):**\n  - **Ashla pad:** bright floor, minimal cover, “clarity lanes”\n  - **Bogan pad:** broken glass terrain (difficult), shadow columns (cover), heat vents\n- **Landmarks:** twin moon murals; refusal glyph (lights when illegal destination imagined); three-species handplates on ring\n- **Approaches:** corridor from Machine-Spirit S; vault door E (still sealed)\n- **Read-aloud:** The chamber is wrong for this ship—softer math, older pride. A ring of metal and light waits like a held question. Two murals face each other: a pale moon, a wounded moon. Crystals on the balcony tick. The air tastes like storms that never rain. The ring will not open for a single people… or for a single rage.\n- **Variants:**\n  1. **Exploration:** decode handplates; Yen-Ti bargains\n  2. **Social/ritual:** three species activate; Sister Luma tries to forbid Bogan mural\n  3. **Combat:** zealots attack during first activation; gate unstable (hazards)\n- **Loot / clue:** confirmation this is **Kwa**, not Tho Yor; first moon trip unlock; materials for Miri Quill\n\n---\n\n*End of Chapters 16–20.*\n\n---\n\n---\n"
       },
       "video": {
         "controls": true,
@@ -611,8 +611,8 @@
       }
     },
     {
-      "_id": "HXHTJgC41Irgu1f3",
-      "name": "Appendix A — NPC Index",
+      "_id": "gtPBEo4UOtnUxF5F",
+      "name": "21 — Timelines (GM & Players)",
       "type": "text",
       "title": {
         "show": true,
@@ -621,7 +621,7 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# Appendix A — NPC Index\n\nFull cast cards live in **Chapter 19 — Faces of the First Migration**. This appendix is a quick lookup for session prep.\n\n## Speakers (one per gathering Tho Yor)\n\n| Name | Ship epithet | Role |\n|------|--------------|------|\n| **Senn-Vora** | Quiet Peak | Dai Bendu Speaker (party ship default) |\n| **Horruhn** | Green Deep | Wookiee Speaker / pathfinder |\n| **Numa'Shar** | Dancing Heat | Twi'lek Speaker / diplomat |\n| **Iil & Vorr** | Tide Law | Selkath Speakers / healers |\n| **Sari Tor** | Open Plain | Cathar Speaker / duelist |\n| **Kael Rind** | Broken Banner | Human Speaker / ex-mercenary |\n| **Yen-Ti** | Counting Dark | Scholar Speaker / gate theorist |\n| **Sister Luma** | White Vow | Ashla-zealot Speaker (rival path) |\n| **Guardian Echo** | Ninth Tho Yor | Presence, not politician |\n\n## Crafters\n\n| Name | Craft | Notes |\n|------|-------|-------|\n| **Torv Maddan** | Bladewright | Weapons; refuses purge commissions |\n| **Shekk-Arra** | Hide & Plate | Armor; Green Kin ally |\n| **Miri Quill** | Charm carver | Force focuses; moon materials |\n| **Vesh & Loom** | Cloth / sigil | Banners, Order sashes |\n\n## Rivals & pressures\n\n| Name | Role | Guidance |\n|------|------|----------|\n| **Reth Var** | Warlord claimant | Martial leader + loyalists |\n| **Kresh the Red** | Bogan duelist | Elite skirmisher; arena politics |\n\n## Walk-ons\n\nFifteen named walk-ons are listed in Chapter 19 section D (Pel, Orrin, Gatha, Silent Bran, and others). Promote favorites.\n\n## Generic combat roles\n\nFrightened civilian · Camp guardian · Zealot cell · Temple steward (late). Adjust for levels 9–15.\n\n---\n"
+        "markdown": "# 21 — Timelines (GM & Players)\n\nStop date for this chapter: **36,453 BBY (0 TYA) — Tho Yor Pickup**. Nothing after boarding/lift is listed here; add later events as the adventure earns them.\n\n## How to read these timelines\n\n| Tag | Meaning |\n|-----|---------|\n| **[L]** | Legends-supported (Dawn of the Jedi / Pre-Republic sources) |\n| **[T]** | Table fiction for this campaign (plausible local color; change freely) |\n| **BBY** | Years Before the Battle of Yavin |\n| **TYA** | Tho Yor Arrival calendar (0 TYA = 36,453 BBY) |\n\n**GM copy** = full section below (secrets, ancient powers, exact Call beats).  \n**Player copy** = handout at the end of this chapter (and mirrored under Appendix C). Do not give players the GM-only notes in `[GM]`.\n\n### Worlds in scope (your list)\n\n| Sector | Planet | Grid | Peoples of note (era flavor) |\n|--------|--------|------|------------------------------|\n| Quelii | **Cathar** | N-6 | Cathar |\n| Quelii | **Dathomir** | O-6 | Kwa (waning); Dathomiri seers; rancor-bonded |\n| Lambda | **Ando Prime** | Q-15 | Talid; Order of Dai Bendu |\n| Mytaranor | **Kashyyyk** | P-9 | Wookiees |\n| Gaulus | **Ryloth** | R-17 | Twi’leks |\n| Esstran | **Korriban** | R-5 | Sith (species—not the later Order) |\n| Farstey | **Alpheridies** | O-8 | Miraluka presence / refuge path **[T]** note below |\n| Narvath | **Iktotch** | O-14 | Iktotchi |\n| Duluur | **Devaron** | M-13 | Devaronians |\n| Kessel | **Honoghr** | T-10 | Noghri |\n| Glythe | **Iridonia** | J-7 | Zabrak |\n| Illisurevimurasi | **Mirial** | Q-4 | Mirialans |\n| Brema | **Sullust** | M-17 | Sullustans |\n| Antemeridian | **Krevas** | R-7 | Krevaaki |\n| (unspecified) | **Manaan** | O-11 | Selkath |\n| Unknown | **Lost Koorivar homeworld** | — | Proto-Koorivar ancestors |\n\n> **Alpheridies note:** In later ages Alpheridies is the Miraluka *adopted* home. In 36,453 BBY, Miraluka already walk the stars; treat Alpheridies as a Farstey world already tied to their sightless Force culture **[T]**, not as a spoiler about their original world’s death (that tragedy is later / ambiguous—leave open).\n\n---\n\n## GM Master Timeline\n\n### I. Deep galactic spine (long before the Call)\n\n| When | Event | Where / notes |\n|------|-------|----------------|\n| **c. 100,000+ BBY** **[L]** | Age of the **Celestials** (Architects). Early starfarers contacted: Gree, Kwa, Columi, Sharu, Killiks, and others. Columi and Sharu recoil or hide. | Galaxy-wide |\n| **c. 100,000–pre-36k BBY** **[L]** | **Gree** hypergates and **Kwa Infinity Gates** link distant worlds. Kwa power centers on **Dathomir** (Quelii). | Dathomir; Gree enclaves elsewhere |\n| **Many millennia pre-Call** **[L]** | Kwa uplift / teach Force & tech to the **Rakata**. Rivalry and war follow; Kwa civilization is wounded long before the Infinite Empire’s later peak (~30,000 BBY—**after** this campaign’s start). | Dathomir and beyond |\n| **[GM]** | Aboard the party Tho Yor, a **Kwa Gate** fragment still points only to Tython’s moons (Ch 18)—proof of older hands, not a full answer to who built the Tho Yor. | Campaign secret |\n\n### II. The resting Tho Yor (local ages of watching)\n\nExact centuries of “watching” are thin in canon outside Ando Prime. Use the dated Dai Bendu beat as the spine; other worlds use **[T]** tending eras so every listed planet has a living past.\n\n| When | Event | Planet |\n|------|-------|--------|\n| **c. 40,000–38,000 BBY** **[T]** | Pride-era Cathar clans map the savannah Force-winds; a black pyramid is taboo-holy ground in the high grass. | Cathar |\n| **c. 40,000–37,000 BBY** **[T]** | Kwa remnants and mist-seers avoid / half-remember a valley pyramid on **Dathomir** as the Rakata war scars the Infinity network. | Dathomir |\n| **c. 39,000 BBY** **[T]** | Wookiee tree-lords declare a floating pyramid in the Wroshyr deeps *off-limits to axes*; crystal-club guardians rotate for generations. | Kashyyyk |\n| **c. 39,000–37,000 BBY** **[T]** | Ryloth cave-philosophers debate whether the desert pyramid is a god, a tomb, or a question. Heat-season pilgrimages begin. | Ryloth |\n| **c. 38,500 BBY** **[T]** | Selkath academies of tide-law study a submerged pyramid; diving rites become scholarly tradition. | Manaan |\n| **c. 38,000 BBY** **[T]** | Korriban’s Sith tribes leave blood-offerings at a desert octahedron; kings claim dreams of a green world. | Korriban |\n| **c. 38,000 BBY** **[T]** | Iktotchi prophecy circles record shared nightmares of a singing stone that will “take the far-sighted.” | Iktotch |\n| **c. 37,800 BBY** **[T]** | Devaronian highland temples mark a sealed pyramid as the “Gate That Judges Horns.” | Devaron |\n| **c. 37,700 BBY** **[T]** | Noghri clan-mothers forbid hunting near a mist-wrapped pyramid on Honoghr; silence is the offering. | Honoghr |\n| **c. 37,600 BBY** **[T]** | Iridonian Zabrak forge-clans dream of balance-through-pain beside a buried apex. | Iridonia |\n| **c. 37,500 BBY** **[T]** | Mirialan tattoo-seers paint the first “journey marks” after visions of a black star. | Mirial |\n| **c. 37,500 BBY** **[T]** | Sullustan tunnel-guilds map around a lava-adjacent pyramid; call it the *Cool Throat*. | Sullust |\n| **c. 37,500 BBY** **[T]** | Krevaaki philosopher-hives meditate on a reef-pyramid off Krevas. | Krevas |\n| **c. 37,500 BBY** **[T]** | On Alpheridies, Miraluka enclaves feel a “second sun” that is not light—only Force pressure toward an unseen shape. | Alpheridies |\n| **c. 37,500 BBY** **[T]** | On the still-living **Koorivar homeworld**, horned merchants and mystics argue over a trade-road pyramid that refuses buyers. | Lost Koorivar homeworld |\n| **c. 37,453 BBY** **[L]** | **Order of Dai Bendu** discovers a half-buried pyramid in the Andobi Mountains; names it **Tho Yor**; begins a millennium of meditation. | Ando Prime |\n\n### III. Century of tightening song (living memory)\n\n| When | Event | Scope |\n|------|-------|-------|\n| **c. 37,000–36,500 BBY** **[T]** | Dreams sync across distant Force traditions: green world, twin moons, black geometry. Elders argue omen vs madness. | All listed worlds |\n| **c. 36,500 BBY** **[T]** | Local crises (drought, clan war, plague, cave-collapse, deep-sea quake—pick per PC homeland) push one generation toward desperate listening. | Homelands |\n| **c. 36,460–36,454 BBY** **[T]** | Children born “hearing stone.” Pilgrims gather near resting Tho Yor without knowing why. | Homelands |\n\n### IV. 36,453 BBY (0 TYA) — The Call & Pickup (timeline ends)\n\nAll **[L]** pattern from *Dawn of the Jedi*; planet details mix **[L]** beats with **[T]** color. Ships then continue gathering other Force-sensitives before Deep Core transit—**play begins aboard**; do not advance this written timeline past lift-off until the table earns it.\n\n| Beat | Local pickup color |\n|------|-------------------|\n| **Ando Prime** **[L]** | Dai Bendu enter the waking Tho Yor after a thousand years of waiting. |\n| **Kashyyyk** **[L]** | Wookiee guardians lay down crystal-clubs and board the forest pyramid. |\n| **Manaan** **[L]** | Selkath scholars abandon tide-labs for the submerged ship’s open doors. |\n| **Ryloth** **[L]** | Twi’leks leave cave cities and desert debate-circles for the scorched-sand Tho Yor. |\n| **Dathomir** **[L]** | Mist-seers and shamans (some with rancor mounts) answer valley visions and board. |\n| **Cathar** **[L]/[T]** | Pride champions and Force-hunters heed the savannah Call. |\n| **Korriban** **[L]/[T]** | Sith warriors/mystics board—species pride, not “Sith Order.” |\n| **Iktotch** **[L]/[T]** | Far-sighted Iktotchi who dreamed the song walk into the stone. |\n| **Devaron** **[L]/[T]** | Horned pilgrims take the judged road into the pyramid. |\n| **Honoghr** **[L]/[T]** | Noghri clan-chosen step from silence into the mist-ship. |\n| **Iridonia** **[L]/[T]** | Zabrak who temper pain with purpose answer the forge-dream. |\n| **Mirial** **[L]/[T]** | Tattooed seers mark the journey and board. |\n| **Sullust** **[L]/[T]** | Tunnel-guild mystics enter the Cool Throat as it rises. |\n| **Krevas** **[L]/[T]** | Krevaaki philosophers leave the reef for the singing geometry. |\n| **Alpheridies** **[T]** | Miraluka who “see” the Call without eyes follow it to a gathering Tho Yor (may board here or mid-voyage). |\n| **Lost Koorivar homeworld** **[L]/[T]** | Proto-Koorivar mystics board; later ages will forget this world’s name. |\n\n**End of published timeline:** doors seal; ships lift; the galaxy’s ordinary histories continue *without* these pilgrims. **Next entries belong to play** (voyage, Tython, Order-founding).\n\n---\n\n## Quick reference — planet → Call image (for Scene Cards)\n\nUse with Chapter 16.\n\n| Planet | Sensory hook at pickup |\n|--------|------------------------|\n| Ando Prime | Snow, chant, stone warmth under ice |\n| Kashyyyk | Canopy shadow, crystal-club chime laid down |\n| Manaan | Pressure change, salt, doors opening underwater light |\n| Ryloth | Heat shimmer, cave-mouth wind, argument that ends mid-sentence |\n| Dathomir | Mist, rancor breath, old gate-echo in the Force |\n| Cathar | Grass sea, pride-roar swallowed by song |\n| Korriban | Red dust, tomb-quiet, hunger-ambition dreams |\n| Iktotch | Precog migraine that finally resolves into a door |\n| Devaron | Highland cold, horn-shadow on pyramid face |\n| Honoghr | Absolute quiet, then one shared inhale |\n| Iridonia | Forge-heat, ritual scars tingling |\n| Mirial | Ink-wet tattoos, star-map patterns |\n| Sullust | Magma glow, cool stone throat |\n| Krevas | Reef-song, many-limbed prayer |\n| Alpheridies | Blind-sight flare, no true “visual” sun |\n| Koorivar home | Market-noise dying; a deal no credit can buy |\n\n---\n\n## Player Timeline Handout\n\n*Safe to copy to players (also in Appendix C).*\n\n### What age is this?\n\nYou live in **36,453 years before the Battle of Yavin**—an age so old the Galactic Republic and the Jedi Order do not exist. Historians of later eras will call this the **Pre-Republic** deep past. Your peoples already have cities, wars, faiths, and Force traditions under many names.\n\n### What the wider galaxy remembers (myths & ruins)\n\n- Long ago, powers older than nations shaped the stars—builders, gate-makers, and terrors spoken of only in broken stories.\n- On some worlds, stone pyramids have rested for longer than anyone’s grandparent’s grandparent can count. Monks, guardians, scholars, and seers have watched them.\n- On icy **Ando Prime**, the **Dai Bendu** tended one such pyramid—the **Tho Yor**—for a thousand years before it spoke.\n\n### Your generation\n\nIn living memory, dreams have grown louder: a green world, twin moons, a black geometry that sings. Some of you were born already hearing it.\n\n### Now — the Pickup (0 TYA / 36,453 BBY)\n\nThe resting pyramids open. Force-touched pilgrims from many worlds—**Cathar, Dathomir, Ando Prime, Kashyyyk, Ryloth, Korriban, Alpheridies’ Miraluka paths, Iktotch, Devaron, Honoghr, Iridonia, Mirial, Sullust, Krevas, Manaan, the Koorivar homeworld**, and more—board the Tho Yor.\n\n**Your story starts as the doors seal and the ship rises.** Whatever happens next is not in the old chronicles yet—because you will write it.\n\n---\n\n---\n"
       },
       "video": {
         "controls": true,
@@ -640,8 +640,8 @@
       }
     },
     {
-      "_id": "ADAI1FQ92EKs3HeK",
-      "name": "Appendix B — Encounter & Random Tables",
+      "_id": "ZozfrEnllAlf9gtb",
+      "name": "22 — Species Spotlight: Koorivar",
       "type": "text",
       "title": {
         "show": true,
@@ -650,7 +650,7 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# Appendix B — Encounter & Random Tables\n\n## d8 Near-camp survival events\n\n1. Spoiled stores—hunt or starve clock\n2. Child missing at treeline\n3. Contested spring\n4. Predator takes a watcher\n5. Tool theft between species\n6. Contaminated wound → plague seed\n7. Inspiring omen (clear 1 Storm Clock)\n8. Dread omen (advance Storm Clock)\n\n## d6 Force weather\n\n1. Whisper winds (secrets overheard)\n2. Gravity ripples (Athletics/Acrobatics fails hurt)\n3. Ashla aurora (healing doubled once; violence costs)\n4. Bogan red night (crits threaten allies on confusion)\n5. Silent hour (no sound; Communication via Force only)\n6. Quake of judgment (imbalanced leaders targeted first)\n\n## d6 Wild encounters\n\n1. Force-mad beast\n2. Rival scouts\n3. Natural beauty that demands a rest scene\n4. Ancient glyph stone\n5. Pilgrim corpse with a map scrap\n6. Friendly lost healer\n\n## d4 Inter-camp politics\n\n1. Marriage/alliance proposal\n2. Demand for trial\n3. Trade fair\n4. Accusation of curse\n\n---\n"
+        "markdown": "# 22 — Species Spotlight: Koorivar\n\nPlayable SW5e species for this campaign (and reusable elsewhere). Worksheet budget **23 points**. Plain traits below are for Foundry/journal use. For the GM Binder–styled print page (Sanyassan layout + `.phb` CSS), see `SW5e Docs/species/Koorivar.md`.\n\n## Era note (36,453 BBY)\n\nAt Tho Yor Pickup, the **lost Koorivar homeworld** still exists as their native land (the later lease/purchase of **Kooriva** is centuries ahead). Proto-corporate culture, horn-status hierarchies, and gesture-rich speech are already alive. A Koorivar PC’s approved homeland is typically **Lost Koorivar homeworld** (Ch 08 / Ch 21)—species is not required to match planet for other characters, but this spotlight is for playing a Koorivar.\n\n**Force:** Koorivar are **not** innately Force-Sensitive. You still must satisfy Chapter 08 paths A–D (Forcecasting class, Force archetype, Force-Sensitive feat, etc.) to board the Tho Yor.\n\n## Appearance\n\nTall near-humanoids (~1.9 m without the horn) with scaly skin in reds, greens, blues, magentas, or mauves. Banded ridges mark brow and nose. The cranium bears small twisting horns around a **central spiral horn**—a living status symbol that grows through adolescence into adulthood.\n\nHorn size and care signal wealth and dominance among Koorivar. Severe damage or loss of the primary horn is a social catastrophe (roleplay stigma; no default combat penalty).\n\n## Society & language\n\nBusiness craft is culture. Children are raised to bargain, keep ledgers, and read a room. Marriages and alliances often look like mergers. The soft **Koorivar** language leans on whisper and body language; that training makes them dangerous in Basic negotiations as well.\n\n## SW5e Traits\n\n***Ability Score Increase.*** Your Charisma score increases by 2, and your Intelligence score increases by 1.\n\n***Age.*** Koorivar mature slightly slower than Humans. The spiral horn develops in adolescence and reaches full stature in adulthood. They commonly live a bit longer than a Human century.\n\n***Alignment.*** Corporate pragmatism dominates Koorivar culture. Individuals lean toward ambition and calculated self-interest, but Force-touched pilgrims can break that mold.\n\n***Size.*** Your size is Medium.\n\n***Speed.*** Your base walking speed is 30 feet.\n\n***Coercive.*** You have proficiency in your choice of Persuasion or Deception.\n\n***Gestural Fluency.*** You have advantage on Wisdom (Insight) checks made to read a creature’s body language, mood, or unspoken intent. This trait has no effect on constructs or droids that lack readable body language.\n\n***Iron Will.*** When you make a Wisdom saving throw, you can use your reaction to gain advantage on the roll. Once you use this trait, you can’t use it again until you finish a short or long rest.\n\n***Dealmaker.*** Whenever you make a Charisma (Persuasion) check related to buying, selling, contracts, or haggling, you are considered proficient in Persuasion and add double your proficiency bonus to the check, instead of your normal proficiency bonus (if any).\n\n***Climate Adaptation.*** You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat.\n\n***Languages.*** You can speak, read, and write Galactic Basic, Koorivar, and one additional language of your choice.\n\n## Campaign hooks\n\n| Hook | Use |\n|------|-----|\n| **Call vision** | Ledgers rewriting themselves into a black pyramid; a horn casting a Tython-shaped shadow |\n| **Confluence** | Broker first multi-species supply pact (Dealmaker + Gestural Fluency) |\n| **Camp role** | Quartermaster, treaty scribe, or Speaker’s advisor—not automatic Speaker |\n| **Rivalry** | Sister Luma or Reth Var tries to buy/coerce your vote; Iron Will matters |\n| **Boon synergy** | Coin of the Second Mouth (Ch 17) fits merchant mystics thematically |\n| **Temple seed** | Bodhi (arts of persuasion) or Kaleth (contracts as “law”) as personal end-states |\n\n## Point budget (worksheet)\n\n| Trait | Pts |\n|-------|-----|\n| Stats Cha/Int | 12 |\n| Coercive | 2 |\n| Gestural Fluency | 2 |\n| Iron Will | 3 |\n| Dealmaker | 2 |\n| Climate Adaptation | 1 |\n| Extra Language | 1 |\n| **Total** | **23** |\n\n---\n"
       },
       "video": {
         "controls": true,
@@ -669,8 +669,8 @@
       }
     },
     {
-      "_id": "f25xlkFLRBP07OTI",
-      "name": "Appendix C — Handouts & Player Primer",
+      "_id": "M3wVmTfrStskNEHk",
+      "name": "Appendix A — NPC Index",
       "type": "text",
       "title": {
         "show": true,
@@ -679,7 +679,7 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# Appendix C — Handouts & Player Primer\n\n*Copy this section for players.*\n\n## You are pilgrims of the Tho Yor\n\nThe year is **36,453 before the Battle of Yavin**—an age so old that the Republic and the Jedi Order do not exist. You felt a Call in the Force and boarded an ancient pyramidal ship: a **Tho Yor**. Session one begins aboard that ship. You have not yet walked the world called **Tython**.\n\n## What you know\n\n- You are Force-touched (or bound to someone who is)\n- Others from many species share the decks\n- The ship is taking you somewhere that *matters*\n- Home is behind sealed doors\n\n## What you do not know (yet)\n\n- Why you were chosen\n- Who built the Tho Yor\n- What Tython will demand of you\n\n## Tone\n\nThis is a founding legend: survival, wonder, and the birth of a philosophy. You will help create the **Je'daii**—students of Balance—not join a finished order of Jedi.\n\n## Character tips\n\n- Level 9 SW5e heroes: capable, dangerous, unfinished as a culture\n- Lean into cultural tradition over later-era Jedi jargon\n- Bring a reason you answered the Call\n\n---\n"
+        "markdown": "# Appendix A — NPC Index\n\nFull cast cards live in **Chapter 19 — Faces of the First Migration**. This appendix is a quick lookup for session prep.\n\n## Speakers (one per gathering Tho Yor)\n\n| Name | Ship epithet | Role |\n|------|--------------|------|\n| **Senn-Vora** | Quiet Peak | Dai Bendu Speaker (party ship default) |\n| **Horruhn** | Green Deep | Wookiee Speaker / pathfinder |\n| **Numa'Shar** | Dancing Heat | Twi'lek Speaker / diplomat |\n| **Iil & Vorr** | Tide Law | Selkath Speakers / healers |\n| **Sari Tor** | Open Plain | Cathar Speaker / duelist |\n| **Kael Rind** | Broken Banner | Human Speaker / ex-mercenary |\n| **Yen-Ti** | Counting Dark | Scholar Speaker / gate theorist |\n| **Sister Luma** | White Vow | Ashla-zealot Speaker (rival path) |\n| **Guardian Echo** | Ninth Tho Yor | Presence, not politician |\n\n## Crafters\n\n| Name | Craft | Notes |\n|------|-------|-------|\n| **Torv Maddan** | Bladewright | Weapons; refuses purge commissions |\n| **Shekk-Arra** | Hide & Plate | Armor; Green Kin ally |\n| **Miri Quill** | Charm carver | Force focuses; moon materials |\n| **Vesh & Loom** | Cloth / sigil | Banners, Order sashes |\n\n## Rivals & pressures\n\n| Name | Role | Guidance |\n|------|------|----------|\n| **Reth Var** | Warlord claimant | Martial leader + loyalists |\n| **Kresh the Red** | Bogan duelist | Elite skirmisher; arena politics |\n\n## Walk-ons\n\nFifteen named walk-ons are listed in Chapter 19 section D (Pel, Orrin, Gatha, Silent Bran, and others). Promote favorites.\n\n## Generic combat roles\n\nFrightened civilian · Camp guardian · Zealot cell · Temple steward (late). Adjust for levels 9–15.\n\n---\n"
       },
       "video": {
         "controls": true,
@@ -698,8 +698,8 @@
       }
     },
     {
-      "_id": "NGTpJTDU7WIKthF0",
-      "name": "Appendix D — Lore Sources & Canon Notes",
+      "_id": "N5fLddQk89paJP2g",
+      "name": "Appendix B — Encounter & Random Tables",
       "type": "text",
       "title": {
         "show": true,
@@ -708,7 +708,7 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# Appendix D — Lore Sources & Canon Notes\n\n## Legends fact (baseline)\n\n- 36,453 BBY / Tho Yor Arrival gathers Force-sensitives to Tython\n- Eight Tho Yor + ninth greatest at Tython; Force Storm on arrival\n- Pilgrims form the **Je'daii Order**; Balance of Ashla & Bogan named for Tython’s moons\n- Nine temples built at Tho Yor resting sites over a long early history\n- Much later: Despot War, Force Wars, and eventual Jedi Order—**out of scope** here\n\n## Table fiction / compression\n\n- Exact Session 1 ship layout and named zones\n- Compressed temple founding into one campaign with time skips\n- Named Speakers, crafters, walk-ons, and rivals (Chapter 19)\n- Storm Clock mechanic\n- Specific council agendas and Code workshop procedure\n- Session 0 boon pool and effects (Chapter 17)\n- Kwa Gate limited to Ashla/Bogan (Chapter 18)\n- Great GM Scene Cards and four Foundry map briefs (Chapters 16 and 20)\n\n## Deliberate ambiguities\n\n- Builders of the Tho Yor (Kwa Gate proves other ancient hands, not the full answer)\n- Precisely how many years the time skips cover\n- Whether Forcesaber-like tech appears (default: no)\n\n---\n"
+        "markdown": "# Appendix B — Encounter & Random Tables\n\n## d8 Near-camp survival events\n\n1. Spoiled stores—hunt or starve clock\n2. Child missing at treeline\n3. Contested spring\n4. Predator takes a watcher\n5. Tool theft between species\n6. Contaminated wound → plague seed\n7. Inspiring omen (clear 1 Storm Clock)\n8. Dread omen (advance Storm Clock)\n\n## d6 Force weather\n\n1. Whisper winds (secrets overheard)\n2. Gravity ripples (Athletics/Acrobatics fails hurt)\n3. Ashla aurora (healing doubled once; violence costs)\n4. Bogan red night (crits threaten allies on confusion)\n5. Silent hour (no sound; Communication via Force only)\n6. Quake of judgment (imbalanced leaders targeted first)\n\n## d6 Wild encounters\n\n1. Force-mad beast\n2. Rival scouts\n3. Natural beauty that demands a rest scene\n4. Ancient glyph stone\n5. Pilgrim corpse with a map scrap\n6. Friendly lost healer\n\n## d4 Inter-camp politics\n\n1. Marriage/alliance proposal\n2. Demand for trial\n3. Trade fair\n4. Accusation of curse\n\n---\n"
       },
       "video": {
         "controls": true,
@@ -727,7 +727,65 @@
       }
     },
     {
-      "_id": "SG5KML5X0vhK08Ly",
+      "_id": "zBADxDAtYOI8w428",
+      "name": "Appendix C — Handouts & Player Primer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# Appendix C — Handouts & Player Primer\n\n*Copy this section for players.*\n\n## You are pilgrims of the Tho Yor\n\nThe year is **36,453 before the Battle of Yavin**—an age so old that the Republic and the Jedi Order do not exist. You felt a Call in the Force and boarded an ancient pyramidal ship: a **Tho Yor**. Session one begins aboard that ship. You have not yet walked the world called **Tython**.\n\n## What you know\n\n- You are Force-touched (or bound to someone who is)\n- Others from many species share the decks\n- The ship is taking you somewhere that *matters*\n- Home is behind sealed doors\n\n## What you do not know (yet)\n\n- Why you were chosen\n- Who built the Tho Yor\n- What Tython will demand of you\n\n## Tone\n\nThis is a founding legend: survival, wonder, and the birth of a philosophy. You will help create the **Je'daii**—students of Balance—not join a finished order of Jedi.\n\n## Character tips\n\n- Level 9 SW5e heroes: capable, dangerous, unfinished as a culture\n- Lean into cultural tradition over later-era Jedi jargon\n- Bring a reason you answered the Call\n- **Homeland:** pick one planet from Chapter 08 / 21 (species free)\n- **Force:** you must manipulate the Force somehow (Forcecasting class, Force archetype, Force-Sensitive feat, or innate Force species such as Miraluka)—see Chapter 08 lists\n\n\n## Player Timeline (through Pickup)\n\nSee **Chapter 21 — Player Timeline Handout** for the shareable Pre-Republic / homeland timeline ending at the Tho Yor Pickup. Do not share the GM Master Timeline section of Chapter 21.\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2500000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "J2Z1zlK9ADcPFZ8X",
+      "name": "Appendix D — Lore Sources & Canon Notes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 2,
+        "markdown": "# Appendix D — Lore Sources & Canon Notes\n\n## Legends fact (baseline)\n\n- 36,453 BBY / Tho Yor Arrival gathers Force-sensitives to Tython\n- Eight Tho Yor + ninth greatest at Tython; Force Storm on arrival\n- Pilgrims form the **Je'daii Order**; Balance of Ashla & Bogan named for Tython’s moons\n- Nine temples built at Tho Yor resting sites over a long early history\n- Much later: Despot War, Force Wars, and eventual Jedi Order—**out of scope** here\n\n## Table fiction / compression\n\n- Exact Session 1 ship layout and named zones\n- Compressed temple founding into one campaign with time skips\n- Named Speakers, crafters, walk-ons, and rivals (Chapter 19)\n- Storm Clock mechanic\n- Specific council agendas and Code workshop procedure\n- Session 0 boon pool and effects (Chapter 17)\n- Kwa Gate limited to Ashla/Bogan (Chapter 18)\n- Great GM Scene Cards and four Foundry map briefs (Chapters 16 and 20)\n- Local pre-Call centuries on listed homeworlds in Chapter 21 (tagged [T])\n- Chapter 08 Character Creation: locked homeland planets, free species, mandatory Force paths (SW5e class/archetype/species/feat lists)\n- Chapter 22 Koorivar species (worksheet-balanced SW5e traits; Legends lore)\n\n## Deliberate ambiguities\n\n- Builders of the Tho Yor (Kwa Gate proves other ancient hands, not the full answer)\n- Precisely how many years the time skips cover\n- Whether Forcesaber-like tech appears (default: no)\n\n---\n"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 2600000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "core": {
+          "sheetClass": "core.MarkdownJournalPageSheet"
+        }
+      }
+    },
+    {
+      "_id": "tZpqhATRRseu0UBK",
       "name": "Appendix E — Foundry Journal Page Map",
       "type": "text",
       "title": {
@@ -737,7 +795,7 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# Appendix E — Foundry Journal Page Map\n\nJournal Entry name: **Dawn of the Je'daii — GM Guide**\n\n| Sort | Page name | Source H1 |\n|------|-----------|-----------|\n| 0 | 00 — Introduction & How to Use | `H1 00 Introduction` |\n| 1 | 01 — The Galaxy at 36,453 BBY | `H1 01 Galaxy` |\n| 2 | 02 — The Tython System Catalog | `H1 02 Tython System` |\n| 3 | 03 — Peoples of the First Migration | `H1 03 Peoples` |\n| 4 | 04 — The Tho Yor | `H1 04 Tho Yor` |\n| 5 | 05 — Tython Gazetteer | `H1 05 Gazetteer` |\n| 6 | 06 — Power Groups & Factions | `H1 06 Power Groups` |\n| 7 | 07 — The Je'daii Order (Founding) | `H1 07 Jedaii Order` |\n| 8 | 08 — SW5e Campaign Rules | `H1 08 SW5e Rules` |\n| 9 | 09 — Adventure Path — Arc Overview | `H1 09 Arc Overview` |\n| 10 | 10 — Arc I: Aboard the Tho Yor | `H1 10 Arc I` |\n| 11 | 11 — Arc II: Arrival & First Landing | `H1 11 Arc II` |\n| 12 | 12 — Arc III: Survive & Contact | `H1 12 Arc III` |\n| 13 | 13 — Arc IV: Balance & the Name | `H1 13 Arc IV` |\n| 14 | 14 — Arc V: Temples of the Dawn | `H1 14 Arc V` |\n| 15 | 15 — Arc VI: Early Order Capstone | `H1 15 Arc VI` |\n| 16 | 16 — Great GM Scene Craft | `H1 16 Scene Craft` |\n| 17 | 17 — Session 0 Boons of the Tho Yor | `H1 17 Boons` |\n| 18 | 18 — The Kwa Gate | `H1 18 Kwa Gate` |\n| 19 | 19 — Faces of the First Migration | `H1 19 NPCs` |\n| 20 | 20 — Random Encounter Map Briefs | `H1 20 Map Briefs` |\n| 21 | Appendix A — NPC Index | `H1 Appendix A` |\n| 22 | Appendix B — Encounter & Random Tables | `H1 Appendix B` |\n| 23 | Appendix C — Handouts & Player Primer | `H1 Appendix C` |\n| 24 | Appendix D — Lore Sources & Canon Notes | `H1 Appendix D` |\n| 25 | Appendix E — Foundry Journal Page Map | `H1 Appendix E` |\n\nSource headings are the matching `#` titles in the master Markdown (same names as the Page name column).\n\nRegenerate the JSON anytime with:\n\n`python tools/md_to_foundry_journal.py`\n\nSee `foundry/README.md` for import steps.\n"
+        "markdown": "# Appendix E — Foundry Journal Page Map\n\nJournal Entry name: **Dawn of the Je'daii — GM Guide**\n\n| Sort | Page name | Source H1 |\n|------|-----------|-----------|\n| 0 | 00 — Introduction & How to Use | `H1 00 Introduction` |\n| 1 | 01 — The Galaxy at 36,453 BBY | `H1 01 Galaxy` |\n| 2 | 02 — The Tython System Catalog | `H1 02 Tython System` |\n| 3 | 03 — Peoples of the First Migration | `H1 03 Peoples` |\n| 4 | 04 — The Tho Yor | `H1 04 Tho Yor` |\n| 5 | 05 — Tython Gazetteer | `H1 05 Gazetteer` |\n| 6 | 06 — Power Groups & Factions | `H1 06 Power Groups` |\n| 7 | 07 — The Je'daii Order (Founding) | `H1 07 Jedaii Order` |\n| 8 | 08 — SW5e Campaign Rules | `H1 08 SW5e Rules` |\n| 9 | 09 — Adventure Path — Arc Overview | `H1 09 Arc Overview` |\n| 10 | 10 — Arc I: Aboard the Tho Yor | `H1 10 Arc I` |\n| 11 | 11 — Arc II: Arrival & First Landing | `H1 11 Arc II` |\n| 12 | 12 — Arc III: Survive & Contact | `H1 12 Arc III` |\n| 13 | 13 — Arc IV: Balance & the Name | `H1 13 Arc IV` |\n| 14 | 14 — Arc V: Temples of the Dawn | `H1 14 Arc V` |\n| 15 | 15 — Arc VI: Early Order Capstone | `H1 15 Arc VI` |\n| 16 | 16 — Great GM Scene Craft | `H1 16 Scene Craft` |\n| 17 | 17 — Session 0 Boons of the Tho Yor | `H1 17 Boons` |\n| 18 | 18 — The Kwa Gate | `H1 18 Kwa Gate` |\n| 19 | 19 — Faces of the First Migration | `H1 19 NPCs` |\n| 20 | 20 — Random Encounter Map Briefs | `H1 20 Map Briefs` |\n| 21 | 21 — Timelines (GM & Players) | `H1 21 Timelines` |\n| 22 | 22 — Species Spotlight: Koorivar | `H1 22 Koorivar` |\n| 23 | Appendix A — NPC Index | `H1 Appendix A` |\n| 24 | Appendix B — Encounter & Random Tables | `H1 Appendix B` |\n| 25 | Appendix C — Handouts & Player Primer | `H1 Appendix C` |\n| 26 | Appendix D — Lore Sources & Canon Notes | `H1 Appendix D` |\n| 27 | Appendix E — Foundry Journal Page Map | `H1 Appendix E` |\n\nSource headings are the matching `#` titles in the master Markdown (same names as the Page name column).\n\nRegenerate the JSON anytime with:\n\n`python tools/md_to_foundry_journal.py`\n\nSee `foundry/README.md` for import steps.\n"
       },
       "video": {
         "controls": true,
@@ -745,7 +803,7 @@
       },
       "src": null,
       "system": {},
-      "sort": 2500000,
+      "sort": 2700000,
       "ownership": {
         "default": 0
       },
