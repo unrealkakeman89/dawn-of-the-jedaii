@@ -5,33 +5,36 @@ Companion file: [`dawn-of-the-jedaii.journal.json`](dawn-of-the-jedaii.journal.j
 Generated from the master Markdown book via:
 
 ```bash
+pip install -r requirements.txt
 python tools/md_to_foundry_journal.py
 ```
 
-Each `#` heading in `dawn-of-the-jedaii-campaign-guide.md` becomes one Journal Entry **page** using Markdown format (`text.format: 2`) and the Markdown page sheet.
+Each `#` heading in `dawn-of-the-jedaii-campaign-guide.md` becomes one Journal Entry **page** with:
+
+- `text.format: 2` (Markdown) + `text.markdown` (source)
+- `text.content` (pre-rendered HTML — **required for display**)
+- Markdown page sheet flag
+
+Foundry’s Import Data path does **not** compile Markdown into HTML. Without `text.content`, page titles list correctly but bodies stay blank (including under **Monk’s Enhanced Journal**). The exporter always writes both.
 
 ## Import (UI)
 
 1. Open your Foundry VTT **v13** world (SW5e).
 2. Open the **Journal Entries** directory.
-3. Create a new Journal Entry (name can be temporary).
+3. Create a new Journal Entry (name can be temporary), **or** delete the old empty-looking **Dawn of the Je'daii — GM Guide** entry first.
 4. Right-click that entry → **Import Data**.
 5. Choose `foundry/dawn-of-the-jedaii.journal.json`.
-6. Confirm. The entry should rename to **Dawn of the Je'daii — GM Guide** and list chapter pages.
+6. Confirm. The entry should rename to **Dawn of the Je'daii — GM Guide** and list chapter pages with visible body text.
 
 Alternatively: in the Journal directory, use any existing entry’s Import Data after placing the JSON where you can browse to it.
 
-## If pages appear blank after import
+## If pages still appear blank
 
-Foundry sometimes stores Markdown in `text.markdown` but leaves `text.content` empty until the page is saved once. Fix options:
+Usually this means an **older import** that only had `text.markdown` and no `text.content`. Prefer **delete + re-import** the regenerated JSON.
 
-### A — Re-save in the UI
+### Console heal (already-imported journal)
 
-Open each blank page, switch to the Markdown sheet if needed, and save (Ctrl+S).
-
-### B — One-shot console snippet
-
-Paste into the Foundry client console (`F12`), then reload the journal:
+Paste into the Foundry client console (`F12`), then reopen the journal:
 
 ```js
 const name = "Dawn of the Je'daii — GM Guide";
@@ -42,18 +45,32 @@ if (!journal) {
   const updates = [];
   for (const page of journal.pages) {
     const md = page.text?.markdown;
-    if (md && page.text?.format === 2) {
-      updates.push({ _id: page.id, "flags.core.sheetClass": "core.MarkdownJournalPageSheet" });
+    if (!md) continue;
+    let html = page.text?.content;
+    if (!html || !String(html).trim()) {
+      if (typeof showdown !== "undefined") {
+        html = new showdown.Converter({ tables: true, strikethrough: true }).makeHtml(md);
+      } else {
+        ui.notifications.warn(`No Showdown converter; re-import the JSON for page ${page.name}`);
+        continue;
+      }
     }
+    updates.push({
+      _id: page.id,
+      "text.content": html,
+      "flags.core.sheetClass": "core.MarkdownJournalPageSheet",
+    });
   }
   if (updates.length) {
     await journal.updateEmbeddedDocuments("JournalEntryPage", updates);
-    ui.notifications.info(`Touched ${updates.length} markdown pages. Open/save any still-blank page once.`);
+    ui.notifications.info(`Healed ${updates.length} pages (wrote text.content). Reopen the journal.`);
+  } else {
+    ui.notifications.warn("No pages updated. Re-import foundry/dawn-of-the-jedaii.journal.json.");
   }
 }
 ```
 
-If a page is still blank, open it and save once so Foundry regenerates HTML `content` from Markdown.
+Monk’s Enhanced Journal renders `text.content` HTML. Titles alone are not enough.
 
 ## Permissions
 
@@ -62,5 +79,5 @@ Keep this journal **GM-only** (default ownership 0). Copy **Appendix C — Hando
 ## Regenerating after edits
 
 1. Edit `dawn-of-the-jedaii-campaign-guide.md` (keep one `#` title per chapter).
-2. Run `python tools/md_to_foundry_journal.py`.
+2. Run `pip install -r requirements.txt` once, then `python tools/md_to_foundry_journal.py`.
 3. Re-import over the journal (or delete and import fresh).
