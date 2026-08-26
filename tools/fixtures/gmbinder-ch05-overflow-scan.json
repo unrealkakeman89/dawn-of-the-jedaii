@@ -1,0 +1,32 @@
+{
+  "source": "baseline-pre-trace",
+  "page_selector": ".phb",
+  "tolerance_px": 2,
+  "pages": [
+    {
+      "page_index": 7,
+      "bounds": {
+        "bottom": 1106.234375,
+        "height": 1084.796875,
+        "left": 1005,
+        "right": 1845,
+        "top": 21.4375,
+        "width": 840
+      },
+      "elements": [
+        {
+          "bottom": 385.375,
+          "gmb_src": null,
+          "left": 1806.5625,
+          "nearest_heading": "KATO ZAKAR \u2014 STAV SEED",
+          "right": 2131.453125,
+          "tag": "P",
+          "text": "GM Inspiration: Weather with a grudge. Ice Giant Range embeds a Tho Yor in mountain flesh; martial pilgrims smile; philosophers invent reasons not to go. Use the split\u2014who stays soft in Masara and who",
+          "top": 294.625
+        }
+      ]
+    }
+  ],
+  "note": "Regression fixture for Ch05 third-column/right-edge failures before geometry-derived breaks",
+  "page_count": 1
+}

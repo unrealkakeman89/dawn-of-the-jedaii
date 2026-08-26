@@ -1,0 +1,79 @@
+{
+  "scanned_at": "2026-08-26T18:00:50.945Z",
+  "page_selector": ".phb",
+  "content_selectors": "h1,h2,h3,h4,h5,h6,p,li,td,th,blockquote,table,pre,code,.note,.descriptive,.spell,.monster,.classFeature",
+  "tolerance_px": 2,
+  "page_count": 3,
+  "pages": [
+    {
+      "page_index": 5,
+      "bounds": {
+        "bottom": -1123.359375,
+        "height": 1084.796875,
+        "left": 1005,
+        "right": 1845,
+        "top": -2208.15625,
+        "width": 840
+      },
+      "elements": [
+        {
+          "bottom": -1830.140625,
+          "gmb_src": null,
+          "left": 1806.5625,
+          "nearest_heading": "5. MACHINE-SPIRIT INTERFACES",
+          "right": 2131.453125,
+          "tag": "P",
+          "text": "At the table: Chapter 21 \u2014 Machine-Spirit Interface Scene Card.",
+          "top": -1860.390625
+        }
+      ]
+    },
+    {
+      "page_index": 20,
+      "bounds": {
+        "bottom": 15598.59375,
+        "height": 1084.796875,
+        "left": 1005,
+        "right": 1845,
+        "top": 14513.796875,
+        "width": 840
+      },
+      "elements": [
+        {
+          "bottom": 14662.453125,
+          "gmb_src": null,
+          "left": 1823.21875,
+          "nearest_heading": "C. SESSION 2 \u2014 SONG OF THE SHIP",
+          "right": 2131.453125,
+          "tag": "LI",
+          "text": "[ ] Glimpse Sealed Vault + ozone corridor (no open Gate)",
+          "top": 14632.265625
+        }
+      ]
+    },
+    {
+      "page_index": 41,
+      "bounds": {
+        "bottom": 39009.328125,
+        "height": 1084.796875,
+        "left": 1005,
+        "right": 1845,
+        "top": 37924.53125,
+        "width": 840
+      },
+      "elements": [
+        {
+          "bottom": 38278.03125,
+          "gmb_src": null,
+          "left": 1823.21875,
+          "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+          "right": 2131.453125,
+          "tag": "LI",
+          "text": "Approaches: corridor from Machine-Spirit S; vault door E (still sealed)",
+          "top": 38247.84375
+        }
+      ]
+    }
+  ],
+  "note": "Ch04 regression: third-column/right-edge overflow when break before Sealed Vaults is too late"
+}

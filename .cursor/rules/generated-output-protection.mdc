@@ -1,0 +1,40 @@
+---
+description: Protect generated GM Binder and Foundry outputs; constrain write-capable tools
+globs:
+  - "gmbinder/**"
+  - "foundry/**/*.json"
+  - "tools/**/*.py"
+alwaysApply: false
+---
+
+# Generated Output Protection
+
+See also `ai/PROJECT_ARCHITECTURE.md` for the current pipeline.
+
+## Never treat generated files as sources of truth
+
+- Do **not** hand-edit `gmbinder/**` or `foundry/**/*.json` to correct campaign content.
+- Edit `dawn-of-the-jedaii-campaign-guide.md` (primary authority), then regenerate when Kakeman89 authorizes a regen run.
+- Output-only “fixes” will be lost on regeneration and create sync drift.
+
+## Scripts
+
+| Script | Behavior |
+|--------|----------|
+| `tools/md_to_foundry_journal.py` | Reads primary guide → writes Foundry journal JSON |
+| `tools/md_to_gmbinder.py` | Reads primary guide (+ external Koorivar file) → writes GM Binder Markdown |
+| `tools/reorder_guide_chapters.py` | **Dangerous** — writes the primary guide in place |
+
+- Do not execute write-capable scripts during audit sessions without explicit authorization.
+- Do not mutate live Foundry worlds from the agent.
+- Foundry page `_id` generation currently uses non-deterministic `secrets.choice`. Flag ID stability as a technical risk; do not “fix” IDs by hand-editing JSON unless Kakeman89 authorizes a tooling change.
+
+## Generated-file notices
+
+- Future GM Binder outputs should include a generated-file warning naming the authoritative source and regen tool.
+- Foundry JSON cannot use comments; notice strategy (metadata / README / adjacent file) is deferred tooling work.
+- Do **not** add generated-file notices during rules-only work unless separately authorized.
+
+## Permissions
+
+Keep the imported GM Guide journal **GM-only** by default. Player-safe material belongs in separately managed handouts (e.g. Appendix C), not by widening default journal ownership without authorization.

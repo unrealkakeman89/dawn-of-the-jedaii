@@ -6,3 +6,8 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# Python / generator scratch
+__pycache__/
+*.pyc
+*.bak-*

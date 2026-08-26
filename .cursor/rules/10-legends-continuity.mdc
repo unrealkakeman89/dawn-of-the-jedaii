@@ -1,0 +1,58 @@
+---
+alwaysApply: true
+---
+
+# Star Wars Legends Continuity
+
+This campaign uses Star Wars Legends continuity as its default and authoritative fictional continuity.
+
+## Authority order
+
+When researching, drafting, revising, validating, or exporting campaign content, use this order of authority:
+
+1. Explicit decisions approved by Kakeman89 for this campaign
+2. Sources designated authoritative by this repository (including Appendix D where it covers a claim, and `ai/PROJECT_ARCHITECTURE.md` for edit boundaries only — not lore)
+3. Star Wars Legends continuity
+4. Clearly labeled original campaign material that does not contradict the above
+
+## Canon restrictions
+
+- Do not introduce post-2014 Disney canon into the campaign unless Kakeman89 explicitly authorizes a specific exception.
+- Do not silently blend Disney canon with Legends.
+- A name, planet, species, organization, character, event, technology, or concept appearing in both continuities does not make the two versions interchangeable.
+- When the Legends and Disney-canon versions differ, use the Legends version.
+- When a detail cannot be verified as Legends, mark it `NEEDS_SOURCE` rather than presenting it as established lore.
+- When no Legends answer exists, do not import the Disney-canon answer as a substitute.
+- Original campaign material may fill a gap only when it is clearly identified as an adaptation or campaign invention.
+- Material already approved for this campaign remains authoritative even when it intentionally adds to or adapts Legends lore.
+- Do not retroactively rewrite approved campaign material merely because another Legends source uses a different interpretation. Report the conflict first.
+
+## Historical terminology
+
+- Treat material formerly categorized as the Star Wars Expanded Universe as part of Legends continuity unless repository evidence establishes otherwise.
+- Preserve terminology appropriate to the historical era being portrayed (this campaign: **36,453 BBY / 0 TYA**, Tho Yor Arrival / Je'daii founding).
+- Do not introduce later institutions, technology, titles, political conditions, Force traditions, or cultural assumptions into an earlier era without verified support or explicit campaign authorization.
+
+## Source discipline
+
+For substantive lore claims:
+
+- Identify the supporting source when the repository provides one.
+- Distinguish verified Legends lore from campaign inference.
+- Distinguish campaign inference from original invention.
+- Never fabricate citations, quotations, page numbers, dates, or source provenance.
+- Do not reproduce lengthy copyrighted passages. Paraphrase the relevant information.
+- If sources conflict, record the conflict and preserve the existing approved campaign decision until Kakeman89 resolves it.
+
+## Required classifications
+
+Classify new lore as one of:
+
+- `LEGENDS_VERIFIED`
+- `CAMPAIGN_APPROVED`
+- `CAMPAIGN_ADAPTATION`
+- `ORIGINAL_CAMPAIGN_MATERIAL`
+- `NEEDS_SOURCE`
+- `CONTINUITY_CONFLICT`
+
+Do not classify Disney-canon material as `LEGENDS_VERIFIED`.

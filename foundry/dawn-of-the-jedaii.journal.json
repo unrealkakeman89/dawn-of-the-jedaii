@@ -1,8 +1,9 @@
 {
+  "_id": "a55qrahK0VedGJQ6",
   "name": "Dawn of the Je'daii — GM Guide",
   "pages": [
     {
-      "_id": "uxKLnZlQZnPp5bWN",
+      "_id": "D3yrMxvlUJijYZgs",
       "name": "00 — Introduction & How to Use",
       "type": "text",
       "title": {
@@ -12,8 +13,8 @@
       "image": {},
       "text": {
         "format": 2,
-        "markdown": "# 00 — Introduction & How to Use\n\n**Dawn of the Je'daii** is a GM campaign guide for a Star Wars tabletop campaign set in **36,453 BBY (0 TYA)**—the year the Tho Yor gather Force-sensitive pilgrims and deliver them to Tython. It is written for **Foundry VTT** using **SW5e**, in the spirit of the *Living Force Campaign Guide*: a setting bible plus a playable adventure path.\n\n## Elevator pitch\n\nThe player characters are not joining the Jedi Order. The Jedi do not exist yet.\n\nThey are among the first pilgrims called by a **Tho Yor**—an ancient pyramidal temple-ship. Session 1 begins **aboard that ship**, before anyone sets foot on Tython. Across the campaign they will explore the Tho Yor, survive Tython’s living Force storms, contact other pilgrim peoples, invent the philosophy of **Balance** between **Ashla** and **Bogan**, name the **Je'daii Order**, and seed the network of temples that will one day define the Order.\n\n> **GM:** The party starts at **level 9**. They are already powerful individuals. Treat them as founders and first Masters-in-waiting, not padawans.\n\n## What this book contains\n\n| Part | Chapters | Use |\n|------|----------|-----|\n| **I — Setting & Mysteries** | 01–09 | Era, Tython catalog, peoples, Tho Yor, gazetteer, factions, Je'daii founding, Kwa Gate, calendar |\n| **II — Campaign Rules & Session 0** | 10–13 | SW5e chargen, boons, species spotlight, GM checklists |\n| **III — Adventure Path** | 14–20 | Arc overview + Arcs I–VI (Episode 1 = Arc I–II through disembark) |\n| **IV — Table Tools** | 21–23 | Scene Cards, NPC cast, map briefs |\n| **V — Continuity** | 24 | GM & player timelines through Tho Yor Pickup |\n| **Appendices** | A–E | NPC index, tables, player primer, canon notes, Foundry page map |\n\n## Canon stance\n\n- **Baseline:** Legends *Dawn of the Jedi* (comics) and related Tython / Je'daii lore.\n- **Compression:** Canon spreads temple founding across centuries. This campaign **compresses** that into playable arcs plus explicit **time skips** so the table can found the Order and seed the nine temple sites without waiting millennia of table time.\n- **Table fiction:** Where lore is silent, this guide invents playable detail. Appendix D marks Legends fact vs table fiction.\n\n## Spoiler & handout policy\n\n- **GM-only:** Chapters 04 (secrets), 06–09 (faction/Order/Gate/calendar defaults), 13–23 (checklists, arcs, tools), Chapter 24 GM Master Timeline, Appendices A–B, D.\n- **Safe for players:** Appendix C (Player Primer + Player Timeline); Chapter 10 Character Creation Requirements (planet list + Force paths + **Party Tho Yor calling** words); Chapter 24 Player Timeline Handout; Chapter 11 Session 0 boon *visions* only (not GM effects); Chapter 09 calendar **workshop** once landed (not the default Twin Measure until the table adopts or skips inventing). Optionally share high-level Ch 01–02 flavor after Session 1. After Arc IV ratification, the **Ninefold Code** (Chapter 07) is player-safe.\n- Do not show players the full nine-temple end-state list until the campaign earns those discoveries—**except** the party’s own destined Kesh name once they lock the Session 0 calling.\n- Do **not** hand the full **Ninefold Code** at Session 0 (temple poetry spoils end-state). Calling words alone are safe; after Naming Council ratification, share the Creed freely.\n\n\n## Recommended reading (optional)\n\n- *Star Wars: Dawn of the Jedi* comics (*Force Storm*, *Prisoner of Bogan*, *Force War*)\n- *Dawn of the Jedi: Into the Void* (novel; later Je'daii era—useful flavor, not required for Year 0)\n\n## Session 1 cold open\n\nOpen **in media res** aboard the Tho Yor (or in the final minutes of the Call, then cut to the ship). You may read the **Appendix C opening crawl** first, then cut to the Threshold Halls Scene Card (Chapter 21). Do not begin with a lengthy galactic history lecture. Let the ship teach the era.\n\nSee **Chapter 15** for Arc I, **Chapter 16** for landing, **Chapter 13** for Session 0 / Episode 1 GM checklists, **Chapter 04** for ship zones, **Chapter 21** for Scene Cards, and **Chapter 11** for Session 0 boons.\n\n## Companion Foundry journal\n\nThis master Markdown file is the source of truth. Import the companion journal JSON from `foundry/` into Foundry VTT v13 (see `foundry/README.md`). Each `#` chapter becomes one Journal Entry page (Markdown format).\n\nFor a print/PDF layout matching GM Binder (same `.phb` CSS as the Koorivar species share), copy-paste [`gmbinder/dawn-of-the-jedaii-gmbinder.md`](gmbinder/dawn-of-the-jedaii-gmbinder.md) into [GM Binder](https://www.gmbinder.com). Regenerate that file with `python tools/md_to_gmbinder.py` after editing this master guide.\n\n---\n",
-        "content": "<p><strong>Dawn of the Je'daii</strong> is a GM campaign guide for a Star Wars tabletop campaign set in <strong>36,453 BBY (0 TYA)</strong>—the year the Tho Yor gather Force-sensitive pilgrims and deliver them to Tython. It is written for <strong>Foundry VTT</strong> using <strong>SW5e</strong>, in the spirit of the <em>Living Force Campaign Guide</em>: a setting bible plus a playable adventure path.</p>\n<h2>Elevator pitch</h2>\n<p>The player characters are not joining the Jedi Order. The Jedi do not exist yet.</p>\n<p>They are among the first pilgrims called by a <strong>Tho Yor</strong>—an ancient pyramidal temple-ship. Session 1 begins <strong>aboard that ship</strong>, before anyone sets foot on Tython. Across the campaign they will explore the Tho Yor, survive Tython’s living Force storms, contact other pilgrim peoples, invent the philosophy of <strong>Balance</strong> between <strong>Ashla</strong> and <strong>Bogan</strong>, name the <strong>Je'daii Order</strong>, and seed the network of temples that will one day define the Order.</p>\n<blockquote>\n<p><strong>GM:</strong> The party starts at <strong>level 9</strong>. They are already powerful individuals. Treat them as founders and first Masters-in-waiting, not padawans.</p>\n</blockquote>\n<h2>What this book contains</h2>\n<table>\n<thead>\n<tr>\n<th>Part</th>\n<th>Chapters</th>\n<th>Use</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>I — Setting &amp; Mysteries</strong></td>\n<td>01–09</td>\n<td>Era, Tython catalog, peoples, Tho Yor, gazetteer, factions, Je'daii founding, Kwa Gate, calendar</td>\n</tr>\n<tr>\n<td><strong>II — Campaign Rules &amp; Session 0</strong></td>\n<td>10–13</td>\n<td>SW5e chargen, boons, species spotlight, GM checklists</td>\n</tr>\n<tr>\n<td><strong>III — Adventure Path</strong></td>\n<td>14–20</td>\n<td>Arc overview + Arcs I–VI (Episode 1 = Arc I–II through disembark)</td>\n</tr>\n<tr>\n<td><strong>IV — Table Tools</strong></td>\n<td>21–23</td>\n<td>Scene Cards, NPC cast, map briefs</td>\n</tr>\n<tr>\n<td><strong>V — Continuity</strong></td>\n<td>24</td>\n<td>GM &amp; player timelines through Tho Yor Pickup</td>\n</tr>\n<tr>\n<td><strong>Appendices</strong></td>\n<td>A–E</td>\n<td>NPC index, tables, player primer, canon notes, Foundry page map</td>\n</tr>\n</tbody>\n</table>\n<h2>Canon stance</h2>\n<ul>\n<li><strong>Baseline:</strong> Legends <em>Dawn of the Jedi</em> (comics) and related Tython / Je'daii lore.</li>\n<li><strong>Compression:</strong> Canon spreads temple founding across centuries. This campaign <strong>compresses</strong> that into playable arcs plus explicit <strong>time skips</strong> so the table can found the Order and seed the nine temple sites without waiting millennia of table time.</li>\n<li><strong>Table fiction:</strong> Where lore is silent, this guide invents playable detail. Appendix D marks Legends fact vs table fiction.</li>\n</ul>\n<h2>Spoiler &amp; handout policy</h2>\n<ul>\n<li><strong>GM-only:</strong> Chapters 04 (secrets), 06–09 (faction/Order/Gate/calendar defaults), 13–23 (checklists, arcs, tools), Chapter 24 GM Master Timeline, Appendices A–B, D.</li>\n<li><strong>Safe for players:</strong> Appendix C (Player Primer + Player Timeline); Chapter 10 Character Creation Requirements (planet list + Force paths + <strong>Party Tho Yor calling</strong> words); Chapter 24 Player Timeline Handout; Chapter 11 Session 0 boon <em>visions</em> only (not GM effects); Chapter 09 calendar <strong>workshop</strong> once landed (not the default Twin Measure until the table adopts or skips inventing). Optionally share high-level Ch 01–02 flavor after Session 1. After Arc IV ratification, the <strong>Ninefold Code</strong> (Chapter 07) is player-safe.</li>\n<li>Do not show players the full nine-temple end-state list until the campaign earns those discoveries—<strong>except</strong> the party’s own destined Kesh name once they lock the Session 0 calling.</li>\n<li>Do <strong>not</strong> hand the full <strong>Ninefold Code</strong> at Session 0 (temple poetry spoils end-state). Calling words alone are safe; after Naming Council ratification, share the Creed freely.</li>\n</ul>\n<h2>Recommended reading (optional)</h2>\n<ul>\n<li><em>Star Wars: Dawn of the Jedi</em> comics (<em>Force Storm</em>, <em>Prisoner of Bogan</em>, <em>Force War</em>)</li>\n<li><em>Dawn of the Jedi: Into the Void</em> (novel; later Je'daii era—useful flavor, not required for Year 0)</li>\n</ul>\n<h2>Session 1 cold open</h2>\n<p>Open <strong>in media res</strong> aboard the Tho Yor (or in the final minutes of the Call, then cut to the ship). You may read the <strong>Appendix C opening crawl</strong> first, then cut to the Threshold Halls Scene Card (Chapter 21). Do not begin with a lengthy galactic history lecture. Let the ship teach the era.</p>\n<p>See <strong>Chapter 15</strong> for Arc I, <strong>Chapter 16</strong> for landing, <strong>Chapter 13</strong> for Session 0 / Episode 1 GM checklists, <strong>Chapter 04</strong> for ship zones, <strong>Chapter 21</strong> for Scene Cards, and <strong>Chapter 11</strong> for Session 0 boons.</p>\n<h2>Companion Foundry journal</h2>\n<p>This master Markdown file is the source of truth. Import the companion journal JSON from <code>foundry/</code> into Foundry VTT v13 (see <code>foundry/README.md</code>). Each <code>#</code> chapter becomes one Journal Entry page (Markdown format).</p>\n<p>For a print/PDF layout matching GM Binder (same <code>.phb</code> CSS as the Koorivar species share), copy-paste <a href=\"gmbinder/dawn-of-the-jedaii-gmbinder.md\"><code>gmbinder/dawn-of-the-jedaii-gmbinder.md</code></a> into <a href=\"https://www.gmbinder.com\">GM Binder</a>. Regenerate that file with <code>python tools/md_to_gmbinder.py</code> after editing this master guide.</p>\n<hr />"
+        "markdown": "# 00 — Introduction & How to Use\n\n**Dawn of the Je'daii** is a GM campaign guide for a Star Wars tabletop campaign set in **36,453 BBY (0 TYA)**—the year the Tho Yor gather Force-sensitive pilgrims and deliver them to Tython. It is written for **Foundry VTT** using **SW5e**, in the spirit of the *Living Force Campaign Guide*: a setting bible plus a playable adventure path.\n\n## Elevator pitch\n\nThe player characters are not joining the Jedi Order. The Jedi do not exist yet.\n\nThey are among the first pilgrims called by a **Tho Yor**—an ancient pyramidal temple-ship. Session 1 begins **aboard that ship**, before anyone sets foot on Tython. Across the campaign they will explore the Tho Yor, survive Tython’s living Force storms, contact other pilgrim peoples, invent the philosophy of **Balance** between **Ashla** and **Bogan**, name the **Je'daii Order**, and seed the network of temples that will one day define the Order.\n\n> **GM:** The party starts at **level 9**. They are already powerful individuals. Treat them as founders and first Masters-in-waiting, not padawans.\n\n## What this book contains\n\n| Part | Chapters | Use |\n|------|----------|-----|\n| **I — Setting & Mysteries** | 01–09 | Era, Tython catalog, peoples, Tho Yor, gazetteer, factions, Je'daii founding, Kwa Gate, calendar |\n| **II — Campaign Rules & Session 0** | 10–13 | SW5e chargen, boons, species spotlight, GM checklists |\n| **III — Adventure Path** | 14–20 | Arc overview + Arcs I–VI (Episode 1 = Arc I–II through disembark) |\n| **IV — Table Tools** | 21–23 | Scene Cards, NPC cast, map briefs |\n| **V — Continuity** | 24 | GM & player timelines through Tho Yor Pickup |\n| **Appendices** | A–E | NPC index, tables, player primer, canon notes, Foundry page map |\n\n## Canon stance\n\n- **Baseline:** Legends *Dawn of the Jedi* (comics) and related Tython / Je'daii lore.\n- **Compression:** Canon spreads temple founding across centuries. This campaign **compresses** that into playable arcs plus explicit **time skips** so the table can found the Order and seed the nine temple sites without waiting millennia of table time.\n- **Table fiction:** Where lore is silent, this guide invents playable detail. Appendix D marks Legends fact vs table fiction.\n\n## Spoiler & handout policy\n\n- **GM-only:** Chapters 04 (secrets), 06–09 (faction/Order/Gate/calendar defaults), 13–23 (checklists, arcs, tools), Chapter 24 GM Master Timeline, Appendices A–B, D.\n- **Safe for players:** Appendix C (Player Primer + Player Timeline); Chapter 10 Character Creation Requirements (planet list + Force paths + **Party Tho Yor calling** words); Chapter 24 Player Timeline Handout; Chapter 11 Session 0 boon *visions* only (not GM effects); Chapter 09 calendar **workshop** once landed (not the default Twin Measure until the table adopts or skips inventing). Optionally share high-level Ch 01–02 flavor after Session 1. After Arc IV ratification, the **Ninefold Code** (Chapter 07) is player-safe.\n- Do not show players the full nine-temple end-state list until the campaign earns those discoveries—**except** the party’s own destined Kesh name once they lock the Session 0 calling.\n- Do **not** hand the full **Ninefold Code** at Session 0 (temple poetry spoils end-state). Calling words alone are safe; after Naming Council ratification, share the Creed freely.\n\n\n## Recommended reading (optional)\n\n- *Star Wars: Dawn of the Jedi* comics (*Force Storm*, *Prisoner of Bogan*, *Force War*)\n- *Dawn of the Jedi: Into the Void* (novel; later Je'daii era—useful flavor, not required for Year 0)\n\n## Session 1 cold open\n\nOpen **in media res** aboard the Tho Yor (or in the final minutes of the Call, then cut to the ship). You may read the **Appendix C opening crawl** first, then cut to the Threshold Halls Scene Card (Chapter 21). Do not begin with a lengthy galactic history lecture. Let the ship teach the era.\n\nFor engaging, novel-like GM prep prose (ship-as-home, faces, campaign path), see the companion **[`gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md`](gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md)**. This Campaign Guide remains the rules and checklist source of truth.\n\nSee **Chapter 15** for Arc I, **Chapter 16** for landing, **Chapter 13** for Session 0 / Episode 1 GM checklists, **Chapter 04** for ship zones, **Chapter 21** for Scene Cards, and **Chapter 11** for Session 0 boons.\n\n## Companion Foundry journal\n\nThis master Markdown file is the source of truth. Import the companion journal JSON from `foundry/` into Foundry VTT v13 (see `foundry/README.md`). Each `#` chapter becomes one Journal Entry page (Markdown format).\n\nFor a print/PDF layout matching GM Binder (same `.phb` CSS as the Koorivar species share), copy-paste [`gmbinder/dawn-of-the-jedaii-gmbinder.md`](gmbinder/dawn-of-the-jedaii-gmbinder.md) into [GM Binder](https://www.gmbinder.com). Regenerate that file with `python tools/md_to_gmbinder.py` after editing this master guide.\n\n---\n",
+        "content": "<p><strong>Dawn of the Je'daii</strong> is a GM campaign guide for a Star Wars tabletop campaign set in <strong>36,453 BBY (0 TYA)</strong>—the year the Tho Yor gather Force-sensitive pilgrims and deliver them to Tython. It is written for <strong>Foundry VTT</strong> using <strong>SW5e</strong>, in the spirit of the <em>Living Force Campaign Guide</em>: a setting bible plus a playable adventure path.</p>\n<h2>Elevator pitch</h2>\n<p>The player characters are not joining the Jedi Order. The Jedi do not exist yet.</p>\n<p>They are among the first pilgrims called by a <strong>Tho Yor</strong>—an ancient pyramidal temple-ship. Session 1 begins <strong>aboard that ship</strong>, before anyone sets foot on Tython. Across the campaign they will explore the Tho Yor, survive Tython’s living Force storms, contact other pilgrim peoples, invent the philosophy of <strong>Balance</strong> between <strong>Ashla</strong> and <strong>Bogan</strong>, name the <strong>Je'daii Order</strong>, and seed the network of temples that will one day define the Order.</p>\n<blockquote>\n<p><strong>GM:</strong> The party starts at <strong>level 9</strong>. They are already powerful individuals. Treat them as founders and first Masters-in-waiting, not padawans.</p>\n</blockquote>\n<h2>What this book contains</h2>\n<table>\n<thead>\n<tr>\n<th>Part</th>\n<th>Chapters</th>\n<th>Use</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>I — Setting &amp; Mysteries</strong></td>\n<td>01–09</td>\n<td>Era, Tython catalog, peoples, Tho Yor, gazetteer, factions, Je'daii founding, Kwa Gate, calendar</td>\n</tr>\n<tr>\n<td><strong>II — Campaign Rules &amp; Session 0</strong></td>\n<td>10–13</td>\n<td>SW5e chargen, boons, species spotlight, GM checklists</td>\n</tr>\n<tr>\n<td><strong>III — Adventure Path</strong></td>\n<td>14–20</td>\n<td>Arc overview + Arcs I–VI (Episode 1 = Arc I–II through disembark)</td>\n</tr>\n<tr>\n<td><strong>IV — Table Tools</strong></td>\n<td>21–23</td>\n<td>Scene Cards, NPC cast, map briefs</td>\n</tr>\n<tr>\n<td><strong>V — Continuity</strong></td>\n<td>24</td>\n<td>GM &amp; player timelines through Tho Yor Pickup</td>\n</tr>\n<tr>\n<td><strong>Appendices</strong></td>\n<td>A–E</td>\n<td>NPC index, tables, player primer, canon notes, Foundry page map</td>\n</tr>\n</tbody>\n</table>\n<h2>Canon stance</h2>\n<ul>\n<li><strong>Baseline:</strong> Legends <em>Dawn of the Jedi</em> (comics) and related Tython / Je'daii lore.</li>\n<li><strong>Compression:</strong> Canon spreads temple founding across centuries. This campaign <strong>compresses</strong> that into playable arcs plus explicit <strong>time skips</strong> so the table can found the Order and seed the nine temple sites without waiting millennia of table time.</li>\n<li><strong>Table fiction:</strong> Where lore is silent, this guide invents playable detail. Appendix D marks Legends fact vs table fiction.</li>\n</ul>\n<h2>Spoiler &amp; handout policy</h2>\n<ul>\n<li><strong>GM-only:</strong> Chapters 04 (secrets), 06–09 (faction/Order/Gate/calendar defaults), 13–23 (checklists, arcs, tools), Chapter 24 GM Master Timeline, Appendices A–B, D.</li>\n<li><strong>Safe for players:</strong> Appendix C (Player Primer + Player Timeline); Chapter 10 Character Creation Requirements (planet list + Force paths + <strong>Party Tho Yor calling</strong> words); Chapter 24 Player Timeline Handout; Chapter 11 Session 0 boon <em>visions</em> only (not GM effects); Chapter 09 calendar <strong>workshop</strong> once landed (not the default Twin Measure until the table adopts or skips inventing). Optionally share high-level Ch 01–02 flavor after Session 1. After Arc IV ratification, the <strong>Ninefold Code</strong> (Chapter 07) is player-safe.</li>\n<li>Do not show players the full nine-temple end-state list until the campaign earns those discoveries—<strong>except</strong> the party’s own destined Kesh name once they lock the Session 0 calling.</li>\n<li>Do <strong>not</strong> hand the full <strong>Ninefold Code</strong> at Session 0 (temple poetry spoils end-state). Calling words alone are safe; after Naming Council ratification, share the Creed freely.</li>\n</ul>\n<h2>Recommended reading (optional)</h2>\n<ul>\n<li><em>Star Wars: Dawn of the Jedi</em> comics (<em>Force Storm</em>, <em>Prisoner of Bogan</em>, <em>Force War</em>)</li>\n<li><em>Dawn of the Jedi: Into the Void</em> (novel; later Je'daii era—useful flavor, not required for Year 0)</li>\n</ul>\n<h2>Session 1 cold open</h2>\n<p>Open <strong>in media res</strong> aboard the Tho Yor (or in the final minutes of the Call, then cut to the ship). You may read the <strong>Appendix C opening crawl</strong> first, then cut to the Threshold Halls Scene Card (Chapter 21). Do not begin with a lengthy galactic history lecture. Let the ship teach the era.</p>\n<p>For engaging, novel-like GM prep prose (ship-as-home, faces, campaign path), see the companion <strong><a href=\"gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md\"><code>gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md</code></a></strong>. This Campaign Guide remains the rules and checklist source of truth.</p>\n<p>See <strong>Chapter 15</strong> for Arc I, <strong>Chapter 16</strong> for landing, <strong>Chapter 13</strong> for Session 0 / Episode 1 GM checklists, <strong>Chapter 04</strong> for ship zones, <strong>Chapter 21</strong> for Scene Cards, and <strong>Chapter 11</strong> for Session 0 boons.</p>\n<h2>Companion Foundry journal</h2>\n<p>This master Markdown file is the source of truth. Import the companion journal JSON from <code>foundry/</code> into Foundry VTT v13 (see <code>foundry/README.md</code>). Each <code>#</code> chapter becomes one Journal Entry page (Markdown format).</p>\n<p>For a print/PDF layout matching GM Binder (same <code>.phb</code> CSS as the Koorivar species share), copy-paste <a href=\"gmbinder/dawn-of-the-jedaii-gmbinder.md\"><code>gmbinder/dawn-of-the-jedaii-gmbinder.md</code></a> into <a href=\"https://www.gmbinder.com\">GM Binder</a>. Regenerate that file with <code>python tools/md_to_gmbinder.py</code> after editing this master guide.</p>\n<hr />"
       },
       "video": {
         "controls": true,
@@ -28,11 +29,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:00-introduction-how-to-use"
         }
       }
     },
     {
-      "_id": "olswpNNHmjE1wBiW",
+      "_id": "FFhw2viRnCQTeAG3",
       "name": "01 — The Galaxy at 36,453 BBY",
       "type": "text",
       "title": {
@@ -58,11 +62,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:01-the-galaxy-at-36-453-bby"
         }
       }
     },
     {
-      "_id": "rs1XrZBDPKQCzr0v",
+      "_id": "0CMQF1gQpa7oB63u",
       "name": "02 — The Tython System Catalog",
       "type": "text",
       "title": {
@@ -88,11 +95,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:02-the-tython-system-catalog"
         }
       }
     },
     {
-      "_id": "YCF74hxPV0Epljzf",
+      "_id": "YsaX71avX2rThUOw",
       "name": "03 — Peoples of the First Migration",
       "type": "text",
       "title": {
@@ -118,11 +128,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:03-peoples-of-the-first-migration"
         }
       }
     },
     {
-      "_id": "pI8GsGVQpGmotK9e",
+      "_id": "UBwEW1PcUyZiDZ5Z",
       "name": "04 — The Tho Yor",
       "type": "text",
       "title": {
@@ -148,11 +161,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:04-the-tho-yor"
         }
       }
     },
     {
-      "_id": "tHjXjQn1s8aoIdMe",
+      "_id": "McQMA35vBTsdoHQV",
       "name": "05 — Tython Gazetteer",
       "type": "text",
       "title": {
@@ -178,11 +194,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:05-tython-gazetteer"
         }
       }
     },
     {
-      "_id": "0EOHdAt02dArlwXG",
+      "_id": "kyXVb0bESJ4hv1uu",
       "name": "06 — Power Groups & Factions",
       "type": "text",
       "title": {
@@ -208,11 +227,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:06-power-groups-factions"
         }
       }
     },
     {
-      "_id": "wZVlqPpTfBxr50vH",
+      "_id": "nbTlP4OeOv7oeJKW",
       "name": "07 — The Je'daii Order (Founding)",
       "type": "text",
       "title": {
@@ -238,11 +260,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:07-the-je-daii-order-founding"
         }
       }
     },
     {
-      "_id": "eEYZGbiIWybAktc5",
+      "_id": "HnO5wwX0WwjsZBx7",
       "name": "08 — The Kwa Gate",
       "type": "text",
       "title": {
@@ -268,11 +293,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:08-the-kwa-gate"
         }
       }
     },
     {
-      "_id": "jQje1GFvhhvhhN4n",
+      "_id": "o7ieYCy58B1jeD42",
       "name": "09 — Calendar of the First Year",
       "type": "text",
       "title": {
@@ -298,11 +326,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:09-calendar-of-the-first-year"
         }
       }
     },
     {
-      "_id": "lW6489Pne7eHbcW2",
+      "_id": "h0GwVt1PUGbruK7s",
       "name": "10 — SW5e Campaign Rules",
       "type": "text",
       "title": {
@@ -328,11 +359,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:10-sw5e-campaign-rules"
         }
       }
     },
     {
-      "_id": "9nBrVNKs8gR3qaLm",
+      "_id": "dMZDCEUHe5uTWXXm",
       "name": "11 — Session 0 Boons of the Tho Yor",
       "type": "text",
       "title": {
@@ -358,11 +392,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:11-session-0-boons-of-the-tho-yor"
         }
       }
     },
     {
-      "_id": "TDgpHE6tgjzR2UyJ",
+      "_id": "DcE0chVpTs5rxdu6",
       "name": "12 — Species Spotlight: Koorivar",
       "type": "text",
       "title": {
@@ -388,11 +425,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:12-species-spotlight-koorivar"
         }
       }
     },
     {
-      "_id": "zl5SqpqnEboxdXx3",
+      "_id": "gcfhyQ1mE29Hxyzb",
       "name": "13 — GM Checklists: Session 0 & Episode 1 (The Calling)",
       "type": "text",
       "title": {
@@ -418,11 +458,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:13-gm-checklists-session-0-episode-1-the-calling"
         }
       }
     },
     {
-      "_id": "NkhnRmBeNBVxpi73",
+      "_id": "XSOIPCj0A70K7qkK",
       "name": "14 — Adventure Path — Arc Overview",
       "type": "text",
       "title": {
@@ -448,11 +491,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:14-adventure-path-arc-overview"
         }
       }
     },
     {
-      "_id": "rGHO8OmfVfibNvnI",
+      "_id": "dttOKYq2bfMedAu0",
       "name": "15 — Arc I: Aboard the Tho Yor",
       "type": "text",
       "title": {
@@ -478,11 +524,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:15-arc-i-aboard-the-tho-yor-sessions-1-3"
         }
       }
     },
     {
-      "_id": "x0gsQj8gnmA5Evx6",
+      "_id": "KZ8F3RbTOdZ3RAJa",
       "name": "16 — Arc II: Arrival & First Landing",
       "type": "text",
       "title": {
@@ -508,11 +557,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:16-arc-ii-arrival-first-landing-sessions-4-6"
         }
       }
     },
     {
-      "_id": "ME7qu3C5J6Ln2Uma",
+      "_id": "q6kPb8SOzvCAFuEw",
       "name": "17 — Arc III: Survive & Contact",
       "type": "text",
       "title": {
@@ -538,11 +590,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:17-arc-iii-survive-contact-sessions-7-11"
         }
       }
     },
     {
-      "_id": "Cwdar7x1QhZKzATz",
+      "_id": "DzsdiCpLXXztB87C",
       "name": "18 — Arc IV: Balance & the Name",
       "type": "text",
       "title": {
@@ -568,11 +623,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:18-arc-iv-balance-the-name-sessions-12-16"
         }
       }
     },
     {
-      "_id": "87bzVCIoaltRraMu",
+      "_id": "NNsUg3u1v0NsalXB",
       "name": "19 — Arc V: Temples of the Dawn",
       "type": "text",
       "title": {
@@ -598,11 +656,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:19-arc-v-temples-of-the-dawn-sessions-17-24"
         }
       }
     },
     {
-      "_id": "Q1aTnFrhx2P2FYfs",
+      "_id": "YGtnCwjs0bPsQBVH",
       "name": "20 — Arc VI: Early Order Capstone",
       "type": "text",
       "title": {
@@ -628,11 +689,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:20-arc-vi-early-order-capstone-sessions-25-30"
         }
       }
     },
     {
-      "_id": "gZVkvEVxyUFKO6CW",
+      "_id": "WQ45iRr9febauZvy",
       "name": "21 — Great GM Scene Craft",
       "type": "text",
       "title": {
@@ -658,11 +722,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:21-great-gm-scene-craft"
         }
       }
     },
     {
-      "_id": "6PulcKL4SCZIiSbo",
+      "_id": "AT1JpzHapVkm472Y",
       "name": "22 — Faces of the First Migration",
       "type": "text",
       "title": {
@@ -688,11 +755,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:22-faces-of-the-first-migration"
         }
       }
     },
     {
-      "_id": "T0wxodd6eCegvgh0",
+      "_id": "WOiu58D1bcv8PpVX",
       "name": "23 — Random Encounter Map Briefs",
       "type": "text",
       "title": {
@@ -718,11 +788,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:23-random-encounter-map-briefs"
         }
       }
     },
     {
-      "_id": "H4Vcr0a74F8byVa5",
+      "_id": "iJgGnSUIoCTPHvx8",
       "name": "24 — Timelines (GM & Players)",
       "type": "text",
       "title": {
@@ -748,11 +821,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:24-timelines-gm-players"
         }
       }
     },
     {
-      "_id": "ElJiI2EDUHDH0nkS",
+      "_id": "hRPNSKlOwxUKg1eA",
       "name": "Appendix A — NPC Index",
       "type": "text",
       "title": {
@@ -778,11 +854,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:appendix-a-npc-index"
         }
       }
     },
     {
-      "_id": "IEbs1N4AtQhxvya2",
+      "_id": "Y9dCvrUHp5OrteRK",
       "name": "Appendix B — Encounter & Random Tables",
       "type": "text",
       "title": {
@@ -808,11 +887,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:appendix-b-encounter-random-tables"
         }
       }
     },
     {
-      "_id": "9IxbYN5ueV38WkZb",
+      "_id": "YjB5RPdipn5NvayB",
       "name": "Appendix C — Handouts & Player Primer",
       "type": "text",
       "title": {
@@ -838,11 +920,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:appendix-c-handouts-player-primer"
         }
       }
     },
     {
-      "_id": "VWwdbMREET1WpEQx",
+      "_id": "mIHI1DNVVvW1B8J5",
       "name": "Appendix D — Lore Sources & Canon Notes",
       "type": "text",
       "title": {
@@ -868,11 +953,14 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:appendix-d-lore-sources-canon-notes"
         }
       }
     },
     {
-      "_id": "xB791a87yJDz8rdi",
+      "_id": "ajunsEhT69lKv9Wk",
       "name": "Appendix E — Foundry Journal Page Map",
       "type": "text",
       "title": {
@@ -898,6 +986,9 @@
       "flags": {
         "core": {
           "sheetClass": "core.MarkdownJournalPageSheet"
+        },
+        "dawn-of-the-jedaii": {
+          "pageKey": "page:appendix-e-foundry-journal-page-map"
         }
       }
     }
@@ -905,5 +996,10 @@
   "ownership": {
     "default": 0
   },
-  "flags": {}
+  "flags": {
+    "dawn-of-the-jedaii": {
+      "journalKey": "journal:dawn-of-the-jedaii-gm-guide",
+      "idStrategy": "sha256-base62-16"
+    }
+  }
 }

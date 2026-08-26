@@ -1,0 +1,5954 @@
+{
+  "generated_at": "2026-08-26T18:01:43Z",
+  "source_revision": {
+    "guide_sha256": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+    "gmbinder_sha256": "bb7a4014089392c0208deef49d834fbfe5c4e83fc547156617d649c6bc8a4001"
+  },
+  "browser": {
+    "note": "disposable GM Binder preview scan",
+    "page_selector": ".phb",
+    "content_selectors": "h1,h2,h3,h4,h5,h6,p,li,td,th,blockquote,table,pre,code,.note,.descriptive,.spell,.monster,.classFeature",
+    "tolerance_px": 2.0,
+    "page_count": 51
+  },
+  "static_preflight_errors": [],
+  "overall_pass": false,
+  "first_failing_page_index": 5,
+  "first_overflow": {
+    "page_index": 5,
+    "classification": "FAIL_RIGHT_CLIPPING",
+    "gmb_src": null,
+    "nearest_heading": "5. MACHINE-SPIRIT INTERFACES",
+    "text_excerpt": "GM Inspiration: Ticking lattices; understanding that bites; colder Kwa corridor "
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.12238319587308903,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": -7782.140625,
+        "bottom": -6697.34375
+      }
+    },
+    {
+      "page_index": 1,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.6949895738809589,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": -6667.34375,
+        "bottom": -5582.546875
+      }
+    },
+    {
+      "page_index": 2,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3597416315621341,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": -5552.546875,
+        "bottom": -4467.75
+      }
+    },
+    {
+      "page_index": 3,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5438125970636681,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": -4437.75,
+        "bottom": -3352.953125
+      }
+    },
+    {
+      "page_index": 4,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.47445596119459493,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": -3322.953125,
+        "bottom": -2238.15625
+      }
+    },
+    {
+      "page_index": 5,
+      "status": "FAIL_RIGHT_CLIPPING",
+      "overflow_count": 4,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": -2208.15625,
+        "bottom": -1123.359375
+      }
+    },
+    {
+      "page_index": 6,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3650403995769452,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": -1093.359375,
+        "bottom": -8.5625
+      }
+    },
+    {
+      "page_index": 7,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 18,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 21.4375,
+        "bottom": 1106.234375
+      }
+    },
+    {
+      "page_index": 8,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5580938391545385,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 1136.234375,
+        "bottom": 2221.03125
+      }
+    },
+    {
+      "page_index": 9,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 32,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 2251.03125,
+        "bottom": 3335.828125
+      }
+    },
+    {
+      "page_index": 10,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.03637832305618029,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 3365.828125,
+        "bottom": 4450.625
+      }
+    },
+    {
+      "page_index": 11,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.43466960141458966,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 4480.625,
+        "bottom": 5565.421875
+      }
+    },
+    {
+      "page_index": 12,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 52,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 5595.421875,
+        "bottom": 6680.21875
+      }
+    },
+    {
+      "page_index": 13,
+      "status": "FAIL_RIGHT_CLIPPING",
+      "overflow_count": 2,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 6710.21875,
+        "bottom": 7795.015625
+      }
+    },
+    {
+      "page_index": 14,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.6475285794470143,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 7825.015625,
+        "bottom": 8909.8125
+      }
+    },
+    {
+      "page_index": 15,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.20523759282617507,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 8939.8125,
+        "bottom": 10024.609375
+      }
+    },
+    {
+      "page_index": 16,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.18113237259485296,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 10054.609375,
+        "bottom": 11139.40625
+      }
+    },
+    {
+      "page_index": 17,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.040335811998831246,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 11169.40625,
+        "bottom": 12254.203125
+      }
+    },
+    {
+      "page_index": 18,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5849345234987314,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 12284.203125,
+        "bottom": 13369.0
+      }
+    },
+    {
+      "page_index": 19,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 40,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 13399.0,
+        "bottom": 14483.796875
+      }
+    },
+    {
+      "page_index": 20,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 36,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 14513.796875,
+        "bottom": 15598.59375
+      }
+    },
+    {
+      "page_index": 21,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3199886573114309,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 15628.59375,
+        "bottom": 16713.390625
+      }
+    },
+    {
+      "page_index": 22,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5882688081246009,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 16743.390625,
+        "bottom": 17828.1875
+      }
+    },
+    {
+      "page_index": 23,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.27952924185269623,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 17858.1875,
+        "bottom": 18942.984375
+      }
+    },
+    {
+      "page_index": 24,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3737998402162909,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 18972.984375,
+        "bottom": 20057.78125
+      }
+    },
+    {
+      "page_index": 25,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.39464612930410975,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 20087.78125,
+        "bottom": 21172.578125
+      }
+    },
+    {
+      "page_index": 26,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.4092897702867246,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 21202.578125,
+        "bottom": 22287.375
+      }
+    },
+    {
+      "page_index": 27,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.25803358509014607,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 22317.375,
+        "bottom": 23402.171875
+      }
+    },
+    {
+      "page_index": 28,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 14,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 23432.171875,
+        "bottom": 24516.96875
+      }
+    },
+    {
+      "page_index": 29,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.36046492950457726,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 24546.96875,
+        "bottom": 25631.765625
+      }
+    },
+    {
+      "page_index": 30,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.33065291697703036,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 25661.765625,
+        "bottom": 26746.5625
+      }
+    },
+    {
+      "page_index": 31,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.294913410462994,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 26776.5625,
+        "bottom": 27861.359375
+      }
+    },
+    {
+      "page_index": 32,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.17512682096456916,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 27891.359375,
+        "bottom": 28976.15625
+      }
+    },
+    {
+      "page_index": 33,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.29727019284387096,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 29006.15625,
+        "bottom": 30090.953125
+      }
+    },
+    {
+      "page_index": 34,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3164788387700133,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 30120.953125,
+        "bottom": 31205.75
+      }
+    },
+    {
+      "page_index": 35,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3011619074068549,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 31235.75,
+        "bottom": 32320.546875
+      }
+    },
+    {
+      "page_index": 36,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.0869585790843517,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 32350.546875,
+        "bottom": 33435.34375
+      }
+    },
+    {
+      "page_index": 37,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 29,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 33465.34375,
+        "bottom": 34550.140625
+      }
+    },
+    {
+      "page_index": 38,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3590679666232158,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 34580.140625,
+        "bottom": 35664.9375
+      }
+    },
+    {
+      "page_index": 39,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5865076863558126,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 35694.9375,
+        "bottom": 36779.734375
+      }
+    },
+    {
+      "page_index": 40,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.05846023440731169,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 36809.734375,
+        "bottom": 37894.53125
+      }
+    },
+    {
+      "page_index": 41,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 20,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 37924.53125,
+        "bottom": 39009.328125
+      }
+    },
+    {
+      "page_index": 42,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 52,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 39039.328125,
+        "bottom": 40124.125
+      }
+    },
+    {
+      "page_index": 43,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.6391442951898089,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 40154.125,
+        "bottom": 41238.921875
+      }
+    },
+    {
+      "page_index": 44,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.2991378920099015,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 41268.921875,
+        "bottom": 42353.71875
+      }
+    },
+    {
+      "page_index": 45,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.19341099975385245,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 42383.71875,
+        "bottom": 43468.515625
+      }
+    },
+    {
+      "page_index": 46,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.43881578016683503,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 43498.515625,
+        "bottom": 44583.3125
+      }
+    },
+    {
+      "page_index": 47,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.22563217978570502,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 44613.3125,
+        "bottom": 45698.109375
+      }
+    },
+    {
+      "page_index": 48,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5528722406139851,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 45728.109375,
+        "bottom": 46812.90625
+      }
+    },
+    {
+      "page_index": 49,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.304551732234423,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 46842.90625,
+        "bottom": 47927.703125
+      }
+    },
+    {
+      "page_index": 50,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 14,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1005.0,
+        "right": 1845.0,
+        "top": 47957.703125,
+        "bottom": 49042.5
+      }
+    }
+  ],
+  "overflow_elements": [
+    {
+      "page_index": 5,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "GM Inspiration: Ticking lattices; understanding that bites; colder Kwa corridor ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "5. MACHINE-SPIRIT INTERFACES",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": -2118.78125,
+        "bottom": -2073.40625
+      }
+    },
+    {
+      "page_index": 5,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Encounters: Skill challenges to open a wing; risk of psychic backlash; rumor of ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "5. MACHINE-SPIRIT INTERFACES",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": -2072.984375,
+        "bottom": -2027.609375
+      }
+    },
+    {
+      "page_index": 5,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Kwa foreshadow murals (must-show in Arc I Session 2): Wall reliefs in a colder c",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "5. MACHINE-SPIRIT INTERFACES",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": -2027.1875,
+        "bottom": -1860.8125
+      }
+    },
+    {
+      "page_index": 5,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "At the table: Chapter 21 \u2014 Machine-Spirit Interface Scene Card.",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "5. MACHINE-SPIRIT INTERFACES",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": -1860.390625,
+        "bottom": -1830.140625
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "GM Inspiration: Temperate lies. Coast and plains look gentle until the Edge Fore",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MASARA \u2014 BODHI & PADAWAN SEEDS",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 110.8125,
+        "bottom": 216.6875
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Temperate, deceptively gentle. Edge Forest hides predators and inspiration alike",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MASARA \u2014 BODHI & PADAWAN SEEDS",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 217.109375,
+        "bottom": 262.484375
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "KATO ZAKAR \u2014 STAV SEED",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "KATO ZAKAR \u2014 STAV SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 272.984375,
+        "bottom": 291.609375
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "GM Inspiration: Weather with a grudge. Ice Giant Range embeds a Tho Yor in mount",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "KATO ZAKAR \u2014 STAV SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 294.625,
+        "bottom": 385.375
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Hostile weather and terrain. Martial pilgrims thrive; philosophers may refuse to",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "KATO ZAKAR \u2014 STAV SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 385.796875,
+        "bottom": 416.046875
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "THE CHASM \u2014 ANIL SEED",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THE CHASM \u2014 ANIL SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 426.546875,
+        "bottom": 445.171875
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "GM Inspiration: A rift that whispers equations and madness in the same breath. B",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THE CHASM \u2014 ANIL SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 448.1875,
+        "bottom": 523.8125
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Scientific temptation. Offer breakthroughs that cost sanity or Balance. Excellen",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THE CHASM \u2014 ANIL SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 524.234375,
+        "bottom": 569.609375
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "DEEP OCEAN \u2014 MAHARA SEED",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "DEEP OCEAN \u2014 MAHARA SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 580.109375,
+        "bottom": 598.734375
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "GM Inspiration: Water that heals and drowns according to the Force\u2019s mood. Boats",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "DEEP OCEAN \u2014 MAHARA SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 601.75,
+        "bottom": 677.375
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Requires boats, Force-walking, or allied aquatic pilgrims. Healing miracles and ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "DEEP OCEAN \u2014 MAHARA SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 677.796875,
+        "bottom": 708.046875
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "VOLCANIC FORGE \u2014 VUR TEPE SEED",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "VOLCANIC FORGE \u2014 VUR TEPE SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 718.546875,
+        "bottom": 737.171875
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "GM Inspiration: Heat, ash storms, metal that dreams of purpose. Crafting hub and",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "VOLCANIC FORGE \u2014 VUR TEPE SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 740.1875,
+        "bottom": 800.6875
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Campaign reward hub for crafting. Heat, ash storms, and \u201cthe metal dreams.\u201d",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "VOLCANIC FORGE \u2014 VUR TEPE SEED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 801.109375,
+        "bottom": 831.359375
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "AKAR APPROACHES \u2014 BALANCE PINNACLE",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "AKAR APPROACHES \u2014 BALANCE PINNACLE",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 841.859375,
+        "bottom": 877.109375
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "GM Inspiration: Stone pinnacle under the ninth Tho Yor\u2014already waiting, not the ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "AKAR APPROACHES \u2014 BALANCE PINNACLE",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 880.125,
+        "bottom": 955.75
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H2",
+      "text_excerpt": "GETTING LOST",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "GETTING LOST",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 966.25,
+        "bottom": 987.015625
+      }
+    },
+    {
+      "page_index": 7,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "P",
+      "text_excerpt": "Without roads, travel times are story units: a hard day, a week of ridges, a moo",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "GETTING LOST",
+      "element": {
+        "left": 2169.234375,
+        "right": 2494.125,
+        "top": 110.8125,
+        "bottom": 171.3125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TABLE",
+      "text_excerpt": "Session 0 calling Creed fold (not choosable) I. Akar Kesh Science II. Anil Kesh ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 2340.40625,
+        "bottom": 2544.546875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TH",
+      "text_excerpt": "Session 0 calling",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2340.40625,
+        "bottom": 2358.078125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Creed fold",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2340.40625,
+        "bottom": 2358.078125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "(not choosable)",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2358.078125,
+        "bottom": 2378.796875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "I. Akar Kesh",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2358.078125,
+        "bottom": 2378.796875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Science",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2378.796875,
+        "bottom": 2399.515625
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "II. Anil Kesh",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2378.796875,
+        "bottom": 2399.515625
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Art",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2399.515625,
+        "bottom": 2420.234375
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "III. Bodhi",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2399.515625,
+        "bottom": 2420.234375
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Healing",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2420.234375,
+        "bottom": 2440.953125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "IV. Mahara Kesh",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2420.234375,
+        "bottom": 2440.953125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Knowledge",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2440.953125,
+        "bottom": 2461.671875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "V. Kaleth",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2440.953125,
+        "bottom": 2461.671875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Teaching",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2461.671875,
+        "bottom": 2482.390625
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "VI. Padawan Kesh",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2461.671875,
+        "bottom": 2482.390625
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Body",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2482.390625,
+        "bottom": 2503.109375
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "VII. Stav Kesh",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2482.390625,
+        "bottom": 2503.109375
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Mind",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2503.109375,
+        "bottom": 2523.828125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "VIII. Qigong Kesh",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2503.109375,
+        "bottom": 2523.828125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Skill",
+      "overflow_px": 125.046875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1970.046875,
+        "top": 2523.828125,
+        "bottom": 2544.546875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "IX. Vur Tepe",
+      "overflow_px": 125.046875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1970.046875,
+        "right": 2131.453125,
+        "top": 2523.828125,
+        "bottom": 2544.546875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Creed epithets below (e.g. Padawan = First Discipline, Stav = Martial Arts) may ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CALLING \u2192 CREED FOLD (CROSSWALK)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 2558.546875,
+        "bottom": 2603.921875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 2614.421875,
+        "bottom": 2633.046875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "I. Akar Kesh \u2014 The Temple of Balance One current moves beneath the many names. T",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 2636.0625,
+        "bottom": 2757.0625
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "II. Anil Kesh \u2014 The Temple of Science Look into the deep places and name what is",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 2757.484375,
+        "bottom": 2863.359375
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "III. Bodhi \u2014 The Temple of the Arts What the hand makes, the soul declares. Song",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 2863.78125,
+        "bottom": 3015.03125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "IV. Mahara Kesh \u2014 The Temple of Healing Hold life as flame cupped against the wi",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 3015.453125,
+        "bottom": 3151.578125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "P",
+      "text_excerpt": "V. Kaleth \u2014 The Temple of Knowledge Keep memory, lest each age proclaim itself t",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 2169.234375,
+        "right": 2494.125,
+        "top": 2340.40625,
+        "bottom": 2461.40625
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "P",
+      "text_excerpt": "VI. Padawan Kesh \u2014 The Temple of First Discipline The first temple is the body, ",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 2169.234375,
+        "right": 2494.125,
+        "top": 2461.828125,
+        "bottom": 2673.578125
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "P",
+      "text_excerpt": "VII. Stav Kesh \u2014 The Temple of Martial Arts All life meets contest beneath sun a",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 2169.234375,
+        "right": 2494.125,
+        "top": 2674.0,
+        "bottom": 2825.25
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "P",
+      "text_excerpt": "VIII. Qigong Kesh \u2014 The Temple of Force Skills Enter the silence until distance ",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 2169.234375,
+        "right": 2494.125,
+        "top": 2825.671875,
+        "bottom": 2992.046875
+      }
+    },
+    {
+      "page_index": 9,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "P",
+      "text_excerpt": "IX. Vur Tepe \u2014 The Forge Bring fire to matter and purpose to fire. From passion ",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "element": {
+        "left": 2169.234375,
+        "right": 2494.125,
+        "top": 2992.46875,
+        "bottom": 3143.71875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TABLE",
+      "text_excerpt": "# Month Mood / use 1 Callrest Remembrance of the voyage; quiet oaths 2 Voyagesha",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 5684.796875,
+        "bottom": 5999.8125
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TH",
+      "text_excerpt": "Month",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5684.796875,
+        "bottom": 5702.46875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Mood / use",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5684.796875,
+        "bottom": 5702.46875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Callrest",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5702.46875,
+        "bottom": 5723.1875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Remembrance of the voyage; quiet oaths",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5702.46875,
+        "bottom": 5723.1875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Voyageshadow",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5723.1875,
+        "bottom": 5757.90625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Stillness after arrival; counting the long day",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5723.1875,
+        "bottom": 5757.90625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Stormwake",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5757.90625,
+        "bottom": 5778.625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Anniversary of the First Force Storm",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5757.90625,
+        "bottom": 5778.625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Ashrise",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5778.625,
+        "bottom": 5799.34375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Planting, healing, Ashla-bright rites",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5778.625,
+        "bottom": 5799.34375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Confluence",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5799.34375,
+        "bottom": 5820.0625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Multi-people markets and treaties",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5799.34375,
+        "bottom": 5820.0625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Twinwatch",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5820.0625,
+        "bottom": 5840.78125
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Both moons high; Balance debates",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5820.0625,
+        "bottom": 5840.78125
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Forgeheat",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5840.78125,
+        "bottom": 5861.5
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Vur Tepe / craft season",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5840.78125,
+        "bottom": 5861.5
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Deepgreen",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5861.5,
+        "bottom": 5882.21875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Forest/journey season; temple roads",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5861.5,
+        "bottom": 5882.21875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Boganhungry",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5882.21875,
+        "bottom": 5902.9375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Trials, red nights, hard honesty",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5882.21875,
+        "bottom": 5902.9375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Stonepath",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5902.9375,
+        "bottom": 5923.65625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Temple founding / pilgrimage season",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5902.9375,
+        "bottom": 5923.65625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Ninthlight",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5923.65625,
+        "bottom": 5958.375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Sight of the ninth Tho Yor; Balance approaches",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5923.65625,
+        "bottom": 5958.375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Quietpeak",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5958.375,
+        "bottom": 5979.09375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Akar Kesh approach; high reckoning",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5958.375,
+        "bottom": 5979.09375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Reckoning",
+      "overflow_px": 67.421875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1834.5625,
+        "right": 1912.421875,
+        "top": 5979.09375,
+        "bottom": 5999.8125
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Year-end ledgers, trials, forgiveness",
+      "overflow_px": 67.421875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "THIRTEEN MONTHS (40 TYTHON-DAYS EACH)",
+      "element": {
+        "left": 1912.421875,
+        "right": 2131.453125,
+        "top": 5979.09375,
+        "bottom": 5999.8125
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 6013.8125,
+        "bottom": 6049.0625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TABLE",
+      "text_excerpt": "Night Meaning Landing Flame First fire on Tython soil Namefire Je'daii / Code an",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 6052.078125,
+        "bottom": 6194.625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TH",
+      "text_excerpt": "Night",
+      "overflow_px": 35.9375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1880.9375,
+        "top": 6052.078125,
+        "bottom": 6069.75
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Meaning",
+      "overflow_px": 35.9375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1880.9375,
+        "right": 2131.453125,
+        "top": 6052.078125,
+        "bottom": 6069.75
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Landing Flame",
+      "overflow_px": 35.9375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1880.9375,
+        "top": 6069.75,
+        "bottom": 6104.46875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "First fire on Tython soil",
+      "overflow_px": 35.9375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1880.9375,
+        "right": 2131.453125,
+        "top": 6069.75,
+        "bottom": 6104.46875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Namefire",
+      "overflow_px": 35.9375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1880.9375,
+        "top": 6104.46875,
+        "bottom": 6125.1875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Je'daii / Code anniversary (once earned)",
+      "overflow_px": 35.9375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1880.9375,
+        "right": 2131.453125,
+        "top": 6104.46875,
+        "bottom": 6125.1875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Mercy Blade",
+      "overflow_px": 35.9375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1880.9375,
+        "top": 6125.1875,
+        "bottom": 6159.90625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Weapons laid down; share food; refuse hoarding",
+      "overflow_px": 35.9375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1880.9375,
+        "right": 2131.453125,
+        "top": 6125.1875,
+        "bottom": 6159.90625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Balance Veil",
+      "overflow_px": 35.9375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1880.9375,
+        "top": 6159.90625,
+        "bottom": 6194.625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Ashla and Bogan both named in the same prayer",
+      "overflow_px": 35.9375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "FOUR FESTIVAL NIGHTS (UNCOUNTED, BETWEEN RECKONING AND CALLREST)",
+      "element": {
+        "left": 1880.9375,
+        "right": 2131.453125,
+        "top": 6159.90625,
+        "bottom": 6194.625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "DATE FORMAT FOR PLAY",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "DATE FORMAT FOR PLAY",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 6208.625,
+        "bottom": 6227.25
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Stormwake 12, 0 TYA",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "DATE FORMAT FOR PLAY",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 6230.265625,
+        "bottom": 6249.359375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "CODE",
+      "text_excerpt": "Stormwake 12, 0 TYA",
+      "overflow_px": 98.109375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "DATE FORMAT FOR PLAY",
+      "element": {
+        "left": 1823.21875,
+        "right": 1943.109375,
+        "top": 6230.265625,
+        "bottom": 6249.359375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Twinwatch 21 (Bogan half), 1 TYA",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "DATE FORMAT FOR PLAY",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 6249.359375,
+        "bottom": 6268.453125
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "CODE",
+      "text_excerpt": "Twinwatch 21 (Bogan half), 1 TYA",
+      "overflow_px": 174.65625,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "DATE FORMAT FOR PLAY",
+      "element": {
+        "left": 1823.21875,
+        "right": 2019.65625,
+        "top": 6249.359375,
+        "bottom": 6268.453125
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Foundry: If you use a calendar module (e.g. Simple Calendar), enter 31.5-hour da",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "DATE FORMAT FOR PLAY",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 6277.96875,
+        "bottom": 6338.46875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H2",
+      "text_excerpt": "GM CHEAT SHEET",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "GM CHEAT SHEET",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 6348.96875,
+        "bottom": 6369.734375
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Time skips (Ch 14): Advance months of the Twin Measure (or the PC calendar), not",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "GM CHEAT SHEET",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 6373.5,
+        "bottom": 6403.6875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Downtime (Ch 10): One downtime cycle \u2248 one Tython-month (40 Tython-days) unless ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "GM CHEAT SHEET",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 6403.6875,
+        "bottom": 6448.96875
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Shipboard: Count voyage watches in 31.5-hour days\u2014same as Tython.",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "GM CHEAT SHEET",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 6448.96875,
+        "bottom": 6479.15625
+      }
+    },
+    {
+      "page_index": 12,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Retire and replace: If PCs invent a calendar after adopting the Twin Measure, is",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "GM CHEAT SHEET",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 6479.15625,
+        "bottom": 6539.53125
+      }
+    },
+    {
+      "page_index": 13,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Species is not pigeonholed. A Human raised on Kashyyyk, a Zabrak scholar from Ry",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPROVED HOMELAND PLANETS (REQUIRED)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 6799.59375,
+        "bottom": 6875.21875
+      }
+    },
+    {
+      "page_index": 13,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Koorivar is a fully supported playable species for this table\u2014see Chapter 12 \u2014 S",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPROVED HOMELAND PLANETS (REQUIRED)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 6875.640625,
+        "bottom": 6951.265625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Iron Will. Centuries of haggling and hard bargaining have hardened your focus. W",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "KOORIVAR TRAITS",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 13488.375,
+        "bottom": 13564.0
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Dealmaker. Whenever you make a Charisma (Persuasion) check related to buying, se",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "KOORIVAR TRAITS",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 13564.421875,
+        "bottom": 13655.171875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Climate Adaptation. You have advantage on Constitution saving throws made to avo",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "KOORIVAR TRAITS",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 13655.59375,
+        "bottom": 13700.96875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Languages. You can speak, read, and write Galactic Basic, Koorivar, and one addi",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "KOORIVAR TRAITS",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 13701.390625,
+        "bottom": 13746.765625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H2",
+      "text_excerpt": "CAMPAIGN HOOKS",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 13757.265625,
+        "bottom": 13778.03125
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TABLE",
+      "text_excerpt": "Hook Use Call vision Ledgers rewriting themselves into a black pyramid; a horn c",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 13781.796875,
+        "bottom": 14007.78125
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TH",
+      "text_excerpt": "Hook",
+      "overflow_px": 25.65625,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1806.5625,
+        "right": 1870.65625,
+        "top": 13781.796875,
+        "bottom": 13799.46875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Use",
+      "overflow_px": 25.65625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1870.65625,
+        "right": 2131.453125,
+        "top": 13781.796875,
+        "bottom": 13799.46875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Call vision",
+      "overflow_px": 25.65625,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1806.5625,
+        "right": 1870.65625,
+        "top": 13799.46875,
+        "bottom": 13834.1875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Ledgers rewriting themselves into a black pyramid; a horn casting a Tython-shape",
+      "overflow_px": 25.65625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1870.65625,
+        "right": 2131.453125,
+        "top": 13799.46875,
+        "bottom": 13834.1875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Confluence",
+      "overflow_px": 25.65625,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1806.5625,
+        "right": 1870.65625,
+        "top": 13834.1875,
+        "bottom": 13868.90625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Broker first multi-species supply pact (Dealmaker + Gestural Fluency)",
+      "overflow_px": 25.65625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1870.65625,
+        "right": 2131.453125,
+        "top": 13834.1875,
+        "bottom": 13868.90625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Camp role",
+      "overflow_px": 25.65625,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1806.5625,
+        "right": 1870.65625,
+        "top": 13868.90625,
+        "bottom": 13903.625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Quartermaster, treaty scribe, or Speaker\u2019s advisor\u2014not automatic Speaker",
+      "overflow_px": 25.65625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1870.65625,
+        "right": 2131.453125,
+        "top": 13868.90625,
+        "bottom": 13903.625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Rivalry",
+      "overflow_px": 25.65625,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1806.5625,
+        "right": 1870.65625,
+        "top": 13903.625,
+        "bottom": 13938.34375
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Sister Luma or Reth Var tries to buy/coerce your vote; Iron Will matters",
+      "overflow_px": 25.65625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1870.65625,
+        "right": 2131.453125,
+        "top": 13903.625,
+        "bottom": 13938.34375
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Boon synergy",
+      "overflow_px": 25.65625,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1806.5625,
+        "right": 1870.65625,
+        "top": 13938.34375,
+        "bottom": 13973.0625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Coin of the Second Mouth (Ch 11) fits merchant mystics thematically",
+      "overflow_px": 25.65625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1870.65625,
+        "right": 2131.453125,
+        "top": 13938.34375,
+        "bottom": 13973.0625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Temple seed",
+      "overflow_px": 25.65625,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1806.5625,
+        "right": 1870.65625,
+        "top": 13973.0625,
+        "bottom": 14007.78125
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Bodhi (arts of persuasion) or Kaleth (contracts as \u201claw\u201d) as personal end-states",
+      "overflow_px": 25.65625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "CAMPAIGN HOOKS",
+      "element": {
+        "left": 1870.65625,
+        "right": 2131.453125,
+        "top": 13973.0625,
+        "bottom": 14007.78125
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H2",
+      "text_excerpt": "POINT BUDGET (WORKSHEET)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 14021.78125,
+        "bottom": 14042.546875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TABLE",
+      "text_excerpt": "Trait Pts Stats Cha/Int 12 Coercive 2 Gestural Fluency 2 Iron Will 3 Dealmaker 2",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 14046.3125,
+        "bottom": 14229.734375
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TH",
+      "text_excerpt": "Trait",
+      "overflow_px": 216.671875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2061.671875,
+        "top": 14046.3125,
+        "bottom": 14063.984375
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Pts",
+      "overflow_px": 216.671875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 2061.671875,
+        "right": 2131.453125,
+        "top": 14046.3125,
+        "bottom": 14063.984375
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Stats Cha/Int",
+      "overflow_px": 216.671875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2061.671875,
+        "top": 14063.984375,
+        "bottom": 14084.703125
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "12",
+      "overflow_px": 216.671875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 2061.671875,
+        "right": 2131.453125,
+        "top": 14063.984375,
+        "bottom": 14084.703125
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Coercive",
+      "overflow_px": 216.671875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2061.671875,
+        "top": 14084.703125,
+        "bottom": 14105.421875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "2",
+      "overflow_px": 216.671875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 2061.671875,
+        "right": 2131.453125,
+        "top": 14084.703125,
+        "bottom": 14105.421875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Gestural Fluency",
+      "overflow_px": 216.671875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2061.671875,
+        "top": 14105.421875,
+        "bottom": 14126.140625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "2",
+      "overflow_px": 216.671875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 2061.671875,
+        "right": 2131.453125,
+        "top": 14105.421875,
+        "bottom": 14126.140625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Iron Will",
+      "overflow_px": 216.671875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2061.671875,
+        "top": 14126.140625,
+        "bottom": 14146.859375
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "3",
+      "overflow_px": 216.671875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 2061.671875,
+        "right": 2131.453125,
+        "top": 14126.140625,
+        "bottom": 14146.859375
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Dealmaker",
+      "overflow_px": 216.671875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2061.671875,
+        "top": 14146.859375,
+        "bottom": 14167.578125
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "2",
+      "overflow_px": 216.671875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 2061.671875,
+        "right": 2131.453125,
+        "top": 14146.859375,
+        "bottom": 14167.578125
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Climate Adaptation",
+      "overflow_px": 216.671875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2061.671875,
+        "top": 14167.578125,
+        "bottom": 14188.296875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "1",
+      "overflow_px": 216.671875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 2061.671875,
+        "right": 2131.453125,
+        "top": 14167.578125,
+        "bottom": 14188.296875
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Extra Language",
+      "overflow_px": 216.671875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2061.671875,
+        "top": 14188.296875,
+        "bottom": 14209.015625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "1",
+      "overflow_px": 216.671875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 2061.671875,
+        "right": 2131.453125,
+        "top": 14188.296875,
+        "bottom": 14209.015625
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Total",
+      "overflow_px": 216.671875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2061.671875,
+        "top": 14209.015625,
+        "bottom": 14229.734375
+      }
+    },
+    {
+      "page_index": 19,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "23",
+      "overflow_px": 216.671875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "POINT BUDGET (WORKSHEET)",
+      "element": {
+        "left": 2061.671875,
+        "right": 2131.453125,
+        "top": 14209.015625,
+        "bottom": 14229.734375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Glimpse Sealed Vault + ozone corridor (no open Gate)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "C. SESSION 2 \u2014 SONG OF THE SHIP",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14632.265625,
+        "bottom": 14662.453125
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Remaining PCs claim boons",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "C. SESSION 2 \u2014 SONG OF THE SHIP",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14662.453125,
+        "bottom": 14677.546875
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Seed council rumors / Speaker names for tomorrow",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "C. SESSION 2 \u2014 SONG OF THE SHIP",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14677.546875,
+        "bottom": 14692.640625
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "D. SESSION 3 \u2014 CONFLUENCE & APPROACH",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "D. SESSION 3 \u2014 CONFLUENCE & APPROACH",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 14702.15625,
+        "bottom": 14737.40625
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] First multi-species council (who speaks / guests vs chosen / arrival plan / ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "D. SESSION 3 \u2014 CONFLUENCE & APPROACH",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14740.421875,
+        "bottom": 14785.703125
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Uneven Ashla/Bogan usage; Senn-Vora frames ship teaching",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "D. SESSION 3 \u2014 CONFLUENCE & APPROACH",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14785.703125,
+        "bottom": 14815.890625
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] PCs hold \u22651 temporary speaker role",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "D. SESSION 3 \u2014 CONFLUENCE & APPROACH",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14815.890625,
+        "bottom": 14830.984375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Named NPC grievance parked for Tython payoff",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "D. SESSION 3 \u2014 CONFLUENCE & APPROACH",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14830.984375,
+        "bottom": 14846.078125
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Stay-near-ship agreement or split foreshadowed",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "D. SESSION 3 \u2014 CONFLUENCE & APPROACH",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14846.078125,
+        "bottom": 14861.171875
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Finale: Tython fills galleries; storm light gathers \u2192 cut to Arc II",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "D. SESSION 3 \u2014 CONFLUENCE & APPROACH",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14861.171875,
+        "bottom": 14891.359375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] If someone tries to buy gear mid-council: refuse credits; point to craft/fav",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "D. SESSION 3 \u2014 CONFLUENCE & APPROACH",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14891.359375,
+        "bottom": 14921.546875
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "E. SESSION 4 \u2014 STORM (ARRIVAL)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "E. SESSION 4 \u2014 STORM (ARRIVAL)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 14931.0625,
+        "bottom": 14949.6875
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Force Storm Scene Card (Ch 21)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "E. SESSION 4 \u2014 STORM (ARRIVAL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14952.703125,
+        "bottom": 14967.796875
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Other Tho Yor in lightning; ninth as myth-gravity",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "E. SESSION 4 \u2014 STORM (ARRIVAL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14967.796875,
+        "bottom": 14982.890625
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Saves / conditions for psychic pressure",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "E. SESSION 4 \u2014 STORM (ARRIVAL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14982.890625,
+        "bottom": 14997.984375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Choice: calm pilgrims (Balance) or seize control with fear (clock advances)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "E. SESSION 4 \u2014 STORM (ARRIVAL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 14997.984375,
+        "bottom": 15028.171875
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Ship amenities still feed them\u2014but no market for panic-bought weapons",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "E. SESSION 4 \u2014 STORM (ARRIVAL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 15028.171875,
+        "bottom": 15058.359375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "F. SESSION 5 \u2014 DISEMBARK (EPISODE 1 ENDS WHEN FEET HIT SOIL)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "F. SESSION 5 \u2014 DISEMBARK (EPISODE 1 ENDS WHEN FEET HIT SOIL)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 15067.875,
+        "bottom": 15103.125
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Mode A Controlled spines or Mode B Scattered landing (Ch 16)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "F. SESSION 5 \u2014 DISEMBARK (EPISODE 1 ENDS WHEN FEET HIT SOIL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 15106.140625,
+        "bottom": 15136.328125
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Party leads / regroups near their Tho Yor",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "F. SESSION 5 \u2014 DISEMBARK (EPISODE 1 ENDS WHEN FEET HIT SOIL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 15136.328125,
+        "bottom": 15151.421875
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] First breath on Tython: scarcity replaces ship comfort",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "F. SESSION 5 \u2014 DISEMBARK (EPISODE 1 ENDS WHEN FEET HIT SOIL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 15151.421875,
+        "bottom": 15166.515625
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Re-state economy: scrap, bone, favor, and craft\u2014or go without",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "F. SESSION 5 \u2014 DISEMBARK (EPISODE 1 ENDS WHEN FEET HIT SOIL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 15166.515625,
+        "bottom": 15196.703125
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Optional: introduce one crafter already scavenging materials (Torv or Shekk-",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "F. SESSION 5 \u2014 DISEMBARK (EPISODE 1 ENDS WHEN FEET HIT SOIL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 15196.703125,
+        "bottom": 15226.890625
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Episode 1 complete when all PCs (or the majority after scatter) are on Tytho",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "F. SESSION 5 \u2014 DISEMBARK (EPISODE 1 ENDS WHEN FEET HIT SOIL)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 15226.890625,
+        "bottom": 15257.078125
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "G. BRIDGE ONLY (NOT EPISODE 1 REQUIRED)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "G. BRIDGE ONLY (NOT EPISODE 1 REQUIRED)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 15266.59375,
+        "bottom": 15301.84375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "[ ] Session 6 Claim the Ground (flood / predators / water / leadership)\u2014starts c",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "G. BRIDGE ONLY (NOT EPISODE 1 REQUIRED)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 15304.859375,
+        "bottom": 15365.234375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "EPISODE 1 SUCCESS SNAPSHOT",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 15374.75,
+        "bottom": 15393.375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TABLE",
+      "text_excerpt": "Must be true Done? Party bonded as pilgrims Ashla/Bogan known as concepts Kwa mu",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 2169.234375,
+        "right": 2494.125,
+        "top": 14632.265625,
+        "bottom": 14774.25
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Must be true",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 2169.234375,
+        "right": 2449.6875,
+        "top": 14632.265625,
+        "bottom": 14649.9375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Done?",
+      "overflow_px": 604.6875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 2449.6875,
+        "right": 2494.125,
+        "top": 14632.265625,
+        "bottom": 14649.9375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Party bonded as pilgrims",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 2169.234375,
+        "right": 2449.6875,
+        "top": 14649.9375,
+        "bottom": 14670.65625
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Ashla/Bogan known as concepts",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 2169.234375,
+        "right": 2449.6875,
+        "top": 14670.65625,
+        "bottom": 14691.375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Kwa mural foreshadow seen",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 2169.234375,
+        "right": 2449.6875,
+        "top": 14691.375,
+        "bottom": 14712.09375
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Boons claimed",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 2169.234375,
+        "right": 2449.6875,
+        "top": 14712.09375,
+        "bottom": 14732.8125
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Money proven useless; craft/favor established",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 2169.234375,
+        "right": 2449.6875,
+        "top": 14732.8125,
+        "bottom": 14753.53125
+      }
+    },
+    {
+      "page_index": 20,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "On Tython soil; Vault/Gate still sealed",
+      "overflow_px": 324.234375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "EPISODE 1 SUCCESS SNAPSHOT",
+      "element": {
+        "left": 2169.234375,
+        "right": 2449.6875,
+        "top": 14753.53125,
+        "bottom": 14774.25
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: The Threshold is not a corridor so much as a canyon carved by so",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 THRESHOLD HALLS (FIRST BOARDING)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 23521.546875,
+        "bottom": 23883.796875
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Read-aloud: The corridor is wider than a canyon and quieter than a tomb. Soft li",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 THRESHOLD HALLS (FIRST BOARDING)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 23883.796875,
+        "bottom": 23989.453125
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Senses: matte black-gold stone; low harmonic hum; cold air tasting of rain on me",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 THRESHOLD HALLS (FIRST BOARDING)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 23989.453125,
+        "bottom": 24034.734375
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Exits: left dormitory wing; right galleries; forward sealed door; back (sealed C",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 THRESHOLD HALLS (FIRST BOARDING)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 24034.734375,
+        "bottom": 24064.921875
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "NPC want: a frightened pilgrim wants someone else to go first",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 THRESHOLD HALLS (FIRST BOARDING)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 24064.921875,
+        "bottom": 24095.109375
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Secrets: door opens if three strangers meditate together; a boon niche glows fai",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 THRESHOLD HALLS (FIRST BOARDING)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 24095.109375,
+        "bottom": 24125.296875
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "SCENE CARD \u2014 DORMITORIES OF THE CALLED",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 DORMITORIES OF THE CALLED",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 24134.8125,
+        "bottom": 24170.0625
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Tone: intimate / unsettled home",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 DORMITORIES OF THE CALLED",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 24173.078125,
+        "bottom": 24188.171875
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: The dormitory wing smells like travel packs opened too fast\u2014old ",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 DORMITORIES OF THE CALLED",
+      "element": {
+        "left": 2185.890625,
+        "right": 2494.125,
+        "top": 23521.546875,
+        "bottom": 23913.984375
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Read-aloud: Soft light breathes on a longer day than your bones expect. Sleeping",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 DORMITORIES OF THE CALLED",
+      "element": {
+        "left": 2185.890625,
+        "right": 2494.125,
+        "top": 23913.984375,
+        "bottom": 24019.640625
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Senses: dim cycle-light; snores and whispered translations; herb/sweat/stone; Fo",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 DORMITORIES OF THE CALLED",
+      "element": {
+        "left": 2185.890625,
+        "right": 2494.125,
+        "top": 24019.640625,
+        "bottom": 24064.921875
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Exits: back to Threshold; side null-corridor (if Storm Clock high); deeper towar",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 DORMITORIES OF THE CALLED",
+      "element": {
+        "left": 2185.890625,
+        "right": 2494.125,
+        "top": 24064.921875,
+        "bottom": 24095.109375
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "NPC want: a pilgrim wants their stolen relic returned without starting a feud",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 DORMITORIES OF THE CALLED",
+      "element": {
+        "left": 2185.890625,
+        "right": 2494.125,
+        "top": 24095.109375,
+        "bottom": 24125.296875
+      }
+    },
+    {
+      "page_index": 28,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Secrets: true nightmares; first party bond; boon bedroll niche (Ch 11)",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "SCENE CARD \u2014 DORMITORIES OF THE CALLED",
+      "element": {
+        "left": 2185.890625,
+        "right": 2494.125,
+        "top": 24125.296875,
+        "bottom": 24155.484375
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: Kael wears an ex-mercenary coat like a bad habit he has not kick",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33554.71875,
+        "bottom": 33660.375
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Species: Human",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33660.375,
+        "bottom": 33675.46875
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Look / voice: Ex-mercenary coat; tired humor",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33675.46875,
+        "bottom": 33690.5625
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Want / fear / lever: Want a home that isn\u2019t a warcamp \u00b7 Fear becoming his old ca",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33690.5625,
+        "bottom": 33720.75
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Offer: Fortify camp without tyranny",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33720.75,
+        "bottom": 33735.84375
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Hook: Old unit loyalties try to crown him warlord",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33735.84375,
+        "bottom": 33750.9375
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Cast note: Soft cynic; heroic when cornered into hope",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33750.9375,
+        "bottom": 33766.03125
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 33775.546875,
+        "bottom": 33810.796875
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: Ink-stained fingers, too-bright eyes, curiosity as addiction. Ye",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33813.8125,
+        "bottom": 33919.46875
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Species: Near-human / scholar caste (your call)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33919.46875,
+        "bottom": 33934.5625
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Look / voice: Ink-stained fingers; too-bright eyes",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33934.5625,
+        "bottom": 33949.65625
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Want / fear / lever: Want understanding of builders \u00b7 Fear ignorance \u00b7 Lever: ma",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33949.65625,
+        "bottom": 33979.84375
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Offer: Help open Kwa Gate safely\u2014for a price of access",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33979.84375,
+        "bottom": 33994.9375
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Hook: Digs toward Chasm knowledge early; needs restraint",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 33994.9375,
+        "bottom": 34025.125
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Cast note: Curiosity as addiction; redeemable",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 34025.125,
+        "bottom": 34040.21875
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 34049.734375,
+        "bottom": 34084.984375
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: Pale sash, sweet certainty, kindness with a knife inside it. Lum",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 34088.0,
+        "bottom": 34193.65625
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Species: Human",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 34193.65625,
+        "bottom": 34208.75
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Look / voice: Pale sash; sweet certainty",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 34208.75,
+        "bottom": 34223.84375
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Want / fear / lever: Want purity (Ashla-only) \u00b7 Fear Bogan\u2019s \u201ccontamination\u201d \u00b7 L",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 34223.84375,
+        "bottom": 34269.125
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Offer: Peace\u2014if the \u201cdark-hearted\u201d submit",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 34269.125,
+        "bottom": 34284.21875
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Hook: Exile list that includes a PC ally or boon-bearer",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 34284.21875,
+        "bottom": 34299.3125
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Cast note: Kind knife; believes she is saving everyone",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 34299.3125,
+        "bottom": 34314.40625
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "BLOCKQUOTE",
+      "text_excerpt": "GM: If the party\u2019s ship is not Quiet Peak, swap Senn-Vora to sister-ship status ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 34323.921875,
+        "bottom": 34376.90625
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "GM: If the party\u2019s ship is not Quiet Peak, swap Senn-Vora to sister-ship status ",
+      "overflow_px": 275.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 1817.5625,
+        "right": 2120.453125,
+        "top": 34329.921875,
+        "bottom": 34370.90625
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 34390.90625,
+        "bottom": 34409.53125
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: Not a politician. A harmonic in the bones near Akar\u2019s pinnacle; ",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "element": {
+        "left": 2185.890625,
+        "right": 2494.125,
+        "top": 33554.71875,
+        "bottom": 33645.28125
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Want: Balance near the pinnacle",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "element": {
+        "left": 2185.890625,
+        "right": 2494.125,
+        "top": 33645.28125,
+        "bottom": 33660.375
+      }
+    },
+    {
+      "page_index": 37,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Use: Nod of approval at Naming Council; warning when Gate is abused",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "element": {
+        "left": 2185.890625,
+        "right": 2494.125,
+        "top": 33660.375,
+        "bottom": 33690.5625
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Grid: 30\u00d730 antechamber + two 15\u00d715 moon pads (same scene or separate pages)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 38013.90625,
+        "bottom": 38044.09375
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Terrain legend (antechamber): Ring platform center (gate) Glyph floor (safe if c",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 38044.09375,
+        "bottom": 38148.984375
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Ring platform center (gate)",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1852.546875,
+        "right": 2131.453125,
+        "top": 38059.1875,
+        "bottom": 38072.015625
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Glyph floor (safe if calm; lightning damage if Storm Clock high when activated)",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1852.546875,
+        "right": 2131.453125,
+        "top": 38072.015625,
+        "bottom": 38097.671875
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Balcony walkway +10 ft with control crystals",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1852.546875,
+        "right": 2131.453125,
+        "top": 38097.671875,
+        "bottom": 38110.5
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Side alcoves (cover) with Kwa-style geometry (curves, not Tho Yor angles)",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1852.546875,
+        "right": 2131.453125,
+        "top": 38110.5,
+        "bottom": 38136.15625
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Ozone vents (light obscurement if smashed)",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1852.546875,
+        "right": 2131.453125,
+        "top": 38136.15625,
+        "bottom": 38148.984375
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Moon pads (reuse tiles): Ashla pad: bright floor, minimal cover, \u201cclarity lanes\u201d",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 38148.984375,
+        "bottom": 38202.5625
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Ashla pad: bright floor, minimal cover, \u201cclarity lanes\u201d",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1852.546875,
+        "right": 2131.453125,
+        "top": 38164.078125,
+        "bottom": 38176.90625
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Bogan pad: broken glass terrain (difficult), shadow columns (cover), heat vents",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1852.546875,
+        "right": 2131.453125,
+        "top": 38176.90625,
+        "bottom": 38202.5625
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Landmarks: twin moon murals (echo the Arc I corridor drawings); refusal glyph (l",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 38202.5625,
+        "bottom": 38247.84375
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Approaches: corridor from Machine-Spirit S; vault door E (still sealed)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 38247.84375,
+        "bottom": 38278.03125
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Read-aloud: The chamber is wrong for this ship\u2014softer math, older pride. A ring ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 38278.03125,
+        "bottom": 38383.6875
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: See Chapter 08 Gate Inspiration. On the grid: three handplates, ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 38383.6875,
+        "bottom": 38459.15625
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Variants: Exploration: decode handplates; Yen-Ti bargains; PCs match sketches to",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 38459.15625,
+        "bottom": 38579.90625
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Exploration: decode handplates; Yen-Ti bargains; PCs match sketches to murals (C",
+      "overflow_px": 12.71875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1857.71875,
+        "right": 2131.453125,
+        "top": 38474.25,
+        "bottom": 38519.53125
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Social/ritual: three species activate; Sister Luma tries to forbid Bogan mural",
+      "overflow_px": 12.71875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1857.71875,
+        "right": 2131.453125,
+        "top": 38519.53125,
+        "bottom": 38549.71875
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Combat: zealots attack during first activation; gate unstable (hazards)",
+      "overflow_px": 12.71875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1857.71875,
+        "right": 2131.453125,
+        "top": 38549.71875,
+        "bottom": 38579.90625
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Loot / clue: confirmation this is Kwa, not Tho Yor; first moon trip unlock; mate",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1823.21875,
+        "right": 2131.453125,
+        "top": 38579.90625,
+        "bottom": 38625.1875
+      }
+    },
+    {
+      "page_index": 41,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "End of Chapters 21\u201323.",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 38635.703125,
+        "bottom": 38650.828125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TABLE",
+      "text_excerpt": "When Event Planet c. 40,000\u201338,000 BBY [T] Pride-era Cathar clans map the savann",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 39128.703125,
+        "bottom": 40037.875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TH",
+      "text_excerpt": "When",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39128.703125,
+        "bottom": 39146.375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Event",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39128.703125,
+        "bottom": 39146.375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Planet",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39128.703125,
+        "bottom": 39146.375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 40,000\u201338,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39146.375,
+        "bottom": 39209.09375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Pride-era Cathar clans map the savannah Force-winds; a black pyramid is taboo-ho",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39146.375,
+        "bottom": 39209.09375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Cathar",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39146.375,
+        "bottom": 39209.09375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 40,000\u201337,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39209.09375,
+        "bottom": 39271.8125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Kwa remnants and mist-seers avoid / half-remember a valley pyramid on Dathomir a",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39209.09375,
+        "bottom": 39271.8125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Dathomir",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39209.09375,
+        "bottom": 39271.8125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 39,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39271.8125,
+        "bottom": 39334.53125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Wookiee tree-lords declare a floating pyramid in the Wroshyr deeps off-limits to",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39271.8125,
+        "bottom": 39334.53125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Kashyyyk",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39271.8125,
+        "bottom": 39334.53125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 39,000\u201337,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39334.53125,
+        "bottom": 39397.25
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Ryloth cave-philosophers debate whether the desert pyramid is a god, a tomb, or ",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39334.53125,
+        "bottom": 39397.25
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Ryloth",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39334.53125,
+        "bottom": 39397.25
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 38,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39397.25,
+        "bottom": 39445.96875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Selkath academies of tide-law study a submerged pyramid; diving rites become sch",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39397.25,
+        "bottom": 39445.96875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Manaan",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39397.25,
+        "bottom": 39445.96875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 38,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39445.96875,
+        "bottom": 39508.6875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Korriban\u2019s Sith tribes leave blood-offerings at a desert octahedron; kings claim",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39445.96875,
+        "bottom": 39508.6875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Korriban",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39445.96875,
+        "bottom": 39508.6875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 38,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39508.6875,
+        "bottom": 39557.40625
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Iktotchi prophecy circles record shared nightmares of a singing stone that will ",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39508.6875,
+        "bottom": 39557.40625
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Iktotch",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39508.6875,
+        "bottom": 39557.40625
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,800 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39557.40625,
+        "bottom": 39606.125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Devaronian highland temples mark a sealed pyramid as the \u201cGate That Judges Horns",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39557.40625,
+        "bottom": 39606.125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Devaron",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39557.40625,
+        "bottom": 39606.125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,700 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39606.125,
+        "bottom": 39654.84375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Noghri clan-mothers forbid hunting near a mist-wrapped pyramid on Honoghr; silen",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39606.125,
+        "bottom": 39654.84375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Honoghr",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39606.125,
+        "bottom": 39654.84375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,600 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39654.84375,
+        "bottom": 39703.5625
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Iridonian Zabrak forge-clans dream of balance-through-pain beside a buried apex.",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39654.84375,
+        "bottom": 39703.5625
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Iridonia",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39654.84375,
+        "bottom": 39703.5625
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39703.5625,
+        "bottom": 39752.28125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Mirialan tattoo-seers paint the first \u201cjourney marks\u201d after visions of a black s",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39703.5625,
+        "bottom": 39752.28125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Mirial",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39703.5625,
+        "bottom": 39752.28125
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39752.28125,
+        "bottom": 39801.0
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Sullustan tunnel-guilds map around a lava-adjacent pyramid; call it the Cool Thr",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39752.28125,
+        "bottom": 39801.0
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Sullust",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39752.28125,
+        "bottom": 39801.0
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39801.0,
+        "bottom": 39849.71875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Krevaaki philosopher-hives meditate on a reef-pyramid off Krevas.",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39801.0,
+        "bottom": 39849.71875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Krevas",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39801.0,
+        "bottom": 39849.71875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39849.71875,
+        "bottom": 39912.4375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "On Alpheridies, Miraluka enclaves feel a \u201csecond sun\u201d that is not light\u2014only For",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39849.71875,
+        "bottom": 39912.4375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Alpheridies",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39849.71875,
+        "bottom": 39912.4375
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39912.4375,
+        "bottom": 39975.15625
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "On the still-living Koorivar homeworld, horned merchants and mystics argue over ",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39912.4375,
+        "bottom": 39975.15625
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Lost Koorivar homeworld",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39912.4375,
+        "bottom": 39975.15625
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,453 BBY [L]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1806.5625,
+        "right": 1863.984375,
+        "top": 39975.15625,
+        "bottom": 40037.875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Order of Dai Bendu discovers a half-buried pyramid in the Andobi Mountains; name",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 1863.984375,
+        "right": 2055.140625,
+        "top": 39975.15625,
+        "bottom": 40037.875
+      }
+    },
+    {
+      "page_index": 42,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Ando Prime",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2055.140625,
+        "right": 2131.453125,
+        "top": 39975.15625,
+        "bottom": 40037.875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TABLE",
+      "text_excerpt": "Sort Page name Source H1 0 00 \u2014 Introduction & How to Use H1 00 Introduction 1 0",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1443.890625,
+        "right": 2131.453125,
+        "top": 48047.078125,
+        "bottom": 48973.875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Appendix D \u2014 Lore Sources & Canon Notes",
+      "overflow_px": 200.6875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1834.5625,
+        "right": 2045.6875,
+        "top": 48047.078125,
+        "bottom": 48085.796875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "H1 Appendix D",
+      "overflow_px": 200.6875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2045.6875,
+        "right": 2131.453125,
+        "top": 48047.078125,
+        "bottom": 48085.796875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "CODE",
+      "text_excerpt": "H1 Appendix D",
+      "overflow_px": 201.796875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2046.796875,
+        "right": 2126.15625,
+        "top": 48050.4375,
+        "bottom": 48082.4375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Appendix E \u2014 Foundry Journal Page Map",
+      "overflow_px": 200.6875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1834.5625,
+        "right": 2045.6875,
+        "top": 48085.796875,
+        "bottom": 48124.515625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "H1 Appendix E",
+      "overflow_px": 200.6875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2045.6875,
+        "right": 2131.453125,
+        "top": 48085.796875,
+        "bottom": 48124.515625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "CODE",
+      "text_excerpt": "H1 Appendix E",
+      "overflow_px": 201.796875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2046.796875,
+        "right": 2126.15625,
+        "top": 48089.15625,
+        "bottom": 48121.15625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Source headings are the matching # titles in the master Markdown (same names as ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 48138.515625,
+        "bottom": 48187.890625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "CODE",
+      "text_excerpt": "#",
+      "overflow_px": 177.46875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2022.46875,
+        "right": 2049.3125,
+        "top": 48138.515625,
+        "bottom": 48157.640625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Regenerate the JSON anytime with:",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 48188.3125,
+        "bottom": 48203.4375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "python tools/md_to_foundry_journal.py",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 48203.859375,
+        "bottom": 48222.984375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "CODE",
+      "text_excerpt": "python tools/md_to_foundry_journal.py",
+      "overflow_px": 225.4375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1819.15625,
+        "right": 2070.4375,
+        "top": 48203.859375,
+        "bottom": 48222.984375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "See foundry/README.md for import steps.",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1806.5625,
+        "right": 2131.453125,
+        "top": 48223.40625,
+        "bottom": 48242.53125
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "CODE",
+      "text_excerpt": "foundry/README.md",
+      "overflow_px": -1.5,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1843.5,
+        "right": 1970.09375,
+        "top": 48223.40625,
+        "bottom": 48242.53125
+      }
+    }
+  ],
+  "overflow_total": 313,
+  "failing_page_count": 12,
+  "active_internal_breaks": [
+    {
+      "id": "ch04-sealed-vaults",
+      "chapter_key": "04 \u2014 The Tho Yor",
+      "chapter": "04 \u2014 The Tho Yor",
+      "before_block_key": "",
+      "before_heading": "### 6. Sealed Vaults",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed: zones 1\u20135 fill the printable two columns; zones 6\u20138 and trailing sections spill into a clipped third column.",
+      "notes": ""
+    },
+    {
+      "id": "ch07-great-journey",
+      "chapter_key": "07 \u2014 The Je'daii Order (Founding)",
+      "chapter": "07 \u2014 The Je'daii Order (Founding)",
+      "before_block_key": "",
+      "before_heading": "## The Great Journey (invented late)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed: Ninefold Code fills the chapter page; Great Journey heading overflows off-page.",
+      "notes": ""
+    },
+    {
+      "id": "ch10-force-manipulation",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "",
+      "before_heading": "### Force manipulation (mandatory)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Character-creation homeland tables fill two columns; Force-manipulation block and later rules overflow.",
+      "notes": ""
+    },
+    {
+      "id": "ch10-tech-gear",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "",
+      "before_heading": "## Tech & gear bans / rarities",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed multi-column overflow starting at Tech & gear / Quick legal test.",
+      "notes": ""
+    },
+    {
+      "id": "ch10-force-traditions",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "",
+      "before_heading": "## Force traditions vs Jedi/Sith labels",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed fourth-column overflow for Force traditions through Downtime.",
+      "notes": ""
+    },
+    {
+      "id": "ch10-foundry-permissions",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "",
+      "before_heading": "## Foundry journal permissions",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed fifth-column overflow for Foundry journal permissions.",
+      "notes": ""
+    },
+    {
+      "id": "ch21-observation-galleries",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Observation Galleries",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed: Threshold + Dormitories fill two columns; Observation Galleries begins off-page column chain.",
+      "notes": ""
+    },
+    {
+      "id": "ch21-machine-spirit",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Machine-Spirit Interface",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Dense Scene Cards require internal breaks roughly every two cards.",
+      "notes": ""
+    },
+    {
+      "id": "ch21-confluence",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Confluence Amphitheater",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Continue Scene Card pagination before civic amphitheater card.",
+      "notes": ""
+    },
+    {
+      "id": "ch21-tython-camp",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Tython camp at night",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Separate ship-zone cards from Tython arrival/camp cards.",
+      "notes": ""
+    },
+    {
+      "id": "ch21-force-storm",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Force Storm (arrival)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Force Storm and moon surfaces are a distinct encounter cluster.",
+      "notes": ""
+    },
+    {
+      "id": "ch21-temple-akar",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Temple seed: Akar Kesh approaches",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Temple-seed Scene Cards begin a long dense sequence.",
+      "notes": ""
+    },
+    {
+      "id": "ch21-temple-padawan",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Temple seed: Padawan Kesh",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Split temple-seed cards mid-sequence to keep two-column pages.",
+      "notes": ""
+    },
+    {
+      "id": "ch21-capstone-finale",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Capstone finale tones",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Capstone finale tones + Upgrade note overflowed beyond printable width.",
+      "notes": ""
+    },
+    {
+      "id": "ch22-crafters",
+      "chapter_key": "22 \u2014 Faces of the First Migration",
+      "chapter": "22 \u2014 Faces of the First Migration",
+      "before_block_key": "",
+      "before_heading": "## B. Crafters (commission loop)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed: Speakers fill the chapter page; Crafters begin off-page overflow.",
+      "notes": ""
+    },
+    {
+      "id": "ch22-rivals",
+      "chapter_key": "22 \u2014 Faces of the First Migration",
+      "chapter": "22 \u2014 Faces of the First Migration",
+      "before_block_key": "",
+      "before_heading": "## C. Rivals & recurring pressures",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Crafters fill a page; Rivals/injection/combat roles continue off-page.",
+      "notes": ""
+    },
+    {
+      "id": "ch22-combat-roles",
+      "chapter_key": "22 \u2014 Faces of the First Migration",
+      "chapter": "22 \u2014 Faces of the First Migration",
+      "before_block_key": "",
+      "before_heading": "## E. Quick combat roles",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed later-column overflow for Quick combat roles.",
+      "notes": ""
+    },
+    {
+      "id": "ch24-century",
+      "chapter_key": "24 \u2014 Timelines (GM & Players)",
+      "chapter": "24 \u2014 Timelines (GM & Players)",
+      "before_block_key": "",
+      "before_heading": "### III. Century of tightening song (living memory)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed: early GM timeline fills two columns; century section overflows.",
+      "notes": ""
+    },
+    {
+      "id": "ch24-quick-ref",
+      "chapter_key": "24 \u2014 Timelines (GM & Players)",
+      "chapter": "24 \u2014 Timelines (GM & Players)",
+      "before_block_key": "",
+      "before_heading": "## Quick reference \u2014 planet \u2192 Call image (for Scene Cards)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed overflow for Quick reference after Call & Pickup.",
+      "notes": ""
+    },
+    {
+      "id": "ch24-player-handout",
+      "chapter_key": "24 \u2014 Timelines (GM & Players)",
+      "chapter": "24 \u2014 Timelines (GM & Players)",
+      "before_block_key": "",
+      "before_heading": "## Player Timeline Handout",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "pinned",
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed multi-column overflow for Player Timeline Handout block.",
+      "notes": ""
+    }
+  ],
+  "browser_validated_break_count": 0,
+  "unvalidated_break_count": 20
+}

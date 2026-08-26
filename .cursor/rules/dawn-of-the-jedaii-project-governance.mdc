@@ -1,0 +1,23 @@
+---
+alwaysApply: true
+---
+
+# Dawn of the Jedaii Project Governance
+
+- Treat this repository as a version-controlled GM guide and campaign-state system.
+- Inspect existing files before proposing or making changes. Prefer `ai/PROJECT_ARCHITECTURE.md` for current source-of-truth and edit boundaries.
+- Never delete, overwrite, rename, or reorganize existing material without explicit authorization.
+- Do not commit, push, merge, open pull requests, or switch branches unless explicitly instructed.
+- Planning does not authorize implementation. Audit findings and recommendations are **proposals**, not edit authorization.
+- Evaluating manuscript consolidation does **not** approve merging, retiring, archiving, or deleting either manuscript.
+- When the user requests planning, write or update the appropriate planning document only.
+- Preserve intentional placeholders and unresolved fields.
+- Never silently fill missing lore, mechanics, dates, names, or motivations.
+- Mark unresolved information as TBD, unresolved, or needs-source.
+- Prefer small, reviewable edits over broad rewrites.
+- Report every file created, modified, moved, or deleted.
+- Do not use the repository owner's real name in shipped campaign content, metadata, examples, attribution, or documentation. Use "Kakeman89" where attribution is required.
+- Files under `ai/`, `.cursor/`, and `reports/` are operational instructions, configuration, plans, or findings. They are **not** campaign canon and must not silently override the primary campaign authority (`dawn-of-the-jedaii-campaign-guide.md`).
+- Audit findings and proposed classifications do not become approved campaign material without explicit Kakeman89 authorization.
+- Do not hardcode a specific LLM model name into rules or skills. Manual selection of a strong reasoning model is allowed for consequential tasks only; model choice never alters governance, source authority, or approval gates.
+- No content correction is automatically authorized by an audit report alone.

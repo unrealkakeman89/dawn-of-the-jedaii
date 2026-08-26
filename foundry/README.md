@@ -6,7 +6,8 @@ Generated from the master Markdown book via:
 
 ```bash
 pip install -r requirements.txt
-python tools/md_to_foundry_journal.py
+python tools/md_to_foundry_journal.py --dry-run   # optional: validate only
+python tools/md_to_foundry_journal.py             # writes JSON (timestamped backup by default)
 ```
 
 Each `#` heading in `dawn-of-the-jedaii-campaign-guide.md` becomes one Journal Entry **page** with:
@@ -14,8 +15,22 @@ Each `#` heading in `dawn-of-the-jedaii-campaign-guide.md` becomes one Journal E
 - `text.format: 2` (Markdown) + `text.markdown` (source)
 - `text.content` (pre-rendered HTML — **required for display**)
 - Markdown page sheet flag
+- Deterministic `_id` values derived from stable semantic page keys (and a deterministic Journal Entry `_id`)
 
 Foundry’s Import Data path does **not** compile Markdown into HTML. Without `text.content`, page titles list correctly but bodies stay blank (including under **Monk’s Enhanced Journal**). The exporter always writes both.
+
+## Identifiers
+
+As of the F-N-001 correction, regeneration with unchanged chapter titles reproduces the same page and journal `_id`s. This is intended to support in-place updates and stable links.
+
+**Live Import Data update-vs-duplicate behavior has not been verified in a Foundry world in-repo.** Prefer testing once in a disposable world:
+
+1. Import the JSON.
+2. Regenerate without title changes.
+3. Import Data again onto the same Journal Entry.
+4. Confirm pages update rather than duplicate.
+
+Until that check, delete + re-import remains the safest known recovery if a world already contains an older random-ID import.
 
 ## Import (UI)
 
@@ -79,5 +94,5 @@ Keep this journal **GM-only** (default ownership 0). Copy **Appendix C — Hando
 ## Regenerating after edits
 
 1. Edit `dawn-of-the-jedaii-campaign-guide.md` (keep one `#` title per chapter).
-2. Run `pip install -r requirements.txt` once, then `python tools/md_to_foundry_journal.py`.
-3. Re-import over the journal (or delete and import fresh).
+2. Run `pip install -r requirements.txt` once, then `python tools/md_to_foundry_journal.py` (use `--dry-run` first if desired).
+3. Re-import over the journal (or delete and import fresh if migrating off older random IDs).
