@@ -26,7 +26,10 @@ sections:
     gmbinder_dependency: "chapter page"
     proposed_treatment: LOCAL_SUMMARY_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: mapped
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Act at a Glance; Sessions 1-3 overviews"
 
   - id: CW-002
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -49,9 +52,10 @@ sections:
     gmbinder_dependency: "chapter page"
     proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: mapped
-
-  - id: CW-003
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 1 Scene — Threshold Halls"
     source_file: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
     source_heading: "4 — Aboard the Tho Yor / Threshold Halls"
     source_anchor_or_location: "H1 §4 / ## Threshold Halls"
@@ -72,7 +76,10 @@ sections:
     gmbinder_dependency: "none"
     proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: mapped
+    audit_status: migrated
+    migration_status: synthesized
+    validation_status: pass
+    pilot_destination: "Session 1 Threshold RP Guidance; Living aboard connective"
 
   - id: CW-004
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -161,30 +168,315 @@ sections:
     player_visible_status: false
     mechanics_dependency: none
     foundry_dependency: "journal page Ch22"
-    gmbinder_dependency: "MISSING in current GMB (F-M-002)"
+    gmbinder_dependency: "chapter page (F-M-002 closed — export restored)"
     proposed_treatment: KEEP_IN_PLACE_DURING_AUDIT
     kakeman89_decision_required: true
     audit_status: mapped
+    migration_status: central_reference_only_arc_i
+    validation_status: pending
 
   - id: CW-008
     source_file: dawn-of-the-jedaii-campaign-guide.md
     source_heading: "Appendix C — Handouts & Player Primer"
     source_anchor_or_location: "H1 Appendix C"
     content_category: player_facing
-    campaign_arc: null
-    session: null
+    campaign_arc: Arc_I
+    session: "0"
     scene: null
     current_authority: primary_guide
     overlap_with_other_manuscript: none
-    conflict_status: none
+    conflict_status: factual
+    conflict_note: "App C primer names Tython — violates decided F-K-002 staged reveal"
     proposed_destination_type: appendix
-    local_use_requirement: false
+    local_use_requirement: true
     reusable_reference_requirement: true
     gm_only_status: false
     player_visible_status: true
     mechanics_dependency: none
-    foundry_dependency: "separate player journal recommended"
-    gmbinder_dependency: "chapter page"
-    proposed_treatment: CENTRAL_REFERENCE_CANDIDATE
+    foundry_dependency: "foundry/arc-i-pilot.journal.json Player Handouts page"
+    gmbinder_dependency: "gmbinder/arc-i-pilot-gmbinder.md"
+    proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: mapped
+    audit_status: migrated
+    migration_status: candidate_fk002_fix_only
+    validation_status: pending_kakeman89
+    pilot_destination: "ai/migration-workspace/arc-i-integrated-candidate.md § Player-Facing Handouts"
+
+  - id: CW-009
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "04 — The Tho Yor / Playable zones"
+    source_anchor_or_location: "H1 Ch04"
+    content_category: setting_reference
+    campaign_arc: Arc_I
+    session: "1-3"
+    scene: multiple
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion §4 room sections"
+    conflict_status: presentation_only
+    proposed_destination_type: act_overview
+    local_use_requirement: true
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "Ch11 boons; Ch08 Gate; 31.5h clock"
+    foundry_dependency: "Ch04 journal page (production)"
+    gmbinder_dependency: chapter page
+    proposed_treatment: LOCAL_SUMMARY_CANDIDATE
+    kakeman89_decision_required: false
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Act at a Glance; scene Location fields; Central Reference Summaries"
+
+  - id: CW-010
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "11 — Session 0 Boons / Arc I wiring"
+    source_anchor_or_location: "H1 Ch11"
+    content_category: mechanics
+    campaign_arc: Arc_I
+    session: "0-2"
+    scene: null
+    current_authority: primary_guide
+    overlap_with_other_manuscript: none
+    conflict_status: none
+    proposed_destination_type: session_overview
+    local_use_requirement: true
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: Ch11
+    foundry_dependency: Ch11 journal
+    gmbinder_dependency: chapter page
+    proposed_treatment: LOCAL_SUMMARY_CANDIDATE
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 0 Boon Visions; Central Reference Summaries"
+
+  - id: CW-011
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "13 — GM Checklists Session 0 & Episode 1"
+    source_anchor_or_location: "H1 Ch13"
+    content_category: gm_checklist
+    campaign_arc: Arc_I
+    session: "0-3"
+    scene: null
+    current_authority: primary_guide
+    overlap_with_other_manuscript: none
+    conflict_status: none
+    proposed_destination_type: session_overview
+    local_use_requirement: true
+    reusable_reference_requirement: false
+    gm_only_status: true
+    player_visible_status: false
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 0 Required Preparation; Session end-state checklists"
+
+  - id: CW-012
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Scene Card — Dormitories of the Called"
+    source_anchor_or_location: "Ch21 Dormitories"
+    content_category: scene_card
+    campaign_arc: Arc_I
+    session: "1"
+    scene: Dormitories
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion §4 Dormitories"
+    conflict_status: presentation_only
+    proposed_destination_type: scene
+    local_use_requirement: true
+    gm_only_status: true
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 1 Scene — Dormitories"
+
+  - id: CW-013
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Scene Card — Observation Galleries"
+    source_anchor_or_location: "Ch21 Galleries"
+    content_category: scene_card
+    campaign_arc: Arc_I
+    session: "2"
+    scene: Observation_Galleries
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion §4 Galleries"
+    conflict_status: presentation_only
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 2 Scene — Observation Galleries"
+
+  - id: CW-014
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Scene Card — Meditation Core"
+    source_anchor_or_location: "Ch21 Meditation Core"
+    content_category: scene_card
+    campaign_arc: Arc_I
+    session: "2"
+    scene: Meditation_Core
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 2 Scene — Meditation Core"
+
+  - id: CW-015
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Scene Card — Machine-Spirit Interface"
+    source_anchor_or_location: "Ch21 Machine-Spirit"
+    content_category: scene_card
+    campaign_arc: Arc_I
+    session: "2"
+    scene: Machine_Spirit
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 2 Scene — Machine-Spirit"
+
+  - id: CW-016
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Scene Card — Sealed Vaults"
+    source_anchor_or_location: "Ch21 Sealed Vaults"
+    content_category: scene_card
+    campaign_arc: Arc_I
+    session: "2"
+    scene: Sealed_Vaults
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 2 Scene — Sealed Vaults (glimpse)"
+
+  - id: CW-017
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Scene Card — Confluence Amphitheater"
+    source_anchor_or_location: "Ch21 Confluence"
+    content_category: scene_card
+    campaign_arc: Arc_I
+    session: "3"
+    scene: Confluence
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 3 Scene — Confluence"
+
+  - id: CW-018
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Scene Card — Disembarkation Spines"
+    source_anchor_or_location: "Ch21 Disembarkation"
+    content_category: scene_card
+    campaign_arc: Arc_I
+    session: "5"
+    scene: Disembarkation_Spines
+    conflict_status: none
+    conflict_note: "Arc II play; included in pilot for Scene Card completeness"
+    audit_status: migrated
+    migration_status: reference_only_arc_ii
+    validation_status: pass
+    pilot_destination: "Scene — Disembarkation Spines (Arc II reference)"
+
+  - id: CW-019
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Map 1 — Tho Yor: Threshold Crossroads"
+    source_anchor_or_location: "Ch23 Map 1"
+    content_category: map_brief
+    campaign_arc: Arc_I
+    session: "1"
+    scene: Threshold_Halls
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 1 Map 1 local spec"
+
+  - id: CW-020
+    source_file: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
+    source_heading: "4 — Aboard the Tho Yor / Living aboard"
+    source_anchor_or_location: "§4 Living aboard"
+    content_category: narrative_prep
+    campaign_arc: Arc_I
+    session: "1-3"
+    scene: null
+    current_authority: approved_companion
+    conflict_status: presentation_only
+    audit_status: migrated
+    migration_status: synthesized
+    validation_status: pass
+    pilot_destination: "Act at a Glance; Session 1 Dormitories connective; Central Reference"
+
+  - id: CW-021
+    source_file: chatgpt_archive
+    source_heading: "B1 — LOCKED 3 PCs"
+    content_category: campaign_decision
+    campaign_arc: Arc_I
+    session: "0"
+    current_authority: approved_archive_item
+    conflict_status: none
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Session 0 Overview; Act at a Glance starting state"
+
+  - id: CW-022
+    source_file: chatgpt_archive
+    source_heading: "B2 — Great Tho Yor did not planet-hop"
+    content_category: campaign_decision
+    campaign_arc: Arc_I
+    session: "0"
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Act at a Glance starting state"
+
+  - id: CW-023
+    source_file: chatgpt_archive
+    source_heading: "B3 — Spoiler-safe Tho Yor selection handout"
+    content_category: player_facing
+    campaign_arc: Arc_I
+    session: "0"
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pass
+    pilot_destination: "Player-Facing Handouts B3 spec"
+
+  - id: CW-024
+    source_file: ORIGINAL_CAMPAIGN_MATERIAL
+    source_heading: "Connective player-agency and session transitions"
+    content_category: migration_connective
+    campaign_arc: Arc_I
+    audit_status: migrated
+    migration_status: original_connective
+    validation_status: pass
+    pilot_destination: "Cold-open agency table; Failure/Partial Success rows; Session connective beats"
+
+  - id: CW-025
+    source_file: chatgpt_archive
+    source_heading: "A2 — Chamber of First Calling"
+    content_category: archive_candidate
+    campaign_arc: Arc_I
+    audit_status: excluded
+    migration_status: deferred_not_in_repo
+    validation_status: placeholder_only
+    pilot_destination: "Optional GM placeholder — not migrated"
+
+  - id: CW-026
+    source_file: campaign_decision_record
+    source_heading: "F-H-001 Calling → Speaker → Kesh mappings"
+    content_category: design_gate
+    campaign_arc: Arc_I
+    audit_status: blocked
+    migration_status: not_applicable_until_design
+    validation_status: placeholder_only
+    pilot_destination: "Generic Speaker guidance; no mappings invented"
+
+  - id: CW-001-P
+    source_file: ai/migration-workspace/arc-i-integrated-candidate.md
+    source_heading: "Arc I integrated candidate (pilot)"
+    content_category: integrated_candidate
+    campaign_arc: Arc_I
+    current_authority: provisional_non_authoritative
+    audit_status: migrated
+    migration_status: pilot_complete
+    validation_status: pending_kakeman89_acceptance
+    foundry_dependency: foundry/arc-i-pilot.journal.json
+    gmbinder_dependency: gmbinder/arc-i-pilot-gmbinder.md
