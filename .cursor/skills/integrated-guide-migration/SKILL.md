@@ -283,6 +283,35 @@ This skill **never**:
 
 Full authority transition requires separate Kakeman89 cutover authorization per migration plan §36.
 
+## Table-usability quality rules (Kakeman89 2026-08-27)
+
+Apply on every Arc migration after the Arc I pilot revision:
+
+### Party size
+
+- Never lock the campaign to a fixed player-character count unless Kakeman89 explicitly authorizes it.
+- Archive fixed-size proposals (e.g. historical B1 “3 PCs”) are evidence only until adopted.
+- Scale boons, NPCs, and optional combat using pool limits and GM guidance—do not invent extra boons or automatic duplicates.
+
+### Mechanics language
+
+- Use SW5e-compatible ability-check wording verified against repository sources (e.g. Investigation, Insight, Persuasion, Stealth, tech/Force-lore—not unsupported skill names).
+- Prefer `DC N Ability (Skill) check` with On a success / On a failure.
+- Label campaign-provisional DCs and failure costs clearly.
+- Do not use vague phrases (“generous DC”, “Wis-based”, “exhaustion flavor”) as adjudication.
+
+### Read-aloud
+
+- Clear, concrete, speakable; physical orientation first.
+- No player-emotion dictation; no GM secrets in read-aloud.
+- Prefer concrete sensory detail over stacked metaphors.
+- Separate Read-Aloud from GM Notes.
+
+### Foundry spatial plans
+
+- Multi-level ship layouts are **provisional spatial arrangements** unless sources establish them.
+- Do not classify Foundry level counts as LEGENDS_VERIFIED.
+
 ## Final reporting
 
 Report:
