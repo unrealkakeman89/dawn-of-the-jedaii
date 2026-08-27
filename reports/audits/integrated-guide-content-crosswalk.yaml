@@ -148,7 +148,10 @@ sections:
     gmbinder_dependency: "chapter page"
     proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: mapped
+    audit_status: migrated
+    migration_status: consolidate_complete
+    validation_status: pending_kakeman89_acceptance
+    pilot_destination: "Act at a Glance; Central Reference Summaries; Sessions 7-11 spine"
 
   - id: CW-007
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -509,10 +512,9 @@ sections:
     foundry_dependency: foundry/arc-i-pilot.journal.json
     gmbinder_dependency: gmbinder/arc-i-pilot-gmbinder.md
 
-  # --- Arc III stress-test planning rows (2026-08-27) — planning only; no migration ---
-  # Plan: ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md
-  # Terminal treatments below are planning recommendations using schema treatment enums.
-  # Session IDs S7–S11 are proposed outline IDs (Ch17 does not number sessions individually).
+  # --- Arc III pilot rows (2026-08-27) — provisional candidate complete; non-authoritative ---
+  # Candidate: ai/migration-workspace/arc-iii-integrated-candidate.md
+  # Source manuscripts remain authoritative; session IDs S7-S11 are provisional operational organization.
 
   - id: CW-029
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -535,8 +537,10 @@ sections:
     gmbinder_dependency: "chapter page"
     proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: pending
-    notes: "Planning row for Arc III stress test; parent CW-006 remains. No migration authorized."
+    audit_status: migrated
+    migration_status: consolidate_complete
+    validation_status: pending_kakeman89_acceptance
+    notes: "Implemented in the provisional Arc III pilot candidate. Parent CW-006 remains the act-spine row; source authority unchanged."
 
   - id: CW-030
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -559,7 +563,9 @@ sections:
     gmbinder_dependency: "session pages"
     proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: pending
+    audit_status: migrated
+    migration_status: consolidate_complete
+    validation_status: pending_kakeman89_acceptance
 
   - id: CW-031
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -582,7 +588,9 @@ sections:
     gmbinder_dependency: "scene cards"
     proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: pending
+    audit_status: migrated
+    migration_status: consolidate_complete
+    validation_status: pending_kakeman89_acceptance
 
   - id: CW-032
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -605,8 +613,10 @@ sections:
     gmbinder_dependency: "scene card"
     proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: false
-    audit_status: mapped
-    notes: "Kakeman89 2026-08-27: Omen default = Arc III Session 9; alternate = closing Arc II; do not rerun if already completed (then Resource War as primary S9)."
+    audit_status: migrated
+    migration_status: consolidate_complete
+    validation_status: pending_kakeman89_acceptance
+    notes: "Implemented in the candidate with the locked branch rule: default = Arc III Session 9; alternate = closing Arc II; do not rerun if already completed (then Resource War as primary S9)."
 
   - id: CW-033
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -629,7 +639,9 @@ sections:
     gmbinder_dependency: "chapter close"
     proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: pending
+    audit_status: migrated
+    migration_status: consolidate_complete
+    validation_status: pending_kakeman89_acceptance
 
   - id: CW-034
     source_file: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
@@ -652,8 +664,10 @@ sections:
     gmbinder_dependency: "integrated pages when authorized"
     proposed_treatment: CONSOLIDATE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: pending
-    notes: "Do not promote companion atmosphere to unsupported campaign canon. Stress-test driver F-G-002."
+    audit_status: migrated
+    migration_status: synthesized
+    validation_status: pending_kakeman89_acceptance
+    notes: "Companion runnable depth synthesized into the provisional candidate to address F-G-002 without promoting companion atmosphere into unsupported campaign canon."
 
   - id: CW-035
     source_file: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
@@ -676,8 +690,10 @@ sections:
     gmbinder_dependency: "faces pages"
     proposed_treatment: LOCAL_SUMMARY_CANDIDATE
     kakeman89_decision_required: false
-    audit_status: pending
-    notes: "Atmosphere/texture for contacts; Ch22 remains toolkit authority."
+    audit_status: migrated
+    migration_status: synthesized
+    validation_status: pending_kakeman89_acceptance
+    notes: "Atmosphere and Speaker texture summarized locally in the candidate; Ch22 remains the toolkit authority."
 
   - id: CW-036
     source_file: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
@@ -700,7 +716,9 @@ sections:
     gmbinder_dependency: "optional local color"
     proposed_treatment: CENTRAL_REFERENCE_CANDIDATE
     kakeman89_decision_required: false
-    audit_status: pending
+    audit_status: migrated
+    migration_status: synthesized
+    validation_status: pending_kakeman89_acceptance
 
   - id: CW-037
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -723,7 +741,9 @@ sections:
     gmbinder_dependency: "chapter / local summaries"
     proposed_treatment: LOCAL_SUMMARY_CANDIDATE
     kakeman89_decision_required: false
-    audit_status: pending
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pending_kakeman89_acceptance
 
   - id: CW-038
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -746,8 +766,10 @@ sections:
     gmbinder_dependency: "scene card"
     proposed_treatment: PRESERVE_DISTINCT
     kakeman89_decision_required: true
-    audit_status: pending
-    notes: "Optional in Arc III; skip path required. Do not force empty Foundry Scene."
+    audit_status: migrated
+    migration_status: preserved_distinct_in_candidate
+    validation_status: pending_kakeman89_acceptance
+    notes: "Optional in Arc III; skip path required. Candidate preserves the never-open completion path and does not force an empty Foundry Scene."
 
   - id: CW-039
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -770,7 +792,9 @@ sections:
     gmbinder_dependency: "Ch22 export (F-M-002)"
     proposed_treatment: CENTRAL_REFERENCE_CANDIDATE
     kakeman89_decision_required: true
-    audit_status: pending
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pending_kakeman89_acceptance
     notes: "F-H-001 Calling→Speaker→Kesh mappings remain unassigned; scenario casting hints ≠ calling locks."
 
   - id: CW-040
@@ -794,8 +818,10 @@ sections:
     gmbinder_dependency: "map brief"
     proposed_treatment: PRESERVE_DISTINCT
     kakeman89_decision_required: false
-    audit_status: mapped
-    notes: "Kakeman89 2026-08-27: Map 3 optional but IN-SCOPE. Future candidate must support dedicated map, Theater fallback, bypass, non-visit consequences; not required for Arc III completion. Assets not generated."
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pending_kakeman89_acceptance
+    notes: "Kakeman89 2026-08-27: Map 3 optional but IN-SCOPE. Candidate supports dedicated map, Theater fallback, bypass, and non-visit consequences; not required for Arc III completion. Assets not generated."
 
   - id: CW-041
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -818,8 +844,10 @@ sections:
     gmbinder_dependency: "map brief"
     proposed_treatment: PRESERVE_DISTINCT
     kakeman89_decision_required: false
-    audit_status: mapped
-    notes: "Kakeman89 2026-08-27: Map 4 optional ADVANCED. Not required path. Prerequisites, refuse/defer, failure, never-open completion path required. Must not replace social-contact focus. Assets not generated."
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pending_kakeman89_acceptance
+    notes: "Kakeman89 2026-08-27: Map 4 optional ADVANCED. Not required path. Candidate includes prerequisites, refuse/defer, failure, and never-open completion path. Must not replace social-contact focus. Assets not generated."
 
   - id: CW-042
     source_file: dawn-of-the-jedaii-campaign-guide.md
@@ -842,8 +870,10 @@ sections:
     gmbinder_dependency: "rules / foundations"
     proposed_treatment: KEEP_IN_PLACE_DURING_AUDIT
     kakeman89_decision_required: true
-    audit_status: pending
-    notes: "Calling→Kesh established; Speakers not attached (F-H-001). Do not invent mappings in Arc III planning."
+    audit_status: migrated
+    migration_status: migrated
+    validation_status: pending_kakeman89_acceptance
+    notes: "Calling→Kesh established; Speakers not attached (F-H-001). Candidate keeps the reminder and warning without inventing mappings."
 
   - id: CW-043
     source_file: campaign_decision_record
@@ -866,8 +896,10 @@ sections:
     gmbinder_dependency: none
     proposed_treatment: NEEDS_DECISION
     kakeman89_decision_required: true
-    audit_status: deferred
-    notes: "Mappings remain unassigned. Model B preferred for design analysis (Kakeman89 2026-08-27). Design procedure in ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md §9. Empty table only. No canon approval."
+    audit_status: migrated
+    migration_status: unresolved_gate_preserved
+    validation_status: pending_kakeman89_acceptance
+    notes: "Candidate preserves the unresolved warning only. Mappings remain unassigned. Model B is preferred for design analysis, but there is still no canon approval."
 
   - id: CW-044
     source_file: ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md
@@ -890,10 +922,25 @@ sections:
     gmbinder_dependency: none
     proposed_treatment: KEEP_IN_PLACE_DURING_AUDIT
     kakeman89_decision_required: false
-    audit_status: mapped
-    notes: "PLANNING_BASELINE_APPROVED / PLANNING_AUTHORIZED_ONLY (Kakeman89 2026-08-27). Candidate path recommended as ai/migration-workspace/arc-iii-integrated-candidate.md — file not created. Migration not started."
+    audit_status: migrated
+    migration_status: pilot_executed
+    validation_status: pending_kakeman89_acceptance
+    notes: "PLANNING_BASELINE_APPROVED / PLANNING_AUTHORIZED_ONLY (Kakeman89 2026-08-27). The provisional candidate was created and audited; source manuscripts remain authoritative and no authority transition occurred."
 
-  # --- F-H-001 design analysis (2026-08-27) — planning only; no mappings approved ---
+  - id: CW-001-P-III
+    source_file: ai/migration-workspace/arc-iii-integrated-candidate.md
+    source_heading: "Arc III integrated candidate (pilot)"
+    content_category: integrated_candidate
+    campaign_arc: Arc_III
+    current_authority: provisional_non_authoritative
+    audit_status: migrated
+    migration_status: pilot_complete
+    validation_status: pending_kakeman89_acceptance
+    foundry_dependency: none
+    gmbinder_dependency: none
+    notes: "Provisional Arc III pilot candidate only. No Calling→Speaker→Kesh mappings approved. No production Foundry or GM Binder output generated in this audit package."
+
+  # --- F-H-001 design analysis (2026-08-27) — keep deferred; no mappings approved ---
   - id: CW-045
     source_file: reports/audits/arc-iii-calling-speaker-kesh-design.md
     source_heading: "Arc III Calling → Speaker → Kesh Design Analysis"
@@ -916,6 +963,8 @@ sections:
     proposed_treatment: NEEDS_DECISION
     kakeman89_decision_required: true
     audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
     notes: "PROPOSED_FOR_KAKEMAN89_REVIEW. Model B preferred. No mapping migrated or approved. Scenario casting kept separate from Calling mapping."
 
   - id: CW-046
@@ -929,6 +978,8 @@ sections:
     proposed_treatment: NEEDS_DECISION
     kakeman89_decision_required: true
     audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
     notes: "recommended default candidate Healing→Mahara↔Iil/Vorr. Source evidence Ch22 Tide Law; Ch03 Selkath; Ch06 Open Hand. NOT approved."
 
   - id: CW-047
@@ -940,6 +991,8 @@ sections:
     proposed_treatment: NEEDS_DECISION
     kakeman89_decision_required: true
     audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
     notes: "recommended default candidate Body→Stav↔Sari Tor. Evidence Ch22 Open Plain; Ch03 Cathar Stav allies. NOT approved."
 
   - id: CW-048
@@ -951,6 +1004,8 @@ sections:
     proposed_treatment: NEEDS_DECISION
     kakeman89_decision_required: true
     audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
     notes: "recommended default candidate Art→Bodhi↔Horruhn via Ch06 Green Kin Bodhi allies — not epithet wordplay. NOT approved."
 
   - id: CW-049
@@ -962,6 +1017,8 @@ sections:
     proposed_treatment: NEEDS_DECISION
     kakeman89_decision_required: true
     audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
     notes: "interchangeable option Science/Anil | Skill/Vur Tepe for Yen-Ti (Ch06 Anil/Vur Tepe path). Counting≠Knowledge. NOT approved."
 
   - id: CW-050
@@ -970,7 +1027,9 @@ sections:
     source_anchor_or_location: "§7 scenario-casting table"
     content_category: scenario_casting
     campaign_arc: Arc_III
-    proposed_treatment: KEEP_IN_PLACE_DURING_AUDIT
-    kakeman89_decision_required: false
-    audit_status: mapped
-    notes: "Scenario casting (Trade, Resource War, Joint Rite, Omen, Scar Council) must not silently become Calling mapping. Source: companion #7 + Ch17/Ch22."
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Scenario casting (Trade, Resource War, Joint Rite, Omen, Scar Council) is preserved as operational evidence only and must not silently become Calling mapping. No mapping approved."
