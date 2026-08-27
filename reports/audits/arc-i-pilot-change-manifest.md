@@ -87,14 +87,14 @@
 ## Addendum — 2026-08-27 — Table-usability revision change list
 
 ### Files created
-- eports/audits/arc-i-pilot-thoyor-levels-map-plan.md
-- eports/audits/arc-i-pilot-mechanics-audit.md
+- `reports/audits/arc-i-pilot-thoyor-levels-map-plan.md`
+- `reports/audits/arc-i-pilot-mechanics-audit.md`
 
 ### Files modified
-- i/migration-workspace/arc-i-integrated-candidate.md — scaling, levels, mechanics, read-alouds
-- oundry/arc-i-pilot.journal.json — regenerated
-- gmbinder/arc-i-pilot-gmbinder.md — regenerated
-- eports/audits/integrated-guide-content-crosswalk.yaml — CW-021 superseded; CW-027/CW-028 added
+- `ai/migration-workspace/arc-i-integrated-candidate.md` — scaling, levels, mechanics, read-alouds
+- `foundry/arc-i-pilot.journal.json` — regenerated
+- `gmbinder/arc-i-pilot-gmbinder.md` — regenerated
+- `reports/audits/integrated-guide-content-crosswalk.yaml` — CW-021 superseded; CW-027/CW-028 added
 - Continuity / Legends / player-agency audits — addenda
 - Acceptance package — this revision addendum
 
