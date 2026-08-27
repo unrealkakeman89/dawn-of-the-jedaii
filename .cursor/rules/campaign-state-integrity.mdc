@@ -1,0 +1,32 @@
+---
+description: Continuity integrity and GM/player separation for campaign manuscripts
+globs:
+  - "dawn-of-the-jedaii-campaign-guide.md"
+  - "gm-narrative/**/*.md"
+  - "reports/continuity/**"
+alwaysApply: false
+---
+
+# Campaign State Integrity
+
+There is **no** authoritative structured `state/` YAML in this repository yet. Treat approved prose in the primary campaign guide as the fact authority. The narrative companion may expand presentation; on factual conflict, the primary guide controls unless Kakeman89 approved a companion supersession.
+
+Before creating or revising campaign content:
+
+1. Read the relevant sections of the primary guide (and companion if presentation is involved).
+2. Identify affected characters, factions, locations, artifacts, mysteries, dates, and plot threads.
+3. Compare the proposed content with current approved prose.
+4. Report conflicts before changing primary-guide facts.
+5. Update primary-guide facts only when Kakeman89 has authorized that story event or design decision.
+6. Record provenance for important additions when sources exist.
+7. Preserve player-visible and GM-only knowledge boundaries (see guide Chapter 00 spoiler policy).
+8. Never allow a character to act on information they do not possess.
+9. Verify travel, chronology, possession, injury, allegiance, and location continuity.
+10. Write a continuity report under `reports/continuity/` when conflicts cannot be reconciled safely and that path is authorized.
+
+Additional constraints:
+
+- Companion differences in voice, detail, organization, or emphasis are not automatic continuity defects.
+- Intentional mysteries, unreliable accounts, false beliefs, secrets, and unresolved decisions are not contradictions.
+- Audit observations and findings registers are **evidence only**; they do not become authoritative state.
+- Prose does not silently invent structured state. Do not create `state/` YAML and declare it authoritative over approved prose without separate Kakeman89 authorization.

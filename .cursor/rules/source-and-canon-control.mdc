@@ -1,0 +1,36 @@
+---
+description: Apply when researching, extracting, checking, or writing lore and game mechanics
+alwaysApply: false
+---
+
+# Source and Canon Control
+
+Use this authority order for campaign content:
+
+1. Explicit Kakeman89 decisions
+2. Primary campaign guide (`dawn-of-the-jedaii-campaign-guide.md`)
+3. Approved companion presentation that does not factually conflict (`gm-narrative/**`)
+4. Appendix D — Lore Sources & Canon Notes **where it covers the claim**
+5. Other approved repository content
+6. Future `sources/source-index.yaml` only if Kakeman89 authorizes that index
+7. Clearly labeled original campaign material
+8. Unverified external recollection (never present as verified)
+
+## Appendix D
+
+- Use Appendix D as the current provenance and classification authority **where it covers a claim**.
+- Absence from Appendix D does **not** by itself prove a claim is unsupported.
+- Search remaining approved repository content before assigning `NEEDS_SOURCE`.
+
+## For every factual lore or mechanics claim
+
+- Identify its source status and classify using Legends rule classifications when applicable.
+- Do not present memory as verified fact.
+- Do not silently combine conflicting sources.
+- Record contradictions under `reports/source-audits/` when that directory is authorized for use.
+- Preserve the distinction between established lore, adaptation, and invention.
+- Never fabricate page numbers, quotations, citations, rules text, or source provenance.
+- Paraphrase copyrighted source material rather than reproducing long passages.
+- When a source cannot be verified, say so and leave the field unresolved.
+- Do not import Disney-canon answers to fill Legends gaps.
+- Files under `ai/`, `.cursor/`, and `reports/` are not lore sources and must not override the primary guide.
