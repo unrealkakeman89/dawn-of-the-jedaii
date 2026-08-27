@@ -34,6 +34,17 @@ Kakeman89 selected **Option C** (2026-08-26): plan toward one integrated authori
 | **CONSOLIDATION NOT AUTHORIZED** | Do **not** merge, migrate content, retire, archive, or rewrite either manuscript without a later explicit phase authorization |
 | Pilot (planning) | Arc I first; Arc III second stress test — **execution not authorized** by plan creation alone |
 
+### Addendum — 2026-08-27 — Arc I pilot disposition (operational)
+
+| Item | Status |
+|------|--------|
+| Arc I architecture | ACCEPTED_WITH_REVISIONS (working model) |
+| Arc I candidate | PROVISIONAL_NON_AUTHORITATIVE — not cutover |
+| Arc III | PLANNING_AUTHORIZED_ONLY — no content migration started |
+| Primary + companion | Remain operating authority until separate cutover authorization |
+
+Decision detail: [`ai/plans/2026-08-26-campaign-decision-record.md`](plans/2026-08-26-campaign-decision-record.md) · Acceptance: [`reports/audits/arc-i-pilot-acceptance.md`](../reports/audits/arc-i-pilot-acceptance.md)
+
 Until cutover is separately authorized, the **primary guide + approved companion** arrangement remains the operating architecture (see matrix below).
 
 Related plans / reports:
@@ -43,8 +54,9 @@ Related plans / reports:
 - [`ai/plans/2026-08-26-integrated-gm-guide-migration.md`](plans/2026-08-26-integrated-gm-guide-migration.md) — plan only  
 - [`ai/plans/2026-08-26-chatgpt-archive-content-pr-scope.md`](plans/2026-08-26-chatgpt-archive-content-pr-scope.md) — archive Tier A/B content PR scope; plan only  
 - [`reports/audits/2026-08-26-chatgpt-archive-vs-repo-gap-report.md`](../reports/audits/2026-08-26-chatgpt-archive-vs-repo-gap-report.md) — archive vs repo gap report  
+- [`reports/audits/arc-i-pilot-acceptance.md`](../reports/audits/arc-i-pilot-acceptance.md) — Arc I pilot acceptance (provisional)
 
-**Last updated:** 2026-08-26 (ChatGPT archive gap report recorded)
+**Last updated:** 2026-08-27 (Arc I ACCEPT_WITH_REVISIONS disposition recorded; Arc III planning-only authorized)
 
 ---
 

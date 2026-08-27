@@ -319,7 +319,7 @@ Kakeman89 accepted Act → Session → Scene guide-workbook direction and reques
 **ACCEPT_WITH_REVISIONS** (updated) — offline structure, scaling, mechanics language, and read-aloud clarity addressed. Still required before broader migration:
 
 1. Kakeman89 live table test of revised read-alouds and Machine-Spirit DCs
-2. F-N-001 disposable-world import of regenerated oundry/arc-i-pilot.journal.json
+2. F-N-001 disposable-world import of regenerated `foundry/arc-i-pilot.journal.json`
 3. Confirm four-level vs three-level Foundry layout
 4. Resolve provisional Machine-Spirit failure cost
 5. F-K-002 source App C primer (unchanged)
@@ -332,14 +332,68 @@ Kakeman89 accepted Act → Session → Scene guide-workbook direction and reques
 Documented in candidate Central Reference; supports variable party size without inventing boons.
 
 ### Map / Levels
-See eports/audits/arc-i-pilot-thoyor-levels-map-plan.md. Four-level provisional design; Map 1 = Level 1 encounter map only.
+See `reports/audits/arc-i-pilot-thoyor-levels-map-plan.md`. Four-level provisional design; Map 1 = Level 1 encounter map only.
 
 ### Mechanics / read-aloud
-See eports/audits/arc-i-pilot-mechanics-audit.md. Confluence rejected sentence removed. Forbidden search terms cleared from candidate and pilot outputs.
+See `reports/audits/arc-i-pilot-mechanics-audit.md`. Confluence rejected sentence removed. Forbidden search terms cleared from candidate and pilot outputs.
 
 ### Outputs regenerated
-- oundry/arc-i-pilot.journal.json (6 pages, deterministic IDs)
-- gmbinder/arc-i-pilot-gmbinder.md
+- `foundry/arc-i-pilot.journal.json` (6 pages, deterministic IDs)
+- `gmbinder/arc-i-pilot-gmbinder.md`
 
 ### Production / sources
 Unchanged. Candidate remains non-authoritative.
+
+---
+
+## Addendum — 2026-08-27 — Kakeman89 Arc I disposition decisions recorded
+
+### Reason
+
+Kakeman89 recorded Arc I pilot disposition and related operational decisions. This addendum updates acceptance status only. No candidate prose, source manuscripts, or generated outputs were modified in the decision-recording task.
+
+### Disposition
+
+**ACCEPT_WITH_REVISIONS**
+
+Accepted as the working structural model: Act → Session → Scene; guide–workbook mix; point-of-use scenes; local Scene Cards; concise central summaries; controlled repetition; source traceability; variable party size; clear read-aloud standard; provisional four-level Tho Yor design.
+
+**Does not** make the candidate authoritative. **Does not** finalize every provisional mechanic as campaign canon.
+
+### Status board
+
+| Item | Status |
+|------|--------|
+| Arc I architecture | ACCEPTED_WITH_REVISIONS |
+| Arc I candidate | PROVISIONAL_NON_AUTHORITATIVE |
+| Arc I textual acceptance | PENDING_TABLE_REVIEW |
+| Arc I Foundry acceptance | PENDING_DISPOSABLE_WORLD_TEST (F-N-001) |
+| Arc I GM Binder pagination | DEFERRED_PARTIAL (F-M-003) |
+| Arc III | PLANNING_AUTHORIZED_ONLY — no content, no candidate, no migration started |
+| F-K-002 production implementation | PENDING_AUTHORITY_TRANSITION — KEEP_CANDIDATE_ONLY_UNTIL_AUTHORITY_TRANSITION |
+| F-H-001 mappings | DEFERRED_TO_ARC_III |
+| A2 Chamber | PLACEHOLDER_UNAUTHORIZED |
+| Archive B1 fixed party size | SUPERSEDED_BY_KAKEMAN89 (not canon) |
+
+### Decisions recorded (summary)
+
+1. Four-level Tho Yor: Threshold / Pilgrim / Contemplation / Restricted — prefer four linked Scenes; Levels module only within a Scene when vertical overlap warrants; Map 1 = Threshold encounter map.
+2. Party size: table-determined; no fixed lock.
+3. Boons: one unique starting vision per PC up to six; unassigned remain aboard; party &gt;6 → GM selection / later play / separately approved design — no auto-duplicate or invent.
+4. Machine-Spirit failure: provisional — disadvantage on next check in the challenge only; no default damage/exhaustion.
+5. Galleries awe: no emotion save; player-described reaction; checks only for concrete uncertain actions.
+6. Machine-Spirit scaling: keep 3 successes before 2 failures; max 2 checks per character until others have acted; larger parties → narrative opportunities, not longer automatic roll sequences.
+7. Template flexibility: guides, not mandatory empty forms.
+8. Controlling detail: [`ai/plans/2026-08-26-campaign-decision-record.md`](../../ai/plans/2026-08-26-campaign-decision-record.md) addendum 2026-08-27.
+
+### Explicit non-authorizations
+
+- Acts II–VI migration
+- Arc III candidate / migration skill / campaign content
+- Authority cutover
+- Production guide App C edit for F-K-002 during preserved-source period
+- A2 Chamber content creation
+
+### Recommendation status
+
+Prior offline recommendation of ACCEPT_WITH_REVISIONS is now **Kakeman89-recorded** for architecture. Textual table review and F-N-001 remain outstanding before broader Act migration.

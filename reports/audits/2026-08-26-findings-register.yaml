@@ -398,8 +398,13 @@ findings:
     finding_kind: present_quality
     status: closed
     implementation_note: |-
-      DECIDED staged Tython reveal recorded in ai/plans/2026-08-26-campaign-decision-record.md; campaign prose NOT implemented.
-
+      DECIDED staged Tython reveal recorded in ai/plans/2026-08-26-campaign-decision-record.md;
+      campaign prose NOT implemented in production guide.
+      2026-08-27 Kakeman89: KEEP_CANDIDATE_ONLY_UNTIL_AUTHORITY_TRANSITION — Arc I candidate
+      withholds Tython from pre-reveal player-facing material; do not edit production campaign
+      guide solely to synchronize during preserved-source migration period; future authoritative
+      integrated guide must implement staged reveal. Production implementation remains
+      PENDING_AUTHORITY_TRANSITION (not falsely marked RESOLVED for guide prose).
   - id: F-K-003
     audit_domain: K
     severity: LOW
@@ -480,7 +485,14 @@ findings:
     changes_approved_canon: false
     authorization_required: true
     finding_kind: present_quality
-    status: open
+    status: deferred
+    implementation_note: |-
+      2026-08-27 Kakeman89: DEFER_UNTIL_ARC_III_STRESS_TEST / DEFERRED_TO_ARC_III.
+      Do not design the eight Calling → Speaker → Kesh mappings yet.
+      Arc I may retain Senn-Vora as provisional party-ship default, generic substitution
+      guidance, and explicit notation that the complete mapping remains unresolved.
+      Direction from 2026-08-26 decision record (recommended default crosswalk; GM substitution;
+      mappings not invented) remains in force. Finding not CLOSED as RESOLVED — mappings absent.
 
   - id: F-H-002
     audit_domain: H
@@ -593,7 +605,7 @@ findings:
     location: Ch22 Shekk-Arra
     related_files: []
     rule_or_skill: legends-source-audit
-    evidence: "Trandoshan-adjacent hunter (or similar)" without provenance tag
+    evidence: 'Trandoshan-adjacent hunter (or similar) without provenance tag'
     why_it_matters: Era discipline / labeling
     effect: Lore classification
     recommended_treatment: SOURCE
@@ -640,7 +652,16 @@ findings:
     changes_approved_canon: false
     authorization_required: true
     finding_kind: future_migration
-    status: needs_decision
+    status: closed
+    implementation_note: |-
+      2026-08-27 Kakeman89: Arc I pilot disposition ACCEPT_WITH_REVISIONS.
+      Architecture accepted as working model; candidate remains PROVISIONAL_NON_AUTHORITATIVE.
+      Textual acceptance PENDING_TABLE_REVIEW; Foundry acceptance PENDING_DISPOSABLE_WORLD_TEST.
+      Arc III PLANNING_AUTHORIZED_ONLY (no Arc III content/candidate/migration in decision task).
+      Schema status closed = pilot architecture decision recorded; not authority cutover;
+      not RESOLVED for full migration or manuscript replacement. See
+      ai/plans/2026-08-26-campaign-decision-record.md and
+      reports/audits/arc-i-pilot-acceptance.md addenda 2026-08-27.
 
   - id: F-F-001
     audit_domain: F
