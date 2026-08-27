@@ -320,3 +320,73 @@ Companion Arc III **operational procedures** are required migration candidates f
 | F-H-001 mappings | Empty — Model B preferred for future analysis; not approved |
 
 **Explicit non-authorizations under this addendum:** no migration; no candidate; no F-H-001 mappings; no Foundry/GMB generation; no campaign prose.
+
+---
+
+## Addendum — 2026-08-27 — BBEG and Imbalance campaign integration (direction approved; not implemented)
+
+**Authority:** Kakeman89  
+**Task type:** Decision recording and planning only  
+**Related plan:** [`ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md`](2026-08-27-bbeg-and-imbalance-campaign-integration.md)
+
+**Does not authorize:** campaign prose edits; Arc I/III candidate revisions; source manuscript edits; Foundry/GMB generation; pagination work; Act migration; BBEG identity invention; Dark Side pool selection; commit; push.
+
+### Decisions recorded (direction)
+
+1. **Central antagonist (BBEG)** — Approved campaign direction: Force-sensitive pilgrim who completed the Tho Yor voyage, quietly gathered followers, departed after landing on Tython toward a powerful Dark Side pool/vergence (exact site undecided), intending to dominate Tython and force it toward darkness. Operational placeholder name “BBEG” until Kakeman89 approves identity.
+2. **Characterization** — Antagonist is responsible for deliberate choices. Do not define evil as mental illness. Approved belief core: Balance is weakness; opposing powers cannot coexist; peace requires one will/doctrine/side strong enough to silence the other.
+3. **Cult** — Varied followers (not uniform disposable enemies); first contacted Tho Yor group in Arc III provides initial warning (partial knowledge).
+4. **Imbalance Storm Clock** — **Mandatory** campaign feature and adventure engine (no longer optional). Convert Ch10 `## Optional: Imbalance Storm Clock` into required Global Storm Clock; plan allows temporary Local Pressure tracks. Existing 6-segment baseline retained; further numbers need Kakeman89 review.
+5. **Force Storms** — **Mandatory** adventure events. Tython reacts to imbalance; BBEG aggravates/exploits; not every storm is BBEG-cast.
+6. **Party experience** — Direct horror-of-imbalance and meaningful follower encounters (lethal and restorative choices with persistent consequences) are required design outcomes.
+7. **Undecided** — Exact BBEG name, species, homeworld, calling, Tho Yor, Speaker/Kesh relationships, appearance, ideology detail, Dark Side pool location, statistics, class/level/powers, final encounter, and ultimate fate.
+8. **Implementation** — **NOT AUTHORIZED.** Plan exists; content not migrated; candidates and manuscripts unchanged by this decision record.
+
+### Status summary update (operational)
+
+| Item | Status |
+|------|--------|
+| BBEG direction | APPROVED_DIRECTION — identity undecided; not implemented |
+| Imbalance Storm Clock | MANDATORY (conversion planned; prose not yet updated) |
+| Force Storms | MANDATORY adventure events (design planned; not implemented) |
+| Dark Side pool | UNDECIDED — options in BBEG integration plan §8 |
+| BBEG / Storm implementation | NOT AUTHORIZED |
+
+**Explicit non-authorizations under this addendum:** no prose implementation; no candidate edits; no manuscript edits; no Foundry/GMB generation; no Dark Side pool selection; no BBEG identity invention; no commit/push.
+
+---
+
+## Addendum — 2026-08-27 — Kwa Gate early discovery and reciprocal Ashla/Bogan restoration (direction approved; not implemented)
+
+**Authority:** Kakeman89  
+**Task type:** Decision recording, impact audit, and planning only  
+**Related plan:** [`ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md`](2026-08-27-bbeg-and-imbalance-campaign-integration.md) (expanded to 61 sections)
+
+**Does not authorize:** manuscript edits; Arc I/III candidate edits; Foundry/GMB generation; Gate/Bogan scene implementation; BBEG identity; Dark Side pool selection; first Bogan proposer or case selection; F-H-001 mappings; commit; push.
+
+### Decisions recorded (direction)
+
+1. **Kwa Gate early discovery** — Gate existence and early campaign discovery are **required**. Do not treat Gate existence as optional advanced content the campaign may never find.
+2. **Progressive mastery** — Distinguish foreshadowing, physical discovery, recognition (not Tho Yor tech), investigation, activation requirements, limited/unstable activation, destination identification, travel, reliable repeated use, political/institutional control, and wider network understanding. Complete knowledge and safe operation develop over time.
+3. **Map 4 correction** — Map 4 is an important Gate location. A particular Map 4 expedition, activation, or moon journey may remain optional or conditional. Gate existence / early discovery are **not** optional. Prior “optional advanced content” planning language that conflates existence with expedition is superseded for planning purposes (candidates/manuscripts unchanged until separately authorized).
+4. **Dark Side pool boundary** — Pool/vergence is on **Tython** unless Kakeman89 later changes that. Pool is **not** presumed to be Bogan. Do not merge pool with Bogan, Vault, Kwa Gate, or Builder mystery without explicit authorization.
+5. **Reciprocal restoration practice** — Dark-imbalanced individuals may be sent to **Bogan** to contemplate **Ashla**. Light-imbalanced individuals may be sent to **Ashla** to contemplate **Bogan**. Purpose is restoration of Balance and eventual return — not permanent punishment, one-sided conversion, or a dumping ground.
+6. **First Migration development** — The mature Je'daii institution must not appear fully formed immediately after landing. Cult crisis contributes to formative debate, first cases, safeguards, failures, and recognition of the reciprocal principle through play.
+7. **Three follower responses** — Lethal force, local accountability/restoration, and Bogan transport are all valid; each creates mixed persistent consequences. Not good / neutral / evil lanes.
+8. **Prior BBEG / Storm Clock / Force Storm decisions** — Remain in force (see prior addendum).
+9. **Undecided** — Exact BBEG identity; Dark Side pool site; first Bogan proposer; first Bogan test-case person; exact Gate discovery Arc timing details beyond “early”; exact activation-first Arc; consent/compel/authority procedure details; exact Legends verification of the full reciprocal formulation (`NEEDS_SOURCE` until repo-backed).
+10. **Implementation** — **NOT AUTHORIZED.**
+
+### Status summary update (operational)
+
+| Item | Status |
+|------|--------|
+| Kwa Gate early discovery | APPROVED_DIRECTION — not implemented |
+| Gate progressive mastery | APPROVED_DIRECTION — not implemented |
+| Map 4 existence vs expedition | PLANNING_CORRECTION recorded — candidates/manuscripts unchanged |
+| Dark Side pool ≠ Bogan | APPROVED_BOUNDARY |
+| Reciprocal Ashla/Bogan restoration | APPROVED_DIRECTION — formative via cult crisis; not implemented |
+| First Bogan proposer / case | UNDECIDED |
+| Implementation | NOT AUTHORIZED |
+
+**Explicit non-authorizations under this addendum:** no prose; no candidate edits; no manuscript edits; no Foundry/GMB; no scene implementation; no identity/pool/proposer/case invention; no commit/push.

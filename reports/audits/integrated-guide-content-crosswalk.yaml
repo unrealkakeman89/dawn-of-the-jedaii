@@ -1033,3 +1033,276 @@ sections:
     migration_status: NEEDS_DECISION
     validation_status: deferred
     notes: "Scenario casting (Trade, Resource War, Joint Rite, Omen, Scar Council) is preserved as operational evidence only and must not silently become Calling mapping. No mapping approved."
+
+  - id: CW-051
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "BBEG aboard-ship foreshadowing"
+    source_anchor_or_location: "§18 Arc I impact; §33 Arc I candidate impact matrix"
+    content_category: foreshadowing
+    campaign_arc: Arc_I
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Subtle/retrospective ship foreshadowing; no villain reveal. Candidates unchanged. Direction approved; not implemented."
+
+  - id: CW-052
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Cult departure after landing"
+    source_anchor_or_location: "§19 Arc II impact"
+    content_category: plot_beat
+    campaign_arc: Arc_II
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Post-landing cult separation signs. Not migrated."
+
+  - id: CW-053
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "First contacted group warning"
+    source_anchor_or_location: "§20 Arc III impact; Session 8 Border Trade"
+    content_category: warning_beat
+    campaign_arc: Arc_III
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. First contacted Tho Yor group gives first substantial cult warning. Compatible with Ch17 contact. Not implemented in candidate."
+
+  - id: CW-054
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Horror-of-imbalance event"
+    source_anchor_or_location: "§11 horror options; §20 Arc III"
+    content_category: adventure_event
+    campaign_arc: Arc_III
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Decision menu of horror options; no final pick. Not migrated."
+
+  - id: CW-055
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "First follower encounter with mixed outcomes"
+    source_anchor_or_location: "§12–14 follower framework; §33 Arc III matrix"
+    content_category: encounter_framework
+    campaign_arc: Arc_III
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Lethal and restorative choices with persistent consequences. Not implemented."
+
+  - id: CW-056
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Optional: Imbalance Storm Clock (mandatory conversion)"
+    source_anchor_or_location: "Ch10 ## Optional: Imbalance Storm Clock"
+    content_category: campaign_mechanic
+    campaign_arc: Campaign_Wide
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "DIRECTION APPROVED: convert Optional wording to mandatory Global Storm Clock + temporary Local Pressure; retain 6-segment baseline. Manuscript and candidates still say optional. F-S-001. Not implemented."
+
+  - id: CW-057
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Follower consequence framework"
+    source_anchor_or_location: "§12–16 consequence tracks"
+    content_category: consequence_framework
+    campaign_arc: Campaign_Wide
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Tracks: Global Storm Clock, Cult Strength, Public Trust, Defectors/Protected Leavers. No morality score. Not migrated."
+
+  - id: CW-058
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Dark Side pool decision"
+    source_anchor_or_location: "§8 Dark Side pool options"
+    content_category: location_decision
+    campaign_arc: Campaign_Wide
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "UNDECIDED. Options matrix only (Chasm/Anil; Silent Desert/Qigong; Bogan-via-Gate listed as OPTION only and conflicts with pool-on-Tython preference; original; Vault-adjacent; Kwa-adjacent; independent). Pool not presumed Bogan. No selection. F-V-001 / F-R-001."
+
+  - id: CW-059
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Later-Arc BBEG escalation"
+    source_anchor_or_location: "§37 Arc IV and later; Stages 1–6"
+    content_category: escalation
+    campaign_arc: Arc_IV_plus
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Escalate without making BBEG cause of every dispute; Counting Quarrel institutional; Gate/Vault separable. Not implemented."
+
+  - id: CW-060
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Cult recruitment aboard the Tho Yor"
+    source_anchor_or_location: "§2, §8, §34"
+    content_category: foreshadowing
+    campaign_arc: Arc_I
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Quiet aboard-ship recruitment; no villain reveal. Not implemented."
+
+  - id: CW-061
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Early Kwa Gate foreshadowing"
+    source_anchor_or_location: "Ch04 Kwa foreshadow murals; Ch08 Discovery timing"
+    content_category: foreshadowing
+    campaign_arc: Arc_I
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: false
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "REPOSITORY_SUPPORTED foreshadow already in primary/candidate. Planning: retain must-show; early discovery direction strengthens payoff. Not a prose edit."
+
+  - id: CW-062
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Kwa Gate physical discovery (early required)"
+    source_anchor_or_location: "Ch08 Discovery timing; Ch23 Map 4"
+    content_category: discovery_beat
+    campaign_arc: Arc_II
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "DIRECTION APPROVED: early required discovery. Exact Arc timing details NEEDS_KAKEMAN89. F-K-005. Not implemented. Map 4 expedition may remain optional."
+
+  - id: CW-063
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "Progressive Gate activation"
+    source_anchor_or_location: "Ch08 Activation key; Travel"
+    content_category: campaign_mechanic
+    campaign_arc: Campaign_Wide
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Activation after landing or multi-species calm key; Storm Clock 5-6 blocks. Reliable repeated use is later development. Not implemented."
+
+  - id: CW-064
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Identification of Bogan as restoration destination"
+    source_anchor_or_location: "§12–15"
+    content_category: revelation
+    campaign_arc: Arc_II_III
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. When Bogan becomes identifiable as reachable destination for restoration remains NEEDS_KAKEMAN89 relative to Omen naming lock."
+
+  - id: CW-065
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "First Bogan proposal"
+    source_anchor_or_location: "§15–16"
+    content_category: policy_beat
+    campaign_arc: Arc_III
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "UNDECIDED proposer. Options matrix only. Not implemented."
+
+  - id: CW-066
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "First Bogan test case"
+    source_anchor_or_location: "§17–18"
+    content_category: encounter_framework
+    campaign_arc: Arc_III
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "UNDECIDED named follower. Options matrix only. Not created."
+
+  - id: CW-067
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Contemplation of Ashla on Bogan"
+    source_anchor_or_location: "§13, §18"
+    content_category: restoration_practice
+    campaign_arc: Campaign_Wide
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "APPROVED direction: dark-imbalanced on Bogan contemplate Ashla. Exact Legends formulation NEEDS_SOURCE. F-R-001. Not implemented."
+
+  - id: CW-068
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Reciprocal Ashla practice"
+    source_anchor_or_location: "§13, §19"
+    content_category: restoration_practice
+    campaign_arc: Campaign_Wide
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "APPROVED direction: light-imbalanced on Ashla contemplate Bogan. Recognition timing NEEDS_KAKEMAN89. Not implemented."
+
+  - id: CW-069
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Force Storm escalation"
+    source_anchor_or_location: "§24"
+    content_category: adventure_event
+    campaign_arc: Campaign_Wide
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Mandatory Force Storms as adventure events; BBEG aggravates; not every storm BBEG-cast. Gate/Bogan transport interactions planned. Not implemented."
+
+  - id: CW-070
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Restoration and return / BBEG response to restoration"
+    source_anchor_or_location: "§30, §33"
+    content_category: consequence_framework
+    campaign_arc: Campaign_Wide
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Eventual return is intended; BBEG exploitation of abuse/success planned. No one-check redemption. Not implemented."
+
+  - id: CW-071
+    source_file: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    source_heading: "Later institutional development of moon restoration"
+    source_anchor_or_location: "§14, §37, §42–43"
+    content_category: institutional_development
+    campaign_arc: Arc_IV_plus
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    migration_status: NEEDS_DECISION
+    validation_status: deferred
+    notes: "Planning only. Formative First Migration custom becomes later Je'daii tradition through play; Counting Quarrel may affect scheduling/custody/review. Not implemented."

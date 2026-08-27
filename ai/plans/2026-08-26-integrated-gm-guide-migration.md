@@ -118,6 +118,7 @@ This plan does **not** authorize:
 | Architecture | [`ai/PROJECT_ARCHITECTURE.md`](../PROJECT_ARCHITECTURE.md) |
 | This plan | `ai/plans/2026-08-26-integrated-gm-guide-migration.md` |
 | Arc III stress-test plan | [`ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md`](2026-08-27-arc-iii-integrated-guide-stress-test.md) — **planning only**; migration not authorized |
+| BBEG / Imbalance integration | [`ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md`](2026-08-27-bbeg-and-imbalance-campaign-integration.md) — direction approved; **not implemented**; future Arc I/III retrofit gate |
 | Campaign decisions | [`ai/plans/2026-08-26-campaign-decision-record.md`](2026-08-26-campaign-decision-record.md) |
 | Archive PR scope | [`ai/plans/2026-08-26-chatgpt-archive-content-pr-scope.md`](2026-08-26-chatgpt-archive-content-pr-scope.md) |
 | Blocker plan | [`ai/plans/2026-08-26-blocker-generator-reliability-correction.md`](2026-08-26-blocker-generator-reliability-correction.md) |
@@ -1080,6 +1081,8 @@ See Phase 10 table (§28). Emphasis:
 | 2026-08-26 | Initial planning sketch (Option C direction) |
 | 2026-08-27 | Comprehensive revision on `split/blocker-generator-governance-audits`: full procedure, templates, Arc I inventory, deferrals, gates |
 | 2026-08-27 | Link Arc III stress-test plan (`ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md`); Arc III migration still not authorized |
+| 2026-08-27 | Link BBEG / Imbalance integration plan (`ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md`); direction approved; content not implemented; candidates/manuscripts unchanged |
+| 2026-08-27 | BBEG plan expanded for early Kwa Gate discovery + reciprocal Ashla/Bogan restoration; Map 4 existence vs expedition planning correction; still not implemented |
 
 ---
 

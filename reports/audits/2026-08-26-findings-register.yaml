@@ -683,6 +683,150 @@ findings:
     finding_kind: present_quality
     status: open
 
+  - id: F-V-001
+    audit_domain: V
+    severity: OBSERVATION
+    confidence: CONFIRMED
+    classification: future_migration
+    title: Central BBEG and cult direction approved; identity and content not implemented
+    description: |-
+      Kakeman89 approved central-antagonist direction (pilgrim-origin BBEG, quiet
+      recruitment, post-landing cult departure, Dark Side nexus, domination goal,
+      varied cult, responsibility principle). Exact identity, pool, stats, and prose
+      remain undecided and unauthorized. Plan only.
+    file_path: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    location: Sections 1–8, 40
+    related_files:
+      - ai/plans/2026-08-26-campaign-decision-record.md
+      - ai/PROJECT_ARCHITECTURE.md
+    rule_or_skill: campaign-decision-record
+    evidence: |-
+      Decision-record addendum 2026-08-27 BBEG and Imbalance; BBEG integration plan.
+      Manuscripts and Arc I/III candidates unchanged.
+    why_it_matters: |-
+      Direction is locked for future retrofit without inventing BBEG identity or
+      silently overriding present antagonist independence.
+    effect: Future migration / campaign retrofit only
+    recommended_treatment: NEEDS_DECISION
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: future_migration
+    status: open
+    implementation_note: |-
+      2026-08-27: Direction APPROVED; implementation NOT AUTHORIZED. Identity fields
+      and Dark Side pool remain UNDECIDED. Pool is on Tython unless later changed and
+      is not presumed Bogan. Do not edit manuscripts or candidates from this finding alone.
+
+  - id: F-S-001
+    audit_domain: S
+    severity: OBSERVATION
+    confidence: CONFIRMED
+    classification: future_migration
+    title: Imbalance Storm Clock and Force Storms mandatory; Ch10 still optional in prose
+    description: |-
+      Kakeman89 approved converting Ch10 Optional Imbalance Storm Clock into a
+      mandatory Global Storm Clock (retain 6-segment baseline 3/6/reset to 2/Balance
+      −1–2) plus temporary Local Pressure, and treating Force Storms as required
+      adventure events. Primary guide still labels the clock Optional; candidates
+      still say optional. Conversion not implemented.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch10 ## Optional: Imbalance Storm Clock
+    related_files:
+      - ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+      - ai/migration-workspace/arc-i-integrated-candidate.md
+      - ai/migration-workspace/arc-iii-integrated-candidate.md
+    rule_or_skill: campaign-decision-record
+    evidence: |-
+      Decision-record addendum 2026-08-27; BBEG plan §9–10. Candidates unchanged
+      (impact matrix only in plan).
+    why_it_matters: |-
+      Mandatory clock/storms are approved architecture; prose and candidates must
+      not be treated as already converted.
+    effect: Future migration / campaign retrofit only
+    recommended_treatment: NEEDS_DECISION
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: future_migration
+    status: open
+    implementation_note: |-
+      2026-08-27: Mandatory conversion APPROVED as direction; content NOT
+      IMPLEMENTED. Starting value, between-session advancement, and finale
+      interaction remain Kakeman89 review. Do not edit Ch10 or candidates from
+      this finding alone.
+
+  - id: F-K-005
+    audit_domain: K
+    severity: OBSERVATION
+    confidence: CONFIRMED
+    classification: future_migration
+    title: Kwa Gate early discovery required; Map 4 optional language conflates existence with expedition
+    description: |-
+      Kakeman89 approved that Kwa Gate existence and early campaign discovery are
+      required, with progressive mastery thereafter. Arc III stress-test plan and
+      Arc III candidate still describe Map 4 / moon road as optional advanced content
+      with never-open completion. Planning correction: particular expedition may remain
+      optional; existence/early discovery are not. Manuscripts and candidates unchanged.
+    file_path: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    location: Sections 11–12, 45
+    related_files:
+      - dawn-of-the-jedaii-campaign-guide.md
+      - ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md
+      - ai/migration-workspace/arc-iii-integrated-candidate.md
+      - ai/plans/2026-08-26-campaign-decision-record.md
+    rule_or_skill: campaign-decision-record
+    evidence: |-
+      Primary Ch08 Discovery timing already foreshadows Arc I and activates after
+      landing. Decision-record addendum 2026-08-27 Kwa Gate early discovery.
+      Candidate Map 4 never-open path still says Gate is optional advanced content.
+    why_it_matters: |-
+      Without correction, future Arc III work may treat Gate existence as skippable,
+      conflicting with approved early-discovery direction.
+    effect: Future migration / planning retrofit only
+    recommended_treatment: NEEDS_DECISION
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: future_migration
+    status: open
+    implementation_note: |-
+      2026-08-27: Direction APPROVED; content NOT IMPLEMENTED. Do not edit candidates
+      or manuscripts from this finding alone.
+
+  - id: F-R-001
+    audit_domain: R
+    severity: OBSERVATION
+    confidence: CONFIRMED
+    classification: future_migration
+    title: Reciprocal Ashla/Bogan restoration approved; Dark Side pool distinct from Bogan
+    description: |-
+      Kakeman89 approved reciprocal restoration direction (dark-imbalanced to Bogan
+      contemplate Ashla; light-imbalanced to Ashla contemplate Bogan; Balance and
+      eventual return). Cult crisis contributes to formative First Migration practice.
+      Dark Side pool remains on Tython unless later changed and is not presumed Bogan.
+      First proposer, first case, and exact procedures undecided. Not implemented.
+    file_path: ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md
+    location: Sections 9, 13–20, 23, 29–30
+    related_files:
+      - dawn-of-the-jedaii-campaign-guide.md
+      - ai/plans/2026-08-26-campaign-decision-record.md
+    rule_or_skill: campaign-decision-record
+    evidence: |-
+      Decision-record addendum 2026-08-27 Kwa Gate and reciprocal restoration.
+      Primary Ch08 Campaign uses already support exile/penance journeys and Storm
+      Clock +2 for purity-weapon Gate abuse. Exact Legends verification of full
+      reciprocal formulation remains NEEDS_SOURCE until repo-backed.
+    why_it_matters: |-
+      Prevents Bogan-as-prison and pool-on-Bogan conflation; anchors formative
+      Je'daii tradition without importing mature institutions too early.
+    effect: Future migration / campaign retrofit only
+    recommended_treatment: NEEDS_DECISION
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: future_migration
+    status: open
+    implementation_note: |-
+      2026-08-27: Direction APPROVED; implementation NOT AUTHORIZED. Do not invent
+      first proposer, first case, or pool site from this finding alone.
+
 local_completeness_summary:
   Arc_I: mostly_locally_complete_with_reference_jumps
   Arc_II: mostly_locally_complete

@@ -918,6 +918,8 @@ Primary guide + approved companion remain operating authority. Arc III status re
 |------|--------|
 | 2026-08-27 | Initial Arc III integrated-guide stress-test plan created (planning only; operational — not campaign canon) |
 | 2026-08-27 | Kakeman89 planning baseline approval recorded (see addendum below) |
+| 2026-08-27 | Link BBEG / Imbalance integration plan as future Arc III retrofit gate — [`ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md`](2026-08-27-bbeg-and-imbalance-campaign-integration.md); not implemented |
+| 2026-08-27 | Planning note: Map 4 “optional advanced” language is superseded for **planning** by early-required Gate discovery vs optional particular expedition (see BBEG plan §45). This stress-test document’s historical Map 4 scope rows are retained; candidate/manuscript edits remain unauthorized. |
 
 ---
 

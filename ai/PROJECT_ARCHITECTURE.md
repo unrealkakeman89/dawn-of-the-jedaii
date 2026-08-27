@@ -55,6 +55,32 @@ Decision detail: [`ai/plans/2026-08-26-campaign-decision-record.md`](plans/2026-
 
 Plan: [`ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md`](plans/2026-08-27-arc-iii-integrated-guide-stress-test.md) · Decisions: [`ai/plans/2026-08-26-campaign-decision-record.md`](plans/2026-08-26-campaign-decision-record.md)
 
+### Addendum — 2026-08-27 — BBEG and Imbalance integration (direction approved; not implemented)
+
+| Item | Status |
+|------|--------|
+| BBEG / Imbalance plan | DIRECTION_APPROVED / PLANNING_ONLY — [`ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md`](plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md) |
+| BBEG identity / Dark Side pool | UNDECIDED — not invented; not implemented |
+| Imbalance Storm Clock | MANDATORY (conversion planned; Ch10 still reads Optional in manuscripts) |
+| Force Storms as adventure engine | MANDATORY (design planned; not implemented) |
+| Arc I / Arc III candidates | Unchanged; remain PROVISIONAL_NON_AUTHORITATIVE |
+| Manuscripts / production Foundry/GMB | Unchanged; cutover not authorized |
+
+### Addendum — 2026-08-27 — Kwa Gate early discovery + reciprocal Ashla/Bogan (direction approved; not implemented)
+
+| Item | Status |
+|------|--------|
+| Kwa Gate early discovery | REQUIRED early campaign development (planning) — not optional existence |
+| Gate mastery | Progressive (foreshadow → discovery → activation → reliable use → institutions) |
+| Map 4 | Important Gate site; particular expedition may remain optional; existence/discovery not optional |
+| Dark Side pool | On Tython unless later changed; **not** presumed Bogan |
+| Reciprocal restoration | Dark→Bogan contemplate Ashla; Light→Ashla contemplate Bogan; Balance + eventual return |
+| First Bogan proposer / case | UNDECIDED |
+| Plan document | Expanded 61-section integration plan (same path as BBEG plan above) |
+| Candidates / manuscripts / outputs | Unchanged; implementation not authorized |
+
+Decisions: [`ai/plans/2026-08-26-campaign-decision-record.md`](plans/2026-08-26-campaign-decision-record.md)
+
 Until cutover is separately authorized, the **primary guide + approved companion** arrangement remains the operating architecture (see matrix below).
 
 Related plans / reports:
@@ -64,10 +90,11 @@ Related plans / reports:
 - [`ai/plans/2026-08-26-integrated-gm-guide-migration.md`](plans/2026-08-26-integrated-gm-guide-migration.md) — plan only  
 - [`ai/plans/2026-08-26-chatgpt-archive-content-pr-scope.md`](plans/2026-08-26-chatgpt-archive-content-pr-scope.md) — archive Tier A/B content PR scope; plan only  
 - [`ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md`](plans/2026-08-27-arc-iii-integrated-guide-stress-test.md) — Arc III stress-test plan (planning baseline approved; migration not authorized)  
+- [`ai/plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md`](plans/2026-08-27-bbeg-and-imbalance-campaign-integration.md) — BBEG + mandatory Storm Clock / Force Storm integration (direction approved; not implemented)  
 - [`reports/audits/2026-08-26-chatgpt-archive-vs-repo-gap-report.md`](../reports/audits/2026-08-26-chatgpt-archive-vs-repo-gap-report.md) — archive vs repo gap report  
 - [`reports/audits/arc-i-pilot-acceptance.md`](../reports/audits/arc-i-pilot-acceptance.md) — Arc I pilot acceptance (provisional)
 
-**Last updated:** 2026-08-27 (Arc III planning baseline approved; migration still not authorized)
+**Last updated:** 2026-08-27 (BBEG/Imbalance + Kwa Gate early discovery + reciprocal Ashla/Bogan direction approved as planning only; manuscripts and candidates unchanged; migration still not authorized)
 
 ---
 
