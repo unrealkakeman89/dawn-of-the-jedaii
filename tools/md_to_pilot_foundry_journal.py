@@ -47,8 +47,21 @@ def html_from_markdown(body: str) -> str:
 
 
 def strip_operational_header(text: str) -> str:
-    """Remove provisional HTML comment block at file start."""
-    return re.sub(r"^<!--[\s\S]*?-->\s*", "", text, count=1)
+    """Remove provisional HTML comment blocks at file start."""
+    return re.sub(r"^(<!--[\s\S]*?-->\s*)+", "", text)
+
+
+def strip_for_publication(text: str) -> str:
+    """Remove non-publication operational metadata from exported pilot pages."""
+    text = re.sub(r"<!--[\s\S]*?-->", "", text)
+    text = re.sub(
+        r"^## Development Decisions Still Required\b[\s\S]*?(?=^## |\Z)",
+        "",
+        text,
+        flags=re.MULTILINE,
+    )
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip() + "\n"
 
 
 def extract_act_overview(text: str) -> str:
@@ -57,19 +70,27 @@ def extract_act_overview(text: str) -> str:
         text,
         re.MULTILINE,
     )
-    return m.group(1).strip() + "\n" if m else "# Arc I Pilot\n"
+    body = m.group(1).strip() + "\n" if m else "# Arc I Pilot\n"
+    return strip_for_publication(body)
 
 
 def extract_session(text: str, session_num: int) -> str:
-    stop = rf"(?=^## Session {session_num + 1}\b|^## Player-Facing Handouts|^## Central Reference|^# [^#]|\Z)"
+    stop = rf"(?=^## Session {session_num + 1}\b|^## Player-Facing Handouts|^## Development Decisions|^## Central Reference|^# [^#]|\Z)"
     pattern = rf"^## Session {session_num}\b[\s\S]*?{stop}"
     m = re.search(pattern, text, re.MULTILINE)
-    return m.group(0).strip() + "\n" if m else f"## Session {session_num}\n\n(TBD)\n"
+    body = m.group(0).strip() + "\n" if m else f"## Session {session_num}\n\n(TBD)\n"
+    return strip_for_publication(body)
 
 
 def extract_player_handouts(text: str) -> str | None:
-    m = re.search(r"^## Player-Facing Handouts \(Pilot\)[\s\S]*", text, re.MULTILINE)
-    return m.group(0).strip() + "\n" if m else None
+    m = re.search(
+        r"^## Player-Facing Handouts(?: \(Pilot\))?[\s\S]*?(?=^## Development Decisions|\Z)",
+        text,
+        re.MULTILINE,
+    )
+    if not m:
+        return None
+    return strip_for_publication(m.group(0).strip() + "\n")
 
 
 def build_page(name: str, key: str, body: str, sort: int, ownership: int = 0) -> dict:

@@ -128,17 +128,40 @@ Every repeated summary must agree with controlling source, preserve GM/player bo
 
 After migration, run contradiction check across repeated summaries for the same entity.
 
+## Operational metadata boundary (strict)
+
+Operational metadata must **never** leak into readable candidate prose, pilot Foundry content, pilot GM Binder content, or player handouts.
+
+Readable campaign content includes Scene Cards, Act/Session guidance, Read-Aloud, GM Notes, Foundry journal pages, GM Binder pilot pages, and player handouts.
+
+Operational metadata includes finding IDs, crosswalk IDs, migration/treatment/status enums, casting taxonomies (`SOURCE_SUPPORTED_SCENARIO_CAST`, `INDEPENDENT_OF_CALLING`, …), Legends/campaign classification enums, confidence values, validation states, and authorization-state labels.
+
+**Required translation examples:**
+
+| Operational | GM-facing |
+|-------------|-----------|
+| `SOURCE_SUPPORTED_SCENARIO_CAST` | Suggested Speaker |
+| `RECOMMENDED_SUBSTITUTABLE_CAST` | Alternative Speaker |
+| `INDEPENDENT_OF_CALLING` | This role does not need to match the party’s calling. |
+| `NEEDS_KAKEMAN89` | Omit from normal prose; use `## Development Decisions Still Required` (publication-excluded) |
+
+Keep technical classifications only in crosswalks, manifests, reports, sidecar metadata, or non-rendered HTML comments such as `<!-- SOURCE-TRACE: CW-006 | primary Ch17 | companion Ch7 -->`.
+
+Strip HTML comments and publication-excluded development sections before generating Foundry or GM Binder pilot outputs.
+
+See also `.cursor/rules/operational-metadata-not-in-guide-prose.mdc`.
+
 ## Source-traceability procedure
 
 1. Crosswalk row per migrated block (SoT).
-2. Candidate HTML comment IDs linking to crosswalk rows.
-3. Connective text labeled `ORIGINAL_CAMPAIGN_MATERIAL` in crosswalk.
+2. Candidate HTML comments linking to crosswalk rows (`SOURCE-TRACE`), never visible Scene Card rows of raw CW/F- IDs.
+3. Connective text classified as `ORIGINAL_CAMPAIGN_MATERIAL` **in the crosswalk only**, not as a reader-facing badge in guide prose.
 4. Change manifest listing blocks added, consolidated, excluded, placeholders.
-5. No large provenance dumps in GM-facing prose.
+5. No provenance dumps, finding IDs, or treatment enums in GM-facing prose.
 
 ## Legends classifications
 
-Preserve and record:
+Record these **in operational audits/crosswalks only**:
 
 - `LEGENDS_VERIFIED`
 - `CAMPAIGN_APPROVED`
@@ -147,7 +170,7 @@ Preserve and record:
 - `NEEDS_SOURCE`
 - `CONTINUITY_CONFLICT`
 
-Do not import Disney canon. Do not silently promote table fiction to Legends lore. Run [`legends-source-audit`](../legends-source-audit/SKILL.md) when auditing migrated content.
+Do not print these enum strings in readable guide prose. Do not import Disney canon. Do not silently promote table fiction to Legends lore. Run [`legends-source-audit`](../legends-source-audit/SKILL.md) when auditing migrated content.
 
 ## Player-visible versus GM-only handling
 

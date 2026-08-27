@@ -48,12 +48,17 @@ def strip_operational_headers(text: str) -> str:
     return re.sub(r"^(<!--[\s\S]*?-->\s*)+", "", text)
 
 
-def extract_named_section(text: str, heading: str, stops: list[str]) -> str | None:
-    # Match full heading line (Session titles continue after the colon).
-    stop = "|".join(re.escape(s) for s in stops)
-    pattern = rf"^{re.escape(heading)}[^\n]*\n[\s\S]*?(?=^(?:{stop})|\Z)"
-    m = re.search(pattern, text, re.MULTILINE)
-    return m.group(0).strip() + "\n" if m else None
+def strip_for_publication(text: str) -> str:
+    """Remove non-publication operational metadata from exported pilot pages."""
+    text = re.sub(r"<!--[\s\S]*?-->", "", text)
+    text = re.sub(
+        r"^## Development Decisions Still Required\b[\s\S]*?(?=^## |\Z)",
+        "",
+        text,
+        flags=re.MULTILINE,
+    )
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip() + "\n"
 
 
 def extract_act_overview(text: str) -> str:
@@ -62,7 +67,18 @@ def extract_act_overview(text: str) -> str:
         text,
         re.MULTILINE,
     )
-    return m.group(1).strip() + "\n" if m else "# Arc III Pilot\n"
+    body = m.group(1).strip() + "\n" if m else "# Arc III Pilot\n"
+    return strip_for_publication(body)
+
+
+def extract_named_section(text: str, heading: str, stops: list[str]) -> str | None:
+    stop = "|".join(re.escape(s) for s in stops)
+    pattern = rf"^{re.escape(heading)}[^\n]*\n[\s\S]*?(?=^(?:{stop})|\Z)"
+    m = re.search(pattern, text, re.MULTILINE)
+    if not m:
+        return None
+    return strip_for_publication(m.group(0).strip() + "\n")
+
 
 def build_page(name: str, key: str, body: str, sort: int, ownership: int = 0) -> dict:
     return {
@@ -114,13 +130,21 @@ def build_journal(text: str) -> dict:
         text, "## Session 9:", ["## Alternate Session 9:", "## Session 10:"]
     )
     s9_alt = extract_named_section(text, "## Alternate Session 9:", ["## Session 10:"])
-    s9_body = (s9_main or "## Session 9\n") + "\n" + (s9_alt or "")
+    s9_body = strip_for_publication((s9_main or "## Session 9\n") + "\n" + (s9_alt or ""))
     pages.append(build_page("Session 9", "page:arc-iii-session-9", s9_body, sort))
     sort += 100000
 
     for sn, heading, stops in [
         (10, "## Session 10:", ["## Session 11:"]),
-        (11, "## Session 11:", ["## Player-Facing Handouts", "## Source Traceability"]),
+        (
+            11,
+            "## Session 11:",
+            [
+                "## Player-Facing Handouts",
+                "## Development Decisions Still Required",
+                "## Source Traceability",
+            ],
+        ),
     ]:
         body = extract_named_section(text, heading, stops) or f"{heading}\n\n(TBD)\n"
         pages.append(build_page(f"Session {sn}", f"page:arc-iii-session-{sn}", body, sort))
@@ -128,7 +152,7 @@ def build_journal(text: str) -> dict:
 
     contacts = extract_named_section(
         text,
-        "### Speaker scenario casting policy (not Calling maps)",
+        "### Speaker scenario guidance",
         [
             "### Calling -> Kesh reminder",
             "### Calling → Kesh reminder",
@@ -142,7 +166,7 @@ def build_journal(text: str) -> dict:
                 "Arc III Contacts and Speakers",
                 "page:arc-iii-contacts-speakers",
                 "# Arc III Contacts and Speakers\n\n"
-                "Operational scenario casting only. **Not** Calling → Speaker approval.\n\n"
+                "Suggested Speakers for scenes only. These do not settle permanent Calling-to-Speaker assignments.\n\n"
                 + contacts,
                 sort,
             )
@@ -151,8 +175,8 @@ def build_journal(text: str) -> dict:
 
     handouts = extract_named_section(
         text,
-        "## Player-Facing Handouts (Pilot)",
-        ["## Source Traceability Index"],
+        "## Player-Facing Handouts",
+        ["## Development Decisions Still Required", "## Source Traceability Index"],
     )
     if handouts:
         pages.append(

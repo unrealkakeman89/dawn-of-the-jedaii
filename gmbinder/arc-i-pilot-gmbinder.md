@@ -1,16 +1,11 @@
-﻿---
+---
 title: Arc I Pilot Integrated GM Guide (PROVISIONAL)
 status: NON-AUTHORITATIVE PILOT
 pagination: DEFERRED_PARTIAL
-revision: 2026-08-27 table-usability
+revision: 2026-08-27 metadata separation
 ---
 
-> **PROVISIONAL PILOT OUTPUT** — Not for production GM Binder paste. Pagination not optimized. Party size scalable; three-player lock removed.
-<!-- MIGRATION-PILOT: Arc I only | NON-AUTHORITATIVE | NOT CAMPAIGN CANON -->
-<!-- Sources: primary guide + approved companion | Authority unchanged -->
-<!-- Traceability: reports/audits/integrated-guide-content-crosswalk.yaml -->
-<!-- SUBJECT TO KAKEMAN89 REVIEW — NOT A REPLACEMENT FOR EITHER SOURCE MANUSCRIPT -->
-<!-- PROVISIONAL INTEGRATED CANDIDATE — party size and boon allocation are scalable; see Boon Scaling Policy -->
+> **PROVISIONAL PILOT OUTPUT** — Not for production GM Binder paste. Pagination not optimized.
 
 # Arc I: Aboard the Tho Yor (Sessions 0–3)
 
@@ -20,7 +15,7 @@ revision: 2026-08-27 table-usability
 
 **Sources synthesized (adopted content):** Primary guide Ch04, Ch11, Ch13, Ch15, Ch21 (8 ship Scene Cards), Ch23 Map 1, App C; companion Ch4 Living aboard (atmosphere); archive B2 (ninth Tho Yor planet-hop correction), archive B3 (handout spec).
 
-**Operational note — archive B1:** Archive B1 recorded a fixed party size of 3 player characters. That lock is **SUPERSEDED_BY_KAKEMAN89** (table-usability review). B1 is historical archive evidence only—**not** campaign canon and **not** an adopted source for this candidate. Party size is table-determined; see **Boon Scaling Policy** below.
+**Archive B1 note:** Archive B1 recorded a fixed party size of 3 player characters. That fixed party-size lock was superseded in Kakeman89's table-usability review and is historical archive evidence only; it is **not** campaign canon and **not** an adopted source for this candidate. Party size is table-determined; see **Boon Scaling Policy** below.
 
 ---
 
@@ -29,9 +24,9 @@ revision: 2026-08-27 table-usability
 | Field | Detail |
 |-------|--------|
 | **Purpose** | Bond the party as pilgrims; teach Tho Yor wonder and era rules; stage the first multi-species council; introduce Ashla/Bogan as **Force concepts** (not moon names); foreshadow the Kwa Gate; let each player character find their Session 0 boon; end on approach to the green world. |
-| **Starting state** | Session 0 complete: level 9 SW5e player characters, homeland locked, Force path verified, **Party Tho Yor calling** chosen (one of eight—**not Balance**), boon visions delivered (name/look/vision only—one starting vision per player character). Party wakes aboard their gathering ship. The **ninth / greatest Tho Yor** (future Akar Kesh) **did not travel world-to-world gathering pilgrims**—it was already waiting at Tython (archive B2). Sister ships carry the other callings. |
+| **Starting state** | Session 0 complete: level 9 SW5e player characters, homeland locked, Force path verified, **Party Tho Yor calling** chosen (one of eight—**not Balance**), boon visions delivered (name/look/vision only—one starting vision per player character). Party wakes aboard their gathering ship. The **ninth / greatest Tho Yor** (future Akar Kesh) **did not travel world-to-world gathering pilgrims**—it was already waiting at Tython. Sister ships carry the other callings. |
 | **Central dramatic question** | Can strangers from a hundred worlds become a people before they become a riot—and what does the ship mean by *Ashla* and *Bogan*? |
-| **Active factions** | No formal factions yet. Informal clusters: homeworld language groups, warrior vs contemplative pilgrims, science-minded vs mystic, frightened vs opportunistic. Sister-ship **Speakers** foreshadowed as silhouettes and names (F-H-001 mappings: **TBD — do not invent**). |
+| **Active factions** | No formal factions yet. Informal clusters: homeworld language groups, warrior vs contemplative pilgrims, science-minded vs mystic, frightened vs opportunistic. Sister-ship **Speakers** are foreshadowed as silhouettes and names; Calling-to-Speaker assignments are not decided yet, so do not invent them. |
 | **Important characters** | **Senn-Vora** (party ship default Speaker, Quiet Peak); Ch22 walk-ons (Orrin Two-Songs, Silent Bran, Miller Cand, Vault-Touched Ann, Echo-Priest Dal, Pel the Map-Eater); crafters Torv Maddan, Shekk-Arra, Miri Quill, Vesh & Loom (aboard or foreshadowed). |
 | **Important locations** | Threshold Halls · Dormitories of the Called · Observation Galleries · Meditation Core · Machine-Spirit Interface · Sealed Vaults (glimpse) · Confluence Amphitheater · Disembarkation Spines (reference only—Arc II Session 5 play). |
 | **Revelations** | Ship will not return home; Ashla/Bogan as Force poles taught in Meditation Core; twin companion lights of Tython visible but **unnamed**; Kwa foreshadow murals (ring gate, twin disks, many hands, nine-fold refusal); nine-fold vault seal; first council structure and temporary speaker roles. |
@@ -42,7 +37,7 @@ revision: 2026-08-27 table-usability
 | **Possible end states** | **Ready landing:** bonded party, concepts known, boons claimed (or deliberately deferred), council framework, Kwa foreshadow seen, Vault/Gate sealed. **Fractured landing:** split factions, unresolved grievance parked for Tython, clock elevated, one or more boons still unclaimed aboard. |
 | **State carryover** | Temporary speaker roles; named NPC grievance; Ashla/Bogan vocabulary unevenness; boon assignments; Storm Clock position; council agreement on staying near ship; Kwa mural sketches in player character notes; unassigned boons remain aboard. |
 | **Preparation** | Ch13 Session 0 + Episode 1 checklists; Map 1 Threshold Crossroads (Ch23); Scene Cards for all eight ship zones (Ch21); Senn-Vora skim (Ch22); boon pool assigned per Boon Scaling Policy (Ch11); Storm Clock tracker; Foundry journal imported. |
-| **Foundry package** | Journal page: Arc I / Ch15; Map 1 (35×35 Threshold Crossroads) within Level 1; pin Ch21 Scene Card pages; Ch11 boon references GM-only; separate player journal for App C handouts (F-K-002 candidate fix below—not source). See **Tho Yor Multi-Level Foundry Plan**. |
+| **Foundry package** | Journal page: Arc I / Ch15; Map 1 (35×35 Threshold Crossroads) within Level 1; pin Ch21 Scene Card pages; Ch11 boon references GM-only; separate player journal for App C handouts using the candidate-only primer correction for the staged Tython reveal (not source). See **Tho Yor Multi-Level Foundry Plan**. |
 | **Encounter scaling** | Scale optional combat and hazards for the number of player characters, level 9, allies present, and whether the beat is combat, social, exploration, or atmosphere. Do not invent full stat blocks in this candidate—use SW5e creatures of appropriate CR or narrative opposition intensity. |
 
 ### Encounter Scaling (short)
@@ -69,7 +64,7 @@ Prefer adjusting creature count, NPC intensity, or rounds of pressure over fabri
 | **Any** | One starting boon vision per player character (unless Kakeman89 later authorizes otherwise). |
 | **Fewer than 6** | Assign one unique boon vision per player character. Unassigned boons remain aboard for later discovery, rivals, allies, or future story. |
 | **Exactly 6** | Each player character may receive one unique boon from the pool. |
-| **More than 6** | Do not duplicate or invent boons. Mark allocation as requiring GM selection, delayed assignments, group-linked visions, or later design. Flag **REQUIRES_KAKEMAN89**. |
+| **More than 6** | Do not duplicate or invent boons. Mark allocation as requiring GM selection, delayed assignments, group-linked visions, or later design. This requires Kakeman89's decision before inventing or duplicating boons. |
 
 **Find locations (Ch11):** Dormitory niche, Confluence handrail, Threshold mural, Machine-Spirit tray, Gallery rail, Core alcove.
 
@@ -89,7 +84,7 @@ Cabin lighting and sleep-pressure follow **Tython's day/night**—**31.5 standar
 
 ### Senn-Vora default Speaker (brief portrayal)
 
-**Senn-Vora — Tho Yor of the Quiet Peak** (party ship default). Talid (Dai Bendu); dust-pale robes; voice like measured prayer. Moves paced—not meek. Arrives in silence after the first punch. Wants an Order that listens; fears the Call was vanity. Hook: stop a brawl without blood. May later offer the word *Je'daii*. **F-H-001:** If party ship epithet differs from calling, reflavor or keep Quiet Peak—**Speaker ↔ calling mappings TBD, do not invent.** **Full stat:** Ch22 §1.
+**Senn-Vora — Tho Yor of the Quiet Peak** (party ship default). Talid (Dai Bendu); dust-pale robes; voice like measured prayer. Moves paced—not meek. Arrives in silence after the first punch. Wants an Order that listens; fears the Call was vanity. Hook: stop a brawl without blood. May later offer the word *Je'daii*. If the party ship epithet differs from the calling, reflavor Quiet Peak or keep it. Calling-to-Speaker assignments are not decided yet. **Full stat:** Ch22 §1.
 
 ### Kwa foreshadow murals (must-show Session 2)
 
@@ -107,7 +102,7 @@ Player characters may sketch/memorize. Do **not** open Gate Arc I. Later Ch08 re
 
 ## Tho Yor Multi-Level Foundry Plan (Provisional)
 
-**Status:** PROVISIONAL spatial arrangement for Foundry / table prep. **Not** established campaign canon. **Not** LEGENDS_VERIFIED. Full analysis: `reports/audits/arc-i-pilot-thoyor-levels-map-plan.md`.
+**Status:** Provisional spatial arrangement for Foundry / table prep. **Not** established campaign canon. This layout is not verified Legends architecture; it is provisional Foundry/table organization only. Full analysis: `reports/audits/arc-i-pilot-thoyor-levels-map-plan.md`.
 
 Relative vertical stacking of ship zones is a pilot recommendation for table usability. The primary guide establishes the eight playable locations; it does not fix their elevation as canon architecture.
 
@@ -150,7 +145,7 @@ Build level 9 SW5e characters, lock the **Party Tho Yor calling**, deliver boon 
 ### Required Preparation
 
 - Foundry world ready (SW5e); GM journal imported (`foundry/README.md`)
-- Print/share **Player Primer** (App C—use F-K-002 candidate fix below for pilot handouts)
+- Print/share **Player Primer** (App C—use the candidate-only staged Tython reveal correction below for pilot handouts)
 - Ch10 homeland list + Force paths A–D
 - Assign one starting boon vision per player character from the Ch11 pool of six (hide GM effects); note unassigned boons that remain aboard
 - Prep Senn-Vora; skim Ch22 walk-ons
@@ -177,7 +172,7 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 
 - Species spotlight (Koorivar Ch12) if relevant
 - Player Timeline handout (Ch24)
-- Spoiler-safe Tho Yor selection handout (archive B3 spec—see Player-Facing Handouts below)
+- Spoiler-safe Tho Yor selection handout (see Player-Facing Handouts below)
 
 ### Suggested and Alternate Flow
 
@@ -211,7 +206,6 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | Sets landing region and Creed fold for Arc IV |
 | **Continuity Updates** | Note calling + Kesh on Episode 1 sheet |
 | **Foundry Assets** | Ch10 journal page |
-| **Source Traceability** | CW-001 (arc overview); Ch10; archive B3 handout spec |
 
 #### Scene — Boon Visions
 
@@ -221,7 +215,7 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Trigger** | Calling locked. |
 | **Immediate Situation** | Each player character receives a private Force vision: name, appearance, and vision text only. |
 | **Read-Aloud** | *(Per boon—example, Milk of the Sword)* "You kneel in a circle of broken spears. A child offers you a cup. When you drink, your arms become iron—and the child asks you to lift a gate no one else can move." |
-| **GM Notes** | Hide mechanical effects. Apply **Boon Scaling Policy**. If party > 6: **REQUIRES_KAKEMAN89**—do not invent or duplicate boons. |
+| **GM Notes** | Hide mechanical effects. Apply **Boon Scaling Policy**. If party > 6, this requires Kakeman89's decision before inventing or duplicating boons. |
 | **Scene Card summary** | Six boons · one starting vision per player character · unassigned boons remain aboard · effects hidden |
 | **Location** | Table / vision space |
 | **Present Characters** | Player characters; GM narrates privately or in turn |
@@ -237,7 +231,6 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | Arc I Sessions 1–2 hunt boons aboard |
 | **Continuity Updates** | Boon → player character map on Episode 1 sheet; list unassigned boons |
 | **Foundry Assets** | Ch11 journal (GM-only effects) |
-| **Source Traceability** | Ch11; Ch13 Session 0 checklist |
 
 #### Scene — Table Contract & Money Speech
 
@@ -263,13 +256,12 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | First purse-open at Session 1+ gets refused on-camera |
 | **Continuity Updates** | Note crafter interests if declared |
 | **Foundry Assets** | App C player journal (pilot primer) |
-| **Source Traceability** | CW-005 (spoiler policy); Ch10; Ch13 |
 
 ### Session End States
 
 - [ ] All player characters legal at level 9 with Force path verified
 - [ ] Party calling locked and recorded
-- [ ] One boon vision per player character delivered (unassigned boons noted if party < 6; REQUIRES_KAKEMAN89 if party > 6)
+- [ ] One boon vision per player character delivered (unassigned boons noted if party < 6; if party > 6, Kakeman89 must decide before any boon duplication or invention)
 - [ ] Money speech delivered
 - [ ] Session 1 cold open planned
 
@@ -348,7 +340,6 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | First impression of ship as sanctuary vs cage; NPC attitudes set |
 | **Continuity Updates** | Note boon found; door status; NPC names promoted |
 | **Foundry Assets** | Map 1; Ch21 Threshold Scene Card journal page; Level 1 scene |
-| **Source Traceability** | **CW-002** (primary Scene Card); **CW-003** (companion Threshold); Ch04 §1; Ch15 Session 1; Ch23 Map 1 |
 
 ---
 
@@ -376,7 +367,6 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | Party bond level set; feud or friendship with theft NPC |
 | **Continuity Updates** | Routines noted; boon map updated; grievance flagged for council |
 | **Foundry Assets** | Level 2 / Map 1 W wing; Ch21 Dormitories Scene Card |
-| **Source Traceability** | CW-002 pattern; Ch04 §2; Ch15; companion Living aboard |
 
 ### Session 1 — Additional Beats (connective)
 
@@ -428,7 +418,7 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Present Characters** | Panicked would-be pilot; navigator who swears then goes quiet; child counting pyramids |
 | **Objectives** | Witness approach; accept ship steers itself; optional boon; do **not** name moons in player-facing narration |
 | **Opposition** | Panic; urge to steer; temptation to name twin lights Ashla/Bogan (GM redirects—"the words aren't yours yet") |
-| **Mechanics** | Helm glyph rejects steering (panel cools, song dips); Quiet Paw Charm on rail (Ch11); optional awe: `DC 13 Wisdom saving throw`; on a failure, the character is frightened until the end of their next turn (or 1 round) — **CAMPAIGN_ADAPTATION** / provisional awe effect |
+| **Mechanics** | Helm glyph rejects steering (panel cools, song dips); Quiet Paw Charm on rail (Ch11); optional awe: `DC 13 Wisdom saving throw`; on a failure, the character is frightened until the end of their next turn (or 1 round) - provisional awe effect for this candidate |
 | **Clues** | Eight sister silhouettes + one greater pyramid already at destination; twin-pole mural supports later Core teaching |
 | **RP Guidance** | Ship wants witnesses, not pilots. Companion: kinship and jealousy begin as geometry. Let players react; do not script their emotions. |
 | **Developments** | Green world seen; steering rejected; boon found; panic calmed or parked |
@@ -438,7 +428,6 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | Shared memory of green world; pilot NPC attitude |
 | **Continuity Updates** | Note who saw the green world first; Quiet Paw assigned |
 | **Foundry Assets** | Ch21 Observation Galleries Scene Card; Level 3 scene |
-| **Source Traceability** | CW-001; Ch04 §3; Ch15 Session 2; companion §4 Galleries |
 
 ---
 
@@ -466,7 +455,6 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | Ashla/Bogan in party vocabulary; uneven adoption |
 | **Continuity Updates** | Note who embraced which pole; Bowl boon assigned |
 | **Foundry Assets** | Ch21 Meditation Core Scene Card; Level 3 scene |
-| **Source Traceability** | CW-001; Ch04 §4; Ch15 Session 2; Ch02 discovery order |
 
 ---
 
@@ -484,7 +472,7 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Present Characters** | Yen-Ti (Speaker 7) sketching murals—optional; science-minded pilgrims; mystics flinching at thin Force |
 | **Objectives** | Open Confluence access; **show Kwa murals**; player characters sketch/memorize; find boon; do **not** open Gate |
 | **Opposition** | Psychic backlash; Yen-Ti pushing to chase cold truth vs opening council wing |
-| **Mechanics** | **Group challenge — open Confluence access.** Characters work as a group. Eligible checks: `DC 15 Intelligence (Investigation)` or `DC 15 Intelligence (tech/Force-lore)` to interpret lattices; `DC 14 Wisdom (Insight)` to sense Force resistance in the panel. The group needs **3 successes before 2 failures**. On a failure of an individual check: the character suffers a nosebleed and has disadvantage on their next check in this challenge (**CAMPAIGN_PROVISIONAL**—prefer this over inventing exhaustion levels unless Kakeman89 decides). Alternate provisional option: `2d6` psychic damage (**CAMPAIGN_PROVISIONAL**) instead of nosebleed/disadvantage. On two group failures: Confluence remains locked; Senn-Vora can escort later at a favor cost. Success: Confluence access granted. Ash-Glass Lens in tray. |
+| **Mechanics** | **Group challenge — open Confluence access.** Characters work as a group. Eligible checks: `DC 15 Intelligence (Investigation)` or `DC 15 Intelligence (tech/Force-lore)` to interpret lattices; `DC 14 Wisdom (Insight)` to sense Force resistance in the panel. The group needs **3 successes before 2 failures**. On a failure of an individual check: the character suffers a nosebleed and has disadvantage on their next check in this challenge (provisional for this candidate; prefer this over inventing exhaustion levels unless Kakeman89 decides). Alternate provisional option: `2d6` psychic damage (also provisional for this candidate) instead of nosebleed/disadvantage. On two group failures: Confluence remains locked; Senn-Vora can escort later at a favor cost. Success: Confluence access granted. Ash-Glass Lens in tray. |
 | **Clues** | Script is not Tho Yor's; twin disks rhyme with Core concepts; nine-fold refusal; builders ambiguous |
 | **RP Guidance** | Player characters may sketch—reward player notes. Tension: council prep vs forbidden corridor. |
 | **Developments** | Confluence unlocked; murals documented; Yen-Ti interested in player characters |
@@ -494,7 +482,6 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | Mural sketches in inventory; Yen-Ti hook; Confluence access state |
 | **Continuity Updates** | Sketch quality noted; Lens boon; Storm Clock +1 if Gate abused |
 | **Foundry Assets** | Ch21 Machine-Spirit Scene Card; Ch08 Gate reference (GM); Level 4 scene |
-| **Source Traceability** | CW-001; Ch04 §5 Kwa foreshadow; Ch15 Session 2; companion §4 Machine-Spirit |
 
 ---
 
@@ -522,12 +509,11 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | Vault-Touched Ann attitude; Yen-Ti respect or frustration |
 | **Continuity Updates** | Vault status: sealed; Gate: not activated |
 | **Foundry Assets** | Ch21 Sealed Vaults Scene Card; Map 4 brief (future); Level 4 scene |
-| **Source Traceability** | Ch04 §6; Ch08; Ch15 Session 2 |
 
 ### Session 2 — Additional Beats (connective)
 
 - Remaining player characters claim assigned boons (check against Session 0 assignments). Unassigned boons remain aboard.
-- Seed council rumors; Speaker names circulate (F-H-001: **Speaker ↔ calling mappings TBD**).
+- Seed council rumors; Speaker names circulate, but Calling-to-Speaker assignments are still undecided.
 - Optional: Torv or Shekk-Arra favor hook—trade hide for patch.
 
 ### Session End States
@@ -600,7 +586,6 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | Speaker roles; grievance; faction seeds |
 | **Continuity Updates** | Speaker roster; grievance pair; arrival agreement |
 | **Foundry Assets** | Ch21 Confluence Scene Card; Level 2 scene |
-| **Source Traceability** | CW-001; Ch04 §7; Ch15 Session 3; companion §4 Confluence |
 
 ---
 
@@ -628,7 +613,6 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | Storm Clock starting position for Arc II |
 | **Continuity Updates** | Arc I success snapshot (Ch13 table) |
 | **Foundry Assets** | Observation Galleries; Arc II journal bookmark; Level 3 scene |
-| **Source Traceability** | Ch15 Session 3 finale; Ch04 set piece #5 Approach |
 
 ### Session 3 — Additional Beats (connective)
 
@@ -680,15 +664,14 @@ No in-play factions. GM presents eight calling words; table locks one. Sister sh
 | **Consequences** | *(Arc II)* Camp claim begins |
 | **Continuity Updates** | *(Arc II)* Landing mode recorded |
 | **Foundry Assets** | Ch21 Disembarkation Spines; Map 2 (Arc II) |
-| **Source Traceability** | Ch04 §8; Ch16 Session 5; Ch21 Disembarkation Scene Card |
 
-**Optional GM placeholder (A2 — not in repo):** *Chamber of First Calling* upper floor is **not documented** in current sources. If Kakeman89 authorizes A2 content later, it may connect to sealed doors or Vault mysteries—do not play in Arc I pilot.
+**Optional GM placeholder:** *Chamber of First Calling* upper floor is **not documented** in current sources. If Kakeman89 authorizes later source support, it may connect to sealed doors or Vault mysteries—do not play in Arc I pilot.
 
 ---
 
 ## Player-Facing Handouts (Pilot)
 
-*F-K-002 IMPLEMENTATION in candidate ONLY. Source App C primer unchanged at time of pilot writing.*
+*Candidate-only handout correction for the staged Tython reveal. The primary-guide primer is unchanged.*
 
 ### Opening crawl (player-safe)
 
@@ -753,7 +736,7 @@ When the journey ends, the galaxy will never be the same.
 
 *(Remainder of App C primer—What you know, Tone, Character tips—may follow source, except avoid naming Tython in player-facing lines until earned.)*
 
-### Spoiler-safe Tho Yor selection handout spec (archive B3)
+### Spoiler-safe Tho Yor selection handout spec
 
 *For Session 0 calling lock. Visual handout when assets exist.*
 
@@ -763,9 +746,9 @@ When the journey ends, the galaxy will never be the same.
 | **Labels** | One calling word beneath each silhouette: Science · Art · Healing · Knowledge · Teaching · Body · Mind · Skill |
 | **Excluded** | No ninth pyramid; no Balance; no Kesh names; no Tython; no temple end-state |
 | **Player action** | Table selects one word; GM confirms lock verbally |
-| **Asset status** | `assets/handouts/tho-yor-calling-grid` — **planned, not shipped** (A5 scaffold) |
+| **Asset status** | `assets/handouts/tho-yor-calling-grid` — planned, not shipped |
 
-**Note:** Source App C and Ch10 calling announce may still name Tython until F-K-002 is resolved in primary guide. This candidate uses corrected primer for pilot tables only.
+**Note:** Source App C and the Ch10 calling announce may still name Tython until the staged Tython reveal is corrected in the primary guide. This candidate uses corrected primer text for pilot tables only.
 
 ---
 
@@ -785,22 +768,3 @@ When the journey ends, the galaxy will never be the same.
 *On Tython soil = Arc II Session 5 (Episode 1 end)—not Arc I.*
 
 ---
-
-## Crosswalk Index (this pilot)
-
-| ID | Pilot use |
-|----|-----------|
-| CW-001 | Act overview — Arc I Sessions 1–3 |
-| CW-002 | Threshold Halls Scene Card |
-| CW-003 | Companion Threshold atmosphere |
-| CW-005 | Spoiler/handout policy |
-| CW-008 | App C handouts — F-K-002 candidate fix |
-| — | Archive B1 — **SUPERSEDED_BY_KAKEMAN89** (fixed party size of 3; historical archive evidence only; not adopted campaign content) |
-| — | Archive B2 — adopted (ninth Tho Yor planet-hop correction) |
-| — | Archive B3 — adopted (handout spec) |
-| — | Tho Yor levels plan — `reports/audits/arc-i-pilot-thoyor-levels-map-plan.md` (provisional; not canon) |
-
----
-
-*End of Arc I integrated candidate pilot. Primary guide and companion remain authoritative. This file is PROVISIONAL, NON-AUTHORITATIVE, and subject to Kakeman89 review.*
-

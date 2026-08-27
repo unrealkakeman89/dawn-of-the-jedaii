@@ -6,17 +6,17 @@
 
 # Arc III: Survive & Contact
 
-**Operational notice:** PROVISIONAL, NON-AUTHORITATIVE, ARC III STRESS-TEST CANDIDATE, NOT A REPLACEMENT FOR EITHER SOURCE MANUSCRIPT, SUBJECT TO KAKEMAN89 REVIEW, SOURCE TRACEABILITY IN CROSSWALK.
+**Operational notice:** Provisional and non-authoritative. This Arc III stress-test draft does not replace either source manuscript, and detailed traceability remains in the crosswalk.
 
-**Pilot status:** Provisional integrated candidate. `dawn-of-the-jedaii-campaign-guide.md` and `gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md` remain authoritative until Kakeman89 authorizes cutover.
+**Status:** Working draft only. `dawn-of-the-jedaii-campaign-guide.md` and `gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md` remain authoritative until Kakeman89 authorizes cutover.
 
-**Scope:** Arc III surface play using an operational Sessions 7-11 breakdown for table use. The source arc spine is Chapter 17; the session and scene labels below are organizational scaffolding, not preexisting campaign canon.
+**Scope:** Arc III surface play presented here as Sessions 7-11 for table use. The source arc spine is Chapter 17; the session and scene labels below are an organizational frame, not preexisting campaign canon.
 
-**Authority note:** The primary guide is factual authority. The approved companion supplies operational depth, character texture, and scene procedure where it does not factually conflict with the primary guide.
+**Authority note:** The primary guide is factual authority. The approved companion supplies character texture and scene procedure where it does not factually conflict with the primary guide.
 
-**Sources synthesized (candidate only):** Primary guide Chapters 17, 06, 08, 09 (Counting Quarrel seed only), 10, 16, 21, 22, 23, plus Chapters 05 and 02 where Arc III geography and moon naming need local context; companion Chapters 5, 6, and 7 for Speaker texture, first-night atmosphere, Omen procedure, and Arc III runnable depth.
+**Sources synthesized:** Primary guide Chapters 17, 06, 08, 09 (Counting Quarrel seed only), 10, 16, 21, 22, 23, plus Chapters 05 and 02 where Arc III geography and moon naming need local context; companion Chapters 5, 6, and 7 for Speaker texture, first-night atmosphere, Omen procedure, and Arc III runnable depth.
 
-<!-- cw:CW-006 CW-029 CW-034 -->
+<!-- SOURCE-TRACE: CW-006, CW-029, CW-034 | primary Chapter 17 Arc III overview and goals; Chapter 06 factions; Chapter 10 calling/Kesh reminder | companion Chapter 7 "Arc III - Survive & Contact" and "What this arc is for" -->
 
 ---
 
@@ -24,7 +24,7 @@
 
 | Field | Detail |
 |-------|--------|
-| **Act** | Arc III - Survive & Contact using provisional operational Sessions 7-11. |
+| **Act** | Arc III - Survive & Contact, presented here as Sessions 7-11. |
 | **Level band** | Begin after Arc II at level 10. Milestone to level 11 by Session 11. |
 | **Purpose** | Map the near wild, make first sustained contact with at least one other Tho Yor landing, survive scarcity without turning it into conquest, and force Ashla/Bogan to become camp law under a named sky instead of ship-only vocabulary. |
 | **Starting state** | The party has a named camp near the Session 0 calling seed region, watches and shelter exist, and the local Tho Yor remains in sight. Other camps are now smoke, rumor, and tracks instead of distant silhouettes. The moons may still be unnamed if the Omen has not yet occurred. |
@@ -41,7 +41,7 @@
 | **Possible end states** | A rough neighborhood map exists; at least one camp is an ally or soft ally, and at least one camp is a rival or open pressure point; Omen scars are remembered; the Gate is unopened, deferred, or briefly used; factions are visible in camp arrangement; the party has enough social geography to begin Naming, Creed, and calendar politics in Arc IV. |
 | **State carryover** | Sketch map notes, food/water landmarks, neighbor status, moon vocabulary status, Storm Clock position, Gate status, faction momentum, Speaker debts, unresolved grievances, and seeded calendar disagreements all carry into Arc IV. |
 | **Preparation** | Read Chapter 17 in full; review Chapter 06 faction coalitions and rival leaders; skim Chapter 22 Speakers; prep Chapter 21 `Tython camp at night` and `Ashla surface` / `Bogan surface` if Map 4 is possible; prep Chapter 23 Map 3 and Map 4 if used; refresh Chapter 05 region notes for the party's seed region; keep Chapter 08 Gate rules available but optional. |
-| **Foundry package** | Provisional mixed hierarchy only: `Arc III Overview`, `Session 7`, `Session 8`, `Session 9`, `Session 10`, `Session 11`, `Arc III Contacts and Speakers`, and `Player Handouts`. Default to scene headings inside session pages. Separate scene pages are most justified for Map 3 and Map 4 or any unusually large reusable packet. Theater-of-the-mind remains the default for camp, ridge, and border contact play. |
+| **Foundry package** | Suggested mixed hierarchy: `Arc III Overview`, `Session 7`, `Session 8`, `Session 9`, `Session 10`, `Session 11`, `Arc III Contacts and Speakers`, and `Player Handouts`. Default to scene headings inside session pages. Separate scene pages are most justified for Map 3 and Map 4 or any unusually large reusable packet. Theater-of-the-mind remains the default for camp, ridge, and border contact play. |
 | **Encounter scaling** | Scale scout hazards, border standoffs, purge intervention, and spring conflicts for variable party size, level 10-11 capability, active NPC allies, and whether the beat is social, exploration, or combat. Prefer more witnesses, more difficult positions, or stronger social consequences over invented DC inflation, unsupported damage numbers, or custom stat blocks created just to fill space. |
 
 ### Encounter Scaling (short)
@@ -53,9 +53,9 @@ Arc III assumes variable party size. When a beat turns dangerous, scale by:
 - Whether allied NPCs are helping, panicking, or complicating the scene
 - Whether the scene is mainly social, exploration, or tactical combat
 
-For this candidate, the preferred scaling tools are additional bodies, better positioning, tighter timelines, more exposed civilians, and more expensive consequences. Use existing SW5e creatures, humanoids, or hazards if the table drops into combat instead of inventing unsupported numbers here.
+For Arc III, the preferred scaling tools are additional bodies, better positioning, tighter timelines, more exposed civilians, and more expensive consequences. Use existing SW5e creatures, humanoids, or hazards if the table drops into combat instead of inventing unsupported numbers here.
 
-<!-- cw:CW-030 CW-037 CW-039 CW-042 CW-043 CW-050 -->
+<!-- SOURCE-TRACE: CW-030, CW-037, CW-039, CW-042, CW-043, CW-050 | primary Chapter 17 exploration loop and contact scenarios; Chapter 06 factions; Chapter 10 calling/Kesh reminder | companion Chapter 5 Speaker texture; Chapters 6-7 Arc III atmosphere and procedures -->
 
 ---
 
@@ -127,28 +127,20 @@ Antagonist pressures remain active even when no single villain is present:
 - Warlord pilgrims treat fear as civic glue
 - Tython itself punishes imbalance
 
-### Speaker scenario casting policy (not Calling maps)
+### Speaker scenario guidance
 
-Use operational casting labels in GM notes and traceability only. They do **not** approve Calling -> Speaker -> Kesh mappings.
+Use these entries as scene guidance only. They suggest which Speaker or rival voice best fits a scene's current pressure, but they do not settle permanent Calling-to-Speaker assignments.
 
-| Label | Meaning in this candidate |
-|-------|---------------------------|
-| **SOURCE_SUPPORTED_SCENARIO_CAST** | The source material directly supports using this Speaker or rival voice for this specific scenario |
-| **RECOMMENDED_SUBSTITUTABLE_CAST** | A source-backed alternate works well if the table state points that way |
-| **INDEPENDENT_OF_CALLING** | Safe to use regardless of the party's Session 0 calling; does not resolve F-H-001 |
-| **NEEDS_KAKEMAN89** | A stronger default would need separate review before being treated as more than connective advice |
-| **UNRESOLVED** | No clean source-backed mandatory lead; cast from the relationships the table has actually built |
+| Scenario | Suggested Speaker | Why they fit | Alternative Speaker | What changes | Must match party calling? |
+|----------|-------------------|--------------|---------------------|--------------|---------------------------|
+| **Trade and mistrust** | **Numa'Shar** or **Sari Tor** | Companion Arc III explicitly points to them for this story, and both voices fit the first-contact pressure. | **Senn-Vora** | Numa'Shar emphasizes diplomacy, marriages, and third options. Sari Tor emphasizes honor, public respect, and challenge logic. Senn-Vora works best as a witness or stabilizer from the party's own camp. | No. This role does not need to match the party's calling. |
+| **Resource War** | **Iil and Vorr** or **Reth Var** | Chapter 17 and companion Arc III frame the conflict around water, law-first answers, and raid pressure. | **Senn-Vora** | Iil and Vorr push healing sanctuary and public law. Reth Var pushes raids, walls, and command logic. Senn-Vora can steady the room without deciding it alone. | No. This role does not need to match the party's calling. |
+| **Joint Rite** | **Senn-Vora** or whoever has earned trust as a facilitator | The rite depends on lived trust and visible Balance, not on a fixed universal officiant. | **Horruhn** | Horruhn is strongest when the rite is tied to protecting living places, stewardship, or land defense. | No. This role does not need to match the party's calling. |
+| **Omen of the Moons** | Any assembled Speakers | The Omen is a camp-wide procedural beat, not a personal calling assignment. | **Yen-Ti** or a player character for Gate foreshadow; **Sister Luma** or **Kresh** for pressure after the naming | Yen-Ti turns attention toward mural or Gate memory. Sister Luma and Kresh sharpen ideological pressure only after the naming is ratified. | No. This role does not need to match the party's calling. |
+| **Scar Council / end-of-arc review** | Whoever actually made the scars | End-state casting should reflect play history rather than a prewritten roster. | Any major witness, rival, or ally earned in play | Bring forward the people whose choices, wounds, debts, or rulings the camp now remembers. | No. This role does not need to match the party's calling. |
+| **Map 4 Moon Road** | **Yen-Ti** | Chapter 08, Map 4, and companion Gate notes support Yen-Ti as the clearest curiosity and access-pressure voice. | **Senn-Vora** or **Sister Luma** | Senn-Vora adds calm and legitimacy. Sister Luma adds a purity veto if the table wants ideological pressure. | No. This role does not need to match the party's calling. |
 
-| Scenario | Casting guidance | Operational label | Why it is here |
-|----------|------------------|-------------------|----------------|
-| **Trade and mistrust** | **Numa'Shar** for diplomacy and third options; **Sari Tor** if honor is the only currency; **Senn-Vora** may anchor or witness | Numa'Shar and Sari Tor = **SOURCE_SUPPORTED_SCENARIO_CAST**; Senn-Vora = **INDEPENDENT_OF_CALLING** | Companion Arc III explicitly points to Numa'Shar and Sari Tor for this story; Senn-Vora remains the local party-camp anchor |
-| **Resource War** | **Iil and Vorr** for law-first / healing sanctuary pressure; **Reth Var** for raid pressure; **Senn-Vora** as local stabilizer if needed | Iil/Vorr and Reth Var = **SOURCE_SUPPORTED_SCENARIO_CAST**; Senn-Vora = **INDEPENDENT_OF_CALLING** | Chapter 17 and companion Arc III frame the conflict around water, raid pressure, and law-first alternatives |
-| **Joint Rite** | Use **Senn-Vora** or another already-earned facilitator; **Horruhn** fits when land protection is central; do not force a single universal officiant | Senn-Vora = **INDEPENDENT_OF_CALLING**; Horruhn = **RECOMMENDED_SUBSTITUTABLE_CAST**; one mandatory lead = **UNRESOLVED** | The rite teaches Balance empirically, but the source does not assign one fixed Speaker to it |
-| **Omen of the Moons** | Any assembled Speakers can declare the speech law; **Sister Luma** and **Kresh** apply pressure after the naming; **Yen-Ti** or a PC can voice Gate foreshadow if mural memory exists | Speakers = **INDEPENDENT_OF_CALLING** for the declaration; Luma/Kresh = **SOURCE_SUPPORTED_SCENARIO_CAST** pressure; Yen-Ti = **RECOMMENDED_SUBSTITUTABLE_CAST** | Omen is a procedural beat, not a Calling map resolution |
-| **Scar Council / end-of-arc review** | Bring forward whichever Speakers, rivals, and NPCs actually made the scars | Default = **UNRESOLVED** | End-state casting should reflect play history instead of a prewritten roster |
-| **Map 4 Moon Road** | **Yen-Ti** for access bargain and curiosity pressure; **Senn-Vora** for calm and legitimacy; **Sister Luma** as purity veto if the table wants it | Yen-Ti = **SOURCE_SUPPORTED_SCENARIO_CAST**; Senn-Vora = **INDEPENDENT_OF_CALLING**; Luma = **RECOMMENDED_SUBSTITUTABLE_CAST** | Chapter 08, Map 4, and companion Gate notes support this pressure triangle without making it universal |
-
-### Calling -> Kesh reminder (Chapter 10) and F-H-001 warning
+### Calling -> Kesh reminder (Chapter 10)
 
 Calling to future Kesh is established. Speaker attachment is not.
 
@@ -165,11 +157,11 @@ Calling to future Kesh is established. Speaker attachment is not.
 
 **Balance / Akar Kesh is not choosable** for the party's Session 0 ship.
 
-**F-H-001 remains unresolved:** do not treat any Arc III Speaker appearance, recommended scenario cast, or player preference as a fixed Calling -> Speaker -> Kesh canon answer.
+Calling-to-Speaker assignments are not decided yet. Do not treat scenario guidance, repeated Arc III appearances, or player preference as a permanent Calling -> Speaker -> Kesh lock.
 
 ### Calendar seed note
 
-The complete `Counting Quarrel` remains Arc IV-primary in this candidate, even though Chapter 09 permits a late Arc III version if the table is already drowning in date disputes.
+The complete `Counting Quarrel` remains Arc IV-primary by default here, even though Chapter 09 permits a late Arc III version if the table is already drowning in date disputes.
 
 Arc III may seed calendar pressure through:
 
@@ -192,7 +184,7 @@ Do not run the full month-naming workshop here by default. Let Arc III create th
 
 The Gate path does not override this branch rule. Opening Map 4 never authorizes replaying the Omen or renaming the moons.
 
-<!-- cw:CW-030 CW-034 CW-036 -->
+<!-- SOURCE-TRACE: CW-030, CW-034, CW-036 | primary Chapter 17 exploration loop; Chapter 21 "Tython camp at night"; Chapter 05 region notes | companion Chapter 7 exploration loop; Chapter 6 camp-night atmosphere -->
 
 ---
 
@@ -230,7 +222,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | The first real map mark appears. Camp now has something to hope for, fear, hoard, or argue over. The Storm Clock may move if the party treats the discovery as entitlement instead of stewardship. |
 | **Continuity Updates** | Record what was found, what was left behind, who argued for which choice, and how the discovery was described when the party got home. |
 | **Foundry Assets** | Theater default. A sketch map handout or note page is usually enough. |
-| **Source Traceability** | CW-030; Chapter 17 `Exploration loop`; companion Chapter 7 `The exploration loop`; Chapter 05 region notes; candidate connective only for return-state bookkeeping. |
+
+<!-- SOURCE-TRACE: CW-030 | primary Chapter 17 "Exploration loop"; Chapter 05 region notes | companion Chapter 7 "The exploration loop" -->
 
 ---
 
@@ -245,7 +238,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **GM Notes** | Choose the visible claim style from source-backed coalition language: Spear Lodge flags, Green Kin markers, tide-law strings, or another Speaker's practical sign system. This scene can stay at observation range or become a brief tense hello, but it should not spend all of Session 8's diplomacy budget in advance unless the table forces it. |
 | **Scene Card summary** | Tone: wary reconnaissance. Senses: smoke on wet wind, distant voices, claim-signs in paths, watchful silence. Secret pressures: signs can be read correctly or insultingly; a retreat still leaves an impression. |
 | **Location** | Ridge, high root line, coastal rise, broken escarpment, or other overlook that can see camp smoke and return routes. |
-| **Present Characters** | Player characters, scout companions, and one or more distant watchers or envoys from another camp. The exact sister camp can stay provisional until the party commits to contact. |
+| **Present Characters** | Player characters, scout companions, and one or more distant watchers or envoys from another camp. The exact sister camp can stay unsettled until the party commits to contact. |
 | **Objectives** | Identify who is nearby, decide whether to signal, avoid accidental insult, and come home with a real social mark for the map. |
 | **Opposition** | Misreading signs, looking like raiders, being seen taking notes, crossing a boundary without permission, or assuming every distant silhouette is hostile. |
 | **Mechanics** | Use rolls only when uncertainty matters. Wisdom (Insight) can read posture, Dexterity (Stealth) can keep the party unseen, Wisdom (Perception) can catch watcher placement, Intelligence (Investigation) can study claim-signs, and Charisma (Persuasion) can support a deliberate peace signal. If combat breaks out, make it a warning clash, retreat pressure, or captured-pride moment instead of the act's only answer. |
@@ -258,7 +251,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | A second camp enters campaign reality. The map now has a social edge, not only terrain. Session 8 starts with genuine contact pressure instead of abstract intention. |
 | **Continuity Updates** | Mark smoke, markers, and the party's chosen posture on the map. Note whether the other camp now sees the party as cautious, honorable, nosy, or predatory. |
 | **Foundry Assets** | Theater default; ridge sketch or camp marker overlay if desired. |
-| **Source Traceability** | CW-030; Chapter 17 `Exploration loop`; companion Chapter 7 `rival camp smoke`; Chapter 06 coalition signs and pressures; Chapter 22 walk-on pool as needed. |
+
+<!-- SOURCE-TRACE: CW-030 | primary Chapter 17 "Exploration loop"; Chapter 06 coalition signs and pressures; Chapter 22 walk-on pool as needed | companion Chapter 7 "rival camp smoke" -->
 
 ---
 
@@ -270,7 +264,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Trigger** | The scouts come home with food, signs, poison, a token, a map mark, or a silent worry they cannot bury. |
 | **Immediate Situation** | The camp has already started reacting before the full report lands. People are hungry, wet, proud, tired, and ready to overread what the scouts brought back. A useful thing or dangerous rumor is now in public view. |
 | **Read-Aloud** | Cookfires throw a thin ring of light around the camp. Steam lifts off wet cloaks. Half-built shelters lean into the dark like tired shoulders. Before you finish setting your packs down, people are already looking past you toward what you carried home. |
-| **GM Notes** | Pick a consequence that fits the discovery. Strong source-backed choices: Miller Cand opens a ration argument; a stolen tool rumor becomes immediate diplomacy fuel; a predator followed the scouts' scent or Force-light; Horruhn smells wrong wood smoke; Pel the Map-Eater tries to turn wonder into obsession. Senn-Vora is a useful **INDEPENDENT_OF_CALLING** camp anchor here, but do not let him solve the scene for the party. |
+| **GM Notes** | Pick a consequence that fits the discovery. Strong source-backed choices: Miller Cand opens a ration argument; a stolen tool rumor becomes immediate diplomacy fuel; a predator followed the scouts' scent or Force-light; Horruhn smells wrong wood smoke; Pel the Map-Eater tries to turn wonder into obsession. Senn-Vora is a useful camp anchor here, but do not let him solve the scene for the party. |
 | **Scene Card summary** | Tone: fragile civilization under pressure. Senses: smoke, wet cloth, bad sleep, too many witnesses, just enough light to turn every rumor into a shape. Secret pressures: useful news becomes policy fast; the camp is already sorting who gets heard first. |
 | **Location** | Main cookfire ring, ration stores, watch line, healer tent edge, or another camp-common area where many people can react at once. |
 | **Present Characters** | Miller Cand, Senn-Vora, one or two scene-appropriate scout or crafter NPCs, the returning party, and whichever camp voices are necessary to turn the discovery into a real consequence. |
@@ -286,7 +280,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | The camp now owns the wild's consequence. Session 8 has a clear diplomatic hook instead of a generic desire for contact. |
 | **Continuity Updates** | Record the first camp law, accusation, or concession created by scouting. Update the map with the discovery and the social meaning attached to it. |
 | **Foundry Assets** | `Tython camp at night` scene card text is often enough; no dedicated scene required. |
-| **Source Traceability** | CW-030; Chapter 17 loop structure; Chapter 21 `Scene Card - Tython camp at night`; companion Chapter 6 `First night / Omen of the moons`; companion Chapter 7 return-consequence examples. |
+
+<!-- SOURCE-TRACE: CW-030 | primary Chapter 17 loop structure; Chapter 21 "Scene Card - Tython camp at night" | companion Chapter 6 "First night / Omen of the moons"; Chapter 7 return-consequence examples -->
 
 ### Session End States
 
@@ -304,7 +299,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 - Storm Clock movement if greed, fear, or cruelty defined the outing
 - A promoted scout, quartermaster, or witness NPC
 
-<!-- cw:CW-031 CW-034 CW-035 CW-039 CW-050 -->
+<!-- SOURCE-TRACE: CW-031, CW-034, CW-035, CW-039, CW-050 | primary Chapter 17 "Trade & mistrust"; Chapter 22 Speakers | companion Chapter 7 trade story; Chapter 5 Speaker texture -->
 
 ---
 
@@ -312,7 +307,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 
 **Arc beat:** Smoke becomes voices. The party learns that gifts, tools, witnesses, and posture matter as much as food.
 
-**Speaker casting note:** Use **Numa'Shar** or **Sari Tor** as **SOURCE_SUPPORTED_SCENARIO_CAST** for this story. Use **Senn-Vora** as an **INDEPENDENT_OF_CALLING** camp anchor, witness, or stabilizer when needed. None of this resolves F-H-001.
+**Speaker casting note:** **Numa'Shar** and **Sari Tor** are the clearest fits for this story. **Senn-Vora** can anchor, witness, or stabilize when the party needs a familiar local voice. Calling-to-Speaker assignments are not decided yet, so do not treat this scene guidance as a permanent lock.
 
 **Must-play beats:** Language friction, gift exchange, a mistrust problem that could still be solved, and a clear relationship outcome: soft ally, wary neighbor, honorable tension, or active rivalry.
 
@@ -324,7 +319,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Trigger** | Session 7 exposed smoke, markers, or a shared route, and either camp now needs a controlled meeting more than it wants another rumor. |
 | **Immediate Situation** | The party arrives at a border ground where both camps have agreed to stop walking, at least for now. Goods are visible. So are weapons. Everyone knows the exchange is also reconnaissance. |
 | **Read-Aloud** | The border is not a line so much as two camps pretending they can stop at the same place. Gifts rest on cloth between the fires: salt, hide, dried roots, carved stone, a tool too useful to leave unwatched. Nobody reaches first. Smoke, posture, and who stands beside whom do most of the talking before the first translated word arrives. |
-| **GM Notes** | **Numa'Shar** and **Sari Tor** are both **SOURCE_SUPPORTED_SCENARIO_CAST** here; choose Numa'Shar when diplomacy, marriages, or third options matter most, and Sari Tor when honor, public respect, or challenge logic is the only currency the scene will hear. **Senn-Vora** remains **INDEPENDENT_OF_CALLING** and can accompany or witness without becoming the scene's owner. Gifts are intelligence. Credits remain useless. |
+| **GM Notes** | **Numa'Shar** and **Sari Tor** are both strong fits here; choose Numa'Shar when diplomacy, marriages, or third options matter most, and Sari Tor when honor, public respect, or challenge logic is the only currency the scene will hear. **Senn-Vora** can accompany or witness without becoming the scene's owner. Gifts are intelligence. Credits remain useless. |
 | **Scene Card summary** | Tone: measured mistrust. Senses: smoke, damp leather, still hands, visible need hidden behind ritual calm. Secret pressures: every offered object says what a camp values and what it fears. |
 | **Location** | Border path, stream crossing, ridge saddle, grove edge, or weather-cleared neutral patch that both sides can see and retreat from. |
 | **Present Characters** | Player characters; Numa'Shar or Sari Tor; Senn-Vora if invited; one or two practical traders or guards from each side; a translator, child witness, or crafter if the table needs one. |
@@ -340,7 +335,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | The camps now have a name for each other, a story about each other, and a reason to meet again or not. |
 | **Continuity Updates** | Record who spoke for the party, which Speaker or rival defined the mood, what gift set the tone, and whether the other camp currently reads the party as useful, weak, dangerous, or honorable. |
 | **Foundry Assets** | Theater default; journal page and map note are usually enough. |
-| **Source Traceability** | CW-031; Chapter 17 `Contact scenarios` item 1; companion Chapter 7 `Trade and mistrust`; Chapter 22 Speakers; companion Chapter 5 `Sister-ship Speakers`; CW-050 for scenario-casting separation from Calling maps. |
+
+<!-- SOURCE-TRACE: CW-031, CW-050 | primary Chapter 17 "Contact scenarios" item 1; Chapter 22 Speakers | companion Chapter 7 "Trade and mistrust"; Chapter 5 "Sister-ship Speakers" -->
 
 ---
 
@@ -352,13 +348,13 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Trigger** | Border contact exposes a missing tool, seized object, exchanged token, or accusation that cannot be solved by pretending everyone meant the same thing. |
 | **Immediate Situation** | The object at the center of the trade is now public evidence. Too many hands are near spear shafts. Each camp thinks the other should already understand what the object means. |
 | **Read-Aloud** | The tool sits where no one can pretend not to see it. Fresh hands have polished one edge. Dirt still clings to the grip. What should have been a trade token now looks like a verdict waiting for a voice to claim it. |
-| **GM Notes** | Keep the object's meaning contingent on the scene and cast. With **Numa'Shar** as the lead **SOURCE_SUPPORTED_SCENARIO_CAST**, the tool can function as alliance signal, marriage witness, or carefully staged misunderstanding. With **Sari Tor** as the lead **SOURCE_SUPPORTED_SCENARIO_CAST**, it can function as honor debt, challenge token, or test of whether the party respects public accountability. In either case, **Senn-Vora** can stabilize as **INDEPENDENT_OF_CALLING** but should not pronounce the final truth for everyone. |
+| **GM Notes** | Keep the object's meaning contingent on the scene and cast. With **Numa'Shar** leading, the tool can function as alliance signal, marriage witness, or carefully staged misunderstanding. With **Sari Tor** leading, it can function as honor debt, challenge token, or a test of whether the party respects public accountability. In either case, **Senn-Vora** can stabilize the scene but should not pronounce the final truth for everyone. |
 | **Scene Card summary** | Tone: tense but salvageable. Senses: tool-oil, wet leather, watchful breath, too many listeners. Secret pressures: the real dispute is rarely over the object alone. |
 | **Location** | Same border ground, a second ring just off the path, or one camp's edge if the scene has shifted after the first trade beat. |
 | **Present Characters** | Border negotiators, the relevant Speaker, Senn-Vora if present, crafters or owners tied to the tool, and any rival who benefits from making the misunderstanding public. |
 | **Objectives** | Learn the object's meaning, keep the dispute from hardening into a founding myth of betrayal, and decide what relationship survives the scene. |
 | **Opposition** | Pride, translation failure, opportunists, public spectators, someone who wants offense more than clarity, and the possibility that the object really was stolen. |
-| **Mechanics** | Good approaches include Wisdom (Insight) to read who already knows more than they admit, Intelligence (Investigation) to establish physical truth about the object, Charisma (Persuasion) to broker a face-saving exit, or Charisma (Performance) / public ritual behavior if honor culture matters more than logic. If the scene turns into a formal duel, challenge, or witness oath, use existing SW5e tools rather than new candidate-only rules. |
+| **Mechanics** | Good approaches include Wisdom (Insight) to read who already knows more than they admit, Intelligence (Investigation) to establish physical truth about the object, Charisma (Persuasion) to broker a face-saving exit, or Charisma (Performance) / public ritual behavior if honor culture matters more than logic. If the scene turns into a formal duel, challenge, or witness oath, use existing SW5e tools rather than inventing new one-off rules here. |
 | **Clues** | Tools carry social meaning. Witnesses matter as much as ownership. A solved misunderstanding can create stronger trust than easy trade; a mishandled one can make every later contact harder. |
 | **RP Guidance** | Ask whether the party values apology, clarity, reciprocity, or dominance most in public. Who gets to define "respect" should matter. |
 | **Developments** | The party secures peace, honorable tension, or open failure. A witness pact, marriage rumor, compensation exchange, duel debt, or named grievance may result. |
@@ -368,7 +364,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | This dispute becomes the tone-setter for all later contact with that camp. It may also seed water-law, watch-law, or ritual-law expectations for Session 10. |
 | **Continuity Updates** | Record whether the outcome was peaceful, honorable, or a failure; note any witness, debt, vow, or insult that should still matter in Session 10 or 11. |
 | **Foundry Assets** | Theater default; add the tool, grievance, or witness note to the journal. |
-| **Source Traceability** | CW-031; Chapter 17 `Trade & mistrust`; companion Chapter 7 trade story; Chapter 22 Speaker motivations; CW-050 scenario-casting separation; candidate connective only for outcome categories. |
+
+<!-- SOURCE-TRACE: CW-031, CW-050 | primary Chapter 17 "Trade & mistrust"; Chapter 22 Speaker motivations | companion Chapter 7 trade story -->
 
 #### Outcome Tracks
 
@@ -394,7 +391,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 - A tool, token, or custom that should recur later
 - Storm Clock movement if domination or purity logic defined the contact
 
-<!-- cw:CW-032 CW-034 CW-036 CW-039 CW-050 -->
+<!-- SOURCE-TRACE: CW-032, CW-034, CW-036, CW-039, CW-050 | primary Chapter 17 Omen; Chapter 02 twin moons; Chapter 21 "Tython camp at night"; Chapter 22 rivals | companion Chapter 6 first-night atmosphere; Chapter 7 Omen order -->
 
 ---
 
@@ -416,7 +413,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Trigger** | The first clear dual-moon night arrives after enough camp pressure has built that naming will matter. This is usually the opening of Session 9 in the default branch. |
 | **Immediate Situation** | The camp is gathered or gathering under a clear view of both companion moons. Old homeworld terms still exist in private, but a public law of speech is about to be proposed. |
 | **Read-Aloud** | Cookfires stitch a trembling ring against the dark. Two moons hang overhead, one clean and one hungry, still waiting for words. Beyond the watch line the forest answers distant movement with its own. A child asks whether the pyramid will leave by morning. No one offers the same answer twice. |
-| **GM Notes** | This is the source-locked order from Chapter 17 and companion Arc III: first the Speakers declare that the Tho Yor's teaching is law for speech about the Force and all named NPCs will use `Ashla` and `Bogan` for the concepts from now on; second, a PC or Speaker points at the bright and hungry moons and proposes the same names for the moons; third, the camp ratifies. **Senn-Vora** can serve as **INDEPENDENT_OF_CALLING** anchor. **Sister Luma** and **Kresh** are **SOURCE_SUPPORTED_SCENARIO_CAST** pressure voices after ratification, not before it. **Yen-Ti** is a good **RECOMMENDED_SUBSTITUTABLE_CAST** for the "the moons were always the Gate's destinations" callback if Arc I mural memory exists. |
+| **GM Notes** | This is the source-locked order from Chapter 17 and companion Arc III: first the Speakers declare that the Tho Yor's teaching is law for speech about the Force and all named NPCs will use `Ashla` and `Bogan` for the concepts from now on; second, a PC or Speaker points at the bright and hungry moons and proposes the same names for the moons; third, the camp ratifies. **Senn-Vora** can serve as the camp anchor. **Sister Luma** and **Kresh** are strongest as pressure voices after ratification, not before it. **Yen-Ti** is a good alternate voice for the "the moons were always the Gate's destinations" callback if Arc I mural memory exists. |
 | **Scene Card summary** | Tone: civic omen. Senses: smoke, cold air, clear moonlight, too many witnesses, doctrine becoming public shape. Secret pressures: words will stick harder than anyone expects. |
 | **Location** | Main camp ring or another place where most of the camp can see both moons and hear public speech. |
 | **Present Characters** | Player characters, Senn-Vora or other active Speakers, key rivals, children or translators who make the scene harder to dismiss, and the ordinary camp bodies whose assent matters. |
@@ -432,7 +429,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | Moon names and Force-vocabulary lock are now part of campaign continuity. This scene should never be rerun. |
 | **Continuity Updates** | Record who spoke the naming, who publicly ratified it, which rival voices were most visible, and whether the mural/Gate callback entered camp memory. |
 | **Foundry Assets** | `Tython camp at night` scene card and session journal page are usually enough. |
-| **Source Traceability** | CW-032; Chapter 17 `Mid-arc crisis - Omen of the Moons`; Chapter 02 `Twin moons`; Chapter 21 `Tython camp at night`; companion Chapter 6 `First night / Omen of the moons`; companion Chapter 7 `Omen of the Moons`. |
+
+<!-- SOURCE-TRACE: CW-032 | primary Chapter 17 "Mid-arc crisis - Omen of the Moons"; Chapter 02 "Twin moons"; Chapter 21 "Tython camp at night" | companion Chapter 6 "First night / Omen of the moons"; Chapter 7 "Omen of the Moons" -->
 
 ---
 
@@ -444,13 +442,13 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Trigger** | The naming and ratification are complete and emotions surge into action. |
 | **Immediate Situation** | Pure Ashla pilgrims move to silence "dark" artists, emotional practitioners, or inconvenient witnesses. Pure Bogan voices reach for a dominance kill to prove strength. The land itself starts answering the winning extreme. |
 | **Read-Aloud** | The camp ring does not stay quiet. Voices sharpen. Someone reaches for another person's tools. Someone shoves through the firelight before the crowd can decide whether this is a speech or a fight. Overhead, the newly named moons do nothing to help. The wind changes like a warning. |
-| **GM Notes** | The party's job is to stop the purge without becoming the purge. **Sister Luma** and **Kresh** are strong **SOURCE_SUPPORTED_SCENARIO_CAST** pressure vectors here. Tython answers the dominant extreme with weather that hurts everyone. If the party or a Speaker remembers the twin-disk mural, Yen-Ti or a PC can frame the moons as the Gate's old destinations without opening the Gate. Advance or clear the Storm Clock according to how the party restores order. |
+| **GM Notes** | The party's job is to stop the purge without becoming the purge. **Sister Luma** and **Kresh** are strong pressure voices here. Tython answers the dominant extreme with weather that hurts everyone. If the party or a Speaker remembers the twin-disk mural, Yen-Ti or a PC can frame the moons as the Gate's old destinations without opening the Gate. Advance or clear the Storm Clock according to how the party restores order. |
 | **Scene Card summary** | Tone: civic crisis. Senses: shouted names, scattered tools, sudden weather, campfire sparks, the crowd deciding too fast what kind of people it is. Secret pressures: every restraint or strike teaches public doctrine. |
 | **Location** | Same camp ring, watch line, or nearby shelter edge depending on where the first shove or target appears. |
 | **Present Characters** | Player characters, the named targets of purity or dominance pressure, Speaker and rival voices, frightened witnesses, and whichever camp defenders or healers make the scene playable. |
 | **Objectives** | Protect vulnerable targets, stop escalation, deny both extremes their "proof," and show the camp what Balance looks like under pressure. |
 | **Opposition** | Zealots, frightened followers, bystanders trying to help badly, weather, visible targets, and the temptation to end the argument by force alone. |
-| **Mechanics** | Run this as a fast social-tactical crisis. Good approaches include Charisma (Persuasion) or Wisdom (Insight) to turn the crowd, Strength (Athletics) to separate combatants, Dexterity-based positioning or protection, Wisdom (Medicine) to triage the first harmed body, and Force powers used in ways that visibly protect rather than dominate. If the table drops into full combat, use existing SW5e stats and hazards rather than candidate-only numbers. No fixed DCs or invented damage values are set here. |
+| **Mechanics** | Run this as a fast social-tactical crisis. Good approaches include Charisma (Persuasion) or Wisdom (Insight) to turn the crowd, Strength (Athletics) to separate combatants, Dexterity-based positioning or protection, Wisdom (Medicine) to triage the first harmed body, and Force powers used in ways that visibly protect rather than dominate. If the table drops into full combat, use existing SW5e stats and hazards rather than inventing new one-off numbers. No fixed DCs or invented damage values are set here. |
 | **Clues** | Vocabulary is now locked; interpretation is not. Balance can be shown materially if the party stops both purity and cruelty without merely choosing the bigger hammer. The camp will remember who was protected and how. |
 | **RP Guidance** | Make the targets specific. A generic mob is less useful than one ally, one zealot, and one witness who will repeat the story forever. |
 | **Developments** | The purge is stopped, redirected, or partly successful. Exile lists, duel debts, weather scars, and faction recruitment may all begin here. |
@@ -460,7 +458,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | The Omen is complete and should never be rerun. Named NPC vocabulary stays locked. Faction lines sharpen. The land, the camp, and the party now have a shared memory of what imbalance looked like under a named sky. |
 | **Continuity Updates** | Record protected targets, visible aggressors, Storm Clock movement, public rulings, and whether the event created an ally, martyr, or enduring grievance. |
 | **Foundry Assets** | Theater default unless the table wants a tactical camp map. |
-| **Source Traceability** | CW-032; Chapter 17 purge consequences and Storm Clock note; Chapter 21 `Tython camp at night`; companion Chapter 7 `Party job: stop the purge without becoming the purge`; companion Chapter 6 post-naming moon language. |
+
+<!-- SOURCE-TRACE: CW-032 | primary Chapter 17 purge consequences and Storm Clock note; Chapter 21 "Tython camp at night" | companion Chapter 7 "Party job: stop the purge without becoming the purge"; Chapter 6 post-naming moon language -->
 
 ### Session End States
 
@@ -478,7 +477,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 - Which NPCs were visibly saved, shamed, or radicalized
 - Whether the camp now leans harder toward fear, mercy, or public law
 
-<!-- cw:CW-031 CW-032 CW-034 -->
+<!-- SOURCE-TRACE: CW-031, CW-032, CW-034 | primary Chapter 16 "Bridge to Arc III"; Chapter 17 Omen timing note and resource-war option | companion no separate alternate branch; use Arc III scarcity guidance through the Resource War path below -->
 
 ---
 
@@ -495,9 +494,10 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Recommended order** | Spring pressure -> law, raid, or compromise fight -> camp consequence -> leave Session 10 for `Joint Rite`, faction flagging, optional Map 3/4, or other fallout. |
 | **Do not do** | Do not rename the moons, do not relock vocabulary, do not pretend the Omen did not matter, and do not mix the branch so loosely that players cannot tell whether Session 9 was a sky crisis or a water crisis. |
 | **End state** | Session 9 still leaves a scar, but it is a scarcity scar rather than the naming-night scar. |
-| **Source Traceability** | Chapter 16 `Bridge to Arc III`; Chapter 17 `Omen of the Moons` timing note; CW-032 branch note in crosswalk; Session 10 `Resource War` path below for full runnable content. |
 
-<!-- cw:CW-031 CW-034 CW-037 CW-038 CW-039 CW-040 CW-041 CW-050 -->
+<!-- SOURCE-TRACE: CW-032 | primary Chapter 16 "Bridge to Arc III"; Chapter 17 "Omen of the Moons" timing note | companion use the Resource War guidance below instead of replaying the Omen -->
+
+<!-- SOURCE-TRACE: CW-031, CW-034, CW-037, CW-038, CW-039, CW-040, CW-041, CW-050 | primary Chapter 17 Resource War and Joint Rite; Chapter 06 factions; Chapter 08 Kwa Gate; Chapter 23 Maps 3-4 | companion Chapter 7 resource-war and joint-rite guidance; Chapter 6 Kwa and continental atmosphere; Chapter 5 Speaker texture -->
 
 ---
 
@@ -525,7 +525,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Trigger** | Two camps need the same spring, ford, grove, or similarly vital resource, and neither side trusts the other to yield fairly. |
 | **Immediate Situation** | The resource is real, limited, and already politically occupied. Empty skins, watches, bruised pride, and practical fear are all standing around the same water. |
 | **Read-Aloud** | The spring is smaller than the argument built around it. Water climbs clear over dark stone and disappears again beneath roots and mud. Tracks overlap until they look woven. Empty skins wait beside full ones. Everyone present arrived before you with a reason they think outranks yours. |
-| **GM Notes** | **Iil and Vorr** are strong **SOURCE_SUPPORTED_SCENARIO_CAST** voices for law-first, healing sanctuary, and rules with teeth. **Reth Var** is strong **SOURCE_SUPPORTED_SCENARIO_CAST** pressure for raids, walls, and command logic. **Senn-Vora** may appear as **INDEPENDENT_OF_CALLING** witness or stabilizer. Offer three broad answers with costs: water through shared law; blood through duel, raid, or force; or a redirected burden that creates a third grievance. None should be clean. |
+| **GM Notes** | **Iil and Vorr** are strong voices for law-first, healing sanctuary, and rules with teeth. **Reth Var** is strong pressure for raids, walls, and command logic. **Senn-Vora** may appear as witness or stabilizer. Offer three broad answers with costs: water through shared law; blood through duel, raid, or force; or a redirected burden that creates a third grievance. None should be clean. |
 | **Scene Card summary** | Tone: scarcity with witnesses. Senses: water over stone, damp roots, tired bodies, hard stares, visible need. Secret pressures: every answer writes precedent. |
 | **Location** | Spring, river shelf, seep cave, tide pool, grove well, or comparable local resource point close enough to matter immediately. |
 | **Present Characters** | Player characters, Iil/Vorr or Reth Var as applicable, negotiators, guards, thirsty noncombatants, and anyone whose visible need will keep the scene honest. |
@@ -538,10 +538,11 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Failure/Partial Success** | The spring can be "won" and still create a worse future. A legal answer can hold only while witnesses stand there. A peaceful answer can fail because neither camp can enforce patience tomorrow. |
 | **Alternate Approaches** | Use the resource as shared project instead of prize; prove there is more water nearby; accept a duel to prevent a raid; turn the argument into a witness-pact scene; bring healers or crafters forward instead of warriors. |
 | **Transition** | Return to camp with a pact, grievance, or visible shortage. `Faction Flag Camp` is a strong follow-up. |
-| **Consequences** | The act now has a real ally or rival candidate, a resource law or blood debt, and stronger faction legitimacy for whoever "won" the argument. |
+| **Consequences** | The act now has a real ally or rival, a resource law or blood debt, and stronger faction legitimacy for whoever "won" the argument. |
 | **Continuity Updates** | Mark the resource on the neighborhood map, note the ruling or seizure, and record which camp or faction gained moral and practical leverage. |
 | **Foundry Assets** | Theater default unless the table wants a dedicated spring map. |
-| **Source Traceability** | CW-031; Chapter 17 `Resource war`; companion Chapter 7 `Resource war`; Chapter 06 `Spear Lodge` and `Open Hand Healers`; Chapter 22 Iil/Vorr, Reth Var, and Senn-Vora toolkits. |
+
+<!-- SOURCE-TRACE: CW-031 | primary Chapter 17 "Resource war"; Chapter 06 "Spear Lodge" and "Open Hand Healers"; Chapter 22 Iil/Vorr, Reth Var, and Senn-Vora toolkits | companion Chapter 7 "Resource war" -->
 
 ### Joint Rite path
 
@@ -553,7 +554,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Trigger** | The camp has enough surviving trust to stand in a shared circle, and local Force weather or emotional instability makes empirical proof valuable. |
 | **Immediate Situation** | The party and at least one other camp gather in a place where the weather or the land has been reacting to imbalance. The rite can be practical, meditative, communal, or all three, but it cannot be purely private. |
 | **Read-Aloud** | The weather hesitates over the clearing as if it has not decided which camp deserves it. Wet grass bends one way, then another. Pilgrims from different fires stand in the same ring without touching. Someone has already placed an offering where the rain can reach it. |
-| **GM Notes** | This path is strongest after the Omen, when the words are locked but the hearts are not. **Senn-Vora** is a strong **INDEPENDENT_OF_CALLING** facilitator if needed. **Horruhn** is a good **RECOMMENDED_SUBSTITUTABLE_CAST** when the rite is tied to defending a living place. One universal officiant remains **UNRESOLVED** by source; cast from play history rather than forcing a mapping. The rite should combine reflection with action: shared labor, witness lines, sheltering others, returning stolen goods, or synchronized meditation that affects visible weather. |
+| **GM Notes** | This path is strongest after the Omen, when the words are locked but the hearts are not. **Senn-Vora** is a strong facilitator if needed. **Horruhn** is a good fit when the rite is tied to defending a living place. Choose the facilitator from play history rather than forcing a fixed mapping. The rite should combine reflection with action: shared labor, witness lines, sheltering others, returning stolen goods, or synchronized meditation that affects visible weather. |
 | **Scene Card summary** | Tone: experimental sacred civic act. Senses: wet air, unstable wind, a ring of bodies trying not to break, offerings that may or may not mean the same thing to all present. Secret pressures: the rite proves or embarrasses a whole philosophy in public. |
 | **Location** | Storm-scar edge, grove ring, spring clearing, ridge shelf, or another place where camp and land can visibly interact. |
 | **Present Characters** | Player characters, one or more cooperating or skeptical camp groups, a facilitator Speaker, and at least one rival or witness who would rather see the rite fail. |
@@ -569,7 +570,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | The party earns public evidence for later Naming and Creed politics, or public failure that a rival will use against them. |
 | **Continuity Updates** | Record who stood in the circle, what visible sign changed, which witness mattered most, and whether the rite softened or hardened faction lines. |
 | **Foundry Assets** | Theater default; optional weather-clearing map if the table wants it. |
-| **Source Traceability** | CW-031; Chapter 17 `Joint rite`; companion Chapter 7 `Joint rite`; Chapter 06 faction coalitions; Chapter 21 camp/night scene support as needed. |
+
+<!-- SOURCE-TRACE: CW-031 | primary Chapter 17 "Joint rite"; Chapter 06 faction coalitions; Chapter 21 camp/night scene support as needed | companion Chapter 7 "Joint rite" -->
 
 ### Optional Scene - Faction Flag Camp
 
@@ -595,7 +597,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | Camp geography now teaches politics. Arc IV starts with identifiable blocs rather than generic disagreements. |
 | **Continuity Updates** | Note which coalition gained momentum, which PC is associated with which group, and which practical issue is becoming future law. |
 | **Foundry Assets** | Journal-only is usually enough unless the camp map is already in heavy use. |
-| **Source Traceability** | CW-037; Chapter 06 faction coalitions; companion Chapter 7 `End of Arc III`; candidate connective only for spatializing the factions. |
+
+<!-- SOURCE-TRACE: CW-037 | primary Chapter 06 faction coalitions | companion Chapter 7 "End of Arc III" -->
 
 ### Optional Scene - Map 3 Approach
 
@@ -624,7 +627,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Present Characters** | Player characters, one or two scouts, and whatever silent hazard or witness best fits the table's pace. |
 | **Objectives** | Cross the sound-dead zone, gather evidence, decide whether to enter the cavern, and come home with a meaningful map mark or reason for retreat. |
 | **Opposition** | Silence, miscoordination, awe, hidden movement, and anyone who panics when speech stops working. |
-| **Mechanics** | Spoken coordination fails in the center band. Force-based silent communication still works. Moving slowly grants the stealth edge described in the map brief. First entry under the floating silhouette may call for a Wisdom saving throw; on a failure, the character is frightened for 1 round. Cavern breath can push characters and plans off rhythm. Keep any additional threat inside existing SW5e tools rather than inventing new candidate-only damage. |
+| **Mechanics** | Spoken coordination fails in the center band. Force-based silent communication still works. Moving slowly grants the stealth edge described in the map brief. First entry under the floating silhouette may call for a Wisdom saving throw; on a failure, the character is frightened for 1 round. Cavern breath can push characters and plans off rhythm. Keep any additional threat inside existing SW5e tools rather than inventing new one-off damage. |
 | **Clues** | Qigong-facing wonder is real, distance and perception are part of the place's lesson, and the party can map a temple-seed approach without naming the full end-state. |
 | **RP Guidance** | Ask who becomes the leader when speech disappears. Hand signals, chalk marks, rope taps, and silent Force cues should matter more than dialogue. |
 | **Developments** | The party claims a silent-desert mark, earns petroglyph clues, wakes a hidden threat, or decides that "we know where it is" is enough for now. |
@@ -634,7 +637,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | The neighborhood map gains a powerful optional landmark, or the lack of firsthand knowledge remains a real gap. |
 | **Continuity Updates** | Mark whether the site is seen, entered, claimed, feared, or deliberately deferred. |
 | **Foundry Assets** | Dedicated Map 3 scene if available; theater fallback is fully valid. |
-| **Source Traceability** | CW-040; Chapter 23 `Map 3 - Silent Desert`; Chapter 05 `Thyr - Silent Desert & Qigong seed`; Chapter 21 `Temple seed: Qigong Kesh`. |
+
+<!-- SOURCE-TRACE: CW-040 | primary Chapter 23 "Map 3 - Silent Desert"; Chapter 05 "Thyr - Silent Desert & Qigong seed"; Chapter 21 "Temple seed: Qigong Kesh" | companion Chapter 6 "Continents as sensory tours" -->
 
 ### Optional Scene - Map 4 Moon Road
 
@@ -668,13 +672,13 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Trigger** | The table wants myth early, Yen-Ti pushes access, a PC wants proof after Omen or Joint Rite, or the party believes the Gate might answer a current question better than ordinary scouting. |
 | **Immediate Situation** | The chamber is wrong for the ship around it: softer geometry, older pride, ozone, twin murals, and a ring that seems to know it will not open for one person or one rage. |
 | **Read-Aloud** | The chamber is wrong for this ship. Its curves do not match the harsher Tho Yor angles behind you. A ring of metal and light waits on the floor between three worn handplates. Two murals face each other: a pale disk and a scarred disk. Crystals on the balcony tick in patient little counts. The air tastes like storms that never rain. |
-| **GM Notes** | **Yen-Ti** is a strong **SOURCE_SUPPORTED_SCENARIO_CAST** pressure voice here. **Senn-Vora** can stabilize as **INDEPENDENT_OF_CALLING**. **Sister Luma** is a useful **RECOMMENDED_SUBSTITUTABLE_CAST** purity veto if the table wants ideological pressure. Refusal or deferral is a complete success path. If the party opens the Gate, keep it short and specific: one Ashla or Bogan trial, then back. This is a moon road, not a shopping portal. |
+| **GM Notes** | **Yen-Ti** is a strong pressure voice here. **Senn-Vora** can stabilize the scene. **Sister Luma** is a useful purity veto if the table wants ideological pressure. Refusal or deferral is a complete success path. If the party opens the Gate, keep it short and specific: one Ashla or Bogan trial, then back. This is a moon road, not a shopping portal. |
 | **Scene Card summary** | Tone: mythic caution. Senses: ozone, ticking crystals, metal light, old geometry, deliberate refusal. Secret pressures: opening the Gate teaches as much as leaving it shut. |
 | **Location** | Kwa Gate antechamber and, if activated, one receiving pad on Ashla or Bogan. |
 | **Present Characters** | Player characters; Yen-Ti if desired; Senn-Vora or another stabilizer; mixed-species volunteers; optional Sister Luma or zealot pressure. |
 | **Objectives** | Decide whether to activate, defer, guard, or refuse the Gate; if activated, survive a short moon trial and return with meaning instead of spectacle alone. |
 | **Opposition** | Curiosity addiction, purity panic, imbalance, Storm Clock pressure, and anyone who wants to use the Gate as proof rather than question. |
-| **Mechanics** | Activation requires three species touching the ring together while calm. Illegal destinations refuse. Storm Clock 5-6 blocks activation. If the party forces activation while imbalance is high, let the glyph floor lash out as an environmental setback and abort the attempt rather than inventing unsupported damage values here. Transit is a white-red flash and stomach-drop. Return requires the same Gate. If Arc I mural sketches are cited, grant the source-backed benefit instead of a candidate-only bonus. |
+| **Mechanics** | Activation requires three species touching the ring together while calm. Illegal destinations refuse. Storm Clock 5-6 blocks activation. If the party forces activation while imbalance is high, let the glyph floor lash out as an environmental setback and abort the attempt rather than inventing unsupported damage values here. Transit is a white-red flash and stomach-drop. Return requires the same Gate. If Arc I mural sketches are cited, grant the source-backed benefit instead of an extra ad hoc bonus. |
 | **Clues** | This is Kwa work, not ordinary Tho Yor architecture. The moons are destinations, not only symbols. The Gate is precise, limited, and morally reactive. |
 | **RP Guidance** | Ask who volunteers to be the third hand on the ring and who does not trust the others enough to do it. The moral and social decision should matter more than the visual effect. |
 | **Developments** | The Gate is deferred, guarded, opened to Ashla, opened to Bogan, or blocked by the party's own imbalance. A zealot may expose itself. Yen-Ti may owe or demand a price. |
@@ -684,7 +688,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | The Gate becomes part of civic memory whether it opened or not. Miri Quill may want materials. Yen-Ti may gain leverage. The camp may now treat moon travel as sacred, suspect, or both. |
 | **Continuity Updates** | Record Gate status as `unopened`, `deferred`, `guarded`, `opened to Ashla`, `opened to Bogan`, or `opened and regretted`. Note whether mural payoff was spent. |
 | **Foundry Assets** | Dedicated Map 4 scene if used. Journal-only if deferred or merely discovered. |
-| **Source Traceability** | CW-038; CW-041; Chapter 08 `Kwa Gate`; Chapter 23 `Map 4`; Chapter 21 `Ashla surface` and `Bogan surface`; companion Chapter 6 Kwa sidebar; companion Chapter 7 `Moon road`. |
+
+<!-- SOURCE-TRACE: CW-038, CW-041 | primary Chapter 08 "Kwa Gate"; Chapter 23 "Map 4"; Chapter 21 "Ashla surface" and "Bogan surface" | companion Chapter 6 Kwa sidebar; Chapter 7 "Moon road" -->
 
 #### Valid completion paths for Map 4
 
@@ -717,7 +722,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 - Qigong-facing map knowledge if Map 3 was used
 - Faction symbols, camp layout, or coalition momentum
 
-<!-- cw:CW-033 CW-034 CW-037 -->
+<!-- SOURCE-TRACE: CW-033, CW-034, CW-037 | primary Chapter 17 end-of-arc; Chapter 06 faction consequences | companion Chapter 7 "End of Arc III" -->
 
 ---
 
@@ -751,7 +756,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | Arc IV begins with named political weather instead of vague mood. The camp now has a shared version of what happened, even if it is incomplete. |
 | **Continuity Updates** | Record ally status, rival status, unresolved grievance, faction momentum, and any practical timekeeping or treaty-sequencing seeds. |
 | **Foundry Assets** | Journal page only unless the camp map is being used as a scene. |
-| **Source Traceability** | CW-033; Chapter 17 `End of arc`; companion Chapter 7 `End of Arc III`; Chapter 06 faction consequences; Chapter 22 active Speakers and rivals as scar carriers. |
+
+<!-- SOURCE-TRACE: CW-033 | primary Chapter 17 "End of arc"; Chapter 06 faction consequences; Chapter 22 active Speakers and rivals as scar carriers | companion Chapter 7 "End of Arc III" -->
 
 ---
 
@@ -763,7 +769,7 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Trigger** | The council has named what matters and now needs to mark where those matters are. |
 | **Immediate Situation** | A hide, board, leather scrap, or journal page becomes the center of a new argument: not whether the region exists, but which version of it the camp will trust. |
 | **Read-Aloud** | A hide has been stretched flat across a crate, and half the camp is already arguing with it. Charcoal lines reach out from the fire-ring toward valleys, smoke ridges, springs, silent ground, and the places no one agrees how to name yet. The map is ugly, useful, and suddenly political. |
-| **GM Notes** | Chapter 17 wants a map of near regions by act end. That does not require pretty cartography. Mark what is known, rumored, allied, rival, sacred, dangerous, resource-rich, or deliberately deferred. This is the best place to fill the player handout blank from this candidate. Timing notes can be practical only: "one long day," "before next watch-change," "after twinrise." Do not default into month naming. |
+| **GM Notes** | Chapter 17 wants a map of near regions by act end. That does not require pretty cartography. Mark what is known, rumored, allied, rival, sacred, dangerous, resource-rich, or deliberately deferred. This is the best place to fill the player handout blank from this section. Timing notes can be practical only: "one long day," "before next watch-change," "after twinrise." Do not default into month naming. |
 | **Scene Card summary** | Tone: practical founding. Senses: charcoal, hide, fingers tracing routes, argument becoming infrastructure. Secret pressures: maps decide future priorities and who gets believed. |
 | **Location** | Camp council space, quartermaster area, map-maker's corner, or another place where people can gather around a shared surface. |
 | **Present Characters** | Player characters, Pel the Map-Eater or another map-obsessed witness, scout NPCs, quartermasters, and anyone whose claim to a route or site needs public recognition. |
@@ -779,7 +785,8 @@ The Gate path does not override this branch rule. Opening Map 4 never authorizes
 | **Consequences** | Arc IV begins with shared geography, named neighbors, and practical routes instead of a blank horizon. |
 | **Continuity Updates** | Save or record the final map marks, route names, ally/rival labels, danger marks, and unresolved blanks. |
 | **Foundry Assets** | Player handout page and session journal. No dedicated scene required. |
-| **Source Traceability** | CW-033; Chapter 17 `End of arc`; companion Chapter 7 `End of Arc III`; candidate connective built directly from the Chapter 17 exploration-loop output. |
+
+<!-- SOURCE-TRACE: CW-033 | primary Chapter 17 "End of arc" and its exploration-loop output | companion Chapter 7 "End of Arc III" -->
 
 ### Session End States
 
@@ -810,15 +817,15 @@ Arc IV can now ask:
 - Who judges imbalance?
 - How do we count the days?
 
-This candidate keeps the full Counting Quarrel in Arc IV by default. Arc III should leave behind the reasons the quarrel will matter, not solve the workshop early unless the table deliberately breaks default pacing.
+This guide keeps the full Counting Quarrel in Arc IV by default. Arc III should leave behind the reasons the quarrel will matter, not solve the workshop early unless the table deliberately breaks default pacing.
 
-<!-- cw:CW-005 -->
+<!-- SOURCE-TRACE: CW-005 | primary Chapter 00 spoiler and handout policy; Chapter 02 moon naming sequence; Chapter 17 exploration output | companion none required; keep these aids player-safe and spoiler-light -->
 
 ---
 
-## Player-Facing Handouts (Pilot)
+## Player-Facing Handouts
 
-These are pilot-facing aids for this candidate only. They do not replace source manuscripts or production handouts.
+Use these as simple player-facing aids. Keep them short, practical, and spoiler-light.
 
 ### Near-wild sketch map blank
 
@@ -834,7 +841,7 @@ Minimal player instruction:
 
 > Mark where you have been. Circle what fed you. Cross what lied. Leave blanks where you only have rumor.
 
-### Contact vocabulary tips (pilot)
+### Contact vocabulary tips
 
 Keep this player-safe and practical.
 
@@ -863,30 +870,37 @@ If the Omen already occurred in Arc II, update the handout after play, not befor
 
 ---
 
-## Source Traceability Index
+## Development Decisions Still Required
 
-| Candidate section | CW IDs | Primary guide anchors | Companion anchors / notes |
-|-------------------|--------|-----------------------|---------------------------|
-| **Act at a Glance** | CW-006, CW-029, CW-034 | Chapter 17 Arc III overview and goals; Chapter 06 factions; Chapter 10 calling/Kesh reminder | Companion Chapter 7 `Arc III - Survive & Contact` and `What this arc is for` |
-| **Central Reference - Exploration loop** | CW-030, CW-034 | Chapter 17 `Exploration loop` | Companion Chapter 7 `The exploration loop` |
-| **Central Reference - Storm Clock** | CW-006 context | Chapter 10 `Optional: Imbalance Storm Clock` | Companion weather and camp-pressure texture from Chapters 6 and 7 |
-| **Central Reference - Factions** | CW-037 | Chapter 06 `Camp coalitions` and `Antagonists` | Companion end-of-arc texture where relevant |
-| **Central Reference - Speaker scenario casting policy** | CW-039, CW-043, CW-050 | Chapter 22 Speakers; Chapter 17 contact scenarios and Omen | Companion Chapter 5 `Sister-ship Speakers`; Chapter 7 scenario hints |
-| **Central Reference - Calling -> Kesh** | CW-042, CW-043 | Chapter 10 `Party Tho Yor calling (required)` | No Speaker lock approved; F-H-001 unresolved by design |
-| **Central Reference - Calendar seed note** | none dedicated | Chapter 09 `Scene - The Counting Quarrel` | Candidate keeps this as Arc IV-primary default |
-| **Central Reference - Omen timing branch** | CW-032 | Chapter 17 `Mid-arc crisis - Omen of the Moons`; Chapter 16 bridge note | Companion Chapter 6 `First night / Omen of the moons`; Chapter 7 Omen procedure |
-| **Session 7** | CW-030, CW-034, CW-036 | Chapter 17 `Exploration loop`; Chapter 21 `Tython camp at night`; Chapter 05 region notes | Companion Chapter 7 exploration loop; Chapter 6 camp-night atmosphere |
-| **Session 8** | CW-031, CW-035, CW-039, CW-050 | Chapter 17 `Trade & mistrust`; Chapter 22 Speakers | Companion Chapter 7 trade story; Chapter 5 Speaker texture |
-| **Session 9 default Omen** | CW-032, CW-036, CW-039, CW-050 | Chapter 17 Omen; Chapter 02 twin moons; Chapter 21 `Tython camp at night`; Chapter 22 rivals | Companion Chapter 6 first-night atmosphere; Chapter 7 Omen order |
-| **Alternate Session 9 Resource War** | CW-031, CW-032 | Chapter 16 bridge; Chapter 17 timing note and resource-war option | Uses Resource War path below instead of replaying the Omen |
-| **Session 10 Resource War** | CW-031, CW-037, CW-039 | Chapter 17 `Resource war`; Chapter 06 factions; Chapter 22 Iil/Vorr, Senn-Vora, Reth Var | Companion Chapter 7 resource-war story |
-| **Session 10 Joint Rite** | CW-031, CW-037 | Chapter 17 `Joint rite`; Chapter 06 factions | Companion Chapter 7 joint-rite guidance |
-| **Optional Faction Flag Camp** | CW-037, CW-033 | Chapter 06 factions; Chapter 17 end-of-arc pressure | Companion Chapter 7 `End of Arc III` |
-| **Optional Map 3 Approach** | CW-040 | Chapter 23 `Map 3 - Silent Desert`; Chapter 05 `Thyr - Silent Desert & Qigong seed`; Chapter 21 `Temple seed: Qigong Kesh` | Companion Chapter 6 `Continents as sensory tours` |
-| **Optional Map 4 Moon Road** | CW-038, CW-041 | Chapter 08 `Kwa Gate`; Chapter 23 `Map 4`; Chapter 21 `Ashla surface` and `Bogan surface` | Companion Chapter 6 Kwa sidebar; Chapter 7 `Moon road` |
-| **Session 11** | CW-033, CW-037 | Chapter 17 `End of arc`; Chapter 06 faction consequences | Companion Chapter 7 `End of Arc III` |
-| **Player-Facing Handouts (pilot)** | CW-005 context | Chapter 00 spoiler and handout policy; Chapter 02 moon naming sequence; Chapter 17 exploration output | Candidate-only player-safe aids; no production handout replacement implied |
+*Excluded from publication and player-facing output. Generators should strip or hide the operational comments in this section.*
+
+Calling-to-Speaker assignments are not decided yet. Do not treat the scene guidance above as a permanent Calling -> Speaker -> Kesh lock.
+
+When the Joint Rite needs a default facilitator, choose the figure who has earned trust in play rather than assuming one universal officiant.
+
+Full source traceability remains in `reports/audits/integrated-guide-content-crosswalk.yaml` and related audit notes.
+
+<!-- DEVELOPMENT-DECISION: F-H-001 | Calling-to-Speaker assignments remain undecided; scenario guidance above is not a permanent lock. -->
+<!-- SOURCE-TRACE: Act at a Glance | CW-006, CW-029, CW-034 | primary Chapter 17 Arc III overview and goals; Chapter 06 factions; Chapter 10 calling/Kesh reminder | companion Chapter 7 "Arc III - Survive & Contact" and "What this arc is for" -->
+<!-- SOURCE-TRACE: Central Reference - Exploration loop | CW-030, CW-034 | primary Chapter 17 "Exploration loop" | companion Chapter 7 "The exploration loop" -->
+<!-- SOURCE-TRACE: Central Reference - Storm Clock | CW-006 context | primary Chapter 10 "Optional: Imbalance Storm Clock" | companion weather and camp-pressure texture from Chapters 6 and 7 -->
+<!-- SOURCE-TRACE: Central Reference - Factions | CW-037 | primary Chapter 06 "Camp coalitions" and "Antagonists" | companion end-of-arc texture where relevant -->
+<!-- SOURCE-TRACE: Central Reference - Speaker scenario guidance | CW-039, CW-043, CW-050 | primary Chapter 22 Speakers; Chapter 17 contact scenarios and Omen | companion Chapter 5 "Sister-ship Speakers"; Chapter 7 scenario hints -->
+<!-- SOURCE-TRACE: Central Reference - Calling to Kesh | CW-042, CW-043 | primary Chapter 10 "Party Tho Yor calling (required)" | companion no Speaker lock approved; F-H-001 unresolved by design -->
+<!-- SOURCE-TRACE: Central Reference - Calendar seed note | none dedicated | primary Chapter 09 "Scene - The Counting Quarrel" | companion keep this pressure as an Arc IV default unless play has already forced the issue -->
+<!-- SOURCE-TRACE: Central Reference - Omen timing branch | CW-032 | primary Chapter 17 "Mid-arc crisis - Omen of the Moons"; Chapter 16 bridge note | companion Chapter 6 "First night / Omen of the moons"; Chapter 7 Omen procedure -->
+<!-- SOURCE-TRACE: Session 7 | CW-030, CW-034, CW-036 | primary Chapter 17 "Exploration loop"; Chapter 21 "Tython camp at night"; Chapter 05 region notes | companion Chapter 7 exploration loop; Chapter 6 camp-night atmosphere -->
+<!-- SOURCE-TRACE: Session 8 | CW-031, CW-035, CW-039, CW-050 | primary Chapter 17 "Trade & mistrust"; Chapter 22 Speakers | companion Chapter 7 trade story; Chapter 5 Speaker texture -->
+<!-- SOURCE-TRACE: Session 9 default Omen | CW-032, CW-036, CW-039, CW-050 | primary Chapter 17 Omen; Chapter 02 twin moons; Chapter 21 "Tython camp at night"; Chapter 22 rivals | companion Chapter 6 first-night atmosphere; Chapter 7 Omen order -->
+<!-- SOURCE-TRACE: Alternate Session 9 Resource War | CW-031, CW-032 | primary Chapter 16 bridge; Chapter 17 timing note and resource-war option | companion use the Resource War path below instead of replaying the Omen -->
+<!-- SOURCE-TRACE: Session 10 Resource War | CW-031, CW-037, CW-039 | primary Chapter 17 "Resource war"; Chapter 06 factions; Chapter 22 Iil/Vorr, Senn-Vora, Reth Var | companion Chapter 7 resource-war story -->
+<!-- SOURCE-TRACE: Session 10 Joint Rite | CW-031, CW-037 | primary Chapter 17 "Joint rite"; Chapter 06 factions | companion Chapter 7 joint-rite guidance -->
+<!-- SOURCE-TRACE: Optional Faction Flag Camp | CW-037, CW-033 | primary Chapter 06 factions; Chapter 17 end-of-arc pressure | companion Chapter 7 "End of Arc III" -->
+<!-- SOURCE-TRACE: Optional Map 3 Approach | CW-040 | primary Chapter 23 "Map 3 - Silent Desert"; Chapter 05 "Thyr - Silent Desert & Qigong seed"; Chapter 21 "Temple seed: Qigong Kesh" | companion Chapter 6 "Continents as sensory tours" -->
+<!-- SOURCE-TRACE: Optional Map 4 Moon Road | CW-038, CW-041 | primary Chapter 08 "Kwa Gate"; Chapter 23 "Map 4"; Chapter 21 "Ashla surface" and "Bogan surface" | companion Chapter 6 Kwa sidebar; Chapter 7 "Moon road" -->
+<!-- SOURCE-TRACE: Session 11 | CW-033, CW-037 | primary Chapter 17 "End of arc"; Chapter 06 faction consequences | companion Chapter 7 "End of Arc III" -->
+<!-- SOURCE-TRACE: Player-Facing Handouts | CW-005 context | primary Chapter 00 spoiler and handout policy; Chapter 02 moon naming sequence; Chapter 17 exploration output | companion keep the aids player-safe and spoiler-light -->
 
 ---
 
-*End of Arc III integrated candidate stress test. Primary guide and approved companion remain authoritative. This file is PROVISIONAL, NON-AUTHORITATIVE, and subject to Kakeman89 review.*
+*End of Arc III working draft. The primary guide and approved companion remain authoritative.*

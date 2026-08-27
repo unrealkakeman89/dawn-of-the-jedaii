@@ -1,0 +1,37 @@
+---
+description: Keep migration/audit/provenance labels out of readable campaign and GM guide prose
+alwaysApply: true
+---
+
+# Operational Metadata Must Not Appear in Guide Prose
+
+Migration, audit, provenance, and workflow classifications belong only in operational files: crosswalks, manifests, reports, plans, and sidecar metadata.
+
+## Do not expose in readable campaign content
+
+Never put these raw labels in GM-facing or player-facing prose (primary guide, companion, integrated candidates, Scene Cards, Foundry journals, GM Binder):
+
+- status enums
+- treatment enums (`MIGRATE`, `CONSOLIDATE`, `SUMMARIZE_LOCALLY`, `RETAIN_CENTRALLY`, …)
+- finding IDs (`F-H-001`, …)
+- crosswalk IDs (`CW-006`, …)
+- audit / migration / confidence / source-support classifications
+- authorization-state labels (`PLANNING_AUTHORIZED_ONLY`, …)
+- casting taxonomy enums (`SOURCE_SUPPORTED_SCENARIO_CAST`, `INDEPENDENT_OF_CALLING`, …)
+
+## Translate for the GM
+
+| Operational label | Guide prose |
+|-------------------|-------------|
+| `SOURCE_SUPPORTED_SCENARIO_CAST` | Suggested Speaker |
+| `RECOMMENDED_SUBSTITUTABLE_CAST` | Alternative Speaker |
+| `INDEPENDENT_OF_CALLING` | This role does not need to match the party’s calling. |
+| `NEEDS_KAKEMAN89` | Omit, or use a clearly marked development placeholder outside normal guide prose |
+| `SUMMARIZE_LOCALLY` | Write the concise summary itself |
+| `RETAIN_CENTRALLY` | Give a natural cross-reference the GM can follow |
+
+## Traceability without publication
+
+Keep operational traceability in crosswalks, sidecar metadata, or non-publication comments (for example HTML comments stripped before export).
+
+Pilot Foundry and GM Binder outputs must not display operational labels unless the file is explicitly an engineering or audit artifact.
