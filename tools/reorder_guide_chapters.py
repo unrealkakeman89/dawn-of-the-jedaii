@@ -1,9 +1,22 @@
 #!/usr/bin/env python3
-"""Reorder dawn-of-the-jedaii-campaign-guide.md into Living Force part flow."""
+"""HISTORICAL one-shot chapter reorder for dawn-of-the-jedaii-campaign-guide.md.
+
+DANGER: This script rewrites the PRIMARY campaign guide in place using a fixed
+old→new chapter map from a prior Living Force restructure. Re-running it against
+the current guide will corrupt chapter numbering and citations.
+
+Default behavior is dry-run / refuse-to-write. An explicit dual confirmation is
+required to write. Prefer not to run this at all unless recovering a pre-reorder
+snapshot under Kakeman89 authorization.
+
+See F-O-002.
+"""
 
 from __future__ import annotations
 
+import argparse
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -279,7 +292,7 @@ See `foundry/README.md` for import steps.
 """
 
 
-def main() -> None:
+def main() -> tuple[str, list[str]]:
     text = SRC.read_text(encoding="utf-8")
     _, chapters = split_document(text)
     by_key: dict[str, tuple[str, str]] = {k: (t, f) for k, t, f in chapters}
@@ -336,9 +349,68 @@ def main() -> None:
     # Remove final --- after last appendix if present
     final = re.sub(r"\n---\n\s*$", "\n", final)
 
+    return final, ordered_keys
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description=(
+            "HISTORICAL/DANGEROUS: one-shot Living Force chapter reorder. "
+            "Defaults to dry-run. Refuses to write without dual confirmation flags."
+        )
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        default=True,
+        help="Plan only (default). Does not write the primary guide.",
+    )
+    parser.add_argument(
+        "--write",
+        action="store_true",
+        help="Permit writing the primary guide (still requires confirmation flag).",
+    )
+    parser.add_argument(
+        "--i-understand-this-rewrites-the-primary-guide",
+        action="store_true",
+        help="Required confirmation that this is intentional destructive rewrite.",
+    )
+    return parser.parse_args(argv)
+
+
+def cli(argv: list[str] | None = None) -> int:
+    args = parse_args(argv)
+    print(
+        "WARNING: reorder_guide_chapters.py is historical migration tooling.\n"
+        f"Target primary guide: {SRC}\n"
+        "Re-running against the current guide will corrupt numbering/citations."
+    )
+    if not SRC.exists():
+        print(f"Missing guide: {SRC}", file=sys.stderr)
+        return 1
+
+    try:
+        final, ordered_keys = main()
+    except SystemExit as exc:
+        print(exc, file=sys.stderr)
+        return 1
+
+    write_requested = bool(
+        args.write and args.i_understand_this_rewrites_the_primary_guide
+    )
+    if not write_requested:
+        print(
+            f"DRY-RUN / REFUSED WRITE: would rewrite {SRC} "
+            f"({len(ordered_keys)} top-level sections, {len(final)} bytes).\n"
+            "No write performed. To write (NOT recommended): "
+            "--write --i-understand-this-rewrites-the-primary-guide"
+        )
+        return 0
+
     SRC.write_text(final, encoding="utf-8")
     print(f"Wrote {SRC} with {len(ordered_keys)} top-level sections")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(cli())
