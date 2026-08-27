@@ -32,3 +32,20 @@ No new substantive Legends claims introduced in the pilot candidate. Migrated ma
 ## Recommendation
 
 Pass for pilot purposes. Full-book Legends pass deferred until later Acts migrate.
+
+---
+
+## Addendum — 2026-08-27 — Table-usability revision
+
+### Reason
+Pilot revision after Kakeman89 review.
+
+### Classification updates
+| Claim | Prior | Revised |
+|-------|-------|---------|
+| Fixed party size of 3 (archive B1) | ORIGINAL_CAMPAIGN_MATERIAL (candidate) | **SUPERSEDED_BY_KAKEMAN89** — historical archive evidence only; not campaign canon |
+| Variable party + six-boon pool scaling | — | ORIGINAL_CAMPAIGN_MATERIAL (migration connective / provisional policy) |
+| Four Foundry Levels for Tho Yor | — | Provisional spatial arrangement — **not** LEGENDS_VERIFIED |
+
+### Status
+Pass. No Disney canon imported. No new unsupported Legends claims.

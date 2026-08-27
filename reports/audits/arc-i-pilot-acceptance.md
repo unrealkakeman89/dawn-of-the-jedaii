@@ -307,3 +307,39 @@ Accept provisional structure and point-of-use layout pending:
 ---
 
 *Kakeman89 pilot acceptance still required.*
+
+---
+
+## Addendum — 2026-08-27 — Table-usability revision acceptance package
+
+### Reason
+Kakeman89 accepted Act → Session → Scene guide-workbook direction and requested: remove three-player lock; scalable party/boons; Tho Yor multi-level map analysis; SW5e mechanics language; clearer read-alouds; regenerate pilot outputs.
+
+### Revised recommendation
+**ACCEPT_WITH_REVISIONS** (updated) — offline structure, scaling, mechanics language, and read-aloud clarity addressed. Still required before broader migration:
+
+1. Kakeman89 live table test of revised read-alouds and Machine-Spirit DCs
+2. F-N-001 disposable-world import of regenerated oundry/arc-i-pilot.journal.json
+3. Confirm four-level vs three-level Foundry layout
+4. Resolve provisional Machine-Spirit failure cost
+5. F-K-002 source App C primer (unchanged)
+6. F-H-001 mappings (unchanged)
+
+### B1 status
+**SUPERSEDED_BY_KAKEMAN89** — not adopted campaign content. Historical archive evidence only.
+
+### Boon-scaling policy
+Documented in candidate Central Reference; supports variable party size without inventing boons.
+
+### Map / Levels
+See eports/audits/arc-i-pilot-thoyor-levels-map-plan.md. Four-level provisional design; Map 1 = Level 1 encounter map only.
+
+### Mechanics / read-aloud
+See eports/audits/arc-i-pilot-mechanics-audit.md. Confluence rejected sentence removed. Forbidden search terms cleared from candidate and pilot outputs.
+
+### Outputs regenerated
+- oundry/arc-i-pilot.journal.json (6 pages, deterministic IDs)
+- gmbinder/arc-i-pilot-gmbinder.md
+
+### Production / sources
+Unchanged. Candidate remains non-authoritative.

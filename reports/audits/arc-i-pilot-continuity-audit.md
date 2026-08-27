@@ -41,3 +41,20 @@ None.
 ## Recommendation
 
 Pass. No corrective edits required beyond documented F-K-002 source conflict (deferred to Kakeman89).
+
+---
+
+## Addendum — 2026-08-27 — Table-usability revision
+
+### Reason
+Kakeman89 Arc I table-usability review: remove fixed three-player lock; revise mechanics language and read-aloud clarity; add provisional Tho Yor multi-level plan.
+
+### Continuity recheck
+- No new factual conflicts between primary guide and companion synthesis.
+- B1 three-player lock removed from candidate; reclassified SUPERSEDED_BY_KAKEMAN89 (historical only).
+- F-K-002 candidate handout posture unchanged (source App C still names Tython).
+- Ashla/Bogan moon-naming discipline preserved in revised read-alouds.
+- Provisional four-level ship layout is **not** campaign canon and must not be treated as Legends fact.
+
+### Status
+Pass for revised pilot (pending Kakeman89 table test and F-N-001).

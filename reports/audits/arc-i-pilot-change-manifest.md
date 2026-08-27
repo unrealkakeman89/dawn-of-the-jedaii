@@ -81,3 +81,30 @@
 | F-N-001 live import | **INCOMPLETE** — no disposable world |
 | GMB content | PASS (pilot path) |
 | Pagination F-M-003 | DEFERRED (unchanged) |
+
+---
+
+## Addendum — 2026-08-27 — Table-usability revision change list
+
+### Files created
+- eports/audits/arc-i-pilot-thoyor-levels-map-plan.md
+- eports/audits/arc-i-pilot-mechanics-audit.md
+
+### Files modified
+- i/migration-workspace/arc-i-integrated-candidate.md — scaling, levels, mechanics, read-alouds
+- oundry/arc-i-pilot.journal.json — regenerated
+- gmbinder/arc-i-pilot-gmbinder.md — regenerated
+- eports/audits/integrated-guide-content-crosswalk.yaml — CW-021 superseded; CW-027/CW-028 added
+- Continuity / Legends / player-agency audits — addenda
+- Acceptance package — this revision addendum
+
+### Source manuscripts / production outputs
+**Unchanged.**
+
+### Archive B1
+SUPERSEDED_BY_KAKEMAN89 — removed from candidate canon; retained in crosswalk as historical.
+
+### Validation searches (candidate + pilot Foundry + pilot GMB)
+Cleared: `3 PCs`, `LOCKED party size`, `makes whispers honest`, `generous DC`, `Wis-based`, `exhaustion flavor`, `Arcana`, `gravity is thinking`, `storm's throat`, `open wound`, `held breath` (player/GM candidate prose).
+
+Historical quotations of old phrases may remain in pre-addendum audit text as evidence.

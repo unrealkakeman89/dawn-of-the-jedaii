@@ -410,12 +410,40 @@ sections:
     content_category: campaign_decision
     campaign_arc: Arc_I
     session: "0"
-    current_authority: approved_archive_item
+    current_authority: historical_archive_only
+    conflict_status: superseded
+    audit_status: superseded
+    migration_status: SUPERSEDED_BY_KAKEMAN89
+    validation_status: pass
+    kakeman89_decision_required: false
+    pilot_destination: "Operational note only — not Session 0 canon; variable party size + Boon Scaling Policy"
+    supersession_note: "2026-08-27 Kakeman89 table-usability review removed fixed three-player lock from Arc I pilot. B1 retained as historical archive evidence only."
+
+  - id: CW-027
+    source_file: ai/migration-workspace/arc-i-integrated-candidate.md
+    source_heading: "Boon Scaling Policy / Encounter Scaling"
+    content_category: campaign_mechanics_policy
+    campaign_arc: Arc_I
+    session: "0-3"
+    current_authority: provisional_pilot
     conflict_status: none
     audit_status: migrated
-    migration_status: migrated
+    migration_status: original_connective
     validation_status: pass
-    pilot_destination: "Session 0 Overview; Act at a Glance starting state"
+    pilot_destination: "Central Reference — Boon Scaling Policy; Act Encounter Scaling"
+
+  - id: CW-028
+    source_file: reports/audits/arc-i-pilot-thoyor-levels-map-plan.md
+    source_heading: "Tho Yor four-level Foundry plan (provisional)"
+    content_category: foundry_spatial_plan
+    campaign_arc: Arc_I
+    current_authority: provisional_spatial_arrangement
+    conflict_status: none
+    legends_classification: not_legends_claim
+    audit_status: mapped
+    migration_status: provisional_recommendation
+    validation_status: pending_kakeman89
+    pilot_destination: "Candidate § Tho Yor Multi-Level Foundry Plan; map plan report"
 
   - id: CW-022
     source_file: chatgpt_archive

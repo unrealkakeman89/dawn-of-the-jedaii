@@ -36,3 +36,20 @@ Verified each scene includes: trigger, expected/alternate entry, bypass, failure
 ## Recommendation
 
 PASS — no mandatory screenplay detected. Council and Core beats are structural must-plays from source authority, with documented fallbacks.
+
+---
+
+## Addendum — 2026-08-27 — Table-usability revision
+
+### Reason
+Mechanics and read-aloud clarity pass; party-size lock removed.
+
+### Agency impact
+- Cold opens A/B and Threshold bypass unchanged in intent.
+- Machine-Spirit now uses explicit group-challenge DCs (Investigation / tech/Force-lore / Insight) with documented failure → Senn-Vora escort.
+- Council checks optional; pure roleplay needs no roll.
+- Scalable NPC counts and speaker requirement (at least one PC) replace three-player assumptions.
+- Party >6 boon allocation flagged REQUIRES_KAKEMAN89 rather than inventing solutions.
+
+### Status
+Pass.
