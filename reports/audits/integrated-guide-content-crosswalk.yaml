@@ -892,3 +892,85 @@ sections:
     kakeman89_decision_required: false
     audit_status: mapped
     notes: "PLANNING_BASELINE_APPROVED / PLANNING_AUTHORIZED_ONLY (Kakeman89 2026-08-27). Candidate path recommended as ai/migration-workspace/arc-iii-integrated-candidate.md — file not created. Migration not started."
+
+  # --- F-H-001 design analysis (2026-08-27) — planning only; no mappings approved ---
+  - id: CW-045
+    source_file: reports/audits/arc-iii-calling-speaker-kesh-design.md
+    source_heading: "Arc III Calling → Speaker → Kesh Design Analysis"
+    source_anchor_or_location: "operational analysis report"
+    content_category: design_gate
+    campaign_arc: Arc_III
+    session: null
+    scene: null
+    current_authority: unclear
+    overlap_with_other_manuscript: "CW-026; CW-043; Ch10 calling table; Ch22 Speakers; companion #5/#7 scenario casting"
+    conflict_status: unresolved
+    proposed_destination_type: unresolved
+    local_use_requirement: false
+    reusable_reference_requirement: false
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: none
+    foundry_dependency: none
+    gmbinder_dependency: none
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    notes: "PROPOSED_FOR_KAKEMAN89_REVIEW. Model B preferred. No mapping migrated or approved. Scenario casting kept separate from Calling mapping."
+
+  - id: CW-046
+    source_file: reports/audits/arc-iii-calling-speaker-kesh-design.md
+    source_heading: "Provisional recommendation — Healing / Iil & Vorr"
+    source_anchor_or_location: "§6 provisional recommendation table"
+    content_category: recommended_default_candidate
+    campaign_arc: Arc_III
+    current_authority: unclear
+    conflict_status: unresolved
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    notes: "recommended default candidate Healing→Mahara↔Iil/Vorr. Source evidence Ch22 Tide Law; Ch03 Selkath; Ch06 Open Hand. NOT approved."
+
+  - id: CW-047
+    source_file: reports/audits/arc-iii-calling-speaker-kesh-design.md
+    source_heading: "Provisional recommendation — Body / Sari Tor"
+    source_anchor_or_location: "§6 provisional recommendation table"
+    content_category: recommended_default_candidate
+    campaign_arc: Arc_III
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    notes: "recommended default candidate Body→Stav↔Sari Tor. Evidence Ch22 Open Plain; Ch03 Cathar Stav allies. NOT approved."
+
+  - id: CW-048
+    source_file: reports/audits/arc-iii-calling-speaker-kesh-design.md
+    source_heading: "Provisional recommendation — Art / Horruhn"
+    source_anchor_or_location: "§6 provisional recommendation table"
+    content_category: recommended_default_candidate
+    campaign_arc: Arc_III
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    notes: "recommended default candidate Art→Bodhi↔Horruhn via Ch06 Green Kin Bodhi allies — not epithet wordplay. NOT approved."
+
+  - id: CW-049
+    source_file: reports/audits/arc-iii-calling-speaker-kesh-design.md
+    source_heading: "Provisional recommendation — Yen-Ti Science|Skill interchangeable"
+    source_anchor_or_location: "§6 provisional recommendation table"
+    content_category: interchangeable_option
+    campaign_arc: Arc_III
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    notes: "interchangeable option Science/Anil | Skill/Vur Tepe for Yen-Ti (Ch06 Anil/Vur Tepe path). Counting≠Knowledge. NOT approved."
+
+  - id: CW-050
+    source_file: reports/audits/arc-iii-calling-speaker-kesh-design.md
+    source_heading: "Scenario-casting table (separate from Calling mapping)"
+    source_anchor_or_location: "§7 scenario-casting table"
+    content_category: scenario_casting
+    campaign_arc: Arc_III
+    proposed_treatment: KEEP_IN_PLACE_DURING_AUDIT
+    kakeman89_decision_required: false
+    audit_status: mapped
+    notes: "Scenario casting (Trade, Resource War, Joint Rite, Omen, Scar Council) must not silently become Calling mapping. Source: companion #7 + Ch17/Ch22."
