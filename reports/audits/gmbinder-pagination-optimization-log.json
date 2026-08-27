@@ -1,0 +1,5124 @@
+{
+  "iterations": [
+    {
+      "action": "added_break",
+      "chapter": "04 \u2014 The Tho Yor",
+      "before_heading": "### 5. Machine-Spirit Interfaces",
+      "before_block_key": "04-the-tho-yor|h3|5-machine-spirit-interfaces",
+      "overflow_before": 321,
+      "first_failing_page": 5,
+      "first_overflow": "GM Inspiration: Ticking lattices; understanding that bites; colder Kwa corridor ",
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "candidates_tried": [
+        {
+          "before_heading": "### 5. Machine-Spirit Interfaces",
+          "before_block_key": "04-the-tho-yor|h3|5-machine-spirit-interfaces",
+          "accepted": true,
+          "reason": "added_derived_break"
+        }
+      ],
+      "break_count": 21
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Party Tho Yor calling (required)'",
+        "break_id": null,
+        "chapter": "10 \u2014 SW5e Campaign Rules",
+        "before_heading": "### Party Tho Yor calling (required)",
+        "before_block_key": "10-sw5e-campaign-rules|h3|party-tho-yor-calling-required"
+      },
+      "baseline": {
+        "raw_overflow_count": 215,
+        "semantic_block_overflow_count": 203,
+        "failing_page_count": 9,
+        "first_failing_page_index": 18,
+        "underfill_warning_count": 23,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 6,
+            "occupancy_ratio": 0.11988690844854513,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 7,
+            "occupancy_ratio": 0.3650403995769452,
+            "classification": "warning"
+          },
+          {
+            "page_index": 9,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 12,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 14,
+            "occupancy_ratio": 0.03637832305618029,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.20523759282617507,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.18113237259485296,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 26,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "185b14686b1d6007",
+      "gmb_hash": "e17138fc67966233f912789d7316d48288aa77d601df00414261568e845cabe1"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove unvalidated seed ch07-great-journey",
+        "break_id": "ch07-great-journey",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 208,
+        "semantic_block_overflow_count": 196,
+        "failing_page_count": 7,
+        "first_failing_page_index": 25,
+        "underfill_warning_count": 23,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.03637832305618029,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 14,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 16,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.44948497419694683,
+            "classification": "warning"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.20523759282617507,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.18113237259485296,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 23,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "a11978d4e5105d45",
+      "gmb_hash": "466aca45b1b3426c8de9eda10472f75ca027e2d2123c50ff0a705a8edaf3f4ed"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove unvalidated seed ch10-force-manipulation",
+        "break_id": "ch10-force-manipulation",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 208,
+        "semantic_block_overflow_count": 196,
+        "failing_page_count": 7,
+        "first_failing_page_index": 25,
+        "underfill_warning_count": 23,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.03637832305618029,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 14,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 16,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.44948497419694683,
+            "classification": "warning"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.20523759282617507,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.18113237259485296,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 23,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "4f848bd281e6f5a1",
+      "gmb_hash": "f7d7eb97b1a6c23f075e4a07f09db952c4c65ddd5e0354fad9e3081c3b5c1038"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove unvalidated seed ch10-tech-gear",
+        "break_id": "ch10-tech-gear",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 208,
+        "semantic_block_overflow_count": 196,
+        "failing_page_count": 7,
+        "first_failing_page_index": 25,
+        "underfill_warning_count": 23,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.03637832305618029,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 14,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 16,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.44948497419694683,
+            "classification": "warning"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.20523759282617507,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.18113237259485296,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 23,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "48bc69a08d1e8e8c",
+      "gmb_hash": "312f1ed2b44616e396ca501bd38b3e6db5950a9055d8c031bfdc936e663da58e"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove unvalidated seed ch10-force-traditions",
+        "break_id": "ch10-force-traditions",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 208,
+        "semantic_block_overflow_count": 196,
+        "failing_page_count": 7,
+        "first_failing_page_index": 25,
+        "underfill_warning_count": 24,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.1911726091665655,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.20523759282617507,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.18113237259485296,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 23,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "1e516f52cbb1538c",
+      "gmb_hash": "78e488614dca2d8245153831d4d51239241207cdeac601964bbfd0d2fb183543"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '#### Multiclass'",
+        "break_id": null,
+        "chapter": "10 \u2014 SW5e Campaign Rules",
+        "before_heading": "#### Multiclass",
+        "before_block_key": "10-sw5e-campaign-rules|h4|multiclass"
+      },
+      "baseline": {
+        "raw_overflow_count": 234,
+        "semantic_block_overflow_count": 222,
+        "failing_page_count": 8,
+        "first_failing_page_index": 19,
+        "underfill_warning_count": 23,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.1911726091665655,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.18113237259485296,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "a1c30785a7b91054",
+      "gmb_hash": "d5e8c9688fbb76f0f331a0998f3489ef51614e58a28c5548d8e8098556d56f2c"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Force manipulation (mandatory)'",
+        "break_id": null,
+        "chapter": "10 \u2014 SW5e Campaign Rules",
+        "before_heading": "### Force manipulation (mandatory)",
+        "before_block_key": "10-sw5e-campaign-rules|h3|force-manipulation-mandatory"
+      },
+      "baseline": {
+        "raw_overflow_count": 234,
+        "semantic_block_overflow_count": 222,
+        "failing_page_count": 8,
+        "first_failing_page_index": 19,
+        "underfill_warning_count": 23,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.1911726091665655,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.18113237259485296,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "365cf8b4f62891b3",
+      "gmb_hash": "8116851178b131bf79113adaa91ffa5fe7203ad21fc02ef6da0b92d155431546"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Creation checklist'",
+        "break_id": null,
+        "chapter": "10 \u2014 SW5e Campaign Rules",
+        "before_heading": "### Creation checklist",
+        "before_block_key": "10-sw5e-campaign-rules|h3|creation-checklist"
+      },
+      "baseline": {
+        "raw_overflow_count": 234,
+        "semantic_block_overflow_count": 222,
+        "failing_page_count": 8,
+        "first_failing_page_index": 19,
+        "underfill_warning_count": 23,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.1911726091665655,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.18113237259485296,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "af198aa13af39a1f",
+      "gmb_hash": "8bc85a7a137ececf559f6339671e99962771b04d26d57f106d2ccf1d068129e9"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '## Character Creation Requirements'",
+        "break_id": null,
+        "chapter": "10 \u2014 SW5e Campaign Rules",
+        "before_heading": "## Character Creation Requirements",
+        "before_block_key": "10-sw5e-campaign-rules|h2|character-creation-requirements"
+      },
+      "baseline": {
+        "raw_overflow_count": 252,
+        "semantic_block_overflow_count": 240,
+        "failing_page_count": 8,
+        "first_failing_page_index": 19,
+        "underfill_warning_count": 22,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.1911726091665655,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 26,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "52bfda589c81822c",
+      "gmb_hash": "dfde295db4a3b6a8d32107d6c16319348b539162596934d4e23ab8c879a75370"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '## Core assumptions'",
+        "break_id": null,
+        "chapter": "10 \u2014 SW5e Campaign Rules",
+        "before_heading": "## Core assumptions",
+        "before_block_key": "10-sw5e-campaign-rules|h2|core-assumptions"
+      },
+      "baseline": {
+        "raw_overflow_count": 252,
+        "semantic_block_overflow_count": 240,
+        "failing_page_count": 8,
+        "first_failing_page_index": 19,
+        "underfill_warning_count": 22,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.1911726091665655,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 26,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "3de5bb42beb5beb8",
+      "gmb_hash": "3f45aee87d0032057f3a8ce25d355ee5db0ceaabc4c61363989bf8b76cb16bb5"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Koorivar Traits'",
+        "break_id": null,
+        "chapter": "12 \u2014 Species Spotlight: Koorivar",
+        "before_heading": "### Koorivar Traits",
+        "before_block_key": "12-species-spotlight-koorivar|h3|koorivar-traits"
+      },
+      "baseline": {
+        "raw_overflow_count": 208,
+        "semantic_block_overflow_count": 196,
+        "failing_page_count": 7,
+        "first_failing_page_index": 27,
+        "underfill_warning_count": 25,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.038037659256433785,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.04716368805415349,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.08401875238559926,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 57,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "bcbe2d07990131a5",
+      "gmb_hash": "6234d18b668cc4d5e3286b30bd2e8ed11cb3258055000a41e70b9f7bf9799506"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Names'",
+        "break_id": null,
+        "chapter": "12 \u2014 Species Spotlight: Koorivar",
+        "before_heading": "### Names",
+        "before_block_key": "12-species-spotlight-koorivar|h3|names"
+      },
+      "baseline": {
+        "raw_overflow_count": 208,
+        "semantic_block_overflow_count": 196,
+        "failing_page_count": 7,
+        "first_failing_page_index": 27,
+        "underfill_warning_count": 25,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.038037659256433785,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.04716368805415349,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.08401875238559926,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 57,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "a176beb940143c2c",
+      "gmb_hash": "a36c955fe9e4c118b3f50013ec0f6a6cb5282948c1fe7866fee8f1bce4d47957"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### C. Session 2 \u2014 Song of the Ship'",
+        "break_id": null,
+        "chapter": "13 \u2014 GM Checklists: Session 0 & Episode 1 (The Calling)",
+        "before_heading": "### C. Session 2 \u2014 Song of the Ship",
+        "before_block_key": "13-gm-checklists-session-0-episode-1-the-calling|h3|c-session-2-song-of-the-ship"
+      },
+      "baseline": {
+        "raw_overflow_count": 164,
+        "semantic_block_overflow_count": 155,
+        "failing_page_count": 6,
+        "first_failing_page_index": 29,
+        "underfill_warning_count": 25,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.038037659256433785,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.04716368805415349,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.08401875238559926,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 56,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 58,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "ee6cdccd18c3e763",
+      "gmb_hash": "5beeab8d9ee2d9d55fd7f5a63249114a4115bfdb741ff923731d019937c3e30e"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Scene Card \u2014 Threshold Halls (first boarding)'",
+        "break_id": null,
+        "chapter": "21 \u2014 Great GM Scene Craft",
+        "before_heading": "### Scene Card \u2014 Threshold Halls (first boarding)",
+        "before_block_key": "21-great-gm-scene-craft|h3|scene-card-threshold-halls-first-boarding"
+      },
+      "baseline": {
+        "raw_overflow_count": 129,
+        "semantic_block_overflow_count": 120,
+        "failing_page_count": 5,
+        "first_failing_page_index": 39,
+        "underfill_warning_count": 26,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.038037659256433785,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.04716368805415349,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.08401875238559926,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 56,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 57,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 58,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 60,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "19d79d49551eb7d2",
+      "gmb_hash": "078a88f46ab49a119de8e66d2bd4687f94ab70c1dc1eb45bf9e7d9c277850404"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove superseded break derived-10-sw5e-campaign-rules|h2|character-creation-requirements-26 (earlier: derived-10-sw5e-campaign-rules|h2|core-assumptions-27)",
+        "break_id": "derived-10-sw5e-campaign-rules|h2|character-creation-requirements-26",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 115,
+        "semantic_block_overflow_count": 106,
+        "failing_page_count": 4,
+        "first_failing_page_index": 49,
+        "underfill_warning_count": 26,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.038037659256433785,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.04716368805415349,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.08401875238559926,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 56,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 57,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 58,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 59,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 61,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "0768841847b67081",
+      "gmb_hash": "861f2cecea5125a6ead1a50fada778d9b190a8b844d1b29389825bcf2de43593"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove superseded break derived-10-sw5e-campaign-rules|h3|creation-checklist-25 (earlier: derived-10-sw5e-campaign-rules|h2|core-assumptions-27)",
+        "break_id": "derived-10-sw5e-campaign-rules|h3|creation-checklist-25",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 115,
+        "semantic_block_overflow_count": 106,
+        "failing_page_count": 4,
+        "first_failing_page_index": 48,
+        "underfill_warning_count": 25,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.08520134731058727,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.08401875238559926,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 23,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 56,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 57,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 58,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 60,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "8f538e62bfed7cb6",
+      "gmb_hash": "3dbcf9102ca5d3a2ceca4798d54579c9f30e4869c50659f0a839317550f8e009"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove superseded break derived-10-sw5e-campaign-rules|h3|party-tho-yor-calling-required-26 (earlier: derived-10-sw5e-campaign-rules|h2|core-assumptions-27)",
+        "break_id": "derived-10-sw5e-campaign-rules|h3|party-tho-yor-calling-required-26",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 115,
+        "semantic_block_overflow_count": 106,
+        "failing_page_count": 4,
+        "first_failing_page_index": 48,
+        "underfill_warning_count": 25,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.08520134731058727,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.08401875238559926,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 20,
+            "occupancy_ratio": 0.25831236503038135,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 23,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 56,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 57,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 58,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 60,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "c31ae0588dbdbb3e",
+      "gmb_hash": "c3240ce0860e86c5340652ee0de23d3abb20cb0ddcd46793e49feae3f286d97c"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove superseded break derived-10-sw5e-campaign-rules|h3|approved-homeland-planets-required-26 (earlier: derived-10-sw5e-campaign-rules|h2|core-assumptions-27)",
+        "break_id": "derived-10-sw5e-campaign-rules|h3|approved-homeland-planets-required-26",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 115,
+        "semantic_block_overflow_count": 106,
+        "failing_page_count": 4,
+        "first_failing_page_index": 46,
+        "underfill_warning_count": 22,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.42753246472656786,
+            "classification": "warning"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 56,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 58,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "19deee44a993f29f",
+      "gmb_hash": "1daed904424c97e050fd6b4d7f9c14d8b88071dfafc07d41a6d8236d4809158a"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove superseded break derived-10-sw5e-campaign-rules|h3|force-manipulation-mandatory-24 (earlier: derived-10-sw5e-campaign-rules|h2|core-assumptions-27)",
+        "break_id": "derived-10-sw5e-campaign-rules|h3|force-manipulation-mandatory-24",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 115,
+        "semantic_block_overflow_count": 106,
+        "failing_page_count": 4,
+        "first_failing_page_index": 46,
+        "underfill_warning_count": 22,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.42753246472656786,
+            "classification": "warning"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 56,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 58,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "e52d9365472fadd6",
+      "gmb_hash": "caa7bf97d84074bb3edd0887392677b0f636a95b4b30ff15d4c9f06d73163310"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove superseded break derived-10-sw5e-campaign-rules|h4|multiclass-23 (earlier: derived-10-sw5e-campaign-rules|h2|core-assumptions-27)",
+        "break_id": "derived-10-sw5e-campaign-rules|h4|multiclass-23",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 115,
+        "semantic_block_overflow_count": 106,
+        "failing_page_count": 4,
+        "first_failing_page_index": 46,
+        "underfill_warning_count": 22,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.42753246472656786,
+            "classification": "warning"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 56,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 58,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "a20bbf80ef13659f",
+      "gmb_hash": "ba4a55107a5fc394058fdd7c57ce846717f846fb147e98d36d21468c91f74306"
+    },
+    {
+      "action": "removed_break",
+      "candidate": {
+        "kind": "remove_break",
+        "description": "remove superseded break derived-07-the-je-daii-order-founding|h3|calling-creed-fold-crosswalk-22 (earlier: derived-07-the-je-daii-order-founding|h2|the-ninefold-code-of-the-je-daii-23)",
+        "break_id": "derived-07-the-je-daii-order-founding|h3|calling-creed-fold-crosswalk-22",
+        "chapter": null,
+        "before_heading": null,
+        "before_block_key": null
+      },
+      "baseline": {
+        "raw_overflow_count": 115,
+        "semantic_block_overflow_count": 106,
+        "failing_page_count": 4,
+        "first_failing_page_index": 46,
+        "underfill_warning_count": 22,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.42753246472656786,
+            "classification": "warning"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.37079148942928747,
+            "classification": "warning"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.42516051112396575,
+            "classification": "warning"
+          },
+          {
+            "page_index": 22,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 47,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 56,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 58,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "9cd477fe1cbc2757",
+      "gmb_hash": "a84720077e462800ecc965779f1486760dad3d9c346aa547dce04a99b2e49517"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### THE NINEFOLD CODE OF THE JE\u2019DAII'",
+        "break_id": null,
+        "chapter": "07 \u2014 The Je'daii Order (Founding)",
+        "before_heading": "### THE NINEFOLD CODE OF THE JE\u2019DAII",
+        "before_block_key": "07-the-je-daii-order-founding|h3|the-ninefold-code-of-the-je-daii"
+      },
+      "baseline": {
+        "raw_overflow_count": 223,
+        "semantic_block_overflow_count": 211,
+        "failing_page_count": 6,
+        "first_failing_page_index": 11,
+        "underfill_warning_count": 21,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 12,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 14,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 16,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "9390a9039c2bfd16",
+      "gmb_hash": "37cff424342b3d7dead23e0865b1bdec727486853385f3d696a6fafe45b44e51"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Calling \u2192 Creed fold (crosswalk)'",
+        "break_id": null,
+        "chapter": "07 \u2014 The Je'daii Order (Founding)",
+        "before_heading": "### Calling \u2192 Creed fold (crosswalk)",
+        "before_block_key": "07-the-je-daii-order-founding|h3|calling-creed-fold-crosswalk"
+      },
+      "baseline": {
+        "raw_overflow_count": 223,
+        "semantic_block_overflow_count": 211,
+        "failing_page_count": 6,
+        "first_failing_page_index": 11,
+        "underfill_warning_count": 21,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 12,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 14,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 16,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "42e9c189b88bbf29",
+      "gmb_hash": "422ff79ef0d677c497605ba905087757f6f13ab3973ff4feab7e67678ad84c2f"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '## The nine temples as end-state'",
+        "break_id": null,
+        "chapter": "07 \u2014 The Je'daii Order (Founding)",
+        "before_heading": "## The nine temples as end-state",
+        "before_block_key": "07-the-je-daii-order-founding|h2|the-nine-temples-as-end-state"
+      },
+      "baseline": {
+        "raw_overflow_count": 223,
+        "semantic_block_overflow_count": 211,
+        "failing_page_count": 6,
+        "first_failing_page_index": 11,
+        "underfill_warning_count": 21,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 12,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 14,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 16,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 18,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 25,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 29,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 35,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 36,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 45,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 49,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 50,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 51,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "5f87633b16cc52e9",
+      "gmb_hash": "91b2a8e821f5d024c8a3e83988deb4bed1a4ba0d33b35ffbc8ee1427f56349cb"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Approved homeland planets (required)'",
+        "break_id": null,
+        "chapter": "10 \u2014 SW5e Campaign Rules",
+        "before_heading": "### Approved homeland planets (required)",
+        "before_block_key": "10-sw5e-campaign-rules|h3|approved-homeland-planets-required"
+      },
+      "baseline": {
+        "raw_overflow_count": 220,
+        "semantic_block_overflow_count": 208,
+        "failing_page_count": 5,
+        "first_failing_page_index": 20,
+        "underfill_warning_count": 24,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 10,
+            "occupancy_ratio": 0.44851882578618035,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.05794905305212669,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 12,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.16838762522145562,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 57,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "57455bd8d016ba46",
+      "gmb_hash": "d11eeb69c25bc0a437643c4b64a5c5a811be3bc9152d888e5ce852d871a9ac8f"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Party Tho Yor calling (required)'",
+        "break_id": null,
+        "chapter": "10 \u2014 SW5e Campaign Rules",
+        "before_heading": "### Party Tho Yor calling (required)",
+        "before_block_key": "10-sw5e-campaign-rules|h3|party-tho-yor-calling-required"
+      },
+      "baseline": {
+        "raw_overflow_count": 220,
+        "semantic_block_overflow_count": 208,
+        "failing_page_count": 5,
+        "first_failing_page_index": 20,
+        "underfill_warning_count": 24,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 10,
+            "occupancy_ratio": 0.44851882578618035,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.05794905305212669,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 12,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.16838762522145562,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 57,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "8783446861dbc3ab",
+      "gmb_hash": "958bccf74755955e39b182e43f00ad4cdfc6199ed6efc958e254cdcf869000a0"
+    },
+    {
+      "action": "applied",
+      "candidate": {
+        "kind": "add_break",
+        "description": "add pagebreak before '### Creation checklist'",
+        "break_id": null,
+        "chapter": "10 \u2014 SW5e Campaign Rules",
+        "before_heading": "### Creation checklist",
+        "before_block_key": "10-sw5e-campaign-rules|h3|creation-checklist"
+      },
+      "baseline": {
+        "raw_overflow_count": 220,
+        "semantic_block_overflow_count": 208,
+        "failing_page_count": 5,
+        "first_failing_page_index": 20,
+        "underfill_warning_count": 24,
+        "occupancy_warnings": [
+          {
+            "page_index": 0,
+            "occupancy_ratio": 0.12238319587308903,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 2,
+            "occupancy_ratio": 0.3597416315621341,
+            "classification": "warning"
+          },
+          {
+            "page_index": 8,
+            "occupancy_ratio": 0.31202350628692216,
+            "classification": "warning"
+          },
+          {
+            "page_index": 10,
+            "occupancy_ratio": 0.44851882578618035,
+            "classification": "warning"
+          },
+          {
+            "page_index": 11,
+            "occupancy_ratio": 0.05794905305212669,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 12,
+            "occupancy_ratio": 0.11187587804199273,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 13,
+            "occupancy_ratio": 0.16838762522145562,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 15,
+            "occupancy_ratio": 0.43466960141458966,
+            "classification": "warning"
+          },
+          {
+            "page_index": 17,
+            "occupancy_ratio": 0.16198102927741162,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 19,
+            "occupancy_ratio": 0.02195250947037896,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 21,
+            "occupancy_ratio": 0.040335811998831246,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 24,
+            "occupancy_ratio": 0.08909625124617018,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 27,
+            "occupancy_ratio": 0.3774584741758558,
+            "classification": "warning"
+          },
+          {
+            "page_index": 28,
+            "occupancy_ratio": 0.3199886573114309,
+            "classification": "warning"
+          },
+          {
+            "page_index": 30,
+            "occupancy_ratio": 0.27952924185269623,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 31,
+            "occupancy_ratio": 0.3737998402162909,
+            "classification": "warning"
+          },
+          {
+            "page_index": 32,
+            "occupancy_ratio": 0.39464612930410975,
+            "classification": "warning"
+          },
+          {
+            "page_index": 33,
+            "occupancy_ratio": 0.4092897702867246,
+            "classification": "warning"
+          },
+          {
+            "page_index": 34,
+            "occupancy_ratio": 0.25803358509014607,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 37,
+            "occupancy_ratio": 0.36046492950457726,
+            "classification": "warning"
+          },
+          {
+            "page_index": 38,
+            "occupancy_ratio": 0.33065291697703036,
+            "classification": "warning"
+          },
+          {
+            "page_index": 39,
+            "occupancy_ratio": 0.294913410462994,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 40,
+            "occupancy_ratio": 0.17512682096456916,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 41,
+            "occupancy_ratio": 0.29727019284387096,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 42,
+            "occupancy_ratio": 0.3164788387700133,
+            "classification": "warning"
+          },
+          {
+            "page_index": 43,
+            "occupancy_ratio": 0.3011619074068549,
+            "classification": "warning"
+          },
+          {
+            "page_index": 44,
+            "occupancy_ratio": 0.0869585790843517,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 46,
+            "occupancy_ratio": 0.3590679666232158,
+            "classification": "warning"
+          },
+          {
+            "page_index": 48,
+            "occupancy_ratio": 0.05846023440731169,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 52,
+            "occupancy_ratio": 0.2991378920099015,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 53,
+            "occupancy_ratio": 0.19341099975385245,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 54,
+            "occupancy_ratio": 0.43881578016683503,
+            "classification": "warning"
+          },
+          {
+            "page_index": 55,
+            "occupancy_ratio": 0.22563217978570502,
+            "classification": "review_required"
+          },
+          {
+            "page_index": 57,
+            "occupancy_ratio": 0.304551732234423,
+            "classification": "warning"
+          }
+        ],
+        "break_count": null
+      },
+      "state_hash": "d3f06b523397042c",
+      "gmb_hash": "840a45afa308cebc078777fe12ea6a00c0c5724b82accb58f84bbf2be8306797"
+    }
+  ]
+}

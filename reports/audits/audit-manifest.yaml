@@ -1,0 +1,196 @@
+# Audit manifest — Dawn of the Jedaii
+# Operational — not campaign canon
+# last_reviewed_revision filled after review; findings_count only after review
+
+schema_version: 1
+repository_head_at_creation: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+notes: >
+  Primary guide is established primary authority during audit.
+  Companion is established approved narrative companion.
+  Integrated-guide consolidation: planning authorized / consolidation not authorized
+  (see ai/PROJECT_ARCHITECTURE.md and ai/plans/2026-08-26-integrated-gm-guide-migration.md).
+  ChatGPT archive vs repo gap report:
+  reports/audits/2026-08-26-chatgpt-archive-vs-repo-gap-report.md
+  Archive content PR scope (plan only):
+  ai/plans/2026-08-26-chatgpt-archive-content-pr-scope.md
+  Blocker implementation executed 2026-08-26:
+  reports/audits/2026-08-26-blocker-implementation-report.md
+  F-K-002 staged Tython reveal DECIDED (prose not implemented).
+  GM Binder pagination/layout audit 2026-08-26:
+  reports/audits/2026-08-26-gmbinder-pagination-layout-audit.md (F-M-003).
+
+files:
+  - path: dawn-of-the-jedaii-campaign-guide.md
+    file_type: markdown
+    architectural_role: primary_authority
+    authoritative_or_generated: primary_authority
+    audit_domains: [A, B, C, D, E, F, G, H, I, J, K, L, P]
+    rules: [R1, R2, R3, R4, R5]
+    skills: [S1, S2, S3, S5, S7]
+    review_status: reviewed
+    findings_count: 12
+    unresolved_questions:
+      - "Speaker↔calling crosswalk policy (F-H-001 direction decided; mappings not assigned)"
+      - "F-K-002 App C Tython naming posture (archive preference recorded; Kakeman89 choice open)"
+      - "Integrated-guide consolidation: planning authorized; consolidation not authorized"
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
+    file_type: markdown
+    architectural_role: approved_companion
+    authoritative_or_generated: approved_companion
+    audit_domains: [A, D, E, F, H, I, J, K, L, P]
+    rules: [R1, R4, R5]
+    skills: [S3, S5, S7]
+    review_status: reviewed
+    findings_count: 3
+    unresolved_questions:
+      - "How much companion depth to pull into guide Arc III/IV if consolidation proceeds"
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: gm-narrative/README.md
+    file_type: markdown
+    architectural_role: ops_doc
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [A]
+    rules: [R1]
+    skills: [S1]
+    review_status: reviewed
+    findings_count: 0
+    unresolved_questions: []
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: gmbinder/dawn-of-the-jedaii-gmbinder.md
+    file_type: markdown
+    architectural_role: generated_publication
+    authoritative_or_generated: generated
+    audit_domains: [A, M, P]
+    rules: [R6]
+    skills: [S6, S7]
+    review_status: reviewed
+    findings_count: 1
+    unresolved_questions: []
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: foundry/dawn-of-the-jedaii.journal.json
+    file_type: json
+    architectural_role: generated_foundry
+    authoritative_or_generated: generated
+    audit_domains: [A, N, P]
+    rules: [R6]
+    skills: [S6, S7]
+    review_status: reviewed
+    findings_count: 1
+    unresolved_questions:
+      - "Confirm Foundry import update-vs-duplicate behavior for page _ids"
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: foundry/README.md
+    file_type: markdown
+    architectural_role: ops_doc
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [A, N]
+    rules: [R1, R6]
+    skills: [S1, S6]
+    review_status: reviewed
+    findings_count: 0
+    unresolved_questions: []
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: README.md
+    file_type: markdown
+    architectural_role: ops_doc
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [A]
+    rules: [R1]
+    skills: [S1]
+    review_status: reviewed
+    findings_count: 0
+    unresolved_questions: []
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: requirements.txt
+    file_type: text
+    architectural_role: tool
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [O]
+    rules: [R6]
+    skills: [S1, S6]
+    review_status: reviewed
+    findings_count: 1
+    unresolved_questions:
+      - "External Koorivar dependency undeclared"
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: tools/md_to_foundry_journal.py
+    file_type: python
+    architectural_role: tool
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [A, N, O, P]
+    rules: [R6]
+    skills: [S1, S6]
+    review_status: reviewed
+    findings_count: 1
+    unresolved_questions: []
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: tools/md_to_gmbinder.py
+    file_type: python
+    architectural_role: tool
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [A, M, O, P]
+    rules: [R6]
+    skills: [S1, S6]
+    review_status: reviewed
+    findings_count: 1
+    unresolved_questions:
+      - "Licensing of external Koorivar.md for redistribution"
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: tools/reorder_guide_chapters.py
+    file_type: python
+    architectural_role: tool
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [A, O]
+    rules: [R6]
+    skills: [S1]
+    review_status: reviewed
+    findings_count: 1
+    unresolved_questions: []
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: ai/PROJECT_ARCHITECTURE.md
+    file_type: markdown
+    architectural_role: ai_architecture
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [A]
+    rules: [R1]
+    skills: [S1]
+    review_status: reviewed
+    findings_count: 0
+    unresolved_questions: []
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: ai/plans/2026-08-26-rules-skills-and-project-audit.md
+    file_type: markdown
+    architectural_role: plan
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [A]
+    rules: [R1]
+    skills: [S1]
+    review_status: reviewed
+    findings_count: 0
+    unresolved_questions: []
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+
+  - path: .gitignore
+    file_type: text
+    architectural_role: ops_doc
+    authoritative_or_generated: operational_non_canon
+    audit_domains: [A]
+    rules: [R1]
+    skills: [S1]
+    review_status: reviewed
+    findings_count: 0
+    unresolved_questions: []
+    last_reviewed_revision: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"

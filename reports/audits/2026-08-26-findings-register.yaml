@@ -1,0 +1,682 @@
+# Full audit findings register
+# Operational — not campaign canon
+# Incorporates pilot + domain-wide review (Phases 5–7)
+# campaign-state-watcher was NOT invoked
+
+schema_version: 1
+audit_date: "2026-08-26"
+head_reviewed: "6ac41f4d3450c0bc18c133fba2d29c0b37a1aff4"
+consolidation_status: NEEDS_DECISION
+
+findings:
+
+  # --- Domain A / N / O / M technical ---
+
+  - id: F-N-001
+    audit_domain: N
+    severity: HIGH
+    confidence: CONFIRMED
+    classification: technical
+    title: Foundry page IDs are non-deterministic on regeneration
+    description: md_to_foundry_journal.py assigns each page _id via secrets.choice.
+    file_path: tools/md_to_foundry_journal.py
+    location: make_id / build_journal
+    related_files: [foundry/dawn-of-the-jedaii.journal.json, foundry/README.md]
+    rule_or_skill: output-sync-validator
+    evidence: secrets.choice alphabet loop; README prefers delete+reimport
+    why_it_matters: Re-import may orphan links or create duplicates depending on Foundry Import Data behavior.
+    effect: Foundry maintenance risk
+    recommended_treatment: CORRECT
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: technical
+    status: open
+    implementation_note: |-
+      Deterministic IDs implemented and offline-stable; live Foundry Import Data update-vs-duplicate still NEEDS VALIDATION. See reports/audits/2026-08-26-foundry-id-investigation.md.
+
+  - id: F-N-002
+    audit_domain: N
+    severity: OBSERVATION
+    confidence: CONFIRMED
+    classification: technical
+    title: Foundry ownership defaults are GM-only
+    description: Journal and pages set ownership.default to 0.
+    file_path: tools/md_to_foundry_journal.py
+    location: ownership defaults
+    related_files: [foundry/dawn-of-the-jedaii.journal.json, foundry/README.md]
+    rule_or_skill: output-sync-validator
+    evidence: ownership default 0 on journal and pages; README GM-only guidance
+    why_it_matters: Correct spoiler posture — KEEP
+    effect: Positive control
+    recommended_treatment: KEEP
+    changes_approved_canon: false
+    authorization_required: false
+    finding_kind: technical
+    status: open
+
+  - id: F-M-001
+    audit_domain: M
+    severity: HIGH
+    confidence: CONFIRMED
+    classification: technical
+    title: GM Binder regen depends on absolute external Koorivar path
+    description: Absolute OneDrive path outside repo; four-axis risk.
+    file_path: tools/md_to_gmbinder.py
+    location: KOORIVAR Path
+    related_files: [gmbinder/dawn-of-the-jedaii-gmbinder.md]
+    rule_or_skill: output-sync-validator
+    evidence: hardcoded C:\\Users\\...\\Koorivar.md
+    why_it_matters: Portability, licensing, missing-file crash, content inject divergence
+    effect: Regen reliability
+    recommended_treatment: NEEDS_DECISION
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: technical
+    status: needs_decision
+    implementation_note: |-
+      Portability + fail-loud missing dependency implemented; licensing/vendoring NOT presumed. See reports/audits/2026-08-26-koorivar-dependency-review.md.
+
+  - id: F-M-002
+    audit_domain: M
+    severity: BLOCKER
+    confidence: CONFIRMED
+    classification: technical
+    title: GM Binder Ch22 matcher overwrites Faces with duplicate Koorivar
+    description: >
+      Guide Ch12 is Species Spotlight Koorivar; Ch22 is Faces of the First Migration.
+      md_to_gmbinder still replaces titles starting with "22 —" with injected Koorivar,
+      so GMB lacks Faces and duplicates Koorivar as Ch22. CH22_INTRO cites stale Ch08/Ch21 paths.
+    file_path: tools/md_to_gmbinder.py
+    location: "if title.startswith(\"22 —\")"
+    related_files:
+      - gmbinder/dawn-of-the-jedaii-gmbinder.md
+      - dawn-of-the-jedaii-campaign-guide.md
+    rule_or_skill: output-sync-validator
+    evidence: >
+      Guide H1 Ch22 Faces; GMB H1 "# 22 — Species Spotlight: Koorivar"; Faces body absent in GMB;
+      App E in GMB still lists Faces for 22
+    why_it_matters: Generated print source is wrong for Ch22; Speakers cast missing from binder
+    effect: Sync defect — fix in tool then regenerate (when authorized)
+    recommended_treatment: CORRECT
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: technical
+    status: closed
+    implementation_note: |-
+      Corrected matcher to Ch12 Species Spotlight; regenerated GMB; Ch22 Faces+Speakers present; App E consistent. See reports/audits/2026-08-26-blocker-implementation-report.md.
+
+  - id: F-M-003
+    audit_domain: M
+    severity: HIGH
+    confidence: CONFIRMED
+    classification: technical
+    title: GM Binder long chapters overflow into clipped off-page columns
+    description: >
+      Full-book browser layout audit confirmed third-column overflow/clipping when a chapter's
+      content exceeds a printable two-column page and only chapter-boundary \pagebreak directives
+      are present. Confirmed on Ch04 (zones 6–8 + Secrets), and also Ch07/Ch10/Ch21/Ch22/Ch24.
+      Pagination is an output concern; fix via generator-owned tools/gmbinder_pagination.json
+      emitting internal \pagebreak before exact headings (not campaign-prose edits).
+    file_path: tools/md_to_gmbinder.py
+    location: internal pagination config + apply_internal_breaks
+    related_files:
+      - tools/gmbinder_pagination.json
+      - gmbinder/dawn-of-the-jedaii-gmbinder.md
+      - reports/audits/2026-08-26-gmbinder-pagination-layout-audit.md
+    rule_or_skill: output-sync-validator
+    evidence: >
+      Live GM Binder preview (2026-08-26): Ch04 zones 6–8 render in a clipped third column outside
+      the printable page; CDP overflow scan also flagged Ch07/10/21/22/24 headings with left > pageRight.
+      Repo regeneration now inserts 20 internal \pagebreak directives (50 total including chapter boundaries).
+    why_it_matters: Print/PDF source is unreadable for long chapters without internal breaks.
+    effect: Layout defect — validator/optimizer infrastructure implemented; rendered overflow remains unresolved
+    recommended_treatment: DEFER
+    changes_approved_canon: false
+    authorization_required: false
+    finding_kind: technical
+    status: deferred
+    implementation_note: |-
+      DEFERRED_PARTIAL (Kakeman89-directed, 2026-08-27). Rendered-layout validator and pagination infrastructure
+      are implemented and preserved. Last retained scan: overall_pass=false; raw overflow=115;
+      semantic-block overflow=106; failing pages=4; physical pages=64; active internal breaks=32;
+      unvalidated seeds=14; browser_validated=0; derived=18; underfill warnings=27; human_pinned=0;
+      obsolete retained=10; static preflight still reports two injected Koorivar heading mismatches.
+      Saved remote GM Binder document was NOT overwritten. Further optimization deferred until after
+      integrated GM guide structure/content stabilize (migration will alter composition). This is
+      user-directed deferral, not technical impossibility. Evidence:
+      reports/audits/2026-08-26-gmbinder-pagination-layout-audit.md,
+      reports/audits/gmbinder-render-validation.json,
+      reports/audits/gmbinder-pagination-optimization-log.json.
+      Campaign prose not modified for layout.
+
+  - id: F-O-001
+    audit_domain: O
+    severity: HIGH
+    confidence: CONFIRMED
+    classification: technical
+    title: Write tools lack dry-run and backup safeguards
+    description: Foundry, GMB, and reorder scripts write immediately with no --dry-run or backup.
+    file_path: tools/md_to_foundry_journal.py
+    location: main write_text
+    related_files: [tools/md_to_gmbinder.py, tools/reorder_guide_chapters.py]
+    rule_or_skill: repository-architecture-audit
+    evidence: No argparse dry-run; direct Path.write_text
+    why_it_matters: Accidental overwrite risk
+    effect: Tooling safety
+    recommended_treatment: EXPAND
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: technical
+    status: closed
+    implementation_note: |-
+      Added --dry-run, backups, staged write for md_to_gmbinder.py and md_to_foundry_journal.py.
+
+  - id: F-O-002
+    audit_domain: O
+    severity: HIGH
+    confidence: CONFIRMED
+    classification: technical
+    title: reorder_guide_chapters.py overwrites primary guide in place
+    description: Historical reorder tool writes dawn-of-the-jedaii-campaign-guide.md directly.
+    file_path: tools/reorder_guide_chapters.py
+    location: SRC.write_text
+    related_files: [dawn-of-the-jedaii-campaign-guide.md]
+    rule_or_skill: repository-architecture-audit
+    evidence: In-place write to primary authority; re-run would corrupt current numbering
+    why_it_matters: Dangerous against primary SoT
+    effect: Data-loss risk if re-run
+    recommended_treatment: CLARIFY
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: technical
+    status: closed
+    implementation_note: |-
+      reorder_guide_chapters.py defaults to refuse-write; dual confirmation flags required; documented historical.
+
+  - id: F-A-001
+    audit_domain: A
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: technical
+    title: Generated outputs lack generated-file notices
+    description: No GENERATED/do-not-edit banner; Foundry JSON cannot comment.
+    file_path: gmbinder/dawn-of-the-jedaii-gmbinder.md
+    location: header
+    related_files: [foundry/dawn-of-the-jedaii.journal.json]
+    rule_or_skill: generated-output-protection
+    evidence: Cover mentions SoT but no do-not-edit warning
+    why_it_matters: Output-only edit risk
+    effect: Maintenance
+    recommended_treatment: DEFER
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: technical
+    status: deferred
+
+  - id: F-A-002
+    audit_domain: A
+    severity: OBSERVATION
+    confidence: CONFIRMED
+    classification: technical
+    title: Guide and Foundry chapter sets match (30 pages)
+    description: Foundry page names match guide H1s after session-range strip.
+    file_path: foundry/dawn-of-the-jedaii.journal.json
+    location: pages[].name
+    related_files: [dawn-of-the-jedaii-campaign-guide.md]
+    rule_or_skill: output-sync-validator
+    evidence: 30/30 name match
+    why_it_matters: Foundry sync healthy vs GMB Ch22 failure
+    effect: Positive KEEP for Foundry chapter coverage
+    recommended_treatment: KEEP
+    changes_approved_canon: false
+    authorization_required: false
+    finding_kind: technical
+    status: open
+
+  # --- Domain G / K / P point-of-use ---
+
+  - id: F-G-001
+    audit_domain: G
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: point_of_use
+    title: Arc I runtime requires multi-chapter navigation
+    description: Ch15 points to Ch21/22/23/11/04/08/13 for playable detail.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: "# 15 — Arc I"
+    related_files: [gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md]
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Prep and must-play beats cite Scene Cards, Speakers, maps, boons
+    why_it_matters: Fragmented point-of-use; not defective merely because future guide may localize
+    effect: GM prep friction
+    recommended_treatment: LOCAL_SUMMARY_CANDIDATE
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: point_of_use
+    point_of_use_descriptor: fragmented
+    status: open
+
+  - id: F-G-002
+    audit_domain: G
+    severity: HIGH
+    confidence: CONFIRMED
+    classification: point_of_use
+    title: Arc III runnable depth lives mainly in companion
+    description: Guide Arc III is beat titles; companion §7 has contact procedures and Speaker scenarios.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: "# 17 — Arc III"
+    related_files: [gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md]
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Contact scenarios named in guide; detailed procedures in companion
+    why_it_matters: Guide-alone Arc III is reference_dependent
+    effect: Point-of-use / future consolidation evidence
+    recommended_treatment: EXPAND
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: point_of_use
+    point_of_use_descriptor: reference_dependent
+    status: open
+
+  - id: F-G-003
+    audit_domain: G
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: point_of_use
+    title: Arc II Session 6 survival menu lacks adjudication hooks
+    description: Pick-2 crisis menu without DCs, clocks, or NPC wants.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Arc II Session 6
+    related_files: []
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Survival crisis menu items without adjudication lines
+    why_it_matters: Incomplete operational information for that session beat
+    effect: GM improvisation load
+    recommended_treatment: EXPAND
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: point_of_use
+    point_of_use_descriptor: missing_operational_information
+    status: open
+
+  - id: F-G-004
+    audit_domain: G
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: point_of_use
+    title: Omen of the Moons straddles Arc II/III without single owner
+    description: Timing end of Arc II or opening Arc III; full speech lock in Ch17.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch16 bridge / Ch17 mid-arc
+    related_files: []
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Dual placement notes; easy to skip if prep only Ch16
+    why_it_matters: Must-play beat ownership unclear
+    effect: Continuity of Ashla/Bogan moon naming
+    recommended_treatment: CLARIFY
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: point_of_use
+    status: open
+
+  - id: F-G-005
+    audit_domain: G
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: point_of_use
+    title: Arc IV first trial lacks default defendant scenario
+    description: Atrocity trial outcomes listed; no ready-to-run accused/evidence pack.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Arc IV first trial
+    related_files: [gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md]
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Procedure without default case
+    why_it_matters: Extra prep burden at climax approach
+    effect: Point-of-use
+    recommended_treatment: EXPAND
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: point_of_use
+    status: open
+
+  - id: F-G-006
+    audit_domain: G
+    severity: MEDIUM
+    confidence: LIKELY
+    classification: present_quality
+    title: Possible double milestone at landing
+    description: Arc I optional +1 at landing and Arc II level after secure camp may both fire.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch14 milestones / Ch16 Session 6
+    related_files: []
+    rule_or_skill: continuity-auditor
+    evidence: Two landing-adjacent milestone notes without exclusivity rule
+    why_it_matters: Advancement ambiguity
+    effect: Continuity of advancement
+    recommended_treatment: CLARIFY
+    changes_approved_canon: true
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  - id: F-K-001
+    audit_domain: J
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: present_quality
+    title: Chapter 21 style bible instructs named-author imitation
+    description: Traviss/Allston/Zahn (and Sclanders) named as imitation targets.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch21 Style bible
+    related_files: [.cursor/rules/original-house-voice.mdc]
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Named-author craft directives in Style bible
+    why_it_matters: Conflicts with house-voice rule
+    effect: Craft governance
+    recommended_treatment: CLARIFY
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  - id: F-K-002
+    audit_domain: K
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: present_quality
+    title: Player crawl vs primer disagree on naming Tython
+    description: Crawl withholds world name; primer names Tython in same handout package.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Appendix C
+    related_files: []
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Crawl vs "world called Tython" in primer
+    why_it_matters: Spoiler posture inconsistency for players
+    effect: Player-facing continuity
+    recommended_treatment: CLARIFY
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: closed
+    implementation_note: |-
+      DECIDED staged Tython reveal recorded in ai/plans/2026-08-26-campaign-decision-record.md; campaign prose NOT implemented.
+
+  - id: F-K-003
+    audit_domain: K
+    severity: LOW
+    confidence: CONFIRMED
+    classification: present_quality
+    title: Episode 1 checklist cites Storm Clock in Ch14; mechanic is Ch10
+    description: Checklist Ch10/14; Storm Clock rules only in Ch10.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch13 Episode 1 flags
+    related_files: []
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Cross-ref to Ch14 Storm Clock with no Ch14 section
+    why_it_matters: Broken/misleading citation
+    effect: Usability
+    recommended_treatment: CLARIFY
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  - id: F-K-004
+    audit_domain: K
+    severity: LOW
+    confidence: CONFIRMED
+    classification: present_quality
+    title: Chapter 00 spoiler policy is clear and actionable
+    description: Explicit GM-only vs player-safe lists.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch00 spoiler policy
+    related_files: []
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Structured spoiler bullets
+    why_it_matters: Strong usability — KEEP
+    effect: Positive
+    recommended_treatment: KEEP
+    changes_approved_canon: false
+    authorization_required: false
+    finding_kind: present_quality
+    status: open
+
+  - id: F-E-001
+    audit_domain: E
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: present_quality
+    title: Episode 1 vs Arc II Session 6 boundary easy to misread
+    description: Episode 1 ends Session 5; Arc II includes Session 6 bridge.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch13 / Ch14 / Ch16
+    related_files: []
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Scope notes correct but easy to equate Episode 1 with all of Arc II
+    why_it_matters: Prep/session counting confusion
+    effect: Structure clarity
+    recommended_treatment: CLARIFY
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  # --- Characters / setting / lore ---
+
+  - id: F-H-001
+    audit_domain: H
+    severity: HIGH
+    confidence: CONFIRMED
+    classification: present_quality
+    title: Speakers not crosswalked to Session 0 callings / Kesh
+    description: Eight callings and eight Speakers lack a calling→Speaker→Kesh map.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch10 calling table; Ch22 Speakers; App A
+    related_files: []
+    rule_or_skill: continuity-auditor
+    evidence: Callings lock ship/Kesh; Speakers have epithets without calling tags
+    why_it_matters: GM cannot reliably assign sister-ship Speakers to PC calling
+    effect: Cast / Session 0 integration gap
+    recommended_treatment: EXPAND
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  - id: F-H-002
+    audit_domain: H
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: present_quality
+    title: Yen-Ti dual-cast without playbook split by arc
+    description: Same NPC as Speaker and Architect rival without mode-by-arc guidance.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch06 / Ch22 / App A
+    related_files: []
+    rule_or_skill: continuity-auditor
+    evidence: Dual roles without ally-vs-pressure mode notes
+    why_it_matters: Easy to play inconsistently across arcs
+    effect: NPC usability
+    recommended_treatment: CLARIFY
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  - id: F-I-001
+    audit_domain: I
+    severity: MEDIUM
+    confidence: CONFIRMED
+    classification: present_quality
+    title: Kaleth under-specified vs other temple seeds
+    description: Kaleth seed listed; continent play notes thinner than peers.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch02 / Ch05 / Ch21
+    related_files: []
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Seed table present; missing parallel continent play note
+    why_it_matters: Uneven setting support for a founding site
+    effect: Setting completeness
+    recommended_treatment: EXPAND
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  - id: F-B-001
+    audit_domain: B
+    severity: LOW
+    confidence: CONFIRMED
+    classification: CAMPAIGN_ADAPTATION
+    title: Appendix D clearly separates Legends baseline from table fiction
+    description: Provenance practice is working.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Appendix D
+    related_files: []
+    rule_or_skill: legends-source-audit
+    evidence: Legends / table fiction / ambiguities sections
+    why_it_matters: KEEP pattern
+    effect: Positive provenance
+    recommended_treatment: KEEP
+    changes_approved_canon: false
+    authorization_required: false
+    finding_kind: present_quality
+    status: open
+
+  - id: F-B-002
+    audit_domain: B
+    severity: MEDIUM
+    confidence: LIKELY
+    classification: CAMPAIGN_ADAPTATION
+    title: Appendix D Legends gloss can obscure Ashla/Bogan teaching order
+    description: Legends moon-naming end-state vs campaign concept-first pedagogy need clearer split.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: App D / Ch02 / Ch17
+    related_files: []
+    rule_or_skill: legends-source-audit
+    evidence: App D Legends bullet vs table-fiction teaching order
+    why_it_matters: GM may brief wrong sequence
+    effect: Classification clarity
+    recommended_treatment: CLARIFY
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  - id: F-C-001
+    audit_domain: C
+    severity: MEDIUM
+    confidence: POSSIBLE
+    classification: NEEDS_SOURCE
+    title: Ch24 pickup rows mix [L]/[T] without per-planet Legends proof in-repo
+    description: Not all pickup worlds are Appendix-D itemized as Legends-verified.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch24 GM Master Timeline pickup table
+    related_files: [Appendix D]
+    rule_or_skill: legends-source-audit
+    evidence: Mixed tags; App D does not enumerate each pickup
+    why_it_matters: Provenance uneven; absence from App D ≠ automatically unsupported
+    effect: Source discipline
+    recommended_treatment: SOURCE
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  - id: F-C-002
+    audit_domain: C
+    severity: MEDIUM
+    confidence: UNRESOLVED
+    classification: NEEDS_SOURCE
+    title: Shekk-Arra Trandoshan-adjacent unlabeled for era
+    description: Species call lacks [T]/ORIGINAL tag; era presence unverified in-repo.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch22 Shekk-Arra
+    related_files: []
+    rule_or_skill: legends-source-audit
+    evidence: "Trandoshan-adjacent hunter (or similar)" without provenance tag
+    why_it_matters: Era discipline / labeling
+    effect: Lore classification
+    recommended_treatment: SOURCE
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: present_quality
+    status: open
+
+  - id: F-P-001
+    audit_domain: P
+    severity: OBSERVATION
+    confidence: CONFIRMED
+    classification: future_placement
+    title: Companion §4 and Guide Ch21 Threshold prose near-duplicate
+    description: Productive dual presentation today; consolidation candidate later — not a present defect solely due to overlap.
+    file_path: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
+    location: Threshold Halls
+    related_files: [dawn-of-the-jedaii-campaign-guide.md]
+    rule_or_skill: adventure-and-guide-critique
+    evidence: Near-verbatim Inspiration/read-aloud
+    why_it_matters: Domain P evidence for integrated guide
+    effect: Future placement
+    recommended_treatment: CONSOLIDATE_CANDIDATE
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: future_placement
+    status: open
+
+  - id: F-P-002
+    audit_domain: P
+    severity: OBSERVATION
+    confidence: CONFIRMED
+    classification: future_placement
+    title: Recommended migration pilot Act is Arc I
+    description: Highest local completeness already; best consolidation evidence; lowest invented-lore need.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch15 / Ch21 / Ch13
+    related_files: [gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md]
+    rule_or_skill: final-audit-synthesis
+    evidence: Checklist + Scene Cards + Map 1 + companion §4 overlap
+    why_it_matters: Informs separate migration plan IF authorized after Phase 10
+    effect: Future migration recommendation only
+    recommended_treatment: NEEDS_DECISION
+    changes_approved_canon: false
+    authorization_required: true
+    finding_kind: future_migration
+    status: needs_decision
+
+  - id: F-F-001
+    audit_domain: F
+    severity: OBSERVATION
+    confidence: CONFIRMED
+    classification: present_quality
+    title: Builder and Vault-map mysteries correctly left open
+    description: Intentional ambiguity preserved; not a defect.
+    file_path: dawn-of-the-jedaii-campaign-guide.md
+    location: Ch04 / Ch08 / App D
+    related_files: []
+    rule_or_skill: continuity-auditor
+    evidence: Deliberate ambiguities; companion matches
+    why_it_matters: KEEP mystery discipline
+    effect: Positive
+    recommended_treatment: KEEP
+    changes_approved_canon: false
+    authorization_required: false
+    finding_kind: present_quality
+    status: open
+
+local_completeness_summary:
+  Arc_I: mostly_locally_complete_with_reference_jumps
+  Arc_II: mostly_locally_complete
+  Arc_III: reference_dependent
+  Arc_IV: mostly_locally_complete_climax_reference_dependent_rising
+  Arc_V_VI: scaffold_montage_heavy
+  principle_fit: partial — useful as design target; not currently enforced; do not rewrite to enforce during audit
+
+preserve_list:
+  - Appendix D provenance split
+  - Ch00 spoiler policy
+  - Ashla/Bogan naming lock sequence
+  - Session 0 calling → Kesh → Ninefold spine
+  - Scene Card Inspiration vs read-aloud split
+  - Ch24 [L]/[T]/[GM] tagging
+  - Companion deference to Campaign Guide
+  - Foundry GM-only ownership
+  - Intentional Builder/Vault mysteries

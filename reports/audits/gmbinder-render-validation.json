@@ -1,0 +1,3222 @@
+{
+  "generated_at": "2026-08-26T21:19:02Z",
+  "source_revision": {
+    "guide_sha256": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+    "gmbinder_sha256": "ba79590b6333ebf238485420a174cb34476d67b00aed2a367f0462bbd7b21db1"
+  },
+  "browser": {
+    "note": "scan-json input",
+    "page_selector": ".phb",
+    "content_selectors": "h1,h2,h3,h4,h5,h6,p,li,td,th,blockquote,table,pre,code,.note,.descriptive,.spell,.monster,.classFeature",
+    "tolerance_px": 2.0,
+    "page_count": 64
+  },
+  "static_preflight_errors": [
+    "break derived-12-species-spotlight-koorivar|h3|koorivar-traits-28: heading match count 0 for '### Koorivar Traits'",
+    "break derived-12-species-spotlight-koorivar|h3|names-29: heading match count 0 for '### Names'"
+  ],
+  "overall_pass": false,
+  "first_failing_page_index": 50,
+  "first_overflow": {
+    "page_index": 50,
+    "classification": "FAIL_RIGHT_CLIPPING",
+    "gmb_src": null,
+    "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+    "text_excerpt": "GM Inspiration: Kael wears an ex-mercenary coat like a bad habit he has not kick"
+  },
+  "pages": [
+    {
+      "page_index": 0,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.12238319587308903,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 118.859375,
+        "bottom": 1203.65625
+      }
+    },
+    {
+      "page_index": 1,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.6949895738809589,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 1233.65625,
+        "bottom": 2318.453125
+      }
+    },
+    {
+      "page_index": 2,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3597416315621341,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 2348.453125,
+        "bottom": 3433.25
+      }
+    },
+    {
+      "page_index": 3,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5438125970636681,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 3463.25,
+        "bottom": 4548.046875
+      }
+    },
+    {
+      "page_index": 4,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.47445596119459493,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 4578.046875,
+        "bottom": 5662.84375
+      }
+    },
+    {
+      "page_index": 5,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.6140166809009566,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 5692.84375,
+        "bottom": 6777.640625
+      }
+    },
+    {
+      "page_index": 6,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.4849273080254903,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 6807.640625,
+        "bottom": 7892.4375
+      }
+    },
+    {
+      "page_index": 7,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.7198862638223293,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 7922.4375,
+        "bottom": 9007.234375
+      }
+    },
+    {
+      "page_index": 8,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.31202350628692216,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 9037.234375,
+        "bottom": 10122.03125
+      }
+    },
+    {
+      "page_index": 9,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5580938391545385,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 10152.03125,
+        "bottom": 11236.828125
+      }
+    },
+    {
+      "page_index": 10,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.44851882578618035,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 11266.828125,
+        "bottom": 12351.625
+      }
+    },
+    {
+      "page_index": 11,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.05794905305212669,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 12381.625,
+        "bottom": 13466.421875
+      }
+    },
+    {
+      "page_index": 12,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.11187587804199273,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 13496.421875,
+        "bottom": 14581.21875
+      }
+    },
+    {
+      "page_index": 13,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.16838762522145562,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 14611.21875,
+        "bottom": 15696.015625
+      }
+    },
+    {
+      "page_index": 14,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5121822764378412,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 15726.015625,
+        "bottom": 16810.8125
+      }
+    },
+    {
+      "page_index": 15,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.43466960141458966,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 16840.8125,
+        "bottom": 17925.609375
+      }
+    },
+    {
+      "page_index": 16,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.4958045153799777,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 17955.609375,
+        "bottom": 19040.40625
+      }
+    },
+    {
+      "page_index": 17,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.16198102927741162,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 19070.40625,
+        "bottom": 20155.203125
+      }
+    },
+    {
+      "page_index": 18,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.4627385709111557,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 20185.203125,
+        "bottom": 21270.0
+      }
+    },
+    {
+      "page_index": 19,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.02195250947037896,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 21300.0,
+        "bottom": 22384.796875
+      }
+    },
+    {
+      "page_index": 20,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.08520134731058727,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 22414.796875,
+        "bottom": 23499.59375
+      }
+    },
+    {
+      "page_index": 21,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.08401875238559926,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 23529.59375,
+        "bottom": 24614.390625
+      }
+    },
+    {
+      "page_index": 22,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.25831236503038135,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 24644.390625,
+        "bottom": 25729.1875
+      }
+    },
+    {
+      "page_index": 23,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.37079148942928747,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 25759.1875,
+        "bottom": 26843.984375
+      }
+    },
+    {
+      "page_index": 24,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.6087380337440765,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 26873.984375,
+        "bottom": 27958.78125
+      }
+    },
+    {
+      "page_index": 25,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.42516051112396575,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 27988.78125,
+        "bottom": 29073.578125
+      }
+    },
+    {
+      "page_index": 26,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.040335811998831246,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 29103.578125,
+        "bottom": 30188.375
+      }
+    },
+    {
+      "page_index": 27,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5849345234987314,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 30218.375,
+        "bottom": 31303.171875
+      }
+    },
+    {
+      "page_index": 28,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5638142345107091,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 31333.171875,
+        "bottom": 32417.96875
+      }
+    },
+    {
+      "page_index": 29,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.08909625124617018,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 32447.96875,
+        "bottom": 33532.765625
+      }
+    },
+    {
+      "page_index": 30,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.534488372229104,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 33562.765625,
+        "bottom": 34647.5625
+      }
+    },
+    {
+      "page_index": 31,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5687816421449354,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 34677.5625,
+        "bottom": 35762.359375
+      }
+    },
+    {
+      "page_index": 32,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3774584741758558,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 35792.359375,
+        "bottom": 36877.15625
+      }
+    },
+    {
+      "page_index": 33,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3199886573114309,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 36907.15625,
+        "bottom": 37991.953125
+      }
+    },
+    {
+      "page_index": 34,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5882688081246009,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 38021.953125,
+        "bottom": 39106.75
+      }
+    },
+    {
+      "page_index": 35,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.27952924185269623,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 39136.75,
+        "bottom": 40221.546875
+      }
+    },
+    {
+      "page_index": 36,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3737998402162909,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 40251.546875,
+        "bottom": 41336.34375
+      }
+    },
+    {
+      "page_index": 37,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.39464612930410975,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 41366.34375,
+        "bottom": 42451.140625
+      }
+    },
+    {
+      "page_index": 38,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.4092897702867246,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 42481.140625,
+        "bottom": 43565.9375
+      }
+    },
+    {
+      "page_index": 39,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.25803358509014607,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 43595.9375,
+        "bottom": 44680.734375
+      }
+    },
+    {
+      "page_index": 40,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.6529122963902818,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 44710.734375,
+        "bottom": 45795.53125
+      }
+    },
+    {
+      "page_index": 41,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.4540102180810677,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 45825.53125,
+        "bottom": 46910.328125
+      }
+    },
+    {
+      "page_index": 42,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.36046492950457726,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 46940.328125,
+        "bottom": 48025.125
+      }
+    },
+    {
+      "page_index": 43,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.33065291697703036,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 48055.125,
+        "bottom": 49139.921875
+      }
+    },
+    {
+      "page_index": 44,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.294913410462994,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 49169.921875,
+        "bottom": 50254.71875
+      }
+    },
+    {
+      "page_index": 45,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.17512682096456916,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 50284.71875,
+        "bottom": 51369.515625
+      }
+    },
+    {
+      "page_index": 46,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.29727019284387096,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 51399.515625,
+        "bottom": 52484.3125
+      }
+    },
+    {
+      "page_index": 47,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3164788387700133,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 52514.3125,
+        "bottom": 53599.109375
+      }
+    },
+    {
+      "page_index": 48,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3011619074068549,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 53629.109375,
+        "bottom": 54713.90625
+      }
+    },
+    {
+      "page_index": 49,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.0869585790843517,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 54743.90625,
+        "bottom": 55828.703125
+      }
+    },
+    {
+      "page_index": 50,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 29,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 55858.703125,
+        "bottom": 56943.5
+      }
+    },
+    {
+      "page_index": 51,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.3590679666232158,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 56973.5,
+        "bottom": 58058.296875
+      }
+    },
+    {
+      "page_index": 52,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5865076863558126,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 58088.296875,
+        "bottom": 59173.09375
+      }
+    },
+    {
+      "page_index": 53,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.05846023440731169,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 59203.09375,
+        "bottom": 60287.890625
+      }
+    },
+    {
+      "page_index": 54,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 20,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 60317.890625,
+        "bottom": 61402.6875
+      }
+    },
+    {
+      "page_index": 55,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 52,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 61432.6875,
+        "bottom": 62517.484375
+      }
+    },
+    {
+      "page_index": 56,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.6391442951898089,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 62547.484375,
+        "bottom": 63632.28125
+      }
+    },
+    {
+      "page_index": 57,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.2991378920099015,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 63662.28125,
+        "bottom": 64747.078125
+      }
+    },
+    {
+      "page_index": 58,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.19341099975385245,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 64777.078125,
+        "bottom": 65861.875
+      }
+    },
+    {
+      "page_index": 59,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.43881578016683503,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 65891.875,
+        "bottom": 66976.671875
+      }
+    },
+    {
+      "page_index": 60,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.22563217978570502,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 67006.671875,
+        "bottom": 68091.46875
+      }
+    },
+    {
+      "page_index": 61,
+      "status": "PASS_NO_CLIPPING",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.5528722406139851,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 68121.46875,
+        "bottom": 69206.265625
+      }
+    },
+    {
+      "page_index": 62,
+      "status": "WARNING_UNDERFILLED",
+      "overflow_count": 0,
+      "occupancy_ratio": 0.304551732234423,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 69236.265625,
+        "bottom": 70321.0625
+      }
+    },
+    {
+      "page_index": 63,
+      "status": "FAIL_THIRD_COLUMN",
+      "overflow_count": 14,
+      "occupancy_ratio": null,
+      "bounds": {
+        "left": 1244.25,
+        "right": 2084.25,
+        "top": 70351.0625,
+        "bottom": 71435.859375
+      }
+    }
+  ],
+  "overflow_elements": [
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: Kael wears an ex-mercenary coat like a bad habit he has not kick",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 55948.078125,
+        "bottom": 56053.734375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Species: Human",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56053.734375,
+        "bottom": 56068.828125
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Look / voice: Ex-mercenary coat; tired humor",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56068.828125,
+        "bottom": 56083.921875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Want / fear / lever: Want a home that isn\u2019t a warcamp \u00b7 Fear becoming his old ca",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56083.921875,
+        "bottom": 56114.109375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Offer: Fortify camp without tyranny",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56114.109375,
+        "bottom": 56129.203125
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Hook: Old unit loyalties try to crown him warlord",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56129.203125,
+        "bottom": 56144.296875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Cast note: Soft cynic; heroic when cornered into hope",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "6. KAEL RIND \u2014 THO YOR OF THE BROKEN BANNER",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56144.296875,
+        "bottom": 56159.390625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 56169.890625,
+        "bottom": 56205.140625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: Ink-stained fingers, too-bright eyes, curiosity as addiction. Ye",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56208.15625,
+        "bottom": 56313.8125
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Species: Near-human / scholar caste (your call)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56313.8125,
+        "bottom": 56328.90625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Look / voice: Ink-stained fingers; too-bright eyes",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56328.90625,
+        "bottom": 56344.0
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Want / fear / lever: Want understanding of builders \u00b7 Fear ignorance \u00b7 Lever: ma",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56344.0,
+        "bottom": 56374.1875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Offer: Help open Kwa Gate safely\u2014for a price of access",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56374.1875,
+        "bottom": 56389.28125
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Hook: Digs toward Chasm knowledge early; needs restraint",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56389.28125,
+        "bottom": 56419.46875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Cast note: Curiosity as addiction; redeemable",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "7. YEN-TI \u2014 THO YOR OF THE COUNTING DARK",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56419.46875,
+        "bottom": 56434.5625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 56445.0625,
+        "bottom": 56480.3125
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: Pale sash, sweet certainty, kindness with a knife inside it. Lum",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56483.328125,
+        "bottom": 56588.984375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Species: Human",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56588.984375,
+        "bottom": 56604.078125
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Look / voice: Pale sash; sweet certainty",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56604.078125,
+        "bottom": 56619.171875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Want / fear / lever: Want purity (Ashla-only) \u00b7 Fear Bogan\u2019s \u201ccontamination\u201d \u00b7 L",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56619.171875,
+        "bottom": 56664.453125
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Offer: Peace\u2014if the \u201cdark-hearted\u201d submit",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56664.453125,
+        "bottom": 56679.546875
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Hook: Exile list that includes a PC ally or boon-bearer",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56679.546875,
+        "bottom": 56694.640625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Cast note: Kind knife; believes she is saving everyone",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 56694.640625,
+        "bottom": 56709.734375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "BLOCKQUOTE",
+      "text_excerpt": "GM: If the party\u2019s ship is not Quiet Peak, swap Senn-Vora to sister-ship status ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 56719.25,
+        "bottom": 56772.234375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "GM: If the party\u2019s ship is not Quiet Peak, swap Senn-Vora to sister-ship status ",
+      "overflow_px": 275.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "8. SISTER LUMA \u2014 THO YOR OF THE WHITE VOW (RIVAL SPEAKER PATH)",
+      "element": {
+        "left": 2056.8125,
+        "right": 2359.703125,
+        "top": 56725.25,
+        "bottom": 56766.234375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "H3",
+      "text_excerpt": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 56786.234375,
+        "bottom": 56804.859375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: Not a politician. A harmonic in the bones near Akar\u2019s pinnacle; ",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "element": {
+        "left": 2425.140625,
+        "right": 2733.375,
+        "top": 55948.078125,
+        "bottom": 56038.640625
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Want: Balance near the pinnacle",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "element": {
+        "left": 2425.140625,
+        "right": 2733.375,
+        "top": 56038.640625,
+        "bottom": 56053.734375
+      }
+    },
+    {
+      "page_index": 50,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Use: Nod of approval at Naming Council; warning when Gate is abused",
+      "overflow_px": 340.890625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "NINTH THO YOR \u2014 GUARDIAN ECHO",
+      "element": {
+        "left": 2425.140625,
+        "right": 2733.375,
+        "top": 56053.734375,
+        "bottom": 56083.921875
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Grid: 30\u00d730 antechamber + two 15\u00d715 moon pads (same scene or separate pages)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 60407.265625,
+        "bottom": 60437.453125
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Terrain legend (antechamber): Ring platform center (gate) Glyph floor (safe if c",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 60437.453125,
+        "bottom": 60542.34375
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Ring platform center (gate)",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2091.796875,
+        "right": 2370.703125,
+        "top": 60452.546875,
+        "bottom": 60465.375
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Glyph floor (safe if calm; lightning damage if Storm Clock high when activated)",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2091.796875,
+        "right": 2370.703125,
+        "top": 60465.375,
+        "bottom": 60491.03125
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Balcony walkway +10 ft with control crystals",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2091.796875,
+        "right": 2370.703125,
+        "top": 60491.03125,
+        "bottom": 60503.859375
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Side alcoves (cover) with Kwa-style geometry (curves, not Tho Yor angles)",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2091.796875,
+        "right": 2370.703125,
+        "top": 60503.859375,
+        "bottom": 60529.515625
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Ozone vents (light obscurement if smashed)",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2091.796875,
+        "right": 2370.703125,
+        "top": 60529.515625,
+        "bottom": 60542.34375
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Moon pads (reuse tiles): Ashla pad: bright floor, minimal cover, \u201cclarity lanes\u201d",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 60542.34375,
+        "bottom": 60595.921875
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Ashla pad: bright floor, minimal cover, \u201cclarity lanes\u201d",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2091.796875,
+        "right": 2370.703125,
+        "top": 60557.4375,
+        "bottom": 60570.265625
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Bogan pad: broken glass terrain (difficult), shadow columns (cover), heat vents",
+      "overflow_px": 7.546875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2091.796875,
+        "right": 2370.703125,
+        "top": 60570.265625,
+        "bottom": 60595.921875
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Landmarks: twin moon murals (echo the Arc I corridor drawings); refusal glyph (l",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 60595.921875,
+        "bottom": 60641.203125
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Approaches: corridor from Machine-Spirit S; vault door E (still sealed)",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 60641.203125,
+        "bottom": 60671.390625
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Read-aloud: The chamber is wrong for this ship\u2014softer math, older pride. A ring ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 60671.390625,
+        "bottom": 60777.046875
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "GM Inspiration: See Chapter 08 Gate Inspiration. On the grid: three handplates, ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 60777.046875,
+        "bottom": 60852.515625
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Variants: Exploration: decode handplates; Yen-Ti bargains; PCs match sketches to",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 60852.515625,
+        "bottom": 60973.265625
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Exploration: decode handplates; Yen-Ti bargains; PCs match sketches to murals (C",
+      "overflow_px": 12.71875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2096.96875,
+        "right": 2370.703125,
+        "top": 60867.609375,
+        "bottom": 60912.890625
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Social/ritual: three species activate; Sister Luma tries to forbid Bogan mural",
+      "overflow_px": 12.71875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2096.96875,
+        "right": 2370.703125,
+        "top": 60912.890625,
+        "bottom": 60943.078125
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "LI",
+      "text_excerpt": "Combat: zealots attack during first activation; gate unstable (hazards)",
+      "overflow_px": 12.71875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2096.96875,
+        "right": 2370.703125,
+        "top": 60943.078125,
+        "bottom": 60973.265625
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "LI",
+      "text_excerpt": "Loot / clue: confirmation this is Kwa, not Tho Yor; first moon trip unlock; mate",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2062.46875,
+        "right": 2370.703125,
+        "top": 60973.265625,
+        "bottom": 61018.546875
+      }
+    },
+    {
+      "page_index": 54,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "End of Chapters 21\u201323.",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "MAP 4 \u2014 KWA GATE ANTECHAMBER & MOON THRESHOLD",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 61029.0625,
+        "bottom": 61044.1875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TABLE",
+      "text_excerpt": "When Event Planet c. 40,000\u201338,000 BBY [T] Pride-era Cathar clans map the savann",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 61522.0625,
+        "bottom": 62431.234375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TH",
+      "text_excerpt": "When",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61522.0625,
+        "bottom": 61539.734375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Event",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61522.0625,
+        "bottom": 61539.734375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TH",
+      "text_excerpt": "Planet",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61522.0625,
+        "bottom": 61539.734375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 40,000\u201338,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61539.734375,
+        "bottom": 61602.453125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Pride-era Cathar clans map the savannah Force-winds; a black pyramid is taboo-ho",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61539.734375,
+        "bottom": 61602.453125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Cathar",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61539.734375,
+        "bottom": 61602.453125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 40,000\u201337,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61602.453125,
+        "bottom": 61665.171875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Kwa remnants and mist-seers avoid / half-remember a valley pyramid on Dathomir a",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61602.453125,
+        "bottom": 61665.171875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Dathomir",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61602.453125,
+        "bottom": 61665.171875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 39,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61665.171875,
+        "bottom": 61727.890625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Wookiee tree-lords declare a floating pyramid in the Wroshyr deeps off-limits to",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61665.171875,
+        "bottom": 61727.890625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Kashyyyk",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61665.171875,
+        "bottom": 61727.890625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 39,000\u201337,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61727.890625,
+        "bottom": 61790.609375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Ryloth cave-philosophers debate whether the desert pyramid is a god, a tomb, or ",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61727.890625,
+        "bottom": 61790.609375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Ryloth",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61727.890625,
+        "bottom": 61790.609375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 38,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61790.609375,
+        "bottom": 61839.328125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Selkath academies of tide-law study a submerged pyramid; diving rites become sch",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61790.609375,
+        "bottom": 61839.328125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Manaan",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61790.609375,
+        "bottom": 61839.328125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 38,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61839.328125,
+        "bottom": 61902.046875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Korriban\u2019s Sith tribes leave blood-offerings at a desert octahedron; kings claim",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61839.328125,
+        "bottom": 61902.046875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Korriban",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61839.328125,
+        "bottom": 61902.046875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 38,000 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61902.046875,
+        "bottom": 61950.765625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Iktotchi prophecy circles record shared nightmares of a singing stone that will ",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61902.046875,
+        "bottom": 61950.765625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Iktotch",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61902.046875,
+        "bottom": 61950.765625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,800 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61950.765625,
+        "bottom": 61999.484375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Devaronian highland temples mark a sealed pyramid as the \u201cGate That Judges Horns",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61950.765625,
+        "bottom": 61999.484375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Devaron",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61950.765625,
+        "bottom": 61999.484375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,700 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 61999.484375,
+        "bottom": 62048.203125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Noghri clan-mothers forbid hunting near a mist-wrapped pyramid on Honoghr; silen",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 61999.484375,
+        "bottom": 62048.203125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Honoghr",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 61999.484375,
+        "bottom": 62048.203125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,600 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 62048.203125,
+        "bottom": 62096.921875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Iridonian Zabrak forge-clans dream of balance-through-pain beside a buried apex.",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 62048.203125,
+        "bottom": 62096.921875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Iridonia",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 62048.203125,
+        "bottom": 62096.921875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 62096.921875,
+        "bottom": 62145.640625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Mirialan tattoo-seers paint the first \u201cjourney marks\u201d after visions of a black s",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 62096.921875,
+        "bottom": 62145.640625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Mirial",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 62096.921875,
+        "bottom": 62145.640625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 62145.640625,
+        "bottom": 62194.359375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Sullustan tunnel-guilds map around a lava-adjacent pyramid; call it the Cool Thr",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 62145.640625,
+        "bottom": 62194.359375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Sullust",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 62145.640625,
+        "bottom": 62194.359375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 62194.359375,
+        "bottom": 62243.078125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Krevaaki philosopher-hives meditate on a reef-pyramid off Krevas.",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 62194.359375,
+        "bottom": 62243.078125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Krevas",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 62194.359375,
+        "bottom": 62243.078125
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 62243.078125,
+        "bottom": 62305.796875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "On Alpheridies, Miraluka enclaves feel a \u201csecond sun\u201d that is not light\u2014only For",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 62243.078125,
+        "bottom": 62305.796875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Alpheridies",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 62243.078125,
+        "bottom": 62305.796875
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,500 BBY [T]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 62305.796875,
+        "bottom": 62368.515625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "On the still-living Koorivar homeworld, horned merchants and mystics argue over ",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 62305.796875,
+        "bottom": 62368.515625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Lost Koorivar homeworld",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 62305.796875,
+        "bottom": 62368.515625
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "c. 37,453 BBY [L]",
+      "overflow_px": 18.984375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2045.8125,
+        "right": 2103.234375,
+        "top": 62368.515625,
+        "bottom": 62431.234375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Order of Dai Bendu discovers a half-buried pyramid in the Andobi Mountains; name",
+      "overflow_px": 18.984375,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2103.234375,
+        "right": 2294.390625,
+        "top": 62368.515625,
+        "bottom": 62431.234375
+      }
+    },
+    {
+      "page_index": 55,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "Ando Prime",
+      "overflow_px": 210.140625,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "II. THE RESTING THO YOR (LOCAL AGES OF WATCHING)",
+      "element": {
+        "left": 2294.390625,
+        "right": 2370.703125,
+        "top": 62368.515625,
+        "bottom": 62431.234375
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TABLE",
+      "text_excerpt": "Sort Page name Source H1 0 00 \u2014 Introduction & How to Use H1 00 Introduction 1 0",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 1683.140625,
+        "right": 2370.703125,
+        "top": 70440.4375,
+        "bottom": 71367.234375
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Appendix D \u2014 Lore Sources & Canon Notes",
+      "overflow_px": 200.6875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2073.8125,
+        "right": 2284.9375,
+        "top": 70440.4375,
+        "bottom": 70479.15625
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "H1 Appendix D",
+      "overflow_px": 200.6875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2284.9375,
+        "right": 2370.703125,
+        "top": 70440.4375,
+        "bottom": 70479.15625
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "CODE",
+      "text_excerpt": "H1 Appendix D",
+      "overflow_px": 201.796875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2286.046875,
+        "right": 2365.40625,
+        "top": 70443.796875,
+        "bottom": 70475.796875
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "TD",
+      "text_excerpt": "Appendix E \u2014 Foundry Journal Page Map",
+      "overflow_px": 200.6875,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2073.8125,
+        "right": 2284.9375,
+        "top": 70479.15625,
+        "bottom": 70517.875
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "TD",
+      "text_excerpt": "H1 Appendix E",
+      "overflow_px": 200.6875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2284.9375,
+        "right": 2370.703125,
+        "top": 70479.15625,
+        "bottom": 70517.875
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "CODE",
+      "text_excerpt": "H1 Appendix E",
+      "overflow_px": 201.796875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2286.046875,
+        "right": 2365.40625,
+        "top": 70482.515625,
+        "bottom": 70514.515625
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Source headings are the matching # titles in the master Markdown (same names as ",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 70531.875,
+        "bottom": 70581.25
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "CODE",
+      "text_excerpt": "#",
+      "overflow_px": 177.46875,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2261.71875,
+        "right": 2288.5625,
+        "top": 70531.875,
+        "bottom": 70551.0
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "Regenerate the JSON anytime with:",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 70581.671875,
+        "bottom": 70596.796875
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "python tools/md_to_foundry_journal.py",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 70597.21875,
+        "bottom": 70616.34375
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "CODE",
+      "text_excerpt": "python tools/md_to_foundry_journal.py",
+      "overflow_px": 225.4375,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2058.40625,
+        "right": 2309.6875,
+        "top": 70597.21875,
+        "bottom": 70616.34375
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_RIGHT_CLIPPING",
+      "tag": "P",
+      "text_excerpt": "See foundry/README.md for import steps.",
+      "overflow_px": 286.453125,
+      "overflow_direction": "right",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2045.8125,
+        "right": 2370.703125,
+        "top": 70616.765625,
+        "bottom": 70635.890625
+      }
+    },
+    {
+      "page_index": 63,
+      "classification": "FAIL_THIRD_COLUMN",
+      "tag": "CODE",
+      "text_excerpt": "foundry/README.md",
+      "overflow_px": -1.5,
+      "overflow_direction": "left_off_page",
+      "gmb_src": null,
+      "nearest_heading": "APPENDIX E \u2014 FOUNDRY JOURNAL PAGE MAP",
+      "element": {
+        "left": 2082.75,
+        "right": 2209.34375,
+        "top": 70616.765625,
+        "bottom": 70635.890625
+      }
+    }
+  ],
+  "overflow_total": 115,
+  "semantic_block_overflow_total": 106,
+  "failing_page_count": 4,
+  "active_internal_breaks": [
+    {
+      "id": "ch21-observation-galleries",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Observation Galleries",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed: Threshold + Dormitories fill two columns; Observation Galleries begins off-page column chain.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch21-machine-spirit",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Machine-Spirit Interface",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Dense Scene Cards require internal breaks roughly every two cards.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch21-confluence",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Confluence Amphitheater",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Continue Scene Card pagination before civic amphitheater card.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch21-tython-camp",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Tython camp at night",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Separate ship-zone cards from Tython arrival/camp cards.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch21-force-storm",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Force Storm (arrival)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Force Storm and moon surfaces are a distinct encounter cluster.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch21-temple-akar",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Temple seed: Akar Kesh approaches",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Temple-seed Scene Cards begin a long dense sequence.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch21-temple-padawan",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Temple seed: Padawan Kesh",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Split temple-seed cards mid-sequence to keep two-column pages.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch21-capstone-finale",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "",
+      "before_heading": "### Scene Card \u2014 Capstone finale tones",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Capstone finale tones + Upgrade note overflowed beyond printable width.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch22-crafters",
+      "chapter_key": "22 \u2014 Faces of the First Migration",
+      "chapter": "22 \u2014 Faces of the First Migration",
+      "before_block_key": "",
+      "before_heading": "## B. Crafters (commission loop)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed: Speakers fill the chapter page; Crafters begin off-page overflow.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch22-rivals",
+      "chapter_key": "22 \u2014 Faces of the First Migration",
+      "chapter": "22 \u2014 Faces of the First Migration",
+      "before_block_key": "",
+      "before_heading": "## C. Rivals & recurring pressures",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Crafters fill a page; Rivals/injection/combat roles continue off-page.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch22-combat-roles",
+      "chapter_key": "22 \u2014 Faces of the First Migration",
+      "chapter": "22 \u2014 Faces of the First Migration",
+      "before_block_key": "",
+      "before_heading": "## E. Quick combat roles",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed later-column overflow for Quick combat roles.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch24-century",
+      "chapter_key": "24 \u2014 Timelines (GM & Players)",
+      "chapter": "24 \u2014 Timelines (GM & Players)",
+      "before_block_key": "",
+      "before_heading": "### III. Century of tightening song (living memory)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed: early GM timeline fills two columns; century section overflows.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch24-quick-ref",
+      "chapter_key": "24 \u2014 Timelines (GM & Players)",
+      "chapter": "24 \u2014 Timelines (GM & Players)",
+      "before_block_key": "",
+      "before_heading": "## Quick reference \u2014 planet \u2192 Call image (for Scene Cards)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed overflow for Quick reference after Call & Pickup.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "ch24-player-handout",
+      "chapter_key": "24 \u2014 Timelines (GM & Players)",
+      "chapter": "24 \u2014 Timelines (GM & Players)",
+      "before_block_key": "",
+      "before_heading": "## Player Timeline Handout",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "unvalidated_seed",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": null,
+      "reason": "Browser-confirmed multi-column overflow for Player Timeline Handout block.",
+      "notes": "Pre-validator manual heading guess (2026-08-26); not human-pinned unless human_pinned is explicitly true.",
+      "origin": "pre_validator_manual_guess",
+      "obsolete": false
+    },
+    {
+      "id": "derived-04-the-tho-yor|h3|5-machine-spirit-interfaces-20",
+      "chapter_key": "04 \u2014 The Tho Yor",
+      "chapter": "04 \u2014 The Tho Yor",
+      "before_block_key": "04-the-tho-yor|h3|5-machine-spirit-interfaces",
+      "before_heading": "### 5. Machine-Spirit Interfaces",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "rendered geometry page 5: FAIL_RIGHT_CLIPPING",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-05-tython-gazetteer|h3|masara-bodhi-padawan-seeds-21",
+      "chapter_key": "05 \u2014 Tython Gazetteer",
+      "chapter": "05 \u2014 Tython Gazetteer",
+      "before_block_key": "05-tython-gazetteer|h3|masara-bodhi-padawan-seeds",
+      "before_heading": "### Masara \u2014 Bodhi & Padawan seeds",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "rendered geometry page 8: FAIL_RIGHT_CLIPPING",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-07-the-je-daii-order-founding|h2|the-ninefold-code-of-the-je-daii-23",
+      "chapter_key": "07 \u2014 The Je'daii Order (Founding)",
+      "chapter": "07 \u2014 The Je'daii Order (Founding)",
+      "before_block_key": "07-the-je-daii-order-founding|h2|the-ninefold-code-of-the-je-daii",
+      "before_heading": "## The Ninefold Code of the Je'daii",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "rendered geometry page 11: FAIL_RIGHT_CLIPPING",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-09-calendar-of-the-first-year|h3|thirteen-months-40-tython-days-each-24",
+      "chapter_key": "09 \u2014 Calendar of the First Year",
+      "chapter": "09 \u2014 Calendar of the First Year",
+      "before_block_key": "09-calendar-of-the-first-year|h3|thirteen-months-40-tython-days-each",
+      "before_heading": "### Thirteen months (40 Tython-days each)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "rendered geometry page 16: FAIL_RIGHT_CLIPPING",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-09-calendar-of-the-first-year|h2|default-calendar-the-twin-measure-25",
+      "chapter_key": "09 \u2014 Calendar of the First Year",
+      "chapter": "09 \u2014 Calendar of the First Year",
+      "before_block_key": "09-calendar-of-the-first-year|h2|default-calendar-the-twin-measure",
+      "before_heading": "## Default calendar \u2014 The Twin Measure",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "rendered geometry page 16: FAIL_RIGHT_CLIPPING",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-10-sw5e-campaign-rules|h2|core-assumptions-27",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "10-sw5e-campaign-rules|h2|core-assumptions",
+      "before_heading": "## Core assumptions",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '## Core assumptions'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-12-species-spotlight-koorivar|h3|koorivar-traits-28",
+      "chapter_key": "12 \u2014 Species Spotlight: Koorivar",
+      "chapter": "12 \u2014 Species Spotlight: Koorivar",
+      "before_block_key": "12-species-spotlight-koorivar|h3|koorivar-traits",
+      "before_heading": "### Koorivar Traits",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### Koorivar Traits'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-12-species-spotlight-koorivar|h3|names-29",
+      "chapter_key": "12 \u2014 Species Spotlight: Koorivar",
+      "chapter": "12 \u2014 Species Spotlight: Koorivar",
+      "before_block_key": "12-species-spotlight-koorivar|h3|names",
+      "before_heading": "### Names",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### Names'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-13-gm-checklists-session-0-episode-1-the-calling|h3|c-session-2-song-of-the-ship-30",
+      "chapter_key": "13 \u2014 GM Checklists: Session 0 & Episode 1 (The Calling)",
+      "chapter": "13 \u2014 GM Checklists: Session 0 & Episode 1 (The Calling)",
+      "before_block_key": "13-gm-checklists-session-0-episode-1-the-calling|h3|c-session-2-song-of-the-ship",
+      "before_heading": "### C. Session 2 \u2014 Song of the Ship",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### C. Session 2 \u2014 Song of the Ship'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-21-great-gm-scene-craft|h3|scene-card-threshold-halls-first-boarding-31",
+      "chapter_key": "21 \u2014 Great GM Scene Craft",
+      "chapter": "21 \u2014 Great GM Scene Craft",
+      "before_block_key": "21-great-gm-scene-craft|h3|scene-card-threshold-halls-first-boarding",
+      "before_heading": "### Scene Card \u2014 Threshold Halls (first boarding)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### Scene Card \u2014 Threshold Halls (first boarding)'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-07-the-je-daii-order-founding|h3|the-ninefold-code-of-the-je-daii-25",
+      "chapter_key": "07 \u2014 The Je'daii Order (Founding)",
+      "chapter": "07 \u2014 The Je'daii Order (Founding)",
+      "before_block_key": "07-the-je-daii-order-founding|h3|the-ninefold-code-of-the-je-daii",
+      "before_heading": "### THE NINEFOLD CODE OF THE JE\u2019DAII",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### THE NINEFOLD CODE OF THE JE\u2019DAII'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-07-the-je-daii-order-founding|h3|calling-creed-fold-crosswalk-26",
+      "chapter_key": "07 \u2014 The Je'daii Order (Founding)",
+      "chapter": "07 \u2014 The Je'daii Order (Founding)",
+      "before_block_key": "07-the-je-daii-order-founding|h3|calling-creed-fold-crosswalk",
+      "before_heading": "### Calling \u2192 Creed fold (crosswalk)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### Calling \u2192 Creed fold (crosswalk)'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-07-the-je-daii-order-founding|h2|the-nine-temples-as-end-state-27",
+      "chapter_key": "07 \u2014 The Je'daii Order (Founding)",
+      "chapter": "07 \u2014 The Je'daii Order (Founding)",
+      "before_block_key": "07-the-je-daii-order-founding|h2|the-nine-temples-as-end-state",
+      "before_heading": "## The nine temples as end-state",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '## The nine temples as end-state'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-10-sw5e-campaign-rules|h3|force-manipulation-mandatory-24",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "10-sw5e-campaign-rules|h3|force-manipulation-mandatory",
+      "before_heading": "### Force manipulation (mandatory)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### Force manipulation (mandatory)'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-10-sw5e-campaign-rules|h4|multiclass-23",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "10-sw5e-campaign-rules|h4|multiclass",
+      "before_heading": "#### Multiclass",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '#### Multiclass'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-10-sw5e-campaign-rules|h3|approved-homeland-planets-required-30",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "10-sw5e-campaign-rules|h3|approved-homeland-planets-required",
+      "before_heading": "### Approved homeland planets (required)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### Approved homeland planets (required)'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-10-sw5e-campaign-rules|h3|party-tho-yor-calling-required-31",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "10-sw5e-campaign-rules|h3|party-tho-yor-calling-required",
+      "before_heading": "### Party Tho Yor calling (required)",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### Party Tho Yor calling (required)'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    },
+    {
+      "id": "derived-10-sw5e-campaign-rules|h3|creation-checklist-32",
+      "chapter_key": "10 \u2014 SW5e Campaign Rules",
+      "chapter": "10 \u2014 SW5e Campaign Rules",
+      "before_block_key": "10-sw5e-campaign-rules|h3|creation-checklist",
+      "before_heading": "### Creation checklist",
+      "directive": "pagebreak",
+      "break": "pagebreak",
+      "selection_method": "derived",
+      "human_pinned": false,
+      "browser_validated": false,
+      "validation_timestamp": null,
+      "source_revision": "2607d8be8b1057c6a462d4b4a5ce9688e3fe7ddd1de3a974378e10747f694196",
+      "reason": "optimizer: add pagebreak before '### Creation checklist'",
+      "notes": "",
+      "origin": "geometry_optimizer",
+      "obsolete": false
+    }
+  ],
+  "browser_validated_break_count": 0,
+  "unvalidated_break_count": 32
+}
