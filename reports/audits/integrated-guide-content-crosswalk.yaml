@@ -508,3 +508,387 @@ sections:
     validation_status: pending_kakeman89_acceptance
     foundry_dependency: foundry/arc-i-pilot.journal.json
     gmbinder_dependency: gmbinder/arc-i-pilot-gmbinder.md
+
+  # --- Arc III stress-test planning rows (2026-08-27) — planning only; no migration ---
+  # Plan: ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md
+  # Terminal treatments below are planning recommendations using schema treatment enums.
+  # Session IDs S7–S11 are proposed outline IDs (Ch17 does not number sessions individually).
+
+  - id: CW-029
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "17 — Arc III: Survive & Contact (Sessions 7–11) / Goals"
+    source_anchor_or_location: "H1 Ch17 → ## Goals"
+    content_category: act_goals
+    campaign_arc: Arc_III
+    session: "7-11"
+    scene: null
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion #7 ### What this arc is for"
+    conflict_status: presentation_only
+    proposed_destination_type: act_overview
+    local_use_requirement: true
+    reusable_reference_requirement: false
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: none
+    foundry_dependency: "journal act overview"
+    gmbinder_dependency: "chapter page"
+    proposed_treatment: CONSOLIDATE_CANDIDATE
+    kakeman89_decision_required: true
+    audit_status: pending
+    notes: "Planning row for Arc III stress test; parent CW-006 remains. No migration authorized."
+
+  - id: CW-030
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "17 — Arc III / Exploration loop"
+    source_anchor_or_location: "H1 Ch17 → ## Exploration loop"
+    content_category: session_engine
+    campaign_arc: Arc_III
+    session: "S7+"
+    scene: "Scout Valley; Rival Smoke Ridge; Camp Return Consequence"
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion #7 ### The exploration loop (richer texture)"
+    conflict_status: presentation_only
+    proposed_destination_type: session_overview
+    local_use_requirement: true
+    reusable_reference_requirement: false
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "scout discovery → camp consequence"
+    foundry_dependency: "optional camp / theater scenes"
+    gmbinder_dependency: "session pages"
+    proposed_treatment: CONSOLIDATE_CANDIDATE
+    kakeman89_decision_required: true
+    audit_status: pending
+
+  - id: CW-031
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "17 — Arc III / Contact scenarios"
+    source_anchor_or_location: "H1 Ch17 → ## Contact scenarios"
+    content_category: contact_menu
+    campaign_arc: Arc_III
+    session: "S8-S11"
+    scene: "Border Trade; Spring Claim; Joint Rite; Map 4 Moon Road"
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion #7 ### Contact — four stories you can run (Speaker casting hints)"
+    conflict_status: presentation_only
+    proposed_destination_type: scene
+    local_use_requirement: true
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "language friction; trade; resource conflict; optional Gate"
+    foundry_dependency: "optional Map 4; theater default"
+    gmbinder_dependency: "scene cards"
+    proposed_treatment: CONSOLIDATE_CANDIDATE
+    kakeman89_decision_required: true
+    audit_status: pending
+
+  - id: CW-032
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "17 — Arc III / Mid-arc crisis — Omen of the Moons"
+    source_anchor_or_location: "H1 Ch17 → ## Mid-arc crisis — Omen of the Moons"
+    content_category: mid_arc_crisis
+    campaign_arc: Arc_III
+    session: "S9 timing flexible / or Arc II end"
+    scene: "Omen Night Speech; Purge Stop"
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion #6 / #7 Omen speech order and atmosphere"
+    conflict_status: presentation_only
+    proposed_destination_type: scene
+    local_use_requirement: true
+    reusable_reference_requirement: false
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "Storm Clock; purge intervention"
+    foundry_dependency: "camp scene"
+    gmbinder_dependency: "scene card"
+    proposed_treatment: CONSOLIDATE_CANDIDATE
+    kakeman89_decision_required: false
+    audit_status: mapped
+    notes: "Kakeman89 2026-08-27: Omen default = Arc III Session 9; alternate = closing Arc II; do not rerun if already completed (then Resource War as primary S9)."
+
+  - id: CW-033
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "17 — Arc III / End of arc"
+    source_anchor_or_location: "H1 Ch17 → ## End of arc"
+    content_category: act_exit
+    campaign_arc: Arc_III
+    session: "S11"
+    scene: "Scar Council; Neighborhood Map Seal"
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion #7 ### End of Arc III"
+    conflict_status: presentation_only
+    proposed_destination_type: act_overview
+    local_use_requirement: true
+    reusable_reference_requirement: false
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "Level 11 milestone"
+    foundry_dependency: "journal act close"
+    gmbinder_dependency: "chapter close"
+    proposed_treatment: CONSOLIDATE_CANDIDATE
+    kakeman89_decision_required: true
+    audit_status: pending
+
+  - id: CW-034
+    source_file: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
+    source_heading: "7 — The Path Ahead / Arc III — Survive & Contact (Sessions 7–11)"
+    source_anchor_or_location: "H1 #7 → ## Arc III — Survive & Contact (Sessions 7–11)"
+    content_category: companion_runnable_depth
+    campaign_arc: Arc_III
+    session: "7-11"
+    scene: null
+    current_authority: approved_companion
+    overlap_with_other_manuscript: "Primary Ch17 beat list; companion holds procedures (F-G-002)"
+    conflict_status: presentation_only
+    proposed_destination_type: act_overview
+    local_use_requirement: true
+    reusable_reference_requirement: false
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "contact procedures; exploration loop texture"
+    foundry_dependency: "journal pages when authorized"
+    gmbinder_dependency: "integrated pages when authorized"
+    proposed_treatment: CONSOLIDATE_CANDIDATE
+    kakeman89_decision_required: true
+    audit_status: pending
+    notes: "Do not promote companion atmosphere to unsupported campaign canon. Stress-test driver F-G-002."
+
+  - id: CW-035
+    source_file: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
+    source_heading: "5 — Faces in the Song"
+    source_anchor_or_location: "H1 #5"
+    content_category: speaker_texture
+    campaign_arc: Arc_III
+    session: "S8+"
+    scene: null
+    current_authority: approved_companion
+    overlap_with_other_manuscript: "Primary Ch22 Speakers"
+    conflict_status: presentation_only
+    proposed_destination_type: reusable_gm_reference
+    local_use_requirement: true
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: none
+    foundry_dependency: "NPC journal refs"
+    gmbinder_dependency: "faces pages"
+    proposed_treatment: LOCAL_SUMMARY_CANDIDATE
+    kakeman89_decision_required: false
+    audit_status: pending
+    notes: "Atmosphere/texture for contacts; Ch22 remains toolkit authority."
+
+  - id: CW-036
+    source_file: gm-narrative/dawn-of-the-jedaii-living-force-gm-book.md
+    source_heading: "6 — The Green World"
+    source_anchor_or_location: "H1 #6"
+    content_category: world_atmosphere
+    campaign_arc: Arc_III
+    session: "S7+"
+    scene: null
+    current_authority: approved_companion
+    overlap_with_other_manuscript: "Primary Ch05 gazetteer; Ch02 moons; Ch08 Gate"
+    conflict_status: presentation_only
+    proposed_destination_type: world_reference
+    local_use_requirement: false
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: none
+    foundry_dependency: "optional"
+    gmbinder_dependency: "optional local color"
+    proposed_treatment: CENTRAL_REFERENCE_CANDIDATE
+    kakeman89_decision_required: false
+    audit_status: pending
+
+  - id: CW-037
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "06 — Power Groups & Factions"
+    source_anchor_or_location: "H1 Ch06"
+    content_category: factions
+    campaign_arc: Arc_III
+    session: "S7-S11"
+    scene: "Faction Flag Camp"
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion Arc III end texture"
+    conflict_status: none
+    proposed_destination_type: reusable_gm_reference
+    local_use_requirement: true
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "faction playbooks"
+    foundry_dependency: "journal refs"
+    gmbinder_dependency: "chapter / local summaries"
+    proposed_treatment: LOCAL_SUMMARY_CANDIDATE
+    kakeman89_decision_required: false
+    audit_status: pending
+
+  - id: CW-038
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "08 — The Kwa Gate"
+    source_anchor_or_location: "H1 Ch08"
+    content_category: optional_moon_road
+    campaign_arc: Arc_III
+    session: "S10-S11 optional"
+    scene: "Map 4 Moon Road"
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion #6 Kwa Gate sidebar; #7 Moon road contact story"
+    conflict_status: none
+    proposed_destination_type: scene
+    local_use_requirement: true
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "activation key; Ashla/Bogan only"
+    foundry_dependency: "Map 4 Scene if assets exist"
+    gmbinder_dependency: "scene card"
+    proposed_treatment: PRESERVE_DISTINCT
+    kakeman89_decision_required: true
+    audit_status: pending
+    notes: "Optional in Arc III; skip path required. Do not force empty Foundry Scene."
+
+  - id: CW-039
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "22 — Faces / A. Eight Tho Yor Speakers"
+    source_anchor_or_location: "H1 Ch22 → ## A. Eight Tho Yor Speakers"
+    content_category: npc_speakers
+    campaign_arc: Arc_III
+    session: "S8+"
+    scene: null
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion #5 Faces"
+    conflict_status: none
+    proposed_destination_type: reusable_gm_reference
+    local_use_requirement: true
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "Speaker toolkits"
+    foundry_dependency: "NPC journals"
+    gmbinder_dependency: "Ch22 export (F-M-002)"
+    proposed_treatment: CENTRAL_REFERENCE_CANDIDATE
+    kakeman89_decision_required: true
+    audit_status: pending
+    notes: "F-H-001 Calling→Speaker→Kesh mappings remain unassigned; scenario casting hints ≠ calling locks."
+
+  - id: CW-040
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "23 — Map 3 — Silent Desert: Mouth of the Cavern"
+    source_anchor_or_location: "H1 Ch23 → ## Map 3 — Silent Desert: Mouth of the Cavern"
+    content_category: map_brief
+    campaign_arc: Arc_III
+    session: "optional S9-S11"
+    scene: "Map 3 Approach"
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion #6 Thyr / Silent Desert atmosphere"
+    conflict_status: presentation_only
+    proposed_destination_type: scene
+    local_use_requirement: true
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "exploration / Qigong seed wonder"
+    foundry_dependency: "dedicated Map 3 Scene if assets authorized"
+    gmbinder_dependency: "map brief"
+    proposed_treatment: PRESERVE_DISTINCT
+    kakeman89_decision_required: false
+    audit_status: mapped
+    notes: "Kakeman89 2026-08-27: Map 3 optional but IN-SCOPE. Future candidate must support dedicated map, Theater fallback, bypass, non-visit consequences; not required for Arc III completion. Assets not generated."
+
+  - id: CW-041
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "23 — Map 4 — Kwa Gate Antechamber & Moon Threshold"
+    source_anchor_or_location: "H1 Ch23 → ## Map 4 — Kwa Gate Antechamber & Moon Threshold"
+    content_category: map_brief
+    campaign_arc: Arc_III
+    session: "optional S10-S11"
+    scene: "Map 4 Moon Road"
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Ch08; Companion Gate sidebar"
+    conflict_status: none
+    proposed_destination_type: scene
+    local_use_requirement: true
+    reusable_reference_requirement: true
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: "Gate activation"
+    foundry_dependency: "dedicated Map 4 Scene if assets authorized"
+    gmbinder_dependency: "map brief"
+    proposed_treatment: PRESERVE_DISTINCT
+    kakeman89_decision_required: false
+    audit_status: mapped
+    notes: "Kakeman89 2026-08-27: Map 4 optional ADVANCED. Not required path. Prerequisites, refuse/defer, failure, never-open completion path required. Must not replace social-contact focus. Assets not generated."
+
+  - id: CW-042
+    source_file: dawn-of-the-jedaii-campaign-guide.md
+    source_heading: "10 — Party Tho Yor calling (required)"
+    source_anchor_or_location: "H1 Ch10 → ### Party Tho Yor calling (required)"
+    content_category: calling_kesh_table
+    campaign_arc: Arc_III
+    session: null
+    scene: null
+    current_authority: primary_guide
+    overlap_with_other_manuscript: "Companion Session 0 calling flavor"
+    conflict_status: none
+    proposed_destination_type: campaign_foundations
+    local_use_requirement: false
+    reusable_reference_requirement: true
+    gm_only_status: false
+    player_visible_status: true
+    mechanics_dependency: "Session 0 lock"
+    foundry_dependency: none
+    gmbinder_dependency: "rules / foundations"
+    proposed_treatment: KEEP_IN_PLACE_DURING_AUDIT
+    kakeman89_decision_required: true
+    audit_status: pending
+    notes: "Calling→Kesh established; Speakers not attached (F-H-001). Do not invent mappings in Arc III planning."
+
+  - id: CW-043
+    source_file: campaign_decision_record
+    source_heading: "F-H-001 Calling → Speaker → Kesh (Arc III design gate)"
+    source_anchor_or_location: "ai/plans/2026-08-26-campaign-decision-record.md; stress-test plan §9"
+    content_category: design_gate
+    campaign_arc: Arc_III
+    session: null
+    scene: null
+    current_authority: unclear
+    overlap_with_other_manuscript: "CW-026 Arc I placeholder; archive A6 related"
+    conflict_status: unresolved
+    proposed_destination_type: unresolved
+    local_use_requirement: false
+    reusable_reference_requirement: false
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: none
+    foundry_dependency: none
+    gmbinder_dependency: none
+    proposed_treatment: NEEDS_DECISION
+    kakeman89_decision_required: true
+    audit_status: deferred
+    notes: "Mappings remain unassigned. Model B preferred for design analysis (Kakeman89 2026-08-27). Design procedure in ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md §9. Empty table only. No canon approval."
+
+  - id: CW-044
+    source_file: ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md
+    source_heading: "Arc III integrated-guide stress-test plan"
+    source_anchor_or_location: "operational plan"
+    content_category: planning_document
+    campaign_arc: Arc_III
+    session: "7-11"
+    scene: null
+    current_authority: unclear
+    overlap_with_other_manuscript: none
+    conflict_status: none
+    proposed_destination_type: unresolved
+    local_use_requirement: false
+    reusable_reference_requirement: false
+    gm_only_status: true
+    player_visible_status: false
+    mechanics_dependency: none
+    foundry_dependency: none
+    gmbinder_dependency: none
+    proposed_treatment: KEEP_IN_PLACE_DURING_AUDIT
+    kakeman89_decision_required: false
+    audit_status: mapped
+    notes: "PLANNING_BASELINE_APPROVED / PLANNING_AUTHORIZED_ONLY (Kakeman89 2026-08-27). Candidate path recommended as ai/migration-workspace/arc-iii-integrated-candidate.md — file not created. Migration not started."

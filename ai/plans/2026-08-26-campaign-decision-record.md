@@ -12,7 +12,7 @@ This record captures campaign-facing decisions and open design gates. It is oper
 
 | ID | Topic | Decision status |
 |----|-------|-----------------|
-| **F-H-001** | Calling → Speaker → Kesh | Direction decided; eight mappings **DEFERRED_TO_ARC_III** (2026-08-27) — not assigned |
+| **F-H-001** | Calling → Speaker → Kesh | Direction decided; Model B preferred for design analysis (2026-08-27); eight mappings **DEFERRED_TO_ARC_III** — not assigned / table empty |
 | **F-G-006** | Landing milestone stacking | Open — needs Kakeman89 choice |
 | **F-K-002** | App C Tython naming / staged reveal | **DECIDED** staged reveal; production sync **PENDING_AUTHORITY_TRANSITION** (candidate-only until cutover) |
 | **F-B-002** | App D Ashla/Bogan gloss vs teaching order | Open — needs Kakeman89 choice |
@@ -229,9 +229,94 @@ Do not create Chamber of First Calling content until Kakeman89 approves: campaig
 | Arc I textual acceptance | PENDING_TABLE_REVIEW |
 | Arc I Foundry acceptance | PENDING_DISPOSABLE_WORLD_TEST |
 | Arc I GM Binder pagination | DEFERRED_PARTIAL |
-| Arc III | PLANNING_AUTHORIZED_ONLY |
+| Arc III | PLANNING_BASELINE_APPROVED / PLANNING_AUTHORIZED_ONLY — migration not authorized |
 | F-K-002 production implementation | PENDING_AUTHORITY_TRANSITION |
-| F-H-001 mappings | DEFERRED_TO_ARC_III |
+| F-H-001 mappings | DEFERRED_TO_ARC_III — Model B preferred for analysis; table empty |
 | A2 Chamber | PLACEHOLDER_UNAUTHORIZED |
 
 **Explicit non-authorizations:** Arc I not authoritative; Acts II–VI not authorized; no Arc III candidate or migration skill; no cutover; no commit/push under this record.
+
+---
+
+## Addendum — 2026-08-27 — Arc III planning baseline approval
+
+**Authority:** Kakeman89  
+**Task type:** Decision recording only  
+**Does not authorize:** Arc III migration; Arc III candidate creation; campaign prose edits; F-H-001 filled mappings; Foundry/GMB generation; source manuscript edits; commit; push
+
+**Related plan:** [`ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md`](2026-08-27-arc-iii-integrated-guide-stress-test.md)
+
+### 1. Arc III stress-test plan — PLANNING_BASELINE_APPROVED
+
+- Plan approved as Arc III planning baseline.
+- Status: **`PLANNING_BASELINE_APPROVED` / `PLANNING_AUTHORIZED_ONLY`**.
+- Migration **NOT** authorized. No candidate. No authority cutover.
+
+### 2. Sessions 7–11 — provisional operational structure
+
+Approved as provisional operational structure (not preexisting campaign canon). Scene/session names remain provisional until candidate implementation is separately authorized:
+
+| Session | Default content |
+|---------|-----------------|
+| S7 | Scout loop, first discoveries, camp consequences |
+| S8 | Trade and mistrust contact |
+| S9 | Omen of the Moons (**DEFAULT**) |
+| S10 | Resource War **OR** Joint Rite, selected by prior campaign state |
+| S11 | Crisis resolution, scars, neighborhood map review, Level 11 |
+
+### 3. Omen of the Moons timing
+
+- **Default:** Arc III Session 9.
+- **Alternate:** closing Arc II.
+- If Omen already ran in Arc II: **do not rerun**; use Resource War as primary S9; use Joint Rite / faction crystallization / approved contact consequence in S10; preserve Omen consequences and vocabulary.
+
+### 4. Map 3 — Silent Desert
+
+- Optional but **in-scope**.
+- Future candidate must support dedicated map, Theater fallback, bypass, and consequences for not visiting.
+- **Not required** for Arc III completion.
+
+### 5. Map 4 — Kwa Gate
+
+- Optional **advanced** content; **not** a required path.
+- Must include prerequisites, refusal/defer, failure handling, consequences, and an Arc III completion path that never opens the Gate.
+- Must not replace social-contact focus.
+
+### 6. Counting Quarrel
+
+- Complete quarrel primarily **Arc IV**.
+- Arc III may only **seed** calendar incompatibilities, scheduling disputes, cycle naming/length disagreements, and practical coordination problems.
+- Do not run the complete Counting Quarrel in Arc III unless future play + Kakeman89 authorization.
+
+### 7. Companion consolidation (policy)
+
+Companion Arc III **operational procedures** are required migration candidates for Local Completeness (when migration is later authorized): exploration loop; first-contact; trade/mistrust escalation; resource-war alternatives; joint-rite; Omen event order; scene-relevant Speaker motivations; Arc-ending scars/alliances/rivalries. Do not leave required procedures only in companion. Atmospheric prose: selective + clarity standard.
+
+### 8. F-H-001 design models — Model B preferred; mappings still empty
+
+- Do **not** assume fixed 1:1 Calling → Speaker → Kesh.
+- Compare Models **A** (fixed triple), **B** (recommended casting — **Kakeman89 preferred direction**), **C** (independent systems).
+- Analysis may recommend Model C for specific Speakers when evidence is insufficient.
+- No manufacturing evidence.
+- **No mapping becomes canon** from this decision. Placeholder table remains empty — do not fill Speakers.
+
+### 9. Foundry provisional mixed hierarchy (do not generate)
+
+- Arc III Overview
+- Session 7, 8, 9, 10, 11
+- Arc III Contacts and Speakers
+- Player Handouts
+- Anchored Scene headings inside Session pages by default.
+- Separate Scene journal page only when: dedicated map, substantial mechanics, extensive GM-only info, reusable content, or enough material for independent navigation.
+- Map 3/4 may get dedicated Foundry Scenes when used.
+- Ordinary contact/camp = Theater OK.
+
+### Status summary update (operational)
+
+| Item | Status |
+|------|--------|
+| Arc III plan | PLANNING_BASELINE_APPROVED / PLANNING_AUTHORIZED_ONLY |
+| Arc III migration / candidate | NOT AUTHORIZED |
+| F-H-001 mappings | Empty — Model B preferred for future analysis; not approved |
+
+**Explicit non-authorizations under this addendum:** no migration; no candidate; no F-H-001 mappings; no Foundry/GMB generation; no campaign prose.

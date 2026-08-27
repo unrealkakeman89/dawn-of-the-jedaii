@@ -45,6 +45,16 @@ Kakeman89 selected **Option C** (2026-08-26): plan toward one integrated authori
 
 Decision detail: [`ai/plans/2026-08-26-campaign-decision-record.md`](plans/2026-08-26-campaign-decision-record.md) · Acceptance: [`reports/audits/arc-i-pilot-acceptance.md`](../reports/audits/arc-i-pilot-acceptance.md)
 
+### Addendum — 2026-08-27 — Arc III planning baseline (operational)
+
+| Item | Status |
+|------|--------|
+| Arc III plan | PLANNING_BASELINE_APPROVED / PLANNING_AUTHORIZED_ONLY |
+| Arc III migration | NOT AUTHORIZED — no candidate; no content migration |
+| F-H-001 mappings | Still empty — Model B preferred for future design analysis; mappings not approved |
+
+Plan: [`ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md`](plans/2026-08-27-arc-iii-integrated-guide-stress-test.md) · Decisions: [`ai/plans/2026-08-26-campaign-decision-record.md`](plans/2026-08-26-campaign-decision-record.md)
+
 Until cutover is separately authorized, the **primary guide + approved companion** arrangement remains the operating architecture (see matrix below).
 
 Related plans / reports:
@@ -53,10 +63,11 @@ Related plans / reports:
 - [`ai/plans/2026-08-26-campaign-decision-record.md`](plans/2026-08-26-campaign-decision-record.md) — decisions only; no prose edits  
 - [`ai/plans/2026-08-26-integrated-gm-guide-migration.md`](plans/2026-08-26-integrated-gm-guide-migration.md) — plan only  
 - [`ai/plans/2026-08-26-chatgpt-archive-content-pr-scope.md`](plans/2026-08-26-chatgpt-archive-content-pr-scope.md) — archive Tier A/B content PR scope; plan only  
+- [`ai/plans/2026-08-27-arc-iii-integrated-guide-stress-test.md`](plans/2026-08-27-arc-iii-integrated-guide-stress-test.md) — Arc III stress-test plan (planning baseline approved; migration not authorized)  
 - [`reports/audits/2026-08-26-chatgpt-archive-vs-repo-gap-report.md`](../reports/audits/2026-08-26-chatgpt-archive-vs-repo-gap-report.md) — archive vs repo gap report  
 - [`reports/audits/arc-i-pilot-acceptance.md`](../reports/audits/arc-i-pilot-acceptance.md) — Arc I pilot acceptance (provisional)
 
-**Last updated:** 2026-08-27 (Arc I ACCEPT_WITH_REVISIONS disposition recorded; Arc III planning-only authorized)
+**Last updated:** 2026-08-27 (Arc III planning baseline approved; migration still not authorized)
 
 ---
 
